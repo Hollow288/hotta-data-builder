@@ -1,0 +1,652 @@
+{
+  "spear_ice": {
+    "ItemName": "霜冻长枪",
+    "ItemRarity": "R",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 6.9,
+    "Charging": 5.6,
+    "Description": "沃兰雪原居民常用的武器，根据地域特点增加了寒冰属性。平价而高效，广受欢迎。",
+    "RemouldDetail": null
+  },
+  "digger_physic": {
+    "ItemName": "格斗刀",
+    "ItemRarity": "R",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 3.2,
+    "Charging": 9.6,
+    "Description": "班吉斯重工研发的基础型武器，使用特制合金制作，轻便而灵活，打击感十足。",
+    "RemouldDetail": null
+  },
+  "sword_thunder": {
+    "ItemName": "电磁刃",
+    "ItemRarity": "R",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 3.6,
+    "Charging": 8.8,
+    "Description": "最早被立项的电能原能武具项目，上手简单，受到许多不擅长战斗的拓荒者的欢迎。",
+    "RemouldDetail": null
+  },
+  "bow_fire": {
+    "ItemName": "复合弓",
+    "ItemRarity": "R",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 4.8,
+    "Charging": 8.0,
+    "Description": "雪原上的猎人常用的武器，能够轻松命中猎物。经过推广后，现已在平价民用市场占据半壁江山。",
+    "RemouldDetail": null
+  },
+  "stave_thunder": {
+    "ItemName": "圣痕权杖",
+    "ItemRarity": "SR",
+    "WeaponCategory": "恩赐",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 4.0,
+    "Charging": 10.0,
+    "Description": "刻有十字圣符的机械法杖，或宽恕己罪或降临神罚。",
+    "RemouldDetail": null
+  },
+  "cannon_ice": {
+    "ItemName": "终结者",
+    "ItemRarity": "SR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 10.0,
+    "Charging": 10.0,
+    "Description": "火器界超越枪炮史的绝命之作，人称移动炮台的重型机枪。",
+    "RemouldDetail": null
+  },
+  "hammer_ice": {
+    "ItemName": "初动重击",
+    "ItemRarity": "SR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 10.0,
+    "Charging": 6.0,
+    "Description": "面对这样的大锤，应该没有人会想要迎面接下它的沉重敲击。",
+    "RemouldDetail": null
+  },
+  "bow_physic": {
+    "ItemName": "夜雀之羽",
+    "ItemRarity": "SR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 6.0,
+    "Charging": 10.0,
+    "Description": "犹如暗夜般的弓矢，可以完美地融入幽邃的夜色。",
+    "RemouldDetail": null
+  },
+  "spear_thunder": {
+    "ItemName": "雷霆战戟",
+    "ItemRarity": "SR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 11.0,
+    "Charging": 9.5,
+    "Description": "被灌注了雷霆之力的长枪，爆发力超高，兼顾近远攻守。",
+    "RemouldDetail": null
+  },
+  "digger_thunder": {
+    "ItemName": "疾雷双刃",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 6.0,
+    "Charging": 8.0,
+    "Description": "如同小丑先生的各种魔术小刀一样，变幻莫测如影随形且致命无声。",
+    "RemouldDetail": null
+  },
+  "bigsword_ice": {
+    "ItemName": "蔷薇之锋",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 12.0,
+    "Charging": 4.0,
+    "Description": "高贵优雅的冰霜巨剑，仿佛傲立于峭峰雪岭的纯白之花。",
+    "RemouldDetail": null
+  },
+  "bow_ice": {
+    "ItemName": "冰风之矢",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 4.0,
+    "Charging": 11.5,
+    "Description": "能够凝结冰霜的弓矢，发出的强力一击如同冰之吐息。",
+    "RemouldDetail": null
+  },
+  "ShieldAxe_Fire": {
+    "ItemName": "V2熔驱盾",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 10.0,
+    "Charging": 10.0,
+    "Description": "特殊工艺定制的v2系列武器之一，此为攻守一体的熔能盾斧。",
+    "RemouldDetail": null
+  },
+  "stave_ice": {
+    "ItemName": "零度指针",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "恩赐",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 4.0,
+    "Charging": 12.5,
+    "Description": "以精度的指针将寒冷的温度进行保持逐步稳定，最终达到疗愈。",
+    "RemouldDetail": "<shuzhi>寒冰反应</>：装备<shuzhi>2</>把及以上冰元素武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）\r\n<shuzhi>寒冰恩赐</>：自身激活恩赐共鸣时，提升全队<shuzhi>5%</>冰攻"
+  },
+  "sickle_fire": {
+    "ItemName": "黑鸦冥镰",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 12.5,
+    "Charging": 5.0,
+    "Description": "攻守兼备威力强悍的镰刀，在一定距离下甚至可以一击必杀。",
+    "RemouldDetail": null
+  },
+  "gun_fire": {
+    "ItemName": "炽焰左轮",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 6.5,
+    "Charging": 10.0,
+    "Description": "由某位科学怪人打造，测试时数值爆表，不知道火力全开情况如何。",
+    "RemouldDetail": null
+  },
+  "sword_physic": {
+    "ItemName": "红莲刃",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 7.5,
+    "Charging": 12.0,
+    "Description": "利刃的剑锋是正义的代行者，红莲的剑身象征着勇敢坚毅的品格。",
+    "RemouldDetail": null
+  },
+  "darts_physic": {
+    "ItemName": "环海轮刃",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 10.0,
+    "Charging": 6.0,
+    "Description": "圆月型锋刃武器，它陪伴主人完成了沿海旅行，因此得名环海。",
+    "RemouldDetail": null
+  },
+  "cube_fire": {
+    "ItemName": "否决立方",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "恩赐",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 5.0,
+    "Charging": 13.0,
+    "Description": "似乎魔方的使用者总能想出各种方法来否定不必要的条件。",
+    "RemouldDetail": "<shuzhi>火焰反应</>：装备<shuzhi>2</>把及以上火元素武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）\r\n<shuzhi>火焰恩赐</>：自身激活恩赐共鸣时，提升全队<shuzhi>5%</>火攻"
+  },
+  "dgun_thunder": {
+    "ItemName": "超电磁双星",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 6.0,
+    "Charging": 10.7,
+    "Description": "参考磁轨炮原理制作而成枪械，需要成对使用。",
+    "RemouldDetail": null
+  },
+  "Mark_physic": {
+    "ItemName": "破晓",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 9.0,
+    "Charging": 12.0,
+    "Description": "猎荒者指挥官专属重立体。灯塔根据战斗需求对其进行了精密改装。",
+    "RemouldDetail": "<shuzhi>组队状态下【守护】</>：释放\"重立体登场\"、“形态切换”或“全弹发射”时，给生命值最低的友方玩家承伤<shuzhi>40%</>持续<shuzhi>10</>秒，承伤结束后恢复<shuzhi>10%</>已损失血量，仅在自身有<shuzhi>坚毅共鸣</>时触发，有承伤效果持续至时间结束前不会被清除也无法再次触发承伤\r\n<shuzhi>非组队状态下【增幅】</>：重立体形态获得<shuzhi>50%</>物理减伤\r\n<shuzhi>重立体护盾</>：\"重立体普攻/双斩砸击/冲击斩\"命中目标获得<shuzhi>1</>点重立体能量，积攒到<shuzhi>20</>点时将自己<shuzhi>20%</>的当前生命值转化为<shuzhi>1.5</>倍的【重立体护盾】（不超过最大生命值1.5倍，期间治疗降低50%），护盾持续<shuzhi>15</>秒，生命值低于<shuzhi>10%</>时不能获得【重立体护盾】。护盾结束后剩余护盾值的<shuzhi>66.7%</>转化为生命，命中虚弱目标时获得<shuzhi>2</>点重立体能量。【重立体护盾】获得时可将其它生命护盾值转化为【重立体护盾】并免疫生命护盾的添加"
+  },
+  "Immortal_thunder": {
+    "ItemName": "阿赖耶识",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 12.5,
+    "Charging": 8.0,
+    "Description": "白月魁的随身佩刀。精致的刀身中，似乎蕴含着巨大的能量。",
+    "RemouldDetail": "进入战斗后，开启“战意”，自身最终伤害提高<shuzhi>15%</>，同时加速细胞衰老（每<shuzhi>5</>秒减少自身<shuzhi>1%</>当前生命值），脱离战斗清除【切换武器效果消失】。\r\n自身生命低于<shuzhi>50%</>时，停止细胞衰老，战意增伤效果依然存在【切换武器效果消失】。"
+  },
+  "Suspension_thunder": {
+    "ItemName": "启明星",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "恩赐",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 6.0,
+    "Charging": 8.0,
+    "Description": "设计者不明，原型蓝图已流失的特制悬浮电磁炮，内部有独特的电气储蓄工艺，一旦用坏维修起来极其麻烦，但班吉斯重工的钴蓝似乎能做到。",
+    "RemouldDetail": "<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台也生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）\r\n<shuzhi>雷电恩赐</>：自身激活恩赐共鸣时，提升全队<shuzhi>5%</>雷攻"
+  },
+  "Frigg_ice": {
+    "ItemName": "巴尔蒙克",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 8.0,
+    "Charging": 8.0,
+    "Description": "专属于赦免天使弗丽嘉的大剑与佩刀，制造时对弗丽嘉的机械躯体进行了适配。两把武器虽然并不是一体的，不过弗丽嘉将它们统称为巴尔蒙克。",
+    "RemouldDetail": "释放技能<shuzhi>“芬布尔之冬”</>后在自身周围形成大范围冰域，持续<shuzhi>25</>秒。冰域内使用巴尔蒙克闪避不消耗闪避次数。\r\n自身处于冰域内获得“寒冰领域Ⅰ”：使用寒冰武器时冰攻提升<shuzhi>15%</>，破盾效率提升<shuzhi>25%</>。"
+  },
+  "funnel_fire": {
+    "ItemName": "斯帕克",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 11.5,
+    "Charging": 8.0,
+    "Description": "凛夜拜托镜都研发部门为蕾贝特制的武器，主要功能有：过家家时管家担当、早上叫蕾贝起床、为蕾贝带路……噢噢，最重要的当然是，保护蕾贝。",
+    "RemouldDetail": "<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）"
+  },
+  "Dkatana_ice": {
+    "ItemName": "流泉彻心",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 13.9,
+    "Charging": 8.0,
+    "Description": "应对超心流实验的特种作战太刀武器，能感知使用者的精神状态，在恰当时机可以生成辅助作战用途的「剑影」。",
+    "RemouldDetail": "<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>{0}%</>冰攻和<shuzhi>{1}%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）"
+  },
+  "fan_superpower": {
+    "ItemName": "影织",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "异能",
+    "ArmorBroken": 11.5,
+    "Charging": 11.5,
+    "Description": "最开始打算设计成更为小巧轻便的暗器，但在使用者本人的要求下，改装成了这副形似于一把剑的厚重姿态。沉甸甸的，完全不像是暗器该有的样子。",
+    "RemouldDetail": "影织与其他武器搭配时，可构成<shuzhi>“武器大师”</>效果。\r\n昙花会随机出现在目标周围，并在<shuzhi>1-3</>秒内爆炸，造成<shuzhi>60%</>*攻击力的范围伤害。\r\n<shuzhi>飞花-驻场</>：<shuzhi>影织</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*异能攻击+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，飞花伤害视为普攻伤害，若装备任意<shuzhi>1</>把雷电/寒冰/物理/火焰武器，则飞花伤害提升至<shuzhi>{4}</>倍。此外，飞花伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "arm_physic": {
+    "ItemName": "晚祷",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "恩赐",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 12.0,
+    "Charging": 10.0,
+    "Description": "为某位麦德琳基金会内部人员定制的辅助型作战武器。麦德琳女士相信星寰能够得体、恰当地发挥它的真正用途。",
+    "RemouldDetail": "<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理元素武器触发，提升<shuzhi>{0}%</>物攻和<shuzhi>{1}%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）\r\n<shuzhi>物理恩赐</>：自身激活恩赐共鸣时，提升全队<shuzhi>5%</>物攻"
+  },
+  "tianlang_thunder": {
+    "ItemName": "破钧",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 8.0,
+    "Charging": 12.5,
+    "Description": "满溢着雷霆的长枪，代号SMA1-TS00-破钧，能将储存的能量以匪夷所思的形式释放出来。由于破钧生成的电场会干扰使用者的思维，以至于常人无法驾驭。",
+    "RemouldDetail": "<shuzhi>雷电反应</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）"
+  },
+  "Snipe_fire": {
+    "ItemName": "四叶十字",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 12.0,
+    "Charging": 9.0,
+    "Description": "镜都大为流行的VR多人在线射击游戏官方——为某赛季的个人积分冠军特别设计的专属枪支。定制化的实体模型也寄送给了冠军玩家本人，但没想到的是，居然真的能像游戏中那样使用……",
+    "RemouldDetail": "<shuzhi>火焰反应</>：装备<shuzhi>2</>把及以上火元素武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）\r\n<shuzhi>心静如水</>：四叶十字使用连携/技能/蓄力攻击/闪避，会使四叶十字的最终暴击率提高<shuzhi>5%</>，持续<shuzhi>15</>秒，可叠加<shuzhi>3</>层，暴击率超过<shuzhi>100%</>后，超出部分的<shuzhi>50%</>转化为暴击伤害（最多转化<shuzhi>7.5%</>暴击伤害）。"
+  },
+  "iceblade_ice": {
+    "ItemName": "不灭之翼",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 8.0,
+    "Charging": 12.0,
+    "Description": "以足刃武器作为核心构筑的作战装甲，有着大灾变前的前沿科学技术，通过汲取使用者的精神力作为驱动武器的能量，必要时会爆发恐怖的潜力。",
+    "RemouldDetail": "<shuzhi>寒冰反应</>：装备<shuzhi>2</>把及以上冰元素武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）"
+  },
+  "Whip_physic": {
+    "ItemName": "莫比乌斯",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 14.0,
+    "Charging": 9.0,
+    "Description": "新人执行者乌米惯用的长鞭。乌米对其最满意的一点在于，一般情况下它不会把自己绊一跤。",
+    "RemouldDetail": "物理反应：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>{0}%</>物攻和<shuzhi>{1}%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）"
+  },
+  "fenrir_thunder": {
+    "ItemName": "格莱普尼",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 13.5,
+    "Charging": 10.5,
+    "Description": "能够将声波置换成攻击力量的特殊装置，当枷锁被释放，死亡电流将化作利爪，撕裂一切。",
+    "RemouldDetail": "<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台也生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>均衡元素</>：装备<shuzhi>3</>把不同属性武器触发，提升<shuzhi>15%</>全攻，装备后后台也生效。"
+  },
+  "umbrella_fire": {
+    "ItemName": "陵光",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 15.8,
+    "Charging": 8.0,
+    "Description": "朱雀专用的伞式武具，内有各式机关。有着庞大伞身的陵光既能成为释放能量消灭敌人的利器，也能成为阻挡他人视线、隐藏自己举止的工具……",
+    "RemouldDetail": "<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火元素武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）"
+  },
+  "Yoyo_ice": {
+    "ItemName": "片光零羽",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 9.5,
+    "Charging": 8.0,
+    "Description": "结合潮流改装的独特武器，数量零星的珍藏品。愿使用者拥有在漆黑荒野中无畏前行的勇气，纵翎羽逐日，纵寒冰扑火。",
+    "RemouldDetail": "<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>{0}%</>冰攻和<shuzhi>{1}%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>元素大师</>：每装备<shuzhi>1</>种元素的武器，最终伤害提升<shuzhi>{2}%</>，装备后后台也生效。"
+  },
+  "queen_superpower": {
+    "ItemName": "月星钏",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "恩赐",
+    "WeaponElementType": "异能",
+    "ArmorBroken": 11.5,
+    "Charging": 11.5,
+    "Description": "奇特的纳米武器，能生成削铁如泥的光刃，过去习惯于在待机时刻变为钏式装置缠绕在主人的臂腕，因而它的主人将其形容为钏。",
+    "RemouldDetail": "<shuzhi>异能共鸣</>：装备<shuzhi>2</>把及以上异能武器触发，提升<shuzhi>30%</>攻击和<shuzhi>60%</>异能抗，装备后后台也生效（多个异能共鸣/异能反应不叠加，优先生效异能共鸣）。"
+  },
+  "Chainsaw_physic": {
+    "ItemName": "小小飓风",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 12.0,
+    "Charging": 14.0,
+    "Description": "对于小朋友的玩物来说，实在是过于危险了。不可能是那孩子通过正规途径得到的东西。谁知道是用什么技术改装来的……或许是某场冒险中寻获的失落财宝吗？",
+    "RemouldDetail": "<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>{0}%</>物攻和<shuzhi>{1}%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>万物共鸣</>：装备<shuzhi>2</>把除物理外的相同元素武器触发，最终伤害提升<shuzhi>{2}%</>，装备后后台可生效。"
+  },
+  "Rubilia_thunder": {
+    "ItemName": "绝响",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 10.0,
+    "Charging": 12.0,
+    "Description": "自混沌深渊中轻轻挥展的一击，终将引发席卷所有人命运的雷暴。",
+    "RemouldDetail": "<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。"
+  },
+  "brush_fire": {
+    "ItemName": "松彗",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 12.5,
+    "Charging": 15.0,
+    "Description": "「暴力反对好吧！真正的文人谁会拿书房用具揍人啊！！」——榕金",
+    "RemouldDetail": "<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>爆炎-驻场</>：<shuzhi>松彗</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*火攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，爆炎伤害视为普攻伤害，若装备任意<shuzhi>1</>把雷电/寒冰/物理武器，则爆炎伤害提升至<shuzhi>{4}</>倍。此外，爆炎伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "yulan_ice": {
+    "ItemName": "骈臻",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 12.5,
+    "Charging": 10.0,
+    "Description": "「骈臻」之意为「并至」，姬玉亲自为玉兰挑选的武器，凝聚了九域最新技术，调用时章力量后若是看到一些神奇的景象也请不必惊讶。",
+    "RemouldDetail": "<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>碎冰-速切</>：装备<shuzhi>骈臻</>时，任意武器连携技命中后，对附近目标初始造成<shuzhi>{0}%</>*冰攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，战斗状态下每间隔<shuzhi>0.5</>秒，下次速切伤害额外提升<shuzhi>1</>倍，至多提升<shuzhi>30</>次，存在多个速切伤害时取最大初始值计算，速切伤害为连携伤害，若装备任意<shuzhi>1</>把雷电/物理/火焰武器，则碎冰伤害提升至<shuzhi>{4}</>倍。此外，碎冰伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Zeke_physic": {
+    "ItemName": "执明",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物理",
+    "ArmorBroken": 14.0,
+    "Charging": 12.0,
+    "Description": "常人难以挥舞的巨剑，剑势凌人，锐不可当。不仅能释放惊人的破坏力，其宽阔的剑身也能带来坚如磐石的安定感。",
+    "RemouldDetail": "<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>破甲-脱手</>：释放<shuzhi>绝壑</>后，每秒对命中目标造成<shuzhi>{1}%</>*物攻+<shuzhi>{2}%</>*自身最大生命值+<shuzhi>{3}%</>*各元素抗性之和+<shuzhi>{4}%</>*暴击点伤害，持续<shuzhi>{0}</>秒，多个脱手伤害不叠加，破甲伤害视为技能伤害，若装备任意<shuzhi>1</>把雷电/火焰/寒冰武器，则破甲伤害提升至<shuzhi>{5}</>倍。此外，破甲伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "mimi_thunder": {
+    "ItemName": "孟章",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "雷电",
+    "ArmorBroken": 14.0,
+    "Charging": 15.0,
+    "Description": "蕴含巨大能量的双扇，可崩山石，裂天地。\r\n孟章腾云起，人间浩荡风。",
+    "RemouldDetail": "<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>雷霆-驻场</>：<shuzhi>孟章</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*雷攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，雷霆伤害视为普攻伤害，若装备任意<shuzhi>1</>把火焰/寒冰/物理武器，则雷霆伤害提升至<shuzhi>{4}</>倍。此外，雷霆伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "feise_fire": {
+    "ItemName": "重蕊",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火焰",
+    "ArmorBroken": 14.0,
+    "Charging": 12.0,
+    "Description": "莲瓣层重，杀机隐现。",
+    "RemouldDetail": "<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>爆炎-速切</>：装备<shuzhi>重蕊</>时，任意武器连携技命中后，对附近目标初始造成<shuzhi>{0}%</>*火攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，战斗状态下每间隔<shuzhi>0.5</>秒，下次速切伤害额外提升<shuzhi>1</>倍，至多提升<shuzhi>30</>次，存在多个速切伤害时取最大初始值计算，爆炎-速切伤害为连携伤害，若装备任意<shuzhi>1</>把寒冰/雷电/物理武器，则爆炎伤害提升至<shuzhi>{4}</>倍。此外，爆炎伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Linghan_ice": {
+    "ItemName": "监兵",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "寒冰",
+    "ArmorBroken": 16.0,
+    "Charging": 8.0,
+    "Description": "挥袖舞长剑，谁能识此心。",
+    "RemouldDetail": "<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>极寒-脱手</>：释放<shuzhi>剑诀·凌玄影</>后，每秒对命中目标造成<shuzhi>{0}%</>*冰攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击点伤害，持续<shuzhi>{4}</>秒，多个脱手伤害不叠加，极寒伤害视为技能伤害，若装备任意<shuzhi>1</>把雷电/火焰/物理武器，则极寒伤害提升至<shuzhi>{5}</>倍。此外，极寒伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Nanyin_superpower": {
+    "ItemName": "紫竹",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "异能",
+    "ArmorBroken": 12.0,
+    "Charging": 12.0,
+    "Description": "以音律和节奏催动域能用以战斗。在戌郡之祸后，南音再次出现在人们面前时，那支箫也就此附着上可怕的晦暝能量，每当南音吹响它时，都会将大量的生命转化为暝伥并为其所用。",
+    "RemouldDetail": "<shuzhi>终末的箫声</>：装备<shuzhi>3</>把异能武器触发，提升<shuzhi>{0}%</>攻击，装备后后台也生效。\r\n<shuzhi>浸染</>：从其它武器切换至紫竹后，根据该武器的元素类型，更改紫竹造成伤害的元素类型。\r\n<shuzhi>寄宿</>：晦暝之力可以寄宿任意一把已解锁武器，当紫竹不上阵时，晦暝之力可寄宿任意其它武器，该武器造成伤害提升<shuzhi>{2}%</>；当紫竹上阵时，晦暝之力仅可寄宿紫竹，玩家自身伤害提升<shuzhi>{3}%</>。"
+  },
+  "Killknife_physic": {
+    "ItemName": "规衡",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物火",
+    "ArmorBroken": 16.0,
+    "Charging": 12.0,
+    "Description": "规矩之间，乾坤衡定。千锻百炼，锋锐独存。不偏不倚，秋色平分。公正如云，刀下天平。",
+    "RemouldDetail": "<shuzhi>物火融合</>：该武器计算伤害时取装备最高的物理/火焰基础攻击，装备最高的物理/火焰百分比攻击，装备最高的物理/火焰增伤。且该武器能同时视为物理元素武器和火焰元素武器。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>飞刃-驻场</>：<shuzhi>规衡</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*物攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，飞刃伤害视为普攻伤害，若装备任意<shuzhi>1</>把寒冰/雷电武器，则飞刃伤害提升至<shuzhi>{4}</>倍。此外，飞刃伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Blevi_thunder": {
+    "ItemName": "契约徽章玫茨",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "恩赐",
+    "WeaponElementType": "雷冰",
+    "ArmorBroken": 12.0,
+    "Charging": 10.0,
+    "Description": "使魔、契约兽那一类，既然有本事授予复数女孩强大的奇异力量，自己努努力揍上去不会更有效率吗？——出于这样的考量，她决定让这位小帮手来以身作则树立个榜样。",
+    "RemouldDetail": "<shuzhi>雷冰融合</>：该武器计算伤害时取装备最高的雷电/寒冰基础攻击，装备最高的雷电/寒冰百分比攻击，装备最高的雷电/寒冰增伤。且该武器能同时视为雷电元素武器和寒冰元素武器。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>雷霆-速切</>：装备<shuzhi>契约徽章玫茨</>时，任意武器连携技对附近目标初始造成<shuzhi>{0}%</>*雷攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，战斗状态下每间隔<shuzhi>0.5</>秒，下次速切伤害额外提升<shuzhi>1</>倍，至多提升<shuzhi>30</>次，存在多个速切伤害时取最大初始值计算，速切伤害为连携伤害，若装备任意1把火焰/物理武器，则雷霆伤害提升至<shuzhi>2.5</>倍。此外，雷霆伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。\r\n<shuzhi>奇迹逆转</>：挑战旧日幻象、序列幻象副本时，装备<shuzhi>契约徽章玫茨</>额外获得<shuzhi>15</>秒挑战时长；挑战<shuzhi>起源战境</>副本时，队伍中每装备<shuzhi>1</>把<shuzhi>契约徽章玫茨</>，全队额外获得<shuzhi>25</>秒挑战时长，至多可获得<shuzhi>50</>秒。"
+  },
+  "Lances_Ice": {
+    "ItemName": "坏家伙",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "冰雷",
+    "ArmorBroken": 16.0,
+    "Charging": 12.0,
+    "Description": "将恶意的暗堕精神力封印于骑枪，骑士自此成为真正的「骑士」。然后……骑士牵起少女的手，两人一同迈向拥有无限可能性的明天。",
+    "RemouldDetail": "<shuzhi>雷冰融合</>：该武器计算伤害时取装备最高的雷电/寒冰基础攻击，装备最高的雷电/寒冰百分比攻击，装备最高的雷电/寒冰增伤。且该武器能同时视为雷电元素武器和寒冰元素武器。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n\r\n<shuzhi>寒袭-驻场</>：<shuzhi>坏家伙</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*冰攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，寒袭伤害视为普攻伤害，若装备任意<shuzhi>1</>把物理/火焰武器，则寒袭伤害提升至<shuzhi>{4}</>倍。此外，寒袭伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Asuka_physic": {
+    "ItemName": "朗基努斯之枪",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "物火",
+    "ArmorBroken": 12.0,
+    "Charging": 10.0,
+    "Description": "传说，这是生命之树的根须，所有生命都无法抵挡它的锋芒。",
+    "RemouldDetail": "<shuzhi>物火融合</>：该武器计算伤害时取装备最高的物理/火焰基础攻击，装备最高的物理/火焰百分比攻击，装备最高的物理/火焰增伤。且该武器能同时视为物理元素武器和火焰元素武器。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>神枪-速切</>：装备<shuzhi>朗基努斯之枪</>时，任意武器连携技对附近目标初始造成<shuzhi>{0}%</>*物攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，战斗状态下每间隔<shuzhi>0.5</>秒，下次速切伤害额外提升<shuzhi>1</>倍，至多提升<shuzhi>30</>次，存在多个速切伤害时取最大初始值计算，速切伤害为连携伤害，若装备任意1把寒冰/雷电武器，则神枪伤害提升至<shuzhi>2.5</>倍。此外，神枪伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "DFishChess_Fire": {
+    "ItemName": "纵横",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火物",
+    "ArmorBroken": 16.0,
+    "Charging": 12.0,
+    "Description": "纵有千古，横有八荒。",
+    "RemouldDetail": "<shuzhi>物火融合</>：该武器计算伤害时取装备最高的物理/火焰基础攻击，装备最高的物理/火焰百分比攻击，装备最高的物理/火焰增伤。且该武器能同时视为物理元素武器和火焰元素武器。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>天元-驻场</>：<shuzhi>纵横</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*火攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，天元伤害视为普攻伤害，若装备任意<shuzhi>1</>把寒冰/雷电武器，则天元伤害提升至<shuzhi>{4}</>倍。此外，天元伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Loslyn_ice": {
+    "ItemName": "静澜",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "冰雷",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "从爷爷的旧船「静澜号」上拆下来的船锚，在经过改造后作为洛斯琳的武器。",
+    "RemouldDetail": "<shuzhi>冰雷融合</>：该武器计算伤害时取装备最高的寒冰/雷电基础攻击，装备最高的寒冰/雷电百分比攻击，装备最高的寒冰/雷电增伤。且该武器能同时视为寒冰元素武器和雷电元素武器。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>霜刃-速切</>：装备<shuzhi>静澜</>时，任意武器连携技对附近目标初始造成<shuzhi>{0}%</>*自身最大生命值+<shuzhi>{1}%</>*冰攻+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，战斗状态下每间隔<shuzhi>0.5</>秒，下次速切伤害额外提升<shuzhi>1</>倍，至多提升<shuzhi>30</>次，存在多个速切伤害时取最大初始值计算，速切伤害为连携伤害，若装备任意1把物理/火焰武器，则霜刃伤害提升至<shuzhi>2.5</>倍。此外，霜刃伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。\r\n静澜切至后台后，造成一次崩裂伤害,若敌人身上有急冻则清除敌人身上的急冻并对其造成持续<shuzhi>{4}</>秒的后台伤害。"
+  },
+  "Ace_Physic": {
+    "ItemName": "跳跳糖",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物火",
+    "ArmorBroken": 16.0,
+    "Charging": 8.0,
+    "Description": "若是被它砸一闷棍，脑瓜会立刻嗡嗡低鸣，耳边开始噼啪作响。随后眼冒金星，后脑勺鼓起一个高耸的包。",
+    "RemouldDetail": "<shuzhi>物火融合</>：该武器计算伤害时取装备最高的物理/火焰基础攻击，装备最高的物理/火焰百分比攻击，装备最高的物理/火焰增伤。且该武器能同时视为物理元素武器和火焰元素武器。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>跳跳糖狂欢-脱手</>：释放技能<shuzhi>技能</>后，每秒对命中目标造成<shuzhi>1000%</>*物攻+<shuzhi>16%</>*自身最大生命值+<shuzhi>600%</>*各元素抗性之和+<shuzhi>2000%</>*暴击点伤害，持续<shuzhi>30</>秒，多个跳跳糖狂欢伤害不叠加，跳跳糖狂欢伤害视为技能伤害，若装备任意<shuzhi>1</>把雷电/寒冰武器，则跳跳糖狂欢伤害提升至<shuzhi>2.5</>倍。此外，跳跳糖狂欢伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Paradox_fire": {
+    "ItemName": "EP-7000天火",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火物",
+    "ArmorBroken": 14.0,
+    "Charging": 12.0,
+    "Description": "海嘉德总部-防卫方舟第一制造局出品，为轮值授权者帕洛蒂量身定做的契合她作战需求的特种武器，即使是挑剔的帕帕也表示非常的满意。",
+    "RemouldDetail": "<shuzhi>火物融合</>：该武器计算伤害时取装备最高的火焰/物理基础攻击，装备最高的火焰/物理百分比攻击，装备最高的火焰/物理增伤。且该武器能同时视为火焰元素武器和物理元素武器。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>帕帕-脱手</>：释放技能<shuzhi>镜中你我</>后，每秒对命中目标造成<shuzhi>{0}%</>*火攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击点伤害，持续<shuzhi>{4}</>秒，多个脱手伤害不叠加，帕帕伤害视为技能伤害，若装备任意<shuzhi>1</>把雷电/寒冰武器，则帕帕伤害提升至<shuzhi>{5}</>倍。此外，帕帕伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "AyanamiRei_thunder": {
+    "ItemName": "救赎",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷冰",
+    "ArmorBroken": 14.0,
+    "Charging": 14.0,
+    "Description": "镜都科技部为绫波零专门打造的试制弓，参考了零号机的造型和颜色，可以射出带有能量的箭矢。",
+    "RemouldDetail": "<shuzhi>雷冰融合</>：该武器计算伤害时取装备最高的雷电/寒冰基础攻击，装备最高的雷电/寒冰百分比攻击，装备最高的雷电/寒冰增伤。且该武器能同时视为雷电元素武器和寒冰元素武器。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>疾电-脱手</>：释放技能<shuzhi>零号机出击</>后，每秒对命中目标造成<shuzhi>1000%</>*雷攻+<shuzhi>16%</>*自身最大生命值+<shuzhi>600%</>*各元素抗性之和+<shuzhi>2000%</>*暴击点伤害，持续<shuzhi>30</>秒，多个脱手伤害不叠加，疾电伤害视为技能伤害，若装备任意<shuzhi>1</>把物理/火焰武器，则疾电伤害提升至<shuzhi>2.5</>倍。此外，疾电伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。\r\n<shuzhi>追踪箭</>：使用任意武器造成伤害时，向目标释放<shuzhi>1</>根追踪箭，对首个命中目标造成<shuzhi>400%</>*攻击力伤害，同时获得<shuzhi>{5}</>点特殊能量，追踪箭残留于目标并添加过载效果，持续<shuzhi>{7}</>秒，目标残留追踪箭数量达到<shuzhi>3</>根将引发爆炸，销毁目标身体上残留的追踪箭并对附近目标造成<shuzhi>1300%</>*攻击力伤害，追踪箭每<shuzhi>{9}</>秒至多触发<shuzhi>1</>次。"
+  },
+  "Nora_superpower": {
+    "ItemName": "噪音",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "异能",
+    "ArmorBroken": 14.0,
+    "Charging": 15.0,
+    "Description": "摩托和大剑，这个奇妙的组合该叫什么呢？不过本来就不擅长记住名字的她，最终索性都起了个叫做噪音的名字。",
+    "RemouldDetail": "<shuzhi>异动</>：装备<shuzhi>3</>把异能武器时，全元素伤害增加<shuzhi>{0}%</>，装备后后台可生效。\r\n<shuzhi>元素引擎</>：<shuzhi>噪音</>可以主动切换当前所处元素类型（非战斗状态下），可以在技能列表-设置界面中切换。\r\n<shuzhi>爆能-驻场</>：<shuzhi>噪音</>任意攻击命中时，对附近目标造成<shuzhi>{1}%</>*异能攻击+<shuzhi>{2}%</>*自身最大生命值+<shuzhi>{3}%</>*各元素抗性之和+<shuzhi>{4}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，爆能伤害视为普攻伤害，若装备任意<shuzhi>1</>把雷电/寒冰/物理/火焰武器，则爆能伤害提升至<shuzhi>{5}</>倍。此外，爆能伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "MerylX_thunder": {
+    "ItemName": "破城之锋",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "雷冰",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "海嘉德研发的可变形武器，设计精妙，性能卓著，但由于结构复杂而难以解决量产问题。「破城攻坚，一剑足矣」设计人员给予了如此评价。",
+    "RemouldDetail": "<shuzhi>雷冰融合</>：该武器计算伤害时取装备最高的雷电/寒冰基础攻击，装备最高的雷电/寒冰百分比攻击，装备最高的雷电/寒冰增伤。且该武器能同时视为雷电元素武器和寒冰元素武器。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>电刃-速切</>：装备<shuzhi>武器-破城之锋</>时，任意武器连携技对附近目标初始造成<shuzhi>{0}%</>*自身最大生命值+<shuzhi>{1}%</>*雷攻+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，战斗状态下每间隔<shuzhi>0.5</>秒，下次速切伤害额外提升<shuzhi>1</>倍，至多提升<shuzhi>30</>次，存在多个速切伤害时取最大初始值计算，速切伤害为连携伤害，若装备任意1把物理/火焰武器，则电刃伤害提升至<shuzhi>2.5</>倍。此外，电刃伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。\r\n<shuzhi>感应型变</>：<shuzhi>武器-破城之锋</>攻击过程中包含巨剑形态和长剑形态，巨剑形态攻击为自身叠加<shuzhi>2%</>最大生命值的护盾，持续<shuzhi>5</>秒，最多叠加<shuzhi>5</>层；长剑形态攻击积攒电刃值，叠满<shuzhi>5</>层获得电刃强化，下次技能伤害倍率提升<shuzhi>100%</>，脱战后清除电刃强化和电刃值。"
+  },
+  "Tkatana_Fire": {
+    "ItemName": "业火",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火物",
+    "ArmorBroken": 16.0,
+    "Charging": 12.0,
+    "Description": "你行恶业，种恶因，得恶果，自然该受业火焚身……哈哈哈哈，我新写的台词很酷吧！哦，我打你其实是因为……我昨晚没睡好。啊对对对，我这种神经病才该被业火焚身呢！可惜，不是今天。",
+    "RemouldDetail": "<shuzhi>物火融合</>：该武器计算伤害时取装备最高的物理/火焰基础攻击，装备最高的物理/火焰百分比攻击，装备最高的物理/火焰增伤。且该武器能同时视为物理元素武器和火焰元素武器。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>炽焰-驻场</>：<shuzhi>业火</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*火攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，炽焰伤害视为普攻伤害，若装备任意<shuzhi>1</>把寒冰/雷电武器，则炽焰伤害提升至<shuzhi>{4}</>倍。此外，炽焰伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "GreyFox_ice": {
+    "ItemName": "魔女之匙",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "恩赐",
+    "WeaponElementType": "冰雷",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "以游戏《时之魔女战记》中的道具为原型制作的原能武器。",
+    "RemouldDetail": "<shuzhi>冰雷融合</>：该武器计算伤害时取装备最高的寒冰/雷电基础攻击，装备最高的寒冰/雷电百分比攻击，装备最高的寒冰/雷电增伤。且该武器能同时视为寒冰元素武器和雷电元素武器。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>延时发条-脱手</>：释放<shuzhi>魔力转换</>后，每秒对命中目标造成<shuzhi>{0}%</>*冰攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击点伤害，持续<shuzhi>{4}</>秒，多个脱手伤害不叠加，延时发条伤害视为技能伤害，若装备任意<shuzhi>1</>把火焰/物理武器，则延时发条伤害提升至<shuzhi>{5}</>倍。此外，延时发条伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。\r\n<shuzhi>魔力储备</>：<shuzhi>魔女之匙</>处于前台时，可获得<shuzhi>威能刻度</>，用于推进<shuzhi>魔女之匙</>的时钟进度，强化魔法效果或释放更强大的魔法，<shuzhi>威能刻度</>至多叠加至<shuzhi>12</>层，持续<shuzhi>60</>秒，脱战<shuzhi>15</>秒后移除。"
+  },
+  "SwordX_physic": {
+    "ItemName": "赤风",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "物火",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "为保证灵活和机动作战而特意打造的两把武器，无论是质量还是分量，都属上乘。「子弹穿透阴霾，利刃劈断暗夜」这是使用者内心的渴望。",
+    "RemouldDetail": "<shuzhi>物火融合</>：该武器计算伤害时取装备最高的物理/火焰基础攻击，装备最高的物理/火焰百分比攻击，装备最高的物理/火焰增伤。且该武器能同时视为物理元素武器和火焰元素武器。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>赤刃-速切</>：装备<shuzhi>赤风</>时，任意武器连携技对附近目标初始造成<shuzhi>{0}%</>*物攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，战斗状态下每间隔<shuzhi>0.5</>秒，下次速切伤害额外提升<shuzhi>1</>倍，至多提升<shuzhi>30</>次，存在多个速切伤害时取最大初始值计算，速切伤害为连携伤害，若装备任意1把寒冰/雷电武器，则赤刃伤害提升至<shuzhi>2.5</>倍。此外，赤刃伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。\r\n赤风装备在前台时，受到致命伤时会进行一次骤雷撤身，期间免疫伤害，最短触发间隔<shuzhi>{4}</>秒"
+  },
+  "BlackStar_SuperPower": {
+    "ItemName": "湮灭之星",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "异能",
+    "ArmorBroken": 16.0,
+    "Charging": 12.0,
+    "Description": "裂碎……虚空……",
+    "RemouldDetail": "元素调律：装备<shuzhi>武器-湮灭之星</>时，若其他两把武器主属性一致时，则<shuzhi>武器-湮灭之星</>属性变为对应属性的双属性，否则变为异能属性。\r\n<shuzhi>乱波</>：三把异能组队时，命中怪物会降低目标15%最终伤害，持续5秒。\r\n<shuzhi>永恒暗影-脱手</>：释放<shuzhi>星辰陨斩</>后，每秒对命中目标造成<shuzhi>{0}%</>*异能攻击+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击点伤害，持续<shuzhi>30</>秒，多个脱手伤害不叠加，永恒暗影伤害视为技能伤害，若装备任意<shuzhi>1</>把物理/火焰/寒冰/雷电武器，则永恒暗影伤害提升至<shuzhi>{4}</>倍。此外，永恒暗影伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Antoria_thunder": {
+    "ItemName": "镇魂曲",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷冰",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "这是结束的开始，亦是开始的结束。",
+    "RemouldDetail": "<shuzhi>雷冰融合</>：该武器计算伤害时取装备最高的雷电/寒冰基础攻击，装备最高的雷电/寒冰百分比攻击，装备最高的雷电/寒冰增伤。且该武器能同时视为雷电元素武器和寒冰元素武器。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>积雨云-脱手</>：释放<shuzhi>极限攻击模式转换-蓄雷</>后，每秒对命中目标造成<shuzhi>{0}%</>*雷攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击点伤害，持续<shuzhi>{4}</>秒，多个脱手伤害不叠加，积雨云伤害视为技能伤害，若装备任意<shuzhi>1</>把火焰/物理武器，则积雨云伤害提升至<shuzhi>{5}</>倍。此外，积雨云伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "GunBox_fire": {
+    "ItemName": "耳光",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "火物",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "这是我造的，叫耳光。别看他有那么多武器，但最厉害的其实是两只手哦！",
+    "RemouldDetail": "<shuzhi>火物融合</>：该武器计算伤害时取装备最高的火焰/物理基础攻击，装备最高的火焰/物理百分比攻击，装备最高的火焰/物理增伤。且该武器能同时视为火焰元素武器和物理元素武器。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>爆燃-速切</>：装备<shuzhi>耳光</>时，任意武器连携技对附近目标初始造成<shuzhi>{0}%</>*火攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，战斗状态下每间隔<shuzhi>0.5</>秒，下次速切伤害额外提升<shuzhi>1</>倍，至多提升<shuzhi>30</>次，存在多个速切伤害时取最大初始值计算，速切伤害为连携伤害，若装备任意1把寒冰/雷电武器，则爆燃伤害提升至<shuzhi>2.5</>倍。此外，爆燃伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Lyncis_ice": {
+    "ItemName": "哧溜",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "冰雷",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "由胡萝贝设计并制造的喷气滑板，因为在户外直播中使用格外方便，所以成为了琳赛的常用装备。为此冠名的大发明家原话是——「要是遇到危险，你踩上它，哧溜一下就跑远了！」",
+    "RemouldDetail": "<shuzhi>冰雷融合</>：该武器计算伤害时取装备最高的寒冰/雷电基础攻击，装备最高的寒冰/雷电百分比攻击，装备最高的寒冰/雷电增伤。且该武器能同时视为寒冰元素武器和雷电元素武器。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>滑板-驻场</>：<shuzhi>哧溜</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*冰攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，滑板伤害视为普攻伤害，若装备任意<shuzhi>1</>把物理/火焰武器，则滑板伤害提升至<shuzhi>{4}</>倍。此外，滑板伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "StabDagger_Phy": {
+    "ItemName": "双星",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "坚毅",
+    "WeaponElementType": "物火",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "在隐蔽、无声作战中起到重要作用的标准冷兵器，迅捷、精确、完美。",
+    "RemouldDetail": "<shuzhi>物火融合</>：该武器计算伤害时取装备最高的物理/火焰基础攻击，装备最高的物理/火焰百分比攻击，装备最高的物理/火焰增伤。且该武器能同时视为物理元素武器和火焰元素武器。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>浮光-驻场</>：<shuzhi>双星</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*物攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，驻场伤害视为普攻伤害，若装备任意<shuzhi>1</>把寒冰/雷电武器，则驻场伤害提升至<shuzhi>{4}</>倍。此外，驻场伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  },
+  "Commodore_Thu": {
+    "ItemName": "AF-010侍者",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElementType": "雷冰",
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "由希望舰队的军械工厂设计并小规模生产的小型护卫机甲。通过强大的智能系统自动运行，会自行判断局势介入战斗或是进行必要辅助工作，常用于重要人物的贴身保护，平时会进入隐身状态待机。由于原料短缺而生产量极少，仅有少量极为优秀的精英人员才能用上。",
+    "RemouldDetail": "<shuzhi>雷冰融合</>：该武器计算伤害时取装备最高的雷电/寒冰基础攻击，装备最高的雷电/寒冰百分比攻击，装备最高的雷电/寒冰增伤。且该武器能同时视为雷电元素武器和寒冰元素武器。\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）。\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）。\r\n<shuzhi>磁电力场-驻场</>：<shuzhi>AF-010侍者</>任意攻击命中时，对附近目标造成<shuzhi>{0}%</>*雷攻+<shuzhi>{1}%</>*自身最大生命值+<shuzhi>{2}%</>*各元素抗性之和+<shuzhi>{3}%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，驻场伤害视为普攻伤害，若装备任意<shuzhi>1</>把物理/火焰武器，则驻场伤害提升至<shuzhi>{4}</>倍。此外，驻场伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。"
+  }
+}
