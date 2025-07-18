@@ -2,7 +2,8 @@ import os
 from dotenv import load_dotenv
 import json
 
-from utils import extract_tail_name, translate_weapon_info, resolve_resource_path
+from utils import extract_tail_name, translate_weapon_info, resolve_resource_path, format_description, \
+    extract_series_values
 
 # 加载 .env 文件
 load_dotenv()
@@ -18,6 +19,11 @@ static_weapon_data_table_path = os.getenv("STATIC_WEAPON_DATA_TABLE") or os.path
 # 武器星级效果信息
 weapon_upgrade_star_data_path = os.getenv("WEAPON_UPGRADE_STAR_DATA") or os.path.join(
     source_path, "CoreBlueprints/DataTable/WeaponUpgradeStarData.json"
+)
+
+# 武器通感效果信息
+weapon_sensuality_level_data_path = os.getenv("WEAPON_SENSUALITY_LEVEL_DATA") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/WeaponData/DT_WeaponSensualityLevelData.json"
 )
 
 # Game.json文件目录
@@ -43,10 +49,7 @@ def make_remould_detail(parms_some_base_info: dict,parms_game_json :dict):
 
             result_remould_numeric_list.append(numeric_key_val[remould_detail_params['Curve']['RowName']]['Keys'][0]['Value'] * remould_detail_params['Value'])
 
-
-        print(source_string)
-        print(result_remould_numeric_list)
-        return source_string
+        return format_description(source_string,result_remould_numeric_list)
     else :
         return None
 
@@ -64,11 +67,16 @@ if __name__ == "__main__":
     with open(weapon_upgrade_star_data_path, "r", encoding="utf-8") as f:
         weapon_upgrade_star_data = json.load(f)
 
+    with open(weapon_sensuality_level_data_path, "r", encoding="utf-8") as f:
+        weapon_sensuality_level_data = json.load(f)
+
     # 星级效果
     weapon_upgrade_star_data_rows_data = {
         k.lower(): v for k, v in weapon_upgrade_star_data[0].get("Rows", {}).items()
     }
 
+    # 通感效果
+    weapon_sensuality_level_data_rows_data = weapon_sensuality_level_data[0].get("Rows", {})
 
     # 找出仓库武器
     static_weapon_data_table_rows_data = static_weapon_data_table[0].get("Rows", {})
@@ -105,10 +113,12 @@ if __name__ == "__main__":
             'ArmorBroken': some_base_info['ArmorBroken'],
             'Charging': some_base_info['Charging'],
             'Description': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
-            "RemouldDetail": make_remould_detail(some_base_info,game_json)
+            "RemouldDetail": make_remould_detail(some_base_info,game_json),
+            "WeaponSensualityLevelData": extract_series_values(weapon_sensuality_level_data_rows_data,data['SensualityPackId'],game_json)
 
         }
 
+        print("最终 WeaponSensualityLevelData：", weapons_info["WeaponSensualityLevelData"])
         result_weapons_dict[name] = weapons_info
 
 

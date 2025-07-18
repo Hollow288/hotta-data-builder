@@ -156,3 +156,76 @@ def resolve_resource_path(resource_string: str) -> str:
     full_path = full_path.with_suffix(".json")
 
     return str(full_path)
+
+
+import re
+
+def format_description(template: str, values: list[float]) -> str:
+    def format_number(n):
+        # 转换为 float，再判断是否为整数
+        n = float(n)
+        if n.is_integer():
+            return f"{int(n):,}"
+        else:
+            return f"{n:,.2f}".rstrip("0").rstrip(".")
+
+    # 替换 {0}、{1} 这种占位符
+    def replacer(match):
+        index = int(match.group(1))
+        if index < len(values):
+            return format_number(values[index])
+        return match.group(0)  # 如果索引越界就保留原样
+
+    return re.sub(r"\{(\d+)\}", replacer, template)
+
+
+
+def extract_series_values(data: dict, base_key: str, game_json :dict) -> list:
+    """
+    提取以 base_key 为前缀、序号结尾（如 'sense_1', 'sense_2', ...）的字典值，直到找不到为止。
+
+    参数:
+        data (dict): 要查找的字典。
+        base_key (str): 基础键名（不含下划线和数字）。
+
+    返回:
+        list: 所有找到的值组成的列表。
+    """
+
+    if base_key == 'None':
+        return []
+
+    tem_list = []
+    result = []
+    index = 1
+    while True:
+        key = f"{base_key}_{index}"
+        if key not in data:
+            break
+        tem_list.append(data[key])
+        index += 1
+
+
+    for tem in tem_list:
+        source_string = game_json[extract_tail_name(tem['RemouldDetail']['TableId'])][tem['RemouldDetail']['Key']]
+
+        remould_detail_params_list = tem['RemouldDetailParams']
+
+        result_remould_numeric_list = []
+
+        for remould_detail_params in remould_detail_params_list:
+            resolve_path = resolve_resource_path(remould_detail_params['Curve']['CurveTable']['ObjectPath'])
+            with open(resolve_path, "r", encoding="utf-8") as nj:
+                numeric_json = json.load(nj)
+
+            numeric_key_val = numeric_json[0].get("Rows", {})
+
+            result_remould_numeric_list.append(
+                numeric_key_val[remould_detail_params['Curve']['RowName']]['Keys'][0]['Value'] * remould_detail_params[
+                    'Value'])
+
+        results_string = format_description(source_string, result_remould_numeric_list)
+        result.append(results_string)
+
+    return result
+
