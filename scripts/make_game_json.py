@@ -14,7 +14,8 @@ source_path = os.getenv("SOURCE_PATH")  # 例：C:/XM/MY/Hotta/Content/Resources
 paths = [
     os.path.join(source_path, "CoreBlueprints/DataTable/Skill"),
     os.path.join(source_path, "Text/ST_item.json"),
-    os.path.join(source_path, "Text/ST_Equipment.json")
+    os.path.join(source_path, "Text/ST_Equipment.json"),
+    os.path.join(source_path, "Text/QRSLCommon_ST.json")
 ]
 
 # 加载数据

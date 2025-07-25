@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import json
 
 from utils import extract_tail_name, translate_weapon_info, resolve_resource_path, format_description, \
-    extract_series_values
+    extract_series_values, make_element_desc_name
 
 # 加载 .env 文件
 load_dotenv()
@@ -24,6 +24,11 @@ weapon_upgrade_star_data_path = os.getenv("WEAPON_UPGRADE_STAR_DATA") or os.path
 # 武器通感效果信息
 weapon_sensuality_level_data_path = os.getenv("WEAPON_SENSUALITY_LEVEL_DATA") or os.path.join(
     source_path, "CoreBlueprints/DataTable/WeaponData/DT_WeaponSensualityLevelData.json"
+)
+
+# 武器通感效果信息
+equip_batch_level_static_data_table_path = os.getenv("EQUIP_BATCH_LEVEL_STATIC_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/EquipBatchLevelStaticDataTable.json"
 )
 
 # Game.json文件目录
@@ -70,6 +75,9 @@ if __name__ == "__main__":
     with open(weapon_sensuality_level_data_path, "r", encoding="utf-8") as f:
         weapon_sensuality_level_data = json.load(f)
 
+    with open(equip_batch_level_static_data_table_path, "r", encoding="utf-8") as f:
+        equip_batch_level_static_data_table_data = json.load(f)
+
     # 星级效果
     weapon_upgrade_star_data_rows_data = {
         k.lower(): v for k, v in weapon_upgrade_star_data[0].get("Rows", {}).items()
@@ -81,16 +89,15 @@ if __name__ == "__main__":
     # 找出仓库武器
     static_weapon_data_table_rows_data = static_weapon_data_table[0].get("Rows", {})
 
+    #武器特质数值
+    quip_batch_level_static_data_table_rows_data = equip_batch_level_static_data_table_data[0].get("Rows", {})
+
     warehouse_weapons = {
         name: data
         for name, data in static_weapon_data_table_rows_data.items()
         if data.get("IsWarehouseWeapon") == True
     }
 
-
-
-    # 找出仓库武器
-    static_weapon_data_table_rows_data = static_weapon_data_table[0].get("Rows", {})
 
     # 保存一下过滤后的json 可能会用到 warehouse_weapons将作为我们处理的武器列表起点
     output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "weapons_filtered.json"))
@@ -107,15 +114,28 @@ if __name__ == "__main__":
         # 临时字典
         weapons_info = {
             'ItemName': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
+            ""
             'ItemRarity': translate_weapon_info(data['ItemRarity']),
             'WeaponCategory': translate_weapon_info(data['WeaponTypeData']['WeaponCategory']),
-            'WeaponElementType':translate_weapon_info(data['WeaponTypeData']['WeaponElementType'],data['WeaponTypeData']['WeaponAccessoryElementType']),
+
+            "WeaponElement": {'WeaponElementType': translate_weapon_info(data['WeaponTypeData']['WeaponElementType'],
+                                                                         data['WeaponTypeData'][
+                                                                             'WeaponAccessoryElementType']),
+                              "WeaponElementName": make_element_desc_name(data['ItemRarity'],data['WeaponTypeData']['WeaponElementType'],data['WeaponTypeData'][
+                                                                             'WeaponAccessoryElementType'],quip_batch_level_static_data_table_rows_data,game_json)['element_name'],
+                              "WeaponElementDesc": make_element_desc_name(data['ItemRarity'],
+                                                                          data['WeaponTypeData']['WeaponElementType'],
+                                                                          data['WeaponTypeData'][
+                                                                              'WeaponAccessoryElementType'],
+                                                                          quip_batch_level_static_data_table_rows_data,
+                                                                          game_json)['element_desc']
+                              },
             'ArmorBroken': some_base_info['ArmorBroken'],
             'Charging': some_base_info['Charging'],
             'Description': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
-            "RemouldDetail": make_remould_detail(some_base_info,game_json),
-            "WeaponSensualityLevelData": extract_series_values(weapon_sensuality_level_data_rows_data,data['SensualityPackId'],game_json)
-
+            "RemouldDetail": make_remould_detail(some_base_info, game_json),
+            "WeaponSensualityLevelData": extract_series_values(weapon_sensuality_level_data_rows_data,
+                                                               data['SensualityPackId'], game_json)
         }
 
         print("最终 WeaponSensualityLevelData：", weapons_info["WeaponSensualityLevelData"])

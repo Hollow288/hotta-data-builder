@@ -29,3 +29,7 @@
   **路径**：Content/Resources/CoreBlueprints/DataTable/Skill/SkillUpdateTips.json
 
   **备注**：以``GameplayAbilityTipsDataTable``表中每个元素中``GABranchStruct``数组中每个元素的``Key``去``SkillUpdateTips``中查对应元素，具体方式为``Key``拼接``_x``,这里的x并非代表技能等级，而是技能描述中数值占位符次序，具体数值在``Key_x``元素的``Keys``数组中，这里其中数组中每个元素的``Time``为武器等级，``Value``为具体的占位符数值，一般来说武器等级都为21级，例如：没有``Time``为2的数值，那么就按``Time``为1的``Value``算。
+  
+- **武器特质**
+
+  **路径**：Content/Resources/CoreBlueprints/DataTable/EquipBatchLevelStaticDataTable.json

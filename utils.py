@@ -160,21 +160,24 @@ def resolve_resource_path(resource_string: str) -> str:
 
 import re
 
-def format_description(template: str, values: list[float]) -> str:
+def format_description(
+    template: str,
+    values: list[float],
+    start_index: int = 0  # 新增参数，默认为0（保持原行为）
+) -> str:
     def format_number(n):
-        # 转换为 float，再判断是否为整数
         n = float(n)
         if n.is_integer():
             return f"{int(n):,}"
         else:
             return f"{n:,.2f}".rstrip("0").rstrip(".")
 
-    # 替换 {0}、{1} 这种占位符
     def replacer(match):
-        index = int(match.group(1))
-        if index < len(values):
-            return format_number(values[index])
-        return match.group(0)  # 如果索引越界就保留原样
+        placeholder_index = int(match.group(1))  # 占位符中的索引
+        adjusted_index = placeholder_index - start_index  # 计算实际数据索引
+        if 0 <= adjusted_index < len(values):
+            return format_number(values[adjusted_index])
+        return match.group(0)  # 越界保留原样
 
     return re.sub(r"\{(\d+)\}", replacer, template)
 
@@ -228,4 +231,66 @@ def extract_series_values(data: dict, base_key: str, game_json :dict) -> list:
         result.append(results_string)
 
     return result
+
+
+
+def make_element_desc_name(item_rarity: str, weapon_element_type: str, weapon_accessory_element_type: int, quip_batch_level_static_data_table_rows_data: dict, game_json: dict) -> dict:
+    if weapon_accessory_element_type != 2 and  weapon_accessory_element_type != 0:
+        print(weapon_accessory_element_type)
+
+    if weapon_accessory_element_type == 2:
+        name_fragment = {
+            "EWeaponElementType::Superpower": "32",
+            "EWeaponElementType::Physics": "2-4",
+            "EWeaponElementType::Thunder": "16-8",
+            "EWeaponElementType::Flame": "4-2",
+            "EWeaponElementType::Ice": "8-16"
+        }
+
+        quip_batch_find = {
+            "EWeaponElementType::Superpower": None,
+            "EWeaponElementType::Physics": "PhysicsFlame",
+            "EWeaponElementType::Thunder": "ThunderIce",
+            "EWeaponElementType::Flame": "FlamePhysics",
+            "EWeaponElementType::Ice": "IceThunder"
+        }
+
+    if weapon_accessory_element_type == 0:
+        name_fragment = {
+            "EWeaponElementType::Superpower": "32",
+            "EWeaponElementType::Physics": "2",
+            "EWeaponElementType::Thunder": "16",
+            "EWeaponElementType::Flame": "4",
+            "EWeaponElementType::Ice": "8"
+        }
+
+        quip_batch_find = {
+            "EWeaponElementType::Superpower": None,
+            "EWeaponElementType::Physics": "Physics",
+            "EWeaponElementType::Thunder": "Thunder",
+            "EWeaponElementType::Flame": "fire",
+            "EWeaponElementType::Ice": "Ice"
+        }
+
+    item_rarity_eff_name = {
+        "EItemRarity::ITEM_RARITY_SSR": "2",
+        "EItemRarity::ITEM_RARITY_SR": "1",
+        "EItemRarity::ITEM_RARITY_R": "0",
+    }
+
+    template =  game_json['QRSLCommon_ST']["ui_weapon_charge_" + name_fragment[weapon_element_type] + "_desc_0"]
+
+    if weapon_element_type == 'EWeaponElementType::Superpower':
+        quip_batch_values = []
+    else:
+        quip_batch_dict = quip_batch_level_static_data_table_rows_data[quip_batch_find[weapon_element_type] + '_' + item_rarity_eff_name[item_rarity]]
+
+        quip_batch_values = quip_batch_dict['GrowUpData'][0]['ParamValues']
+
+    element_desc = format_description(template,quip_batch_values,1)
+
+    element_name = game_json['QRSLCommon_ST']['ui_weapon_charge_' + name_fragment[weapon_element_type] + '_0']
+
+    return {"element_desc" : element_desc, "element_name" : element_name}
+
 
