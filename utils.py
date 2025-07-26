@@ -342,3 +342,80 @@ def make_upgrade_star_pack(upgrade_star_pack_id: str, max_upgrade_star: int, gam
         result.append(make_remould_detail(value, game_json))
 
     return result
+
+def make_weapon_skill_desc_value(key: str, ga_parame_num: int, skill_update_tips_rows_data: dict) -> list:
+    if ga_parame_num <= 0:
+        return []
+
+    result = []
+
+    filtered_data = {
+        f"{key}_{i}": skill_update_tips_rows_data[f"{key}_{i}"]
+        for i in range(1, ga_parame_num + 1)
+        if f"{key}_{i}" in skill_update_tips_rows_data
+    }
+
+    for key, value in filtered_data.items():
+
+        # Todo 武器等级对于数值的影响
+
+        # 这里只记录技能等级1的状态
+
+        value_at_time_1 = next(
+            (item['Value'] for item in value['Keys'] if item['Time'] == 1.0),
+            0  # 默认值，防止没有找到时报错
+        )
+
+        result.append(value_at_time_1)
+
+    return result
+
+
+
+def make_weapon_skill(weapon_skill_list: list, gameplay_ability_tips_data_rows_data: dict, skill_update_tips_rows_data: dict, game_json: dict) -> dict:
+
+    result_weapon_skill = {}
+
+    lowercased_data = {
+        k.lower(): v for k, v in gameplay_ability_tips_data_rows_data.items()
+    }
+
+    for index, weapon_skill in enumerate(weapon_skill_list):
+
+        weapon_skill = weapon_skill.lower()
+
+        this_type_skill_list = {}
+
+        this_list = lowercased_data[weapon_skill]['GABranchStruct']
+
+
+        # 这里先不用数据中给出的类型，因为马克武器似乎没有标注，改为使用索引
+
+        # if lowercased_data.get(weapon_skill, {}).get('Name', {}).get('Key') is None:
+        #     skill_type = '普攻'
+        # else:
+        #     skill_type = game_json[extract_tail_name(lowercased_data[weapon_skill]['Name']['TableId'])][lowercased_data[weapon_skill]['Name']['Key']]
+
+        if index == 0:
+            skill_type = '普攻'
+        elif index == 1:
+            skill_type = '闪避'
+        elif index == 2:
+            skill_type = '技能'
+        elif index == 3:
+            skill_type = '联携'
+        else:
+            skill_type = '未知'
+
+
+        for item in this_list:
+            item_name = game_json[extract_tail_name(item['Value']['Name']['TableId'])][item['Value']['Name']['Key']]
+            item_desc_tem = game_json[extract_tail_name(item['Value']['Desc']['TableId'])][item['Value']['Desc']['Key']]
+            values = make_weapon_skill_desc_value(item['Key'],item['Value']['GAParameNum'],skill_update_tips_rows_data)
+            item_desc = format_description(item_desc_tem,values)
+
+            this_type_skill_list[item_name] = item_desc
+
+        result_weapon_skill[skill_type] = this_type_skill_list
+
+    return result_weapon_skill

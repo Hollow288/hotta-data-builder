@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import json
 
 from utils import extract_tail_name, translate_weapon_info, resolve_resource_path, format_description, \
-    extract_series_values, make_element_desc_name, make_upgrade_star_pack, make_remould_detail
+    extract_series_values, make_element_desc_name, make_upgrade_star_pack, make_remould_detail, make_weapon_skill
 
 # 加载 .env 文件
 load_dotenv()
@@ -26,9 +26,19 @@ weapon_sensuality_level_data_path = os.getenv("WEAPON_SENSUALITY_LEVEL_DATA") or
     source_path, "CoreBlueprints/DataTable/WeaponData/DT_WeaponSensualityLevelData.json"
 )
 
-# 武器通感效果信息
+# 武器属性信息
 equip_batch_level_static_data_table_path = os.getenv("EQUIP_BATCH_LEVEL_STATIC_DATA_TABLE") or os.path.join(
     source_path, "CoreBlueprints/DataTable/EquipBatchLevelStaticDataTable.json"
+)
+
+# 武器技能信息
+gameplay_ability_tips_data_table_path = os.getenv("GAMEPLAY_ABILITY_TIPS_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/GameplayAbilityTipsDataTable.json"
+)
+
+# 武器技能数值信息
+skill_update_tips_path = os.getenv("SKILL_UPDATE_TIPS") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/Skill/SkillUpdateTips.json"
 )
 
 # Game.json文件目录
@@ -52,6 +62,12 @@ if __name__ == "__main__":
     with open(equip_batch_level_static_data_table_path, "r", encoding="utf-8") as f:
         equip_batch_level_static_data_table_data = json.load(f)
 
+    with open(gameplay_ability_tips_data_table_path, "r", encoding="utf-8") as f:
+        gameplay_ability_tips_data = json.load(f)
+
+    with open(skill_update_tips_path, "r", encoding="utf-8") as f:
+        skill_update_tips = json.load(f)
+
     # 星级效果
     weapon_upgrade_star_data_rows_data = {
         k.lower(): v for k, v in weapon_upgrade_star_data[0].get("Rows", {}).items()
@@ -65,6 +81,12 @@ if __name__ == "__main__":
 
     #武器特质数值
     quip_batch_level_static_data_table_rows_data = equip_batch_level_static_data_table_data[0].get("Rows", {})
+
+    # 武器技能信息
+    gameplay_ability_tips_data_rows_data = gameplay_ability_tips_data[0].get("Rows", {})
+
+    # 武器技能数值信息
+    skill_update_tips_rows_data = skill_update_tips[0].get("Rows", {})
 
     warehouse_weapons = {
         name: data
@@ -109,7 +131,8 @@ if __name__ == "__main__":
             "RemouldDetail": make_remould_detail(some_base_info, game_json),
             "WeaponSensualityLevelData": extract_series_values(weapon_sensuality_level_data_rows_data,
                                                                data['SensualityPackId'], game_json),
-            "UpgradeStarPack": make_upgrade_star_pack(data['UpgradeStarPackID'].lower(),data['MaxUpgradeStar'],game_json,weapon_upgrade_star_data_rows_data)
+            "UpgradeStarPack": make_upgrade_star_pack(data['UpgradeStarPackID'].lower(),data['MaxUpgradeStar'],game_json,weapon_upgrade_star_data_rows_data),
+            "WeaponSkill": make_weapon_skill(data['WeaponSkillList'],gameplay_ability_tips_data_rows_data,skill_update_tips_rows_data,game_json)
         }
 
         # print("最终 WeaponSensualityLevelData：", weapons_info["WeaponSensualityLevelData"])
