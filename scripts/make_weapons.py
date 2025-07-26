@@ -114,7 +114,6 @@ if __name__ == "__main__":
         # 临时字典
         weapons_info = {
             'ItemName': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
-            ""
             'ItemRarity': translate_weapon_info(data['ItemRarity']),
             'WeaponCategory': translate_weapon_info(data['WeaponTypeData']['WeaponCategory']),
 
@@ -138,7 +137,7 @@ if __name__ == "__main__":
                                                                data['SensualityPackId'], game_json)
         }
 
-        print("最终 WeaponSensualityLevelData：", weapons_info["WeaponSensualityLevelData"])
+        # print("最终 WeaponSensualityLevelData：", weapons_info["WeaponSensualityLevelData"])
         result_weapons_dict[name] = weapons_info
 
 

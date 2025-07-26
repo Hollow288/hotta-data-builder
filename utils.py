@@ -235,10 +235,30 @@ def extract_series_values(data: dict, base_key: str, game_json :dict) -> list:
 
 
 def make_element_desc_name(item_rarity: str, weapon_element_type: str, weapon_accessory_element_type: int, quip_batch_level_static_data_table_rows_data: dict, game_json: dict) -> dict:
-    if weapon_accessory_element_type != 2 and  weapon_accessory_element_type != 0:
-        print(weapon_accessory_element_type)
 
-    if weapon_accessory_element_type == 2:
+    # weapon_accessory_element_type为0或者1为单属性和异能 雷8 物理4 冰16 火2 为双属性?
+
+    if weapon_accessory_element_type == 0 or weapon_accessory_element_type == 1:
+        name_fragment = {
+            "EWeaponElementType::Superpower": "32",
+            "EWeaponElementType::Physics": "2",
+            "EWeaponElementType::Thunder": "16",
+            "EWeaponElementType::Flame": "4",
+            "EWeaponElementType::Ice": "8"
+        }
+
+        # 为什么这里Thunder要对应fire  而Ice对应Thunder才能在EquipBatchLevelStaticDataTable.json找到正确的数值
+
+        quip_batch_find = {
+            "EWeaponElementType::Superpower": None,
+            "EWeaponElementType::Physics": "Physics",
+            "EWeaponElementType::Thunder": "Ice",
+            "EWeaponElementType::Flame": "fire",
+            "EWeaponElementType::Ice": "Thunder"
+        }
+
+    else:
+
         name_fragment = {
             "EWeaponElementType::Superpower": "32",
             "EWeaponElementType::Physics": "2-4",
@@ -255,23 +275,6 @@ def make_element_desc_name(item_rarity: str, weapon_element_type: str, weapon_ac
             "EWeaponElementType::Ice": "IceThunder"
         }
 
-    if weapon_accessory_element_type == 0:
-        name_fragment = {
-            "EWeaponElementType::Superpower": "32",
-            "EWeaponElementType::Physics": "2",
-            "EWeaponElementType::Thunder": "16",
-            "EWeaponElementType::Flame": "4",
-            "EWeaponElementType::Ice": "8"
-        }
-
-        quip_batch_find = {
-            "EWeaponElementType::Superpower": None,
-            "EWeaponElementType::Physics": "Physics",
-            "EWeaponElementType::Thunder": "Thunder",
-            "EWeaponElementType::Flame": "fire",
-            "EWeaponElementType::Ice": "Ice"
-        }
-
     item_rarity_eff_name = {
         "EItemRarity::ITEM_RARITY_SSR": "2",
         "EItemRarity::ITEM_RARITY_SR": "1",
@@ -285,7 +288,7 @@ def make_element_desc_name(item_rarity: str, weapon_element_type: str, weapon_ac
     else:
         quip_batch_dict = quip_batch_level_static_data_table_rows_data[quip_batch_find[weapon_element_type] + '_' + item_rarity_eff_name[item_rarity]]
 
-        quip_batch_values = quip_batch_dict['GrowUpData'][0]['ParamValues']
+        quip_batch_values = [x * 100 for x in quip_batch_dict['GrowUpData'][0]['ParamValues']]
 
     element_desc = format_description(template,quip_batch_values,1)
 
