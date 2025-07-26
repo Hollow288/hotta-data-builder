@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import json
 
 from utils import extract_tail_name, translate_weapon_info, resolve_resource_path, format_description, \
-    extract_series_values, make_element_desc_name
+    extract_series_values, make_element_desc_name, make_upgrade_star_pack, make_remould_detail
 
 # 加载 .env 文件
 load_dotenv()
@@ -33,32 +33,6 @@ equip_batch_level_static_data_table_path = os.getenv("EQUIP_BATCH_LEVEL_STATIC_D
 
 # Game.json文件目录
 game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
-
-
-
-def make_remould_detail(parms_some_base_info: dict,parms_game_json :dict):
-    if parms_some_base_info.get('RemouldDetail', {}).get('Key'):
-        source_string = parms_game_json[extract_tail_name(parms_some_base_info['RemouldDetail']['TableId'])][parms_some_base_info['RemouldDetail']['Key']]
-
-        # 处理数值部分
-        remould_detail_params_list = parms_some_base_info['RemouldDetailParams']
-
-        result_remould_numeric_list = []
-
-        for remould_detail_params in remould_detail_params_list:
-            resolve_path = resolve_resource_path(remould_detail_params['Curve']['CurveTable']['ObjectPath'])
-            with open(resolve_path, "r", encoding="utf-8") as nj:
-                numeric_json = json.load(nj)
-
-            numeric_key_val = numeric_json[0].get("Rows", {})
-
-            result_remould_numeric_list.append(numeric_key_val[remould_detail_params['Curve']['RowName']]['Keys'][0]['Value'] * remould_detail_params['Value'])
-
-        return format_description(source_string,result_remould_numeric_list)
-    else :
-        return None
-
-
 
 
 
@@ -134,7 +108,8 @@ if __name__ == "__main__":
             'Description': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
             "RemouldDetail": make_remould_detail(some_base_info, game_json),
             "WeaponSensualityLevelData": extract_series_values(weapon_sensuality_level_data_rows_data,
-                                                               data['SensualityPackId'], game_json)
+                                                               data['SensualityPackId'], game_json),
+            "UpgradeStarPack": make_upgrade_star_pack(data['UpgradeStarPackID'].lower(),data['MaxUpgradeStar'],game_json,weapon_upgrade_star_data_rows_data)
         }
 
         # print("最终 WeaponSensualityLevelData：", weapons_info["WeaponSensualityLevelData"])

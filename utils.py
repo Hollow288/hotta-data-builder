@@ -296,4 +296,49 @@ def make_element_desc_name(item_rarity: str, weapon_element_type: str, weapon_ac
 
     return {"element_desc" : element_desc, "element_name" : element_name}
 
+def make_remould_detail(parms_some_base_info: dict,parms_game_json :dict):
+    if parms_some_base_info.get('RemouldDetail', {}).get('Key'):
+        source_string = parms_game_json[extract_tail_name(parms_some_base_info['RemouldDetail']['TableId'])][parms_some_base_info['RemouldDetail']['Key']]
 
+        # 处理数值部分
+        remould_detail_params_list = parms_some_base_info['RemouldDetailParams']
+
+        result_remould_numeric_list = []
+
+        for remould_detail_params in remould_detail_params_list:
+
+            if remould_detail_params['Curve']['RowName'] == 'None':
+                continue
+
+            resolve_path = resolve_resource_path(remould_detail_params['Curve']['CurveTable']['ObjectPath'])
+            with open(resolve_path, "r", encoding="utf-8") as nj:
+                numeric_json = json.load(nj)
+
+            numeric_key_val = numeric_json[0].get("Rows", {})
+
+            result_remould_numeric_list.append(numeric_key_val[remould_detail_params['Curve']['RowName']]['Keys'][0]['Value'] * remould_detail_params['Value'])
+
+        return format_description(source_string,result_remould_numeric_list)
+    else :
+        return None
+
+
+def make_upgrade_star_pack(upgrade_star_pack_id: str, max_upgrade_star: int, game_json: dict, weapon_upgrade_star_data_rows_data: dict) -> list:
+    if max_upgrade_star <= 0:
+        return []
+
+    result = []
+
+    filtered_data = {
+        f"{upgrade_star_pack_id}_{i}": weapon_upgrade_star_data_rows_data[f"{upgrade_star_pack_id}_{i}"]
+        for i in range(1, max_upgrade_star + 1)
+        if f"{upgrade_star_pack_id}_{i}" in weapon_upgrade_star_data_rows_data
+    }
+
+    for key, value in filtered_data.items():
+
+
+        # this_start = game_json[extract_tail_name(value['RemouldDetail']['TableId'])][value['RemouldDetail']['Key']]
+        result.append(make_remould_detail(value, game_json))
+
+    return result
