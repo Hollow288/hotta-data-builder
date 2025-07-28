@@ -35,3 +35,18 @@
   **路径**：Content/Resources/CoreBlueprints/DataTable/EquipBatchLevelStaticDataTable.json
   
   **备注**：特质的名称和描述分别为``QRSLCommon_ST.json``文件中以``ui_weapon_charge_``开头，以``_desc_0``和``_0``结尾的元素的值，描述中的具体数值在``EquipBatchLevelStaticDataTable.json``中，同样的也是以占位符和数值数组的形式。在``EquipBatchLevelStaticDataTable.json``中，以key的_X来区分R、SR、SSR的区别，但是似乎单属性中寒冰和雷电的数值数组是弄反了。
+
+
+
+------
+
+- **意志列表作为组合数据的起点**
+
+  **路径**：CoreBlueprints/DataTable/WeaponData/WeaponMatrix/StaticMatrixSuitDataTable.json
+
+- **意志套装效果**
+
+  **路径**：CoreBlueprints/DataTable/WeaponData/WeaponMatrix/StaticMatrixData.json
+
+  **备注**：``SuitUnactivateDetailList``为套装描述，``SuitUnactivateDetailParams``为具体数值位置，从``ScalableFloatParams``中每个元素的``ObjectPath``找到对应``json``文件，根据``RowName``找到对应的``Keys``中的``Value``，然后乘以``ScalableFloatParams``中的``Value``
+
