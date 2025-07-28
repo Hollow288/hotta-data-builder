@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 from typing import List, Union, Dict, Any
 from dotenv import load_dotenv
+from typing import Any, Dict, Optional
 
 def find_keys_to_entries(data: Any) -> Dict[str, Any]:
     """
@@ -82,14 +83,27 @@ def _add_file(result: Dict, seen_keys: set, file_path: Path):
 
 
 def extract_tail_name(path: str) -> str:
-    """
-    提取路径中的最后名字：
-    - 如果有 '.'，返回最后一个 '.' 后的部分
-    - 如果没有 '.'，返回最后一个 '/' 后的部分
-    """
-    if "." in path:
-        return path.split(".")[-1]
-    return path.rstrip("/").split("/")[-1]
+
+    path = path.rstrip("/")
+
+    last_part = path.split("/")[-1]
+
+    if "." in last_part:
+        return last_part.rsplit(".", 1)[0]
+
+    return last_part
+
+
+def translate_matrix_info(key: str) -> str:
+    rarity_map = {
+        "ITEM_QUALITY_COMMON": "N",
+        "ITEM_QUALITY_RARE": "R",
+        "ITEM_QUALITY_EPIC": "SR",
+        "ITEM_QUALITY_LEGENDRY": "SSR"
+
+    }
+
+    return rarity_map.get(key, "Unknown")
 
 
 def translate_weapon_info(key: str, element_type: int = 0) -> str:
@@ -431,3 +445,93 @@ def make_weapon_skill(weapon_skill_list: list, gameplay_ability_tips_data_rows_d
         result_weapon_skill[skill_type] = this_type_skill_list
 
     return result_weapon_skill
+
+
+
+def find_parent_value_by_key_value(
+    data: Dict[str, Any],
+    target_key: str,
+    target_value: Any,
+    max_depth: int = 0
+) -> Optional[Dict[str, Any]]:
+    """
+    在嵌套字典中查找第一个满足 key=value 的项（忽略大小写），
+    返回该 key 所在的父级 dict（即兄弟字段）。
+
+    参数:
+        data (dict): 要搜索的嵌套字典
+        target_key (str): 要查找的键（忽略大小写）
+        target_value (Any): 要查找的值（忽略大小写）
+        max_depth (int): 最大递归层级（0 表示只查顶层）
+
+    返回:
+        找到的那一层字典，或 None
+    """
+
+    def _normalize(val: Any) -> str:
+        """将值转换为统一的小写字符串，用于大小写无关比较"""
+        return str(val).lower()
+
+    def _search(current: Any, current_depth: int) -> Optional[Dict[str, Any]]:
+        if not isinstance(current, dict):
+            return None
+
+        if current_depth > max_depth:
+            return None
+
+        for k, v in current.items():
+            # 如果 key 和 value 都匹配（忽略大小写）
+            if _normalize(k) == _normalize(target_key) and _normalize(v) == _normalize(target_value):
+                return current
+
+        # 递归向下查找
+        for value in current.values():
+            result = _search(value, current_depth + 1)
+            if result is not None:
+                return result
+
+        return None
+
+    return _search(data, 0)
+
+
+def make_suit_unactivate_detail_list(detail_list: list, detail_params_list: list, matrix_suit_quality: str, game_json: dict) -> dict:
+
+    result_suit_unactivate_detail = {}
+
+
+    for index, item in enumerate(detail_list):
+
+        num = index * 2 + 2
+
+        item_des = game_json[extract_tail_name(item['TableId'])][item['Key']]
+
+        value_list = []
+
+        if index < len(detail_params_list):
+
+            params_list =  detail_params_list[index]['ScalableFloatParams']
+
+            for remould_detail_params in params_list:
+
+                if remould_detail_params['Curve']['RowName'] == 'None':
+                    continue
+
+                resolve_path = resolve_resource_path(remould_detail_params['Curve']['CurveTable']['ObjectPath'])
+                with open(resolve_path, "r", encoding="utf-8") as nj:
+                    numeric_json = json.load(nj)
+
+                numeric_key_val = numeric_json[0].get("Rows", {})
+
+                value_list.append(
+                    numeric_key_val[remould_detail_params['Curve']['RowName']]['Keys'][0]['Value'] *
+                    remould_detail_params['Value'])
+
+
+        if matrix_suit_quality != 'ITEM_QUALITY_LEGENDRY':
+            result_suit_unactivate_detail['意志3件装备效果'] = format_description(item_des, value_list)
+        else:
+            result_suit_unactivate_detail[f'意志{num}件装备效果'] = format_description(item_des, value_list)
+
+    return result_suit_unactivate_detail
+
