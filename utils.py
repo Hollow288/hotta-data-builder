@@ -125,7 +125,17 @@ def translate_weapon_info(key: str, element_type: int = 0) -> str:
     return (rarity_map_2 if element_type != 0 else rarity_map).get(key, "Unknown")
 
 
-def resolve_resource_path(resource_string: str) -> str:
+def resolve_resource_path(resource_string: str, ext: str = ".json") -> str:
+    """
+    将原始资源路径转换为相对于 SOURCE_PATH 的完整路径，并加上指定后缀。
+
+    参数：
+        resource_string: 原始资源路径（例如 C:/Game/Resources/...）
+        ext: 目标文件后缀（默认 .json）
+
+    返回：
+        拼接后的完整路径字符串
+    """
     load_dotenv()
     source_path_str = os.getenv("SOURCE_PATH")
     if not source_path_str:
@@ -145,17 +155,19 @@ def resolve_resource_path(resource_string: str) -> str:
     # 获取匹配点之后的部分作为相对路径
     relative_part = resource_string[idx + len(source_last_part):].lstrip("/")
 
-    # 处理可能的 .0 这样的后缀
-    if "." in relative_part:
-        relative_part = relative_part.split(".")[0]
+    # 去掉已有扩展名（保留路径结构中间的点）
+    relative_path = Path(relative_part).with_suffix("")
 
     # 拼接路径
-    full_path = source_path / relative_part
+    full_path = source_path / relative_path
 
-    # 确保添加 .json 后缀
-    full_path = full_path.with_suffix(".json")
+    # 拼接后缀（允许传入 "" 表示不加后缀）
+    if ext:
+        if not ext.startswith("."):
+            ext = "." + ext
+        full_path = full_path.with_suffix(ext)
 
-    return str(full_path)
+    return full_path.as_posix()
 
 
 import re

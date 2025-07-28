@@ -110,6 +110,7 @@ if __name__ == "__main__":
         # 临时字典
         weapons_info = {
             'ItemName': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
+            'ItemIcon': resolve_resource_path(data['ItemIcon']['AssetPathName'],'.png'),
             'ItemRarity': translate_weapon_info(data['ItemRarity']),
             'WeaponCategory': translate_weapon_info(data['WeaponTypeData']['WeaponCategory']),
 
