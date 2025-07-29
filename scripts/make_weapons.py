@@ -1,4 +1,7 @@
 import os
+import shutil
+from pathlib import Path
+
 from dotenv import load_dotenv
 import json
 
@@ -145,6 +148,31 @@ if __name__ == "__main__":
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result_weapons_dict, f, ensure_ascii=False, indent=2)
 
+
+    base_output_dir = Path(__file__).resolve().parent.parent / 'dist'
+
+    for key, item in result_weapons_dict.items():
+        icon_path = item.get("ItemIcon")
+        if not icon_path or not os.path.isfile(icon_path):
+            print(f"图标文件不存在: {icon_path}")
+            continue
+
+        # 从 Hotta 开始的相对路径
+        parts = Path(icon_path).parts
+        try:
+            hotta_index = parts.index("Hotta")
+        except ValueError:
+            print(f"无法识别 Hotta 路径: {icon_path}")
+            continue
+
+        relative_path = Path(*parts[hotta_index:])
+        target_path = base_output_dir / relative_path
+
+        # 创建目标目录
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+
+        # 执行复制
+        shutil.copy2(icon_path, target_path)
 
 
 
