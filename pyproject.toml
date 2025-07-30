@@ -7,6 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
+tortoise-orm = {extras = ["aiomysql"], version = "^0.25.1"}
+minio = "^7.2.16"
 
 
 [build-system]
