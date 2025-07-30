@@ -137,7 +137,7 @@ if __name__ == "__main__":
             "RemouldDetail": make_remould_detail(some_base_info, game_json),
             "WeaponSensualityLevelData": extract_series_values(weapon_sensuality_level_data_rows_data,
                                                                data['SensualityPackId'], game_json),
-            "UpgradeStarPack": make_upgrade_star_pack(data['UpgradeStarPackID'].lower(), data['MaxUpgradeStar'],
+            "WeaponUpgradeStarPack": make_upgrade_star_pack(data['UpgradeStarPackID'].lower(), data['MaxUpgradeStar'],
                                                       game_json, weapon_upgrade_star_data_rows_data),
             "WeaponSkill": make_weapon_skill(data['WeaponSkillList'], gameplay_ability_tips_data_rows_data,
                                              skill_update_tips_rows_data, game_json)

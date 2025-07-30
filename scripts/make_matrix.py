@@ -54,7 +54,7 @@ if __name__ == "__main__":
             'SuitIcon': resolve_resource_path(
                 find_parent_value_by_key_value(static_matrix_data_rows_data, 'SuitID', name, 1)['ItemLargeIcon'][
                     'AssetPathName'], '.png'),
-            "SuitUnactivateDetailList": make_suit_unactivate_detail_list(data['SuitUnactivateDetailList'],
+            "SuitUnactivateDetail": make_suit_unactivate_detail_list(data['SuitUnactivateDetailList'],
                                                                          data['SuitUnactivateDetailParams'],
                                                                          data['MatrixSuitQuality'], game_json)
         }
