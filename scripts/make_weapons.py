@@ -5,8 +5,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 import json
 
-from utils import extract_tail_name, translate_weapon_info, resolve_resource_path, format_description, \
-    extract_series_values, make_element_desc_name, make_upgrade_star_pack, make_remould_detail, make_weapon_skill
+from utils.common_utils import extract_tail_name, resolve_resource_path, make_remould_detail
+from utils.weapons_utils import translate_weapon_info, make_element_desc_name, extract_series_values, make_weapon_skill, \
+    make_upgrade_star_pack
 
 # 加载 .env 文件
 load_dotenv()
@@ -47,8 +48,6 @@ skill_update_tips_path = os.getenv("SKILL_UPDATE_TIPS") or os.path.join(
 # Game.json文件目录
 game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
 
-
-
 if __name__ == "__main__":
     with open(static_weapon_data_table_path, "r", encoding="utf-8") as f:
         static_weapon_data_table = json.load(f)
@@ -82,7 +81,7 @@ if __name__ == "__main__":
     # 找出仓库武器
     static_weapon_data_table_rows_data = static_weapon_data_table[0].get("Rows", {})
 
-    #武器特质数值
+    # 武器特质数值
     quip_batch_level_static_data_table_rows_data = equip_batch_level_static_data_table_data[0].get("Rows", {})
 
     # 武器技能信息
@@ -97,31 +96,34 @@ if __name__ == "__main__":
         if data.get("IsWarehouseWeapon") == True
     }
 
-
     # 保存一下过滤后的json 可能会用到 warehouse_weapons将作为我们处理的武器列表起点
-    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "weapons_filtered.json"))
+    output_path = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "weapons_filtered.json"))
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(warehouse_weapons, f, ensure_ascii=False, indent=2)
 
     result_weapons_dict = {}
 
     for name, data in warehouse_weapons.items():
-
         # 一些基本信息
         some_base_info = weapon_upgrade_star_data_rows_data[(data['UpgradeStarPackID'] + '_0').lower()]
 
         # 临时字典
         weapons_info = {
             'ItemName': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
-            'ItemIcon': resolve_resource_path(data['ItemIcon']['AssetPathName'],'.png'),
+            'ItemIcon': resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
             'ItemRarity': translate_weapon_info(data['ItemRarity']),
             'WeaponCategory': translate_weapon_info(data['WeaponTypeData']['WeaponCategory']),
 
             "WeaponElement": {'WeaponElementType': translate_weapon_info(data['WeaponTypeData']['WeaponElementType'],
                                                                          data['WeaponTypeData'][
                                                                              'WeaponAccessoryElementType']),
-                              "WeaponElementName": make_element_desc_name(data['ItemRarity'],data['WeaponTypeData']['WeaponElementType'],data['WeaponTypeData'][
-                                                                             'WeaponAccessoryElementType'],quip_batch_level_static_data_table_rows_data,game_json)['element_name'],
+                              "WeaponElementName": make_element_desc_name(data['ItemRarity'],
+                                                                          data['WeaponTypeData']['WeaponElementType'],
+                                                                          data['WeaponTypeData'][
+                                                                              'WeaponAccessoryElementType'],
+                                                                          quip_batch_level_static_data_table_rows_data,
+                                                                          game_json)['element_name'],
                               "WeaponElementDesc": make_element_desc_name(data['ItemRarity'],
                                                                           data['WeaponTypeData']['WeaponElementType'],
                                                                           data['WeaponTypeData'][
@@ -135,19 +137,19 @@ if __name__ == "__main__":
             "RemouldDetail": make_remould_detail(some_base_info, game_json),
             "WeaponSensualityLevelData": extract_series_values(weapon_sensuality_level_data_rows_data,
                                                                data['SensualityPackId'], game_json),
-            "UpgradeStarPack": make_upgrade_star_pack(data['UpgradeStarPackID'].lower(),data['MaxUpgradeStar'],game_json,weapon_upgrade_star_data_rows_data),
-            "WeaponSkill": make_weapon_skill(data['WeaponSkillList'],gameplay_ability_tips_data_rows_data,skill_update_tips_rows_data,game_json)
+            "UpgradeStarPack": make_upgrade_star_pack(data['UpgradeStarPackID'].lower(), data['MaxUpgradeStar'],
+                                                      game_json, weapon_upgrade_star_data_rows_data),
+            "WeaponSkill": make_weapon_skill(data['WeaponSkillList'], gameplay_ability_tips_data_rows_data,
+                                             skill_update_tips_rows_data, game_json)
         }
 
         # print("最终 WeaponSensualityLevelData：", weapons_info["WeaponSensualityLevelData"])
         result_weapons_dict[name] = weapons_info
 
-
     # 最终保存
     output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "weapons.json"))
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result_weapons_dict, f, ensure_ascii=False, indent=2)
-
 
     base_output_dir = Path(__file__).resolve().parent.parent / 'dist'
 
@@ -173,8 +175,3 @@ if __name__ == "__main__":
 
         # 执行复制
         shutil.copy2(icon_path, target_path)
-
-
-
-
-
