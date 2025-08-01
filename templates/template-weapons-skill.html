@@ -82,7 +82,10 @@
     }
 
     .row {
-        padding-top: 30px;
+        display: flex;
+        padding-top: 15px;
+        gap: 15px; /* 通过 gap 设置两个 row 之间的间隙 */
+        margin-top: 20px;
     }
 
 
@@ -101,21 +104,21 @@
     }
 
     .arms-icon {
-        margin: -5px 0 0 30px
+        margin: -5px 0 0 20px
     }
 
 
     .subheading {
         font-family: 'ZCOOL KuaiLe', serif;
-        font-size: 26px;
+        font-size: 20px;
         color: white;
-        padding: 15px;
+        padding: 10px;
     }
 
     .divider {
         border-bottom: 2px solid rgba(204, 204, 204, 0.61); /* 灰色的分隔线 */
         width: 90%; /* 设置分隔线宽度为100% */
-        margin: 0 50px;
+        margin: 0 20px;
     }
 
     .pfcn {
@@ -128,7 +131,7 @@
 
     .other-content-txt {
         color: white;
-        padding: 20px;
+        padding: 10px;
     }
 
 </style>
@@ -197,88 +200,86 @@
                 </div>
             </div>
         </div>
-
-        <div class="row" style="display: flex">
+        <div class="row">
             <div class="other-content">
                 <div class="subheading">
-                    |&nbsp;特质
+                    |&nbsp;普通攻击
                 </div>
                 <div class="divider"></div>
                 <div class="other-content-txt">
+                    {% for melee in weapon_melee %}
                     <div>
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
-                        <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>{{weapon_element_name}} </strong></span>
-                            {{weapon_element_desc | highlight_shuzhi}}
+                            <!-- 单独一行的内容 -->
+                            <div style="font-size: 15px;color: #d86b01; font-weight: bold; margin-bottom: 5px;">
+                                {{melee.item_name}}
+                            </div>
+                            <!-- 后续描述内容 -->
+                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{melee.item_describe | highlight_shuzhi }}</div>
                         </div>
                     </div>
+                    {% endfor %}
                 </div>
-            </div>
-        </div>
-
-        {% if remould_detail %}
-        <div class="row" style="display: flex">
-            <div class="other-content">
                 <div class="subheading">
-                    |&nbsp;专属
+                    |&nbsp;闪避攻击
                 </div>
                 <div class="divider"></div>
                 <div class="other-content-txt">
-                    <div>
-                        <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;margin-top:-25px;white-space: pre-line">
-                            {{remould_detail | highlight_shuzhi }}
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        {% endif %}
-
-
-
-        {% if weapon_sensuality_level_data %}
-        <div class="row" style="display: flex">
-            <div class="other-content">
-                <div class="subheading">
-                    |&nbsp;通感
-                </div>
-                <div class="divider"></div>
-                <div class="other-content-txt">
-                    {% for sensuality in weapon_sensuality_level_data %}
+                    {% for back in weapon_back_attack %}
                     <div>
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
-                        <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>{{sensuality.item_name}} </strong></span>
-                            {{sensuality.item_describe | highlight_shuzhi}}
+                            <!-- 单独一行的内容 -->
+                            <div style="font-size: 15px;color: #d86b01; font-weight: bold; margin-bottom: 5px;">
+                                {{back.item_name}}
+                            </div>
+                            <!-- 后续描述内容 -->
+                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{back.item_describe | highlight_shuzhi }}</div>
                         </div>
                     </div>
                     {% endfor %}
                 </div>
 
             </div>
-        </div>
-        {% endif %}
 
-        {% if weapon_upgrade_star_pack %}
-        <div class="row" style="display: flex">
             <div class="other-content">
                 <div class="subheading">
-                    |&nbsp;星级
+                    |&nbsp;技能攻击
                 </div>
                 <div class="divider"></div>
                 <div class="other-content-txt">
-                    {% for star in weapon_upgrade_star_pack %}
+                    {% for skill in weapon_skill_attack %}
                     <div>
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
-                        <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>{{star.item_name}} </strong></span>
-                            {{star.item_describe | highlight_shuzhi}}
+                            <!-- 单独一行的内容 -->
+                            <div style="font-size: 15px;color: #d86b01; font-weight: bold; margin-bottom: 5px;">
+                                {{skill.item_name}}
+                            </div>
+                            <!-- 后续描述内容 -->
+                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{skill.item_describe | highlight_shuzhi }}</div>
                         </div>
                     </div>
                     {% endfor %}
                 </div>
-
+                <div class="subheading">
+                    |&nbsp;联携攻击
+                </div>
+                <div class="divider"></div>
+                <div class="other-content-txt">
+                    {% for success in weapon_success %}
+                    <div>
+                        <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
+                            <!-- 单独一行的内容 -->
+                            <div style="font-size: 15px;color: #d86b01; font-weight: bold; margin-bottom: 5px;">
+                                {{success.item_name}}
+                            </div>
+                            <!-- 后续描述内容 -->
+                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{success.item_describe | highlight_shuzhi }}</div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
-        {% endif %}
         <div style="font-family: 'ZCOOL KuaiLe', serif;font-size: 20px;text-align: center;color: white;margin-top: 10px">
             Created by FishCoins-Bot & Hollow288 v0.0.1
         </div>
