@@ -7,7 +7,7 @@ import json
 
 from utils.common_utils import extract_tail_name, resolve_resource_path, make_remould_detail
 from utils.weapons_utils import translate_weapon_info, make_element_desc_name, extract_series_values, make_weapon_skill, \
-    make_upgrade_star_pack
+    make_upgrade_star_pack, save_lottery_img
 
 # 加载 .env 文件
 load_dotenv()
@@ -45,6 +45,11 @@ skill_update_tips_path = os.getenv("SKILL_UPDATE_TIPS") or os.path.join(
     source_path, "CoreBlueprints/DataTable/Skill/SkillUpdateTips.json"
 )
 
+# 拟态信息
+dt_imitation_path = os.getenv("DT_IMITATION") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/Fashion/DT_Imitation.json"
+)
+
 # Game.json文件目录
 game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
 
@@ -70,6 +75,9 @@ if __name__ == "__main__":
     with open(skill_update_tips_path, "r", encoding="utf-8") as f:
         skill_update_tips = json.load(f)
 
+    with open(dt_imitation_path, "r", encoding="utf-8") as f:
+        dt_imitation = json.load(f)
+
     # 星级效果
     weapon_upgrade_star_data_rows_data = {
         k.lower(): v for k, v in weapon_upgrade_star_data[0].get("Rows", {}).items()
@@ -89,6 +97,9 @@ if __name__ == "__main__":
 
     # 武器技能数值信息
     skill_update_tips_rows_data = skill_update_tips[0].get("Rows", {})
+
+    # 拟态信息
+    dt_imitation_rows_data = dt_imitation[0].get("Rows", {})
 
     warehouse_weapons = {
         name: data
@@ -145,6 +156,10 @@ if __name__ == "__main__":
 
         # print("最终 WeaponSensualityLevelData：", weapons_info["WeaponSensualityLevelData"])
         result_weapons_dict[name] = weapons_info
+
+        # 找出抽卡静态资源
+        save_lottery_img(data['WeaponFashionID'],data['LotteryCardImage']['AssetPathName'],weapons_info['ItemName'],dt_imitation_rows_data)
+
 
     # 最终保存
     output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "weapons.json"))

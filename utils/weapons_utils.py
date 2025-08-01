@@ -1,4 +1,7 @@
 import json
+import os
+import shutil
+from pathlib import Path
 
 from utils.common_utils import extract_tail_name, resolve_resource_path, format_description, make_remould_detail
 
@@ -264,3 +267,44 @@ def make_weapon_skill(weapon_skill_list: list, gameplay_ability_tips_data_rows_d
         result_weapon_skill[skill_type] = this_type_skill_list
 
     return result_weapon_skill
+
+
+def save_lottery_img(weapon_fashion_id: str, lottery_card_image: str, item_name: str, dt_imitation_rows_data: dict) -> None:
+    base_output_dir = Path(__file__).resolve().parent.parent / 'dist'
+
+    lottery_card_image_path = resolve_resource_path(lottery_card_image, '.png')
+
+    if not lottery_card_image_path or not os.path.isfile(lottery_card_image_path):
+        print(f"抽卡图片文件不存在: {lottery_card_image_path}")
+    else:
+        # 从 Hotta 开始的相对路径
+        parts = Path(lottery_card_image_path).parts
+        try:
+            hotta_index = parts.index("Hotta")
+            relative_dir = Path(*parts[hotta_index:-1])  # 不要最后一个文件名
+            original_ext = Path(lottery_card_image_path).suffix
+            target_path = base_output_dir / relative_dir / f"{item_name}{original_ext}"
+
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(lottery_card_image_path, target_path)
+        except ValueError:
+            print(f"无法识别 Hotta 路径: {lottery_card_image_path}")
+
+    if weapon_fashion_id == 'None':
+        return
+    else:
+        name_picture_path = resolve_resource_path(dt_imitation_rows_data[weapon_fashion_id]['Name3Picture']['AssetPathName'],'.png')
+        if not name_picture_path or not os.path.isfile(name_picture_path):
+            print(f"抽卡名称文件不存在: {name_picture_path}")
+        else:
+            parts = Path(name_picture_path).parts
+            try:
+                hotta_index = parts.index("Hotta")
+                relative_dir = Path(*parts[hotta_index:-1])
+                original_ext = Path(name_picture_path).suffix
+                target_path = base_output_dir / relative_dir / f"{item_name}{original_ext}"
+
+                target_path.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(name_picture_path, target_path)
+            except ValueError:
+                print(f"无法识别 Hotta 路径: {name_picture_path}")
