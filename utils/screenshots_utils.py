@@ -73,6 +73,13 @@ def make_weapons_background_url(weapons:dict):
 
     weapons['default_background_url'] = f"http://{endpoint}/{bucket_name}/background-arms.jpeg"
 
+def make_matrix_background_url(weapons:dict):
+    bucket_name = 'hotta-weapons-background'
+
+    endpoint = os.getenv("ENDPOINT", "localhost:9000")
+
+    weapons['default_background_url'] = f"http://{endpoint}/{bucket_name}/background-willpower.jpeg"
+
 
 def highlight_shuzhi(value: str) -> str | None:
     return re.sub(r"<shuzhi>(.*?)</>", r'<span style="color:red">\1</span>', value)

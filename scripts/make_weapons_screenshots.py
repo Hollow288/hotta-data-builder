@@ -39,7 +39,7 @@ async def process_weapon(weapons: dict, env: Environment, browser, screenshot_di
         html_content = template.render(**weapons)
 
         page = await browser.new_page()
-        await page.set_content(html_content, timeout=60000)
+        await page.set_content(html_content, timeout=600000)
 
         locator = page.locator(".card")
         screenshot_path = screenshot_dir / f"{weapons['item_name']}.png"
