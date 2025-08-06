@@ -84,6 +84,20 @@ def make_matrix_background_url(weapons:dict):
 def highlight_shuzhi(value: str) -> str | None:
     return re.sub(r"<shuzhi>(.*?)</>", r'<span style="color:red">\1</span>', value)
 
+def com_lbl_green(value: str) -> str | None:
+    return re.sub(r"<ComLblGreen>(.*?)</>", r'<span style="color:green">\1</span>', value)
+
+
+def make_recipes_background_url(recipes:dict):
+    bucket_name = 'hotta-common-screenshots'
+
+    endpoint = os.getenv("ENDPOINT", "localhost:9000")
+
+    recipes['background_url'] = f"http://{endpoint}/{bucket_name}/background-food.webp"
+
+    recipes['background_foliage'] = f"http://{endpoint}/{bucket_name}/background-foliage.jpg"
+
+
 
 
 
