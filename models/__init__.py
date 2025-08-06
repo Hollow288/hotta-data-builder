@@ -1,4 +1,6 @@
+from .cook_recipes_data_table import CookRecipesDataTable
 from .ingredient_data_table import IngredientData
+from .recipes_ingredients import RecipesIngredients
 from .weapons import Weapons
 from .matrix import Matrix
 from .suit_unactivate_detail import SuitUnactivateDetail
@@ -13,5 +15,7 @@ __all__ = [
     "WeaponSkill",
     "Matrix",
     "SuitUnactivateDetail",
-    "IngredientData"
+    "IngredientData",
+    "CookRecipesDataTable",
+    "RecipesIngredients"
 ]
