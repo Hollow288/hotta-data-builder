@@ -16,7 +16,8 @@ paths = [
     os.path.join(source_path, "CoreBlueprints/DataTable/Skill"),
     os.path.join(source_path, "Text/ST_item.json"),
     os.path.join(source_path, "Text/ST_Equipment.json"),
-    os.path.join(source_path, "Text/QRSLCommon_ST.json")
+    os.path.join(source_path, "Text/QRSLCommon_ST.json"),
+    os.path.join(source_path, "Text/UI.json")
 ]
 
 

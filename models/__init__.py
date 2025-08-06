@@ -1,3 +1,4 @@
+from .ingredient_data_table import IngredientData
 from .weapons import Weapons
 from .matrix import Matrix
 from .suit_unactivate_detail import SuitUnactivateDetail
@@ -11,5 +12,6 @@ __all__ = [
     "WeaponUpgradeStarPack",
     "WeaponSkill",
     "Matrix",
-    "SuitUnactivateDetail"
+    "SuitUnactivateDetail",
+    "IngredientData"
 ]
