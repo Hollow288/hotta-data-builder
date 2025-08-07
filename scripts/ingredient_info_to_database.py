@@ -46,6 +46,7 @@ async def to_do():
             ingredient_key=name,
             ingredient_name=data['ingredient_name'],
             ingredient_des=data['ingredient_des'],
+            ingredient_source=data['ingredient_source'],
             ingredient_icon=minio_url
         )
 

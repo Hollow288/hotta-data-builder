@@ -8,6 +8,7 @@ class IngredientData(Model):
     ingredient_name = fields.CharField(max_length=200, null=True, description="食材名称")
     ingredient_des = fields.CharField(max_length=200, null=True, description="食材描述")
     ingredient_icon = fields.CharField(max_length=200, null=True, description="食材缩略图地址")
+    ingredient_source = fields.CharField(max_length=200, null=True, description="食材来源")
 
     class Meta:
         table = "ingredient_data_table"

@@ -213,3 +213,20 @@ def make_ingredients(ingredients:list)->dict:
         result[ingredient['DesignedItemsID'][0]] = ingredient['MinNeedIngredientAmount']
 
     return result
+
+
+def make_ingredient_source(dt_item_output_source_rows_data: dict, ingredient_key: str, game_json: dict) -> str:
+
+    if ingredient_key == "Item_Dandelion_zhongzi":
+        ingredient_key = "Item_Dandelion_001"
+
+    this_source = dt_item_output_source_rows_data[ingredient_key.split("_", 1)[1]]
+
+
+
+    result_list = []
+
+    for item in this_source['SourceArray']:
+        result_list.append(game_json[extract_tail_name(item['PostfixName']['TableId'])][item['PostfixName']['Key']])
+
+    return " / ".join(result_list)

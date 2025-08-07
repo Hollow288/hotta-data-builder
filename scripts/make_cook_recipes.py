@@ -7,7 +7,7 @@ import json
 
 from utils.common_utils import find_parent_value_by_key_value, resolve_resource_path, extract_tail_name
 from utils.cook_utils import make_ingredient_icon_url, make_ingredient_name_des, make_recipes_name_des, make_categories, \
-    make_use_description, make_buff, make_ingredients
+    make_use_description, make_buff, make_ingredients, make_ingredient_source
 
 # 加载 .env 文件
 load_dotenv()
@@ -30,9 +30,9 @@ cook_recipes_data_table_path = os.getenv("COOK_RECIPES_DATA_TABLE") or os.path.j
 #     source_path, "CoreBlueprints/DataTable/cooking/IngredientDataTable.json"
 # )
 #
-# dt_item_output_source_path = os.getenv("DT_ITEM_OUTPUT_SOURCE") or os.path.join(
-#     source_path, "CoreBlueprints/DataTable/cooking/DT_ItemOutputSource.json"
-# )
+dt_item_output_source_path = os.getenv("DT_ITEM_OUTPUT_SOURCE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/cooking/DT_ItemOutputSource.json"
+)
 
 # 类别
 cooking_food_category_data_table_path = os.getenv("COOKING_FOOD_CATEGORY_DATA_TABLE") or os.path.join(
@@ -59,8 +59,8 @@ if __name__ == "__main__":
     # with open(ingredient_data_table_path, "r", encoding="utf-8") as f:
     #     ingredient_data_table = json.load(f)
 
-    # with open(dt_item_output_source_path, "r", encoding="utf-8") as f:
-    #     dt_item_output_source = json.load(f)
+    with open(dt_item_output_source_path, "r", encoding="utf-8") as f:
+        dt_item_output_source = json.load(f)
 
     with open(cooking_food_category_data_table_path, "r", encoding="utf-8") as f:
         cooking_food_category_data_table = json.load(f)
@@ -77,7 +77,7 @@ if __name__ == "__main__":
 
     # ingredient_data_table_rows_data = ingredient_data_table[0].get("Rows", {})
 
-    # dt_item_output_source_rows_data = dt_item_output_source[0].get("Rows", {})
+    dt_item_output_source_rows_data = dt_item_output_source[0].get("Rows", {})
 
     cooking_food_category_data_table_rows_data = cooking_food_category_data_table[0].get("Rows", {})
 
@@ -116,7 +116,8 @@ if __name__ == "__main__":
             'ingredient_key' : item_id,
             'ingredient_name': make_ingredient_name_des(item_id,game_json)['ingredient_name'],
             'ingredient_des': make_ingredient_name_des(item_id,game_json)['ingredient_des'],
-            'ingredient_icon': make_ingredient_icon_url(source_path,item_id)
+            'ingredient_icon': make_ingredient_icon_url(source_path,item_id),
+            'ingredient_source': make_ingredient_source(dt_item_output_source_rows_data,item_id,game_json)
         }
 
         result_ingredient_dict[item_id] = ingredient_info
@@ -147,7 +148,7 @@ if __name__ == "__main__":
         result_cook_dict[recipes_key] = recipes_info
 
 
-    # 这里将ingredient保存方便入库
+    # 这里将recipes保存方便入库
     output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "recipes.json"))
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result_cook_dict, f, ensure_ascii=False, indent=2)
