@@ -52,6 +52,7 @@ def resolve_resource_path(resource_string: str, ext: str = ".json") -> str:
     # 在 resource_string 中找最后一级目录名的位置
     idx = resource_string.lower().find(source_last_part)
     if idx == -1:
+        print("<UNK> SOURCE_PATH <UNK> : " + resource_string)
         raise ValueError(f"resource_string 中未能匹配到 SOURCE_PATH 的最后一级目录 '{source_last_part}'")
 
     # 获取匹配点之后的部分作为相对路径

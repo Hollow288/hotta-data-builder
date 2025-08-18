@@ -4,59 +4,9 @@ from pathlib import Path
 from utils.common_utils import extract_tail_name, format_description
 
 
-def make_ingredient_icon_url(source_path: str, element_name: str ) -> str:
-    if element_name == 'Item_Dandelion_zhongzi':
-        return f'{source_path}/Icon/shicai/Item_Denme_zhongzi.png'
-    else:
-        return f'{source_path}/Icon/shicai/{element_name}.png'
 
-
-def make_ingredient_name_des(item_id: str, game_json: dict) -> dict:
-
-    if item_id == 'Item_Meat_005':
-        item_id = 'Item_Meats_005'
-
-    if item_id == 'Item_Meat_004':
-        item_id = 'Item_Meats_004'
-
-
-
-    st_item = game_json.get('ST_item', {})
-    st_equipment = game_json.get('ST_Equipment', {})
-    sources = [st_item, st_equipment]
-
-    def find_first_key(keys: list[str]) -> str:
-        for key in keys:
-            for source in sources:
-                if key in source:
-                    return source[key]
-        return ""
-
-    # 第一优先：直接使用 item_id 作为 key
-    for source in sources:
-        if item_id in source:
-            ingredient_name = source[item_id]
-            ingredient_des = source.get(f"{item_id}_1", "")
-            return {
-                "ingredient_name": ingredient_name,
-                "ingredient_des": ingredient_des
-            }
-
-    # 第二优先：使用备选 key 进行匹配
-    name_keys = [f"{item_id}_1", f"{item_id}_name"]
-    des_keys = [f"{item_id}_2", f"{item_id}_des"]
-
-    ingredient_name = find_first_key(name_keys)
-    ingredient_des = find_first_key(des_keys)
-
-    return {
-        "ingredient_name": ingredient_name,
-        "ingredient_des": ingredient_des
-    }
-
-
-def fix_ingredient_icon_url(ingredient_icon: str) -> str | None:
-    path = Path(ingredient_icon.strip())
+def fix_food_icon_url(food_icon: str) -> str | None:
+    path = Path(food_icon.strip())
 
     # 1. 判断原始路径是否存在
     if path.exists():
@@ -163,7 +113,7 @@ def make_use_description(tool_static_data_table_rows_data: dict, static_tool_nam
     return format_description(template,value)
 
 
-def make_buff(buffs: list) -> str:
+def make_buff(buffs: list, gameplay_effect_tips_rows_data: dict, game_json: dict) -> str:
 
     buff_template={
         "buff_AddPhyAtkFoodBase" : "增加物理攻击<ComLblGreen>{1}%</>，物理攻击<ComLblGreen>{2}</>，持续<ComLblGreen>{0}</>秒。",
@@ -198,7 +148,13 @@ def make_buff(buffs: list) -> str:
         value.append(buff['ModifyData']['fStrengthAdd'])
         value.append(buff['ModifyData']['fPeriod'])
 
-        template = buff_template[extract_tail_name(buff['BuffClass']['AssetPathName'])]
+        buff_class_path = buff.get('BuffClass', {}).get('AssetPathName')
+
+        if buff_class_path is None or buff_template.get(extract_tail_name(buff_class_path)) is None:
+            row_data = gameplay_effect_tips_rows_data[extract_tail_name(buff['BuffClass']['AssetPathName'])]
+            template = game_json[extract_tail_name(row_data['Desc']['TableId'])][row_data['Desc']['Key']]
+        else:
+            template = buff_template[extract_tail_name(buff['BuffClass']['AssetPathName'])]
 
         this_des = format_description(template,value)
 
@@ -215,14 +171,13 @@ def make_ingredients(ingredients:list)->dict:
     return result
 
 
-def make_ingredient_source(dt_item_output_source_rows_data: dict, ingredient_key: str, game_json: dict) -> str:
+def make_food_source(dt_item_output_source_rows_data: dict, food_key: str, game_json: dict) -> str:
 
-    if ingredient_key == "Item_Dandelion_zhongzi":
-        ingredient_key = "Item_Dandelion_001"
+    if food_key == "Item_Dandelion_zhongzi":
+        food_key = "Item_Dandelion_001"
 
-    this_source = dt_item_output_source_rows_data[ingredient_key.split("_", 1)[1]]
-
-
+    key = food_key.split("_", 1)[1]
+    this_source = dt_item_output_source_rows_data.get(key, {"SourceArray":[]})
 
     result_list = []
 

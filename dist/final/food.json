@@ -1,0 +1,1748 @@
+{
+  "Item_Vera_Cooking8": {
+    "food_key": "Item_Vera_Cooking8",
+    "food_name": "柠檬百香对撞",
+    "food_des": "清爽百香果，冰镇酷暑。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking8.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>500</>点耐力",
+    "buffs": "使用后立刻恢复(<ComLblGreen>15%+20,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Cooking12": {
+    "food_key": "Item_Vera_Cooking12",
+    "food_name": "珍珠奶茶",
+    "food_des": "最经典的口味，最好吃的珍珠。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking12.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>15%+20,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Cooking45": {
+    "food_key": "Item_Vera_Cooking45",
+    "food_name": "畅饮水",
+    "food_des": "畅饮，享受清爽无限！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking45.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>200</>点耐力",
+    "buffs": "使用后立刻恢复(<ComLblGreen>10%+1,500</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Cooking48": {
+    "food_key": "Item_Vera_Cooking48",
+    "food_name": "小沙獭杯面",
+    "food_des": "听说干了这杯口感热烈的方便面，嘴唇会留有被小沙獭「抚摸」的温情。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking48.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Vera_Cooking51": {
+    "food_key": "Item_Vera_Cooking51",
+    "food_name": "扭扭火腿肠",
+    "food_des": "口感弹弹，油炸后会更好吃。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking51.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>7</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>12%+3,300</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Cooking52": {
+    "food_key": "Item_Vera_Cooking52",
+    "food_name": "大大棒棒糖",
+    "food_des": "大大的棒棒糖，吃不完的话放哪里呢？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking52.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>5</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>10%+1,500</>)点拓荒者生命值。"
+  },
+  "Item_Jiuyu_Cooking1": {
+    "food_key": "Item_Jiuyu_Cooking1",
+    "food_name": "龙井",
+    "food_des": "清馥隽永的名茶。新鲜的茶叶看起来也苍翠欲滴。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking21.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "耐力消耗降低<shuzhi>30%</>，持续<shuzhi>180</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Jiuyu_Cooking2": {
+    "food_key": "Item_Jiuyu_Cooking2",
+    "food_name": "普洱",
+    "food_des": "红浓明亮的茶色让它本身就显得像一件古董一般。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking22.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "火攻提高<shuzhi>10%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Jiuyu_Cooking3": {
+    "food_key": "Item_Jiuyu_Cooking3",
+    "food_name": "铁观音",
+    "food_des": "传言这种茶叶冲泡数次后仍会有淡淡清香。韵味持久。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking23.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "移动速度提高<shuzhi>25%</>，持续<shuzhi>300</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Jiuyu_Cooking4": {
+    "food_key": "Item_Jiuyu_Cooking4",
+    "food_name": "大力肉包",
+    "food_des": "一口肉包，满足感爆棚！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking29.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "物攻提高<shuzhi>10%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Jiuyu_Cooking5": {
+    "food_key": "Item_Jiuyu_Cooking5",
+    "food_name": "流心豆沙包",
+    "food_des": "豆沙馅有点黏黏的，但就是好吃。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking30.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "雷攻提高<shuzhi>10%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Jiuyu_Cooking6": {
+    "food_key": "Item_Jiuyu_Cooking6",
+    "food_name": "营养菜包",
+    "food_des": "吃完后要刷个牙，避免菜叶留在门牙上！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking28.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+11,400</>)生命值，随后每<ComLblGreen>3</>秒恢复(<ComLblGreen>5%+11,400</>)生命值，持续<ComLblGreen>15</>秒。"
+  },
+  "Item_Jiuyu_Cooking7": {
+    "food_key": "Item_Jiuyu_Cooking7",
+    "food_name": "沙果糖葫芦",
+    "food_des": "多汁味浓，颇有水果香气的创意糖葫芦。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking36.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "使用后立刻恢复(<ComLblGreen>16%+34,000</>)点拓荒者生命值。"
+  },
+  "Item_Jiuyu_Cooking8": {
+    "food_key": "Item_Jiuyu_Cooking8",
+    "food_name": "树莓糖葫芦",
+    "food_des": "甜美可口，令人食指大动。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking37.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "跳跃力提高<shuzhi>45%</>，持续<shuzhi>180</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Jiuyu_Cooking9": {
+    "food_key": "Item_Jiuyu_Cooking9",
+    "food_name": "青苹糖葫芦",
+    "food_des": "酸酸甜甜的小吃，或许还有美容功效？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking38.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "冰攻提高<shuzhi>10%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Jiuyu_Cooking10": {
+    "food_key": "Item_Jiuyu_Cooking10",
+    "food_name": "饺子",
+    "food_des": "好吃不过饺子，各种馅料，总有一款是你喜欢的。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking10.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>15</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking11": {
+    "food_key": "Item_Jiuyu_Cooking11",
+    "food_name": "烧麦",
+    "food_des": "形如石榴，腌制过的糯米加上少量的腊肠，喷香可口，兼有小笼包与锅贴之优点，适合作为早点。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking11.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>15</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking12": {
+    "food_key": "Item_Jiuyu_Cooking12",
+    "food_name": "包子",
+    "food_des": "新鲜出炉的包子，皮薄馅多，松软好吃。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking12.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>15</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking13": {
+    "food_key": "Item_Jiuyu_Cooking13",
+    "food_name": "年糕",
+    "food_des": "糯米煮熟后打制成的糕点，蒸，炒，煮，各种做法都可以，口感粘糯，饱腹感十足。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking13.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>15</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking14": {
+    "food_key": "Item_Jiuyu_Cooking14",
+    "food_name": "春卷",
+    "food_des": "九域历史悠久的传统小吃，薄饼裹上馅料，油炸之后外酥里嫩，鲜美可口。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking14.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>15</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking15": {
+    "food_key": "Item_Jiuyu_Cooking15",
+    "food_name": "爆鳝面",
+    "food_des": "一碗筋道的面条配上爆鳝浇头，九域人对传统美食有着特别的执着，即使早已离开母星，依然孜孜不倦的找寻着记忆中的味道。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking15.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking16": {
+    "food_key": "Item_Jiuyu_Cooking16",
+    "food_name": "焖肉面",
+    "food_des": "肥瘦相间的兽肉，经过三天的焖制，形成了口感独特，香而不腻，搭配面条食用，用汤汁泡开焖肉，滋味悠长，回味无穷。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking16.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking17": {
+    "food_key": "Item_Jiuyu_Cooking17",
+    "food_name": "虾仁面",
+    "food_des": "新鲜的炒制的虾仁，拌入面中，鲜香可口，爽滑弹牙，美味！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking17.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking18": {
+    "food_key": "Item_Jiuyu_Cooking18",
+    "food_name": "大排面",
+    "food_des": "简简单单的一块大排，经过十道处理工序，肉质细嫩，酱香诱人，搭配上好的汤底，一碗简单的面条，有时候味道并不简单。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking18.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking19": {
+    "food_key": "Item_Jiuyu_Cooking19",
+    "food_name": "猪肝面",
+    "food_des": "经过72个小时卤制的猪肝，搭配精心制作的手工细面，酱汁醇厚，面条弹牙，是广受好评的面食之一。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking19.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking20": {
+    "food_key": "Item_Jiuyu_Cooking20",
+    "food_name": "粢饭糕",
+    "food_des": "外层呈金黄色，内层为雪白的软糯糍饭，喷香松脆，适合作为早点。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking20.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking21": {
+    "food_key": "Item_Jiuyu_Cooking21",
+    "food_name": "茶叶蛋",
+    "food_des": "煮制过程中加入茶叶的一种加味水煮蛋，为了增添酱香味，还会加入酱油等其他香料，待煮熟后，敲碎蛋壳，让鸡蛋充分的吸收卤汁，非常适合作为点心饱腹。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking21.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>13%+10,000</>)点拓荒者生命值。"
+  },
+  "Item_Jiuyu_Cooking22": {
+    "food_key": "Item_Jiuyu_Cooking22",
+    "food_name": "萝卜丝饼",
+    "food_des": "面粉，萝卜丝，鸡蛋的完美融合，外壳酥脆油香四溢，内有萝卜甜脆鲜美，作为小食既解馋又令人满足。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking22.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>15</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking23": {
+    "food_key": "Item_Jiuyu_Cooking23",
+    "food_name": "酸辣粉",
+    "food_des": "煮好的粉条加入精制的汤汁，麻、辣、鲜、香、酸，吃完大汗淋漓。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking23.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>15</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking24": {
+    "food_key": "Item_Jiuyu_Cooking24",
+    "food_name": "热干面",
+    "food_des": "煮好的面条拌入芝麻酱，香油等佐料，味道鲜美，吃完口齿留香。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking24.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking25": {
+    "food_key": "Item_Jiuyu_Cooking25",
+    "food_name": "肉夹馍",
+    "food_des": "新鲜烤好的馍中加入切碎的腊汁卤肉，皮酥肉嫩，必须趁热吃才不算辜负这样的美味。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking25.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking26": {
+    "food_key": "Item_Jiuyu_Cooking26",
+    "food_name": "肠粉",
+    "food_des": "米浆制作的肠粉皮内裹着酱汁碎肉和鸡蛋，软润爽滑，色白甘香，回味无穷。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking26.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking27": {
+    "food_key": "Item_Jiuyu_Cooking27",
+    "food_name": "小笼包",
+    "food_des": "包子做成一口大小，里面是咬一口就会溢出的带汤肉馅，满足感油然而生，搭配香醋食用更佳。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking27.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking28": {
+    "food_key": "Item_Jiuyu_Cooking28",
+    "food_name": "汤圆",
+    "food_des": "糯米粉搓成的汤圆里是甜豆沙，是九域人常吃的节日美食。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking28.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>25</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Cooking29": {
+    "food_key": "Item_Jiuyu_Cooking29",
+    "food_name": "金疮药",
+    "food_des": "用于治疗各种外伤，效果拔群，在域卫中广受好评的药物。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking29.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+20,000</>)生命值，随后每<ComLblGreen>3</>秒恢复(<ComLblGreen>7%+20,000</>)生命值，持续<ComLblGreen>15</>秒。"
+  },
+  "Item_Jiuyu_Cooking30": {
+    "food_key": "Item_Jiuyu_Cooking30",
+    "food_name": "清菊饮",
+    "food_des": "一种由各种草药制成茶饮，可以治疗失眠头晕。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking30.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>600</>点耐力",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+11,400</>)生命值，随后每<ComLblGreen>3</>秒恢复(<ComLblGreen>5%+11,400</>)生命值，持续<ComLblGreen>15</>秒。"
+  },
+  "Item_Jiuyu_Cooking31": {
+    "food_key": "Item_Jiuyu_Cooking31",
+    "food_name": "九宝散",
+    "food_des": "成品中药制剂，主要用于治疗咳嗽哮喘等疾病。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking31.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>600</>点耐力",
+    "buffs": "使用后立刻恢复(<ComLblGreen>16%+34,000</>)点拓荒者生命值。"
+  },
+  "Item_Jiuyu_Cooking32": {
+    "food_key": "Item_Jiuyu_Cooking32",
+    "food_name": "六味地黄丸",
+    "food_des": "适用于多种病症的中药古方，可以治疗头晕耳鸣，腰膝酸软等症状。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking32.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "使用后立刻恢复(<ComLblGreen>20%+60,000</>)点拓荒者生命值。"
+  },
+  "Item_Jiuyu_Cooking33": {
+    "food_key": "Item_Jiuyu_Cooking33",
+    "food_name": "柏子仁汤",
+    "food_des": "一种由多味草药熬制成的汤剂，可治疗失眠多梦等症状。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking33.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>600</>点耐力",
+    "buffs": "提升耐力恢复速度<ComLblGreen>40%</>，持续<ComLblGreen>600</>秒。"
+  },
+  "Item_Jiuyu_Cooking34": {
+    "food_key": "Item_Jiuyu_Cooking34",
+    "food_name": "利刃注射剂",
+    "food_des": "过去用于培养精英战士的药剂，在民间奇人的研究下得以复原，功效要先等胆子大的人体验完。不过针剂上的刀刃标记似乎已指明功效。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Permanent_PhysicAtk.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>600</>点耐力",
+    "buffs": "攻击提高<shuzhi>2.5%</>，持续<shuzhi>7</>天，与强效利刃注射剂的效果不能共存。"
+  },
+  "Item_Jiuyu_Cooking35": {
+    "food_key": "Item_Jiuyu_Cooking35",
+    "food_name": "强效利刃注射剂",
+    "food_des": "过去用于培养精英战士的药剂，在民间奇人的研究下得以复原，功效要先等胆子大的人体验完。不过针剂上的刀刃标记似乎已指明功效。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Permanent_PhysicAtk.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>600</>点耐力",
+    "buffs": "攻击提高<shuzhi>3.5%</>，持续<shuzhi>7</>天，与利刃注射剂的效果不能共存。"
+  },
+  "Item_Jiuyu_Cooking36": {
+    "food_key": "Item_Jiuyu_Cooking36",
+    "food_name": "穿刺注射剂",
+    "food_des": "过去用于培养精英战士的药剂，在民间奇人的研究下得以复原，功效要先等胆子大的人体验完。不过针剂上的刀刃和叉状标记似乎已指明功效。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Permanent_PhysicDef.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>600</>点耐力",
+    "buffs": "破盾效率提高<shuzhi>15%</>、仇恨值提高<shuzhi>25%</>，持续<shuzhi>7</>天。"
+  },
+  "Item_Jiuyu_Cooking37": {
+    "food_key": "Item_Jiuyu_Cooking37",
+    "food_name": "再生注射剂",
+    "food_des": "过去用于培养精英战士的药剂，在民间奇人的研究下得以复原，功效要先等胆子大的人体验完。不过针剂上的血液标记似乎已指明功效。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Permanent_Health.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>600</>点耐力",
+    "buffs": "全队生命值提升<shuzhi>10000</>，持续<shuzhi>7</>天，同种效果不能叠加。"
+  },
+  "Item_Jiuyu_Cooking42": {
+    "food_key": "Item_Jiuyu_Cooking42",
+    "food_name": "枫糖",
+    "food_des": "模拟枫叶之形制成的糖果，上面甚至还有着叶脉的细致，口感香甜，仿佛在秋风中品尝枫林的甜美。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking42.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>5</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+20,000</>)生命值，随后每<ComLblGreen>3</>秒恢复(<ComLblGreen>7%+20,000</>)生命值，持续<ComLblGreen>15</>秒。"
+  },
+  "Item_Jiuyu_Cooking43": {
+    "food_key": "Item_Jiuyu_Cooking43",
+    "food_name": "热乎面包圈",
+    "food_des": "新鲜出炉的面包圈，散发着令人垂涎的香气。外皮酥脆，内部柔软绵密，一口下去即感温暖，如同阳光下的温馨拥抱。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking43.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>16%+34,000</>)点拓荒者生命值。 / 增加寒冰抗性<ComLblGreen>15%</>，寒冰抗性<ComLblGreen>675</>，持续<ComLblGreen>600</>秒。"
+  },
+  "Item_Jiuyu_Cooking44": {
+    "food_key": "Item_Jiuyu_Cooking44",
+    "food_name": "烤红薯",
+    "food_des": "金黄外皮，内里绵甜。此红薯经火炭慢烤，散发出诱人的甜香。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking44.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>20</>点饱食度",
+    "buffs": "增加寒冰抗性<ComLblGreen>15%</>，寒冰抗性<ComLblGreen>675</>，持续<ComLblGreen>600</>秒。"
+  },
+  "Item_Jiuyu_Cooking45": {
+    "food_key": "Item_Jiuyu_Cooking45",
+    "food_name": "丘丘饼干",
+    "food_des": "机械方丘兴趣使然的成果，吃完后在一定时间内听懂丘丘的语言。可以据他自述吃起来不亚于山珍海味，但实际味道嘛……",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking45.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "吃下了机械方丘制作的丘丘饼干，现在可以听懂它们的语音了！"
+  },
+  "Item_Kailo_Cooking1": {
+    "food_key": "Item_Kailo_Cooking1",
+    "food_name": "强力营养补充膏",
+    "food_des": "三倍浓度的营养补充膏，居家探险远航打劫必备良品，只要挤一口，力量超级强。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_1.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "增加物理攻击<ComLblGreen>12%</>，物理攻击<ComLblGreen>500</>，持续<ComLblGreen>900</>秒。"
+  },
+  "Item_Kailo_Cooking2": {
+    "food_key": "Item_Kailo_Cooking2",
+    "food_name": "爆辣营养补充膏",
+    "food_des": "火辣辣的爆辣辣椒口味营养补充膏，在你的嘴巴里，放一把火！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_2.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "增加火焰攻击<ComLblGreen>12%</>，火焰攻击<ComLblGreen>500</>，持续<ComLblGreen>900</>秒。"
+  },
+  "Item_Kailo_Cooking3": {
+    "food_key": "Item_Kailo_Cooking3",
+    "food_name": "薄荷爆珠营养补充膏",
+    "food_des": "独特设计的薄荷爆珠口味营养补充膏，一口畅爽，冰冰凉凉！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_3.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "增加寒冰攻击<ComLblGreen>12%</>，寒冰攻击<ComLblGreen>500</>，持续<ComLblGreen>900</>秒。"
+  },
+  "Item_Kailo_Cooking4": {
+    "food_key": "Item_Kailo_Cooking4",
+    "food_name": "噼里啪啦营养补充膏",
+    "food_des": "加入了跳跳糖颗粒的营养补充膏，小闪电在舌尖蹿，噼里啪啦！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_4.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "增加雷电攻击<ComLblGreen>12%，雷电攻击<ComLblGreen>500</>，持续900</>秒。"
+  },
+  "Item_Kailo_Cooking5": {
+    "food_key": "Item_Kailo_Cooking5",
+    "food_name": "急救营养补充膏",
+    "food_des": "加入了止血成分的营养补充膏，对于伤口有一定的回复作用，危险时刻或许会派上用场。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_5.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "使用后立刻恢复(<ComLblGreen>20%+60,000</>)点拓荒者生命值。"
+  },
+  "Item_Kailo_Cooking7": {
+    "food_key": "Item_Kailo_Cooking7",
+    "food_name": "高飞重力眩晕片",
+    "food_des": "在重力环境发生变化时，有的人无法及时适应新的重力环境，会在运动时出现晕眩等症状。此药可帮助患者克服眩晕反应，更好的完成跳跃等动作。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_7.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "跳跃力提高<shuzhi>50%</>，持续<shuzhi>300</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Kailo_Cooking8": {
+    "food_key": "Item_Kailo_Cooking8",
+    "food_name": "悄悄整蛊糖",
+    "food_des": "奇怪的研究者的奇怪发明，据说吃下后就不会被人发现，也不知道是不是真的……",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_8.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>800</>点耐力",
+    "buffs": "隐身，持续<shuzhi>120</>秒，攻击命中显形。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Kailo_Cooking9": {
+    "food_key": "Item_Kailo_Cooking9",
+    "food_name": "冷冻蛋白肉饼",
+    "food_des": "高效补充流失的蛋白质，保持肌肉健康，减小太空环境对人体的影响。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_9.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "增加物理攻击<ComLblGreen>12%</>，物理攻击<ComLblGreen>500</>，持续<ComLblGreen>900</>秒。"
+  },
+  "Item_Kailo_Cooking10": {
+    "food_key": "Item_Kailo_Cooking10",
+    "food_name": "冷冻辣味肉饼",
+    "food_des": "添加了辣椒素的肉饼，符合一些人的家乡口味，也是启罗罕见的调味风格。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_10.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "增加火焰攻击<ComLblGreen>12%</>，火焰攻击<ComLblGreen>500</>，持续<ComLblGreen>900</>秒。"
+  },
+  "Item_Kailo_Cooking11": {
+    "food_key": "Item_Kailo_Cooking11",
+    "food_name": "冷冻海鲜肉饼",
+    "food_des": "据说原食谱会使用一种极地雪蟹和深海鳌虾，由于启罗的食材稀缺，用谷氨酸钠与人造蛋白模仿了来自极地的鲜味。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_11.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "增加寒冰攻击<ComLblGreen>12%</>，寒冰攻击<ComLblGreen>500</>，持续<ComLblGreen>900</>秒。"
+  },
+  "Item_Kailo_Cooking12": {
+    "food_key": "Item_Kailo_Cooking12",
+    "food_name": "冷冻麻椒肉饼",
+    "food_des": "非常罕见的调味品，没人知道这让人唇舌发麻的东西是从哪来的，但因为味道独特颇受欢迎。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_12.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "增加雷电攻击<ComLblGreen>12%，雷电攻击<ComLblGreen>500</>，持续900</>秒。"
+  },
+  "Item_Kailo_Cooking13": {
+    "food_key": "Item_Kailo_Cooking13",
+    "food_name": "冷冻艾达薯饼",
+    "food_des": "源自艾达星的传统美食，经过修改的食谱可以确保冷冻也不流失过多风味和营养。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_13.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>20</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Kailo_Cooking14": {
+    "food_key": "Item_Kailo_Cooking14",
+    "food_name": "饱腹肉丸",
+    "food_des": "秋日号某个被通缉厨师的自制肉丸，由于制作工序简单环境简陋，据说会有吃坏肚子的风险。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_14.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>20</>点饱食度",
+    "buffs": "50%概率恢复<ComLblGreen>30%</>生命值，50%概率损失25%生命值。"
+  },
+  "Item_Kailo_Cooking15": {
+    "food_key": "Item_Kailo_Cooking15",
+    "food_name": "香酥压缩饼干",
+    "food_des": "最普通的调味，最基础的物资，只要有它在，你就饿不死。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Kailo_Cooking_15.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>20%+60,000</>)点拓荒者生命值。"
+  },
+  "Item_GreyFoxFurniture_Candy": {
+    "food_key": "Item_GreyFoxFurniture_Candy",
+    "food_name": "灰狐的手工糖",
+    "food_des": "由灰狐亲手制作的手工糖果，赠给值得信赖的「固定队友」。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/GreyFoxFurniture_Candy.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>5</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+20,000</>)生命值，随后每<ComLblGreen>3</>秒恢复(<ComLblGreen>7%+20,000</>)生命值，持续<ComLblGreen>15</>秒。"
+  },
+  "Item_Dandelion_001": {
+    "food_key": "Item_Dandelion_001",
+    "food_name": "蒲公英",
+    "food_des": "白色的花瓣被吹散的时候，就是我将要离开的时刻。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Dandelion.png",
+    "food_source": "采集蒲公英绒球",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Dandelion_zhongzi": {
+    "food_key": "Item_Dandelion_zhongzi",
+    "food_name": "蒲公英种子",
+    "food_des": "离开母体以后，它就会变成可以落地生根的种子。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Denme_zhongzi.png",
+    "food_source": "采集蒲公英绒球",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
+  },
+  "Item_pinkshell": {
+    "food_key": "Item_pinkshell",
+    "food_name": "粉贝壳",
+    "food_des": "在诺恩中心区海滩拾到的粉色贝壳，含在嘴里有股甜甜的感觉！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Icon_ShellPink.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
+  },
+  "Item_yellowshell": {
+    "food_key": "Item_yellowshell",
+    "food_name": "黄贝壳",
+    "food_des": "在诺恩中心区海滩拾到的黄色贝壳，含在嘴里有股咸苦的感觉！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Icon_ShellYellow.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
+  },
+  "Item_blueshell": {
+    "food_key": "Item_blueshell",
+    "food_name": "蓝贝壳",
+    "food_des": "在诺恩中心区海滩拾到的蓝色贝壳，含在嘴里有股清凉的感觉！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Icon_ShellBlue.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
+  },
+  "Item_redshell": {
+    "food_key": "Item_redshell",
+    "food_name": "红贝壳",
+    "food_des": "在诺恩中心区海滩拾到的红色贝壳，含在嘴里有股火辣的感觉！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Icon_ShellRed.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
+  },
+  "Item_Honey_001": {
+    "food_key": "Item_Honey_001",
+    "food_name": "蜂蜜",
+    "food_des": "美味的甜品大家都喜爱，反正难过的只有蜜蜂。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Honey_001.png",
+    "food_source": "蜜蜂掉落 / 采集蜂巢",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+2,000</>)点拓荒者生命值。"
+  },
+  "Item_Honey_002": {
+    "food_key": "Item_Honey_002",
+    "food_name": "蜂王浆",
+    "food_des": "美味的甜品大家都喜爱，反正难过的只有蜜蜂。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Honey_002.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+9,200</>)点拓荒者生命值。"
+  },
+  "Item_Egg_001": {
+    "food_key": "Item_Egg_001",
+    "food_name": "禽类的蛋",
+    "food_des": "猜猜孵出来的是小鸡还是鹰雏，啥？你饿了？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Egg_001.png",
+    "food_source": "常见于高处的鸟巢",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
+  },
+  "Item_Shell_001": {
+    "food_key": "Item_Shell_001",
+    "food_name": "角海螺",
+    "food_des": "传说里面住着美丽善良的姑娘，而且还挺好吃的。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_shells_001.png",
+    "food_source": "班吉斯-南海海滩 / 纳维亚-海滩",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Shell_002": {
+    "food_key": "Item_Shell_002",
+    "food_name": "惑哒贝",
+    "food_des": "海边居民的主要食物来源之一，自带海盐风味，即烤即食。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_shells_002.png",
+    "food_source": "班吉斯-南海海滩",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Shells_003": {
+    "food_key": "Item_Shells_003",
+    "food_name": "食腐蜗牛",
+    "food_des": "巨型蜗牛中罕见的食性变异亚种，尝起来意外的美味。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Shells_003.png",
+    "food_source": "纳维亚-海滩",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Shells_005": {
+    "food_key": "Item_Shells_005",
+    "food_name": "寄居蟹",
+    "food_des": "恭喜你又长大啦，这是为你准备的新蒸……新房子。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Shells_005.png",
+    "food_source": "班吉斯-海滩 / 纳维亚-海滩 / 克罗恩-海滩",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Shells006": {
+    "food_key": "Item_Shells006",
+    "food_name": "梭子蟹",
+    "food_des": "生活在浅海区域，有时会爬上岸边来晒太阳，味道鲜美。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Shells_006.png",
+    "food_source": "星岛-海滩 / 班吉斯-海滩 / 克罗恩-海滩",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Shells007": {
+    "food_key": "Item_Shells007",
+    "food_name": "海胆",
+    "food_des": "浅海区域的美味，但也不是所有人都能接受这个味道。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Shells_007.png",
+    "food_source": "班吉斯-北海海滩 / 克罗恩-沙滩",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Shells008": {
+    "food_key": "Item_Shells008",
+    "food_name": "牡蛎",
+    "food_des": "城里的那些大人们喜欢的美味，听说还有什么特殊功效。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Shells_008.png",
+    "food_source": "星岛-海滩",
+    "use_description": "恢复<ComLblGreen>3</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Shells009": {
+    "food_key": "Item_Shells009",
+    "food_name": "藤壶",
+    "food_des": "看起来很吓人，可吃起来是真香啊！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Shells_009.png",
+    "food_source": "沃兰-海边",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Meat_001": {
+    "food_key": "Item_Meat_001",
+    "food_name": "兽肉",
+    "food_des": "行动越敏捷的野兽，肉质就越紧实。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Meat_001.png",
+    "food_source": "狩猎野生动物",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Meat_002": {
+    "food_key": "Item_Meat_002",
+    "food_name": "禽类的肉",
+    "food_des": "你吃过炒蛋吧？呐，一家人最重要的就是整整齐齐。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Meat_002.png",
+    "food_source": "狩猎禽类",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Meat_003": {
+    "food_key": "Item_Meat_003",
+    "food_name": "后腿肉",
+    "food_des": "紧致的肌肉，用火烤后让人欲罢不能，记得多撒点孜然",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Meat_003.png",
+    "food_source": "狩猎兔子、穿山兔 / 狩猎野猪 / 狩猎熊 / 狩猎狼 / 狩猎蜜獾",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Meat_004": {
+    "food_key": "Item_Meat_004",
+    "food_name": "紧致兽肉",
+    "food_des": "行动越敏捷的野兽，肉质就越紧实。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Meat_004.png",
+    "food_source": "狩猎野生动物",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Meat_005": {
+    "food_key": "Item_Meat_005",
+    "food_name": "多脂兽肉",
+    "food_des": "行动越迟缓的野兽，肉质就越肥美。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Meat_005.png",
+    "food_source": "狩猎野生动物",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Greens_001": {
+    "food_key": "Item_Greens_001",
+    "food_name": "生菜",
+    "food_des": "你渴望力量吗？吃下它。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_001.png",
+    "food_source": "星岛-草地",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
+  },
+  "Item_Greens_002": {
+    "food_key": "Item_Greens_002",
+    "food_name": "野生球菜",
+    "food_des": "只是因为长得圆，就可以被称作球么？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_002.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>230</>点耐力",
+    "buffs": ""
+  },
+  "Item_Greens_003": {
+    "food_key": "Item_Greens_003",
+    "food_name": "西兰花",
+    "food_des": "吃下去，有营养，小朋友们都爱它。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_003.png",
+    "food_source": "星岛-草地",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+2,000</>)点拓荒者生命值。"
+  },
+  "Item_Mushroom_001": {
+    "food_key": "Item_Mushroom_001",
+    "food_name": "草菇",
+    "food_des": "草地上随处可见的菌类，小姑娘们最喜欢采撷的种类。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Mushroom_001.png",
+    "food_source": "星岛-巨型蘑菇 / 克罗恩地区",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Mushroom_004": {
+    "food_key": "Item_Mushroom_004",
+    "food_name": "火耳",
+    "food_des": "似乎是受到火元素影响而变异的木耳亚种，口味比较辛辣。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Mushroom_004.png",
+    "food_source": "克罗恩地区",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Mushroom_006": {
+    "food_key": "Item_Mushroom_006",
+    "food_name": "黑松露",
+    "food_des": "对生长环境的要求较为严苛，是一种罕见而昂贵的蕈菌。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Mushroom_006.png",
+    "food_source": "沃兰地区",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+15,000</>)点拓荒者生命值。"
+  },
+  "Item_Mushroom_007": {
+    "food_key": "Item_Mushroom_007",
+    "food_name": "幽灵菇",
+    "food_des": "生长在洞穴里的蘑菇，吃多了可以看见星星。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Mushroom_007.png",
+    "food_source": "星岛-龙骨、墓地",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Staples_001": {
+    "food_key": "Item_Staples_001",
+    "food_name": "霍米基麦",
+    "food_des": "大地的恩赐，煮熟后香甜软糯。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_staples_001.png",
+    "food_source": "星岛-草地 / 班吉斯-草地",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Staples_002": {
+    "food_key": "Item_Staples_002",
+    "food_name": "赤米基麦",
+    "food_des": "霍米基麦的亚种，但其中蕴含着火元素的力量。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_staples_002.png",
+    "food_source": "纳维亚-草地",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Staples_003": {
+    "food_key": "Item_Staples_003",
+    "food_name": "白薯",
+    "food_des": "烘烤之后味道极佳，就是吃多了对身边的人不太友好。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Staples_003.png",
+    "food_source": "班吉斯-灌木周围",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Staples_005": {
+    "food_key": "Item_Staples_005",
+    "food_name": "雀头薯",
+    "food_des": "白薯受到辐射后产生的亚种，营养价值极高。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Staples_005.png",
+    "food_source": "沃兰地区",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Fishes_001": {
+    "food_key": "Item_Fishes_001",
+    "food_name": "银鲈鱼",
+    "food_des": "银鲈鱼既可入淡水也可入海，多肉而美味。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fishes_001.png",
+    "food_source": "常见于河流",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Fishes_002": {
+    "food_key": "Item_Fishes_002",
+    "food_name": "雷鳗",
+    "food_des": "十二伏特！！！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_fishes_002.png",
+    "food_source": "班吉斯-河流 / 纳维亚-河流 / 沃兰-河流",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Fruit_001": {
+    "food_key": "Item_Fruit_001",
+    "food_name": "落果",
+    "food_des": "落在地上的水果，只要你不嫌弃它已经沾上了泥土。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Orange.png",
+    "food_source": "星岛-树木周围 / 班吉斯-树木周围",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+2,000</>)点拓荒者生命值。"
+  },
+  "Item_Fruit_002": {
+    "food_key": "Item_Fruit_002",
+    "food_name": "草莓",
+    "food_des": "如果你想耐心等它成熟，那它早就被其他动物给吃掉了。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fruit_002.png",
+    "food_source": "纳维亚-灌木周围 / 克罗恩-灌木周围",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+4,000</>)点拓荒者生命值。"
+  },
+  "Item_Fruit_003": {
+    "food_key": "Item_Fruit_003",
+    "food_name": "磷光石榴",
+    "food_des": "在经历了最初一瞬的酸甜可口之后……食之无味，弃之可惜。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fruit_003.png",
+    "food_source": "纳维亚-岩石周围",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+6,800</>)点拓荒者生命值。"
+  },
+  "Item_Fruit_004": {
+    "food_key": "Item_Fruit_004",
+    "food_name": "炎龙果",
+    "food_des": "加倍的火龙果，加倍的营养，只不过吃多了会上火。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fruit_004.png",
+    "food_source": "纳维亚-河流附近 / 克罗恩-河流附近",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+6,800</>)点拓荒者生命值。"
+  },
+  "Item_Follows002": {
+    "food_key": "Item_Follows002",
+    "food_name": "雪鹃",
+    "food_des": "具有极高的药用价值，没什么副作用，可以毫无负担地吃。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Follows_002_sp.png",
+    "food_source": "沃兰地区",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+6,800</>)点拓荒者生命值。"
+  },
+  "Item_Fruits006": {
+    "food_key": "Item_Fruits006",
+    "food_name": "刺猬番茄",
+    "food_des": "新品种的番茄，走过路过不要错过。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fruit_006.png",
+    "food_source": "星岛-高山灌木周围 / 纳维亚地区树木周围",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+2,000</>)点拓荒者生命值。"
+  },
+  "Item_Fruits008": {
+    "food_key": "Item_Fruits008",
+    "food_name": "油瓜",
+    "food_des": "受到辐射后长得有点吓人，但味道还是不错的。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fruit_008.png",
+    "food_source": "克罗恩地区 / 沃兰地区",
+    "use_description": "恢复<ComLblGreen>6</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4.4%+20,000</>)点拓荒者生命值。"
+  },
+  "Item_Follows001": {
+    "food_key": "Item_Follows001",
+    "food_name": "雪莲花",
+    "food_des": "哇！居然有颗白色的大白菜啊！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Follows_001.png",
+    "food_source": "沃兰地区",
+    "use_description": "",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+10,000</>)点拓荒者生命值。"
+  },
+  "Item_Staples006": {
+    "food_key": "Item_Staples006",
+    "food_name": "青稞",
+    "food_des": "已经没有人种地了，只能零零散散地长着了。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Staples_006.png",
+    "food_source": "沃兰地区",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Nuts003": {
+    "food_key": "Item_Nuts003",
+    "food_name": "松果",
+    "food_des": "掉在你头顶的不一定会是苹果，也有可能是松果。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Nuts_003.png",
+    "food_source": "沃兰-松树周围",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Fishes006": {
+    "food_key": "Item_Fishes006",
+    "food_name": "达氏鲟",
+    "food_des": "生活在浅水区域的鲟鱼，个体小，适宜红烧或炖汤。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fishes_006.png",
+    "food_source": "星岛-河流 / 纳维亚-河流 / 沃兰-河流",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Fishes005": {
+    "food_key": "Item_Fishes005",
+    "food_name": "雷克鲑",
+    "food_des": "这种鱼，怎么样都好吃。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fishes_005.png",
+    "food_source": "克罗恩-河流 / 沃兰-河流",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Nuts002": {
+    "food_key": "Item_Nuts002",
+    "food_name": "可可豆",
+    "food_des": "看到可可豆，就好像已经看到了巧克力！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Nuts_002.png",
+    "food_source": "纳维亚-悯雨岛",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Nuts001": {
+    "food_key": "Item_Nuts001",
+    "food_name": "榛子",
+    "food_des": "冰河时代导致整个大陆板块开裂的罪魁祸首。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Nuts_001.png",
+    "food_source": "纳维亚地区",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+15,000</>)点拓荒者生命值。"
+  },
+  "Item_Greens007": {
+    "food_key": "Item_Greens007",
+    "food_name": "紫菜",
+    "food_des": "海草的一种，很容易会被海浪拍到沙滩上。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_007.png",
+    "food_source": "班吉斯-北海海滩",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+2,000</>)点拓荒者生命值。"
+  },
+  "Item_Greens008": {
+    "food_key": "Item_Greens008",
+    "food_name": "蕨菜",
+    "food_des": "又到了吃蔬菜的时候了，挑食的孩子会长不高哦。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_008.png",
+    "food_source": "班吉斯工厂附近",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+6,800</>)点拓荒者生命值。"
+  },
+  "Item_Greens009": {
+    "food_key": "Item_Greens009",
+    "food_name": "鱼腥草",
+    "food_des": "只要你接受了它的味道，那就会欲罢不能。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_009.png",
+    "food_source": "班吉斯-河流附近",
+    "use_description": "恢复<ComLblGreen>3</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3.4%+12,000</>)点拓荒者生命值。"
+  },
+  "Item_Fruits009": {
+    "food_key": "Item_Fruits009",
+    "food_name": "气球果",
+    "food_des": "成熟后的果实会随风飘摇，随意落在任何地方。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Fruit_007.png",
+    "food_source": "星岛地区 / 纳维亚地区",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+6,800</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_001": {
+    "food_key": "Item_Drugs_001",
+    "food_name": "兽掌",
+    "food_des": "某些怪物的手掌加上它长长的指甲，嘎嘣脆。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_001.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Drugs_002": {
+    "food_key": "Item_Drugs_002",
+    "food_name": "变异之卵",
+    "food_des": "开始期待里面能孵化出什么东西！嘶~真好吃！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_002.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Drugs_003": {
+    "food_key": "Item_Drugs_003",
+    "food_name": "蜥蜴尾巴",
+    "food_des": "没有谁比我更懂这个东西的好吃之处！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_003.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Drugs_005": {
+    "food_key": "Item_Drugs_005",
+    "food_name": "小罐蓝莓",
+    "food_des": "真的猛士，就该一口闷了它！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_005.png",
+    "food_source": "击败艾达之子阵营敌人",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+4,000</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_007": {
+    "food_key": "Item_Drugs_007",
+    "food_name": "鱼子酱",
+    "food_des": "原本是极为罕见的食材，自从被人工制造后……",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_007.png",
+    "food_source": "击败掠夺者阵营敌人",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+6,800</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_008": {
+    "food_key": "Item_Drugs_008",
+    "food_name": "赤红花瓣",
+    "food_des": "充满诱惑的颜色，诉说着这块食材的不平凡。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_008.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+100</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_010": {
+    "food_key": "Item_Drugs_010",
+    "food_name": "风干的肉块",
+    "food_des": "被粗劣加工过的未知肉类，散发着一股奇怪的气味，鬣狗帮众时常会随身携带它当做“食物”！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_010.png",
+    "food_source": "击败鬣狗帮阵营敌人",
+    "use_description": "恢复<ComLblGreen>5</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Drugs_011_1": {
+    "food_key": "Item_Drugs_011_1",
+    "food_name": "火焰凝胶",
+    "food_des": "微量的火元素才能食用，含量过高会烫嘴哦。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_011_1.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>2%+120</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_011_2": {
+    "food_key": "Item_Drugs_011_2",
+    "food_name": "冰霜凝胶",
+    "food_des": "水元素以恰到好处的浓度形成的凝胶，像果冻一样。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_011_2.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>2%+120</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_011_3": {
+    "food_key": "Item_Drugs_011_3",
+    "food_name": "雷电凝胶",
+    "food_des": "带着静电的雷元素凝胶，据说尝起来有些像麻辣的味道。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_011_3.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>2%+120</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_012_1": {
+    "food_key": "Item_Drugs_012_1",
+    "food_name": "火焰晶核",
+    "food_des": "火元素形成的结晶，据说可以拿来当烹饪佐料。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_012_1.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+8,000</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_012_2": {
+    "food_key": "Item_Drugs_012_2",
+    "food_name": "冰霜晶核",
+    "food_des": "常被认成冰块的水元素结晶，直接吞下的味道可有些刺激。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_012_2.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+8,000</>)点拓荒者生命值。"
+  },
+  "Item_Drugs_012_3": {
+    "food_key": "Item_Drugs_012_3",
+    "food_name": "雷电晶核",
+    "food_des": "    小心，它会让你的舌头完全麻痹！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Drugs_012_3.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+8,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_001": {
+    "food_key": "Item_Vera_Harvest_001",
+    "food_name": "辣椒",
+    "food_des": "真正的猛士就应该生啃一口！好辣！！！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_001.png",
+    "food_source": "维拉-异红植物周围",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+2,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_002": {
+    "food_key": "Item_Vera_Harvest_002",
+    "food_name": "沙葱",
+    "food_des": "这不是洋葱！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_002.png",
+    "food_source": "维拉-灌木周围",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Vera_Harvest_003": {
+    "food_key": "Item_Vera_Harvest_003",
+    "food_name": "芦荟",
+    "food_des": "肥厚的草本植物，据说还有美容养颜的功效。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_003.png",
+    "food_source": "维拉-沙漠树周围",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+10,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_004": {
+    "food_key": "Item_Vera_Harvest_004",
+    "food_name": "玫瑰花瓣",
+    "food_des": "收集起来，是拿回家做菜还是泡澡呢……",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_004.png",
+    "food_source": "维拉-遗迹石块周围",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+10,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_006": {
+    "food_key": "Item_Vera_Harvest_006",
+    "food_name": "甜菜根",
+    "food_des": "为我们带来了天然的色素，谢谢你，甜菜根。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_006.png",
+    "food_source": "维拉-洞穴内部",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+2,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_007": {
+    "food_key": "Item_Vera_Harvest_007",
+    "food_name": "大漠甜瓜",
+    "food_des": "我——要——吃——瓜！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_007.png",
+    "food_source": "维拉-绿洲",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+4,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_008": {
+    "food_key": "Item_Vera_Harvest_008",
+    "food_name": "沙棘果",
+    "food_des": "小巧的猩红色果实，仅在无序深渊中有所分布。经调查，该果实可供食用，味道似乎还不错？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_008.png",
+    "food_source": "商城 / 维拉-无序深渊",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+4,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_009": {
+    "food_key": "Item_Vera_Harvest_009",
+    "food_name": "南瓜",
+    "food_des": "或许……拿来做装饰品也很不错？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Pumpkin.png",
+    "food_source": "维拉-流沙带",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>5%+4,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_010": {
+    "food_key": "Item_Vera_Harvest_010",
+    "food_name": "黄豆",
+    "food_des": "平平无奇的小豆子，但却可以做出许多好吃的。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_010.png",
+    "food_source": "镜都食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Vera_Harvest_011": {
+    "food_key": "Item_Vera_Harvest_011",
+    "food_name": "白玉萝卜",
+    "food_des": "爽脆多汁的白萝卜，怎么做都好吃。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_011.png",
+    "food_source": "维拉-岩柱戈壁绿洲",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+10,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Harvest_012": {
+    "food_key": "Item_Vera_Harvest_012",
+    "food_name": "玉米",
+    "food_des": "香甜软糯的玉米谁不爱呢？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_012.png",
+    "food_source": "镜都食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Vera_Harvest_013": {
+    "food_key": "Item_Vera_Harvest_013",
+    "food_name": "仙人掌球",
+    "food_des": "扎手！扎手！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_013.png",
+    "food_source": "维拉-仙人掌周围",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Vera_Harvest_014": {
+    "food_key": "Item_Vera_Harvest_014",
+    "food_name": "肉肉尾巴",
+    "food_des": "不是钢制的，能吃！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_014.png",
+    "food_source": "维拉-狩猎野生动物 / 九域—击杀鳄蛟获取",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Vera_Harvest_015": {
+    "food_key": "Item_Vera_Harvest_015",
+    "food_name": "肋排",
+    "food_des": "上好的动物肋排， 我已经想好了不少烹饪方式……",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Vera_Harvest_015.png",
+    "food_source": "维拉-狩猎野生动物",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_001": {
+    "food_key": "Item_Ocean_Harvest_001",
+    "food_name": "海星籽",
+    "food_des": "褐黄色的烹饪材料，含有丰富的营养物质，不过似乎并不为所有人接受。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_001.png",
+    "food_source": "溟海-捕捉洋星",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_002": {
+    "food_key": "Item_Ocean_Harvest_002",
+    "food_name": "河豚肉",
+    "food_des": "饱含胶原蛋白的丰富口感，在舌尖层层融化，但要小心不被刺扎到。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_002.png",
+    "food_source": "溟海-捕捉膨膨鱼",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_003": {
+    "food_key": "Item_Ocean_Harvest_003",
+    "food_name": "章鱼肉",
+    "food_des": "饱满弹滑的触须肉，有非常多的用途。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_003.png",
+    "food_source": "溟海-捕捉软爪鱼 / 溟海-狩猎寄居章鱼",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_004": {
+    "food_key": "Item_Ocean_Harvest_004",
+    "food_name": "小型海鱼肉",
+    "food_des": "比起淡水鱼，最优越的特点就是少刺。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_004.png",
+    "food_source": "溟海-捕捉小型海鱼",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_005": {
+    "food_key": "Item_Ocean_Harvest_005",
+    "food_name": "叶龙肉",
+    "food_des": "一种名贵的药材，具有独特的风味。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_005.png",
+    "food_source": "溟海-捕捉杏叶龙",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_006": {
+    "food_key": "Item_Ocean_Harvest_006",
+    "food_name": "橘灯海葵",
+    "food_des": "海葵肉，内含特殊的可食用荧光物质。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_006.png",
+    "food_source": "溟海浅海区域",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_007": {
+    "food_key": "Item_Ocean_Harvest_007",
+    "food_name": "龙龟肉",
+    "food_des": "龙颈龟上取下的最精华的颈肉，传闻吃下去有益寿延年的功效。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_007.png",
+    "food_source": "溟海-狩猎龙颈龟",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_008": {
+    "food_key": "Item_Ocean_Harvest_008",
+    "food_name": "龙龟蛋",
+    "food_des": "海洋大型生物的蛋，与禽类蛋有不止外表上的不同。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_008.png",
+    "food_source": "溟海浅海-龙颈龟巢穴",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_009": {
+    "food_key": "Item_Ocean_Harvest_009",
+    "food_name": "海蜇",
+    "food_des": "口感爽脆，非常适合凉拌。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_009.png",
+    "food_source": "溟海-捕捉淼母 / 溟海-狩猎G囚寄水母 / 溟海-狩猎棘核水母",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_010": {
+    "food_key": "Item_Ocean_Harvest_010",
+    "food_name": "墨囊",
+    "food_des": "从乌贼身上取下的天然染色剂。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_010.png",
+    "food_source": "溟海-狩猎灰乌贼",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_011": {
+    "food_key": "Item_Ocean_Harvest_011",
+    "food_name": "大型海鱼肉",
+    "food_des": "取自大型海鱼最鲜嫩肥美的部位，也可以生食。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_011.png",
+    "food_source": "溟海-狩猎大型海鱼",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_012": {
+    "food_key": "Item_Ocean_Harvest_012",
+    "food_name": "乌贼肉",
+    "food_des": "和章鱼一样拥有柔软的触须，不知道口味上有什么不同。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_012.png",
+    "food_source": "溟海-捕捉墨墨鱼 / 溟海-狩猎灰乌贼",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_013": {
+    "food_key": "Item_Ocean_Harvest_013",
+    "food_name": "龙虾肉",
+    "food_des": "比起它惊人的美味，更惊人的是它的价格。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_013.png",
+    "food_source": "溟海-捕捉蛟虾",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_014": {
+    "food_key": "Item_Ocean_Harvest_014",
+    "food_name": "蟹肉",
+    "food_des": "海蟹好吃还是湖蟹好吃，似乎一直因为这个争论不休。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_014.png",
+    "food_source": "溟海-捕捉海王蟹",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_015": {
+    "food_key": "Item_Ocean_Harvest_015",
+    "food_name": "红海胆",
+    "food_des": "来自大自然的天然染色剂，健康无公害",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_015.png",
+    "food_source": "溟海龙口火山区域",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_016": {
+    "food_key": "Item_Ocean_Harvest_016",
+    "food_name": "粉海胆",
+    "food_des": "来自大自然的天然染色剂，健康无公害",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_016.png",
+    "food_source": "溟海浅海区域",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_018": {
+    "food_key": "Item_Ocean_Harvest_018",
+    "food_name": "植物香辛料",
+    "food_des": "散发着植物芳香的粉末，辛辣味美。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_018.png",
+    "food_source": "茵纳斯食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_019": {
+    "food_key": "Item_Ocean_Harvest_019",
+    "food_name": "冰镇捞汁",
+    "food_des": "由酱料、果汁和各位辛香料调制而成的复合型调味汁，冰镇后别有风味。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_019.png",
+    "food_source": "茵纳斯食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_020": {
+    "food_key": "Item_Ocean_Harvest_020",
+    "food_name": "柠檬鲜姜汁",
+    "food_des": "复杂酸辣的口感，能有效去除身体的寒冷。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_020.png",
+    "food_source": "茵纳斯食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_021": {
+    "food_key": "Item_Ocean_Harvest_021",
+    "food_name": "海鲜酱",
+    "food_des": "用来烹饪海鲜的酱料，并不是由海鲜制成。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_021.png",
+    "food_source": "茵纳斯食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Ocean_Harvest_038": {
+    "food_key": "Item_Ocean_Harvest_038",
+    "food_name": "螺肉",
+    "food_des": "新鲜的螺肉丰腴细腻,味道鲜美，下酒菜必备。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Ocean_Harvest_038.png",
+    "food_source": "溟海-狩猎虾螺",
+    "use_description": "可能拥有特殊作用的材料，或许在某处可以换到奖励。",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Harvest_001": {
+    "food_key": "Item_Jiuyu_Harvest_001",
+    "food_name": "秋海棠",
+    "food_des": "花色鲜艳美丽，花瓣用来做菜会使食物附上一股清香。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Jiuyu_Harvest_001.png",
+    "food_source": "离州-昱华庄",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Harvest_002": {
+    "food_key": "Item_Jiuyu_Harvest_002",
+    "food_name": "酢浆草",
+    "food_des": "兑州特有的草本植物，具有丰富的微量元素，非常适合泡茶煮汤。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Jiuyu_Harvest_002.png",
+    "food_source": "兑州-松林道附近",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Harvest_003": {
+    "food_key": "Item_Jiuyu_Harvest_003",
+    "food_name": "蜜桃",
+    "food_des": "特产蜜桃，营养多汁，香甜可口。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Jiuyu_Harvest_003.png",
+    "food_source": "坎州远望号舱体入口附近",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Harvest_004": {
+    "food_key": "Item_Jiuyu_Harvest_004",
+    "food_name": "竹笋",
+    "food_des": "刚从地下破土而出就被挖走的竹笋，散发着泥土的气息。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Jiuyu_Harvest_004.png",
+    "food_source": "震州-清竹苑",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Jiuyu_Harvest_012": {
+    "food_key": "Item_Jiuyu_Harvest_012",
+    "food_name": "青离瑜",
+    "food_des": "离州特产，外青内白，温润如玉，口感爽脆，清新微甜，因此得名青离瑜。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Jiuyu_Harvest_012.png",
+    "food_source": "离州-河道附近",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Condiment_01": {
+    "food_key": "Item_Condiment_01",
+    "food_name": "气泡水",
+    "food_des": "压缩过的气泡水，喝起来没有什么味道却很刺激，与别的东西融合或许能变成奇妙的饮品。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Condiment_01.png",
+    "food_source": "星岛食材商人 / 班吉斯食材商人 / 镜都食材商人",
+    "use_description": "恢复<ComLblGreen>80</>点耐力",
+    "buffs": ""
+  },
+  "Item_Condiment_02": {
+    "food_key": "Item_Condiment_02",
+    "food_name": "黄豆",
+    "food_des": "大陆的紧急储备物之一，制作各种豆制品的主要材料，如果直接服用的话，可能会拉肚子？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Condiment_02.png",
+    "food_source": "星岛食材商人 / 班吉斯食材商人 / 镜都食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Condiment_03": {
+    "food_key": "Item_Condiment_03",
+    "food_name": "沙拉酱",
+    "food_des": "沙拉必不可少的调味品，新鲜的沙拉拌上美味的沙拉酱才会被注入灵魂，一下就变得美妙起来了！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Condiment_03.png",
+    "food_source": "星岛食材商人 / 班吉斯食材商人 / 镜都食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Condiment_04": {
+    "food_key": "Item_Condiment_04",
+    "food_name": "芥末",
+    "food_des": "一群奇怪的人喜欢的调味品，辛辣上头的味道只有泪腺和味觉同时丧失的人才会喜欢吧？咳咳~",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Condiment_04.png",
+    "food_source": "茵纳斯食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Greens011": {
+    "food_key": "Item_Greens011",
+    "food_name": "黒藓",
+    "food_des": "只生长在裸露的岩壁上，有的吃就不错了，还要啥自行车。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_011.png",
+    "food_source": "克罗恩地区",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>4%+2,000</>)点拓荒者生命值。"
+  },
+  "Item_Greens012": {
+    "food_key": "Item_Greens012",
+    "food_name": "虫草",
+    "food_des": "这个虫子居然长草了！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_012.png",
+    "food_source": "沃兰地区",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>7%+15,000</>)点拓荒者生命值。"
+  },
+  "Item_Condiment_05": {
+    "food_key": "Item_Condiment_05",
+    "food_name": "洋葱",
+    "food_des": "营养丰富口味浓郁的蔬菜，只是料理它常常要付出一些眼泪的代价。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Greens_005.png",
+    "food_source": "星岛食材商人 / 班吉斯食材商人 / 镜都食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Condiment_06": {
+    "food_key": "Item_Condiment_06",
+    "food_name": "大米",
+    "food_des": "煮熟后有一股独特的香味，花样繁多的主食中的一种。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Condiment_06.png",
+    "food_source": "星岛食材商人 / 班吉斯食材商人 / 镜都食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "Item_Condiment_07": {
+    "food_key": "Item_Condiment_07",
+    "food_name": "牛奶",
+    "food_des": "母爱不仅伟大，还很有营养。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Item_Milk_001.png",
+    "food_source": "星岛食材商人 / 班吉斯食材商人 / 镜都食材商人",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
+  },
+  "item_activity_cooking_RM_1": {
+    "food_key": "item_activity_cooking_RM_1",
+    "food_name": "苹果",
+    "food_des": "稀有水果，听说只有再特定季节采集落果时，才能发现。\r\n\r\n艾达咖啡馆活动期间可获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_1.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity_cooking_RM_2": {
+    "food_key": "item_activity_cooking_RM_2",
+    "food_name": "野猪肉",
+    "food_des": "野猪或许能从星岛的树林中找到。\r\n\r\n艾达咖啡馆活动期间可获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_2.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity_cooking_RM_3": {
+    "food_key": "item_activity_cooking_RM_3",
+    "food_name": "火鸡肉",
+    "food_des": "稀有食材，据说所有野生的火鸡都被鬣狗帮抓走了，或许能从他们身上发现。\r\n\r\n艾达咖啡馆活动期间可获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_3.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity_cooking_RM_4": {
+    "food_key": "item_activity_cooking_RM_4",
+    "food_name": "芝麻",
+    "food_des": "稀有食材，据说这种芝麻长的很像赤米基麦，或许能在采集赤米基麦时发现。\r\n\r\n艾达咖啡馆活动期间可获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_4.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity_cooking_RM_5": {
+    "food_key": "item_activity_cooking_RM_5",
+    "food_name": "方糖",
+    "food_des": "紧俏的稀缺物资，或许能从艾达之子身上找到一些。\r\n\r\n艾达咖啡馆活动期间可获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_5.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity_cooking_RM_6": {
+    "food_key": "item_activity_cooking_RM_6",
+    "food_name": "葡萄",
+    "food_des": "稀有水果，野外从未发现，有小道消息说掠夺者的秘密基地内有种植了一些，或许能从他们身上发现。\r\n\r\n艾达咖啡馆活动期间可获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_6.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity_cooking_RM_7": {
+    "food_key": "item_activity_cooking_RM_7",
+    "food_name": "三文鱼",
+    "food_des": "稀有食材，艾达星上真正的三文鲑鱼早已灭绝，现今只能从雷克鲑身上找到几块相似口感味觉的鱼肉。\r\n\r\n艾达咖啡馆活动期间可获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_7.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity3_food1": {
+    "food_key": "item_activity3_food1",
+    "food_name": "糯米粉",
+    "food_des": "柔软、韧滑、香糯。拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food1.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity3_food2": {
+    "food_key": "item_activity3_food2",
+    "food_name": "莲子",
+    "food_des": "甜滋滋、凉丝丝，做成莲蓉也很好吃！拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food2.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity3_food3": {
+    "food_key": "item_activity3_food3",
+    "food_name": "黑胡椒",
+    "food_des": "闻起来好像让人觉得有点鼻子痒痒的……拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food3.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity3_food4": {
+    "food_key": "item_activity3_food4",
+    "food_name": "冰淇淋",
+    "food_des": "在它融化之前把它吃掉！拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food4.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity3_food5": {
+    "food_key": "item_activity3_food5",
+    "food_name": "豆沙",
+    "food_des": "在制作的时候就已经放了足够多的糖了，再加糖就要甜到掉牙了！拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food5.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity3_food6": {
+    "food_key": "item_activity3_food6",
+    "food_name": "果仁",
+    "food_des": "小巧精致的多种果仁，营养丰富。拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food6.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "item_activity3_food7": {
+    "food_key": "item_activity3_food7",
+    "food_name": "火腿",
+    "food_des": "肌红脂白，风味独特，滋味鲜美。拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food7.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "item_BurgerKing_Whopper": {
+    "food_key": "item_BurgerKing_Whopper",
+    "food_name": "皇堡",
+    "food_des": "明星产品，用心火烤的牛肉饼，采用鲜脆可口的生菜，新鲜多汁的西红柿以及清凉的酸黄瓜。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/BurgerKing_Whopper.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>30</>点饱食度",
+    "buffs": " - 增加<ComLblGreen>10</>，持续<ComLblGreen>0</>秒"
+  },
+  "item_Shabu_hotpot": {
+    "food_key": "item_Shabu_hotpot",
+    "food_name": "呷哺火锅",
+    "food_des": "小小一口锅，居家旅行、驯兽打架必备装备，听说用来煮肉最合适了。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Shabu_hotpot_1.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>30</>点饱食度",
+    "buffs": "- 增加<ComLblGreen>10</>，持续<ComLblGreen>0</>秒"
+  },
+  "Item_Cooking_Activity_ZSLJ_1": {
+    "food_key": "Item_Cooking_Activity_ZSLJ_1",
+    "food_name": "微醺葡萄汁",
+    "food_des": "未发酵的葡萄汁，经过特殊处理，可以让人体验一下微醺的感觉。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking_PTZ.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>10</>点饱食度",
+    "buffs": ""
+  }
+}

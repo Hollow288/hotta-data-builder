@@ -3,7 +3,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 from playwright.async_api import async_playwright
 
-from models import CookRecipesDataTable, RecipesIngredients, IngredientData
+from models import CookRecipesDataTable, RecipesFood, FoodData
 from utils.font_server import FontServer
 from utils.screenshots_utils import make_fonts_url, make_minio_img_url, \
      make_recipes_background_url, com_lbl_green
@@ -21,24 +21,24 @@ async def process_recipes(recipes: dict, env: Environment, browser, screenshot_d
         recipes = make_fonts_url(recipes, font_server_port)
         recipes['recipes_icon'] = make_minio_img_url(recipes['recipes_icon'])
 
-        ingredient_result = []
+        food_result = []
 
         recipes['effect'] = f'{recipes["use_description"]}，{recipes["buffs"]}'
 
         make_recipes_background_url(recipes)
 
-        recipes_ingredients = await RecipesIngredients.filter(
-            recipes_id=recipes["recipes_id"]).values("ingredient_id", "amount")
+        recipes_food = await RecipesFood.filter(
+            recipes_id=recipes["recipes_id"]).values("food_id", "amount")
 
-        for ingredient in recipes_ingredients:
-            this_ingredient_info = await IngredientData.filter(
-                ingredient_id=ingredient["ingredient_id"]).values("ingredient_name", "ingredient_icon")
+        for ingredient in recipes_food:
+            this_food_info = await FoodData.filter(
+                food_id=ingredient["food_id"]).values("food_name", "food_icon")
 
-            this_ingredient_result = {'ingredient_name': this_ingredient_info[0]['ingredient_name'], 'ingredient_icon': make_minio_img_url(this_ingredient_info[0]['ingredient_icon']), 'amount': ingredient['amount']}
+            this_food_result = {'food_name': this_food_info[0]['food_name'], 'food_icon': make_minio_img_url(this_food_info[0]['food_icon']), 'amount': ingredient['amount']}
 
-            ingredient_result.append(this_ingredient_result)
+            food_result.append(this_food_result)
 
-        recipes["ingredient_result"] = ingredient_result or None
+        recipes["food_result"] = food_result or None
 
         template = env.get_template("template-recipes.html")
         html_content = template.render(**recipes)

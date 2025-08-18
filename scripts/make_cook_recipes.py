@@ -1,13 +1,11 @@
 import os
-import shutil
-from pathlib import Path
 
 from dotenv import load_dotenv
 import json
 
 from utils.common_utils import find_parent_value_by_key_value, resolve_resource_path, extract_tail_name
-from utils.cook_utils import make_ingredient_icon_url, make_ingredient_name_des, make_recipes_name_des, make_categories, \
-    make_use_description, make_buff, make_ingredients, make_ingredient_source
+from utils.cook_utils import  make_recipes_name_des, make_categories, \
+    make_use_description, make_buff, make_ingredients, make_food_source
 
 # 加载 .env 文件
 load_dotenv()
@@ -26,7 +24,7 @@ cook_recipes_data_table_path = os.getenv("COOK_RECIPES_DATA_TABLE") or os.path.j
     source_path, "CoreBlueprints/DataTable/cooking/CookRecipesDataTable.json"
 )
 
-# ingredient_data_table_path = os.getenv("INGREDIENT_DATA_TABLE") or os.path.join(
+# food_data_table_path = os.getenv("food_DATA_TABLE") or os.path.join(
 #     source_path, "CoreBlueprints/DataTable/cooking/IngredientDataTable.json"
 # )
 #
@@ -43,6 +41,14 @@ tool_static_data_table_path = os.getenv("TOOL_STATIC_DATA_TABLE") or os.path.joi
     source_path, "CoreBlueprints/DataTable/ToolStaticDataTable.json"
 )
 
+item_configs_path = os.getenv("ITEM_CONFIGS") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/Item/ItemConfigs.json"
+)
+
+gameplay_effect_tips_data_table_path = os.getenv("GAMEPLAY_EFFECT_TIPS_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/GameplayEffectTipsDataTable.json"
+)
+
 
 # Game.json文件目录
 game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
@@ -56,8 +62,8 @@ if __name__ == "__main__":
     with open(cook_recipes_data_table_path, "r", encoding="utf-8") as f:
         cook_recipes_data_table = json.load(f)
 
-    # with open(ingredient_data_table_path, "r", encoding="utf-8") as f:
-    #     ingredient_data_table = json.load(f)
+    # with open(food_data_table_path, "r", encoding="utf-8") as f:
+    #     food_data_table = json.load(f)
 
     with open(dt_item_output_source_path, "r", encoding="utf-8") as f:
         dt_item_output_source = json.load(f)
@@ -68,6 +74,12 @@ if __name__ == "__main__":
     with open(tool_static_data_table_path, "r", encoding="utf-8") as f:
         tool_static_data_table = json.load(f)
 
+    with open(item_configs_path, "r", encoding="utf-8") as f:
+        item_configs_data_table = json.load(f)
+
+    with open(gameplay_effect_tips_data_table_path, "r", encoding="utf-8") as f:
+        gameplay_effect_tips_data_table = json.load(f)
+
     with open(game_json_path, "r", encoding="utf-8") as f:
         game_json = json.load(f)
 
@@ -75,13 +87,17 @@ if __name__ == "__main__":
 
     cook_recipes_data_table_rows_data = cook_recipes_data_table[0].get("Rows", {})
 
-    # ingredient_data_table_rows_data = ingredient_data_table[0].get("Rows", {})
+    # food_data_table_rows_data = food_data_table[0].get("Rows", {})
 
     dt_item_output_source_rows_data = dt_item_output_source[0].get("Rows", {})
 
     cooking_food_category_data_table_rows_data = cooking_food_category_data_table[0].get("Rows", {})
 
     tool_static_data_table_rows_data = tool_static_data_table[0].get("Rows", {})
+
+    item_configs_rows_data = item_configs_data_table[0].get("Rows", {})
+
+    gameplay_effect_tips_rows_data = gameplay_effect_tips_data_table[0].get("Rows", {})
 
 
     recipes_filtered_data = {
@@ -96,36 +112,50 @@ if __name__ == "__main__":
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(recipes_filtered_data, f, ensure_ascii=False, indent=2)
 
-    designed_item_ids_set = set()
+    item_configs_filtered_data = {
+        key: val
+        for key, val in item_configs_rows_data.items()
+        if val.get("ItemType") == 'ITEM_TYPE_FOOD'
+           and val.get("StaticToolName") != "None"
+           and val.get("bAutoUseWhenAdd") != True
+           and val.get("FeedToCorralMonsterAddExp", 0) < 50
+           and val.get("ItemIcon", {}).get("AssetPathName") != "None"
+    }
 
-    for recipe in recipes_filtered_data.values():
-        for ingredient in recipe.get("Ingredients", []):
-            for item_id in ingredient.get("DesignedItemsID", []):
-                if item_id:  # 防止 None 或空字符串
-                    designed_item_ids_set.add(item_id)
+    output_path = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "item_configs_filtered_food.json"))
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(item_configs_filtered_data, f, ensure_ascii=False, indent=2)
+
 
     # 过滤字典，同时记录缺失项
     missing_keys = []
     filtered_data = {}
-    result_ingredient_dict = {}
+    result_food_dict = {}
     result_cook_dict = {}
     type_list = set()
 
-    for item_id in designed_item_ids_set:
-        ingredient_info = {
-            'ingredient_key' : item_id,
-            'ingredient_name': make_ingredient_name_des(item_id,game_json)['ingredient_name'],
-            'ingredient_des': make_ingredient_name_des(item_id,game_json)['ingredient_des'],
-            'ingredient_icon': make_ingredient_icon_url(source_path,item_id),
-            'ingredient_source': make_ingredient_source(dt_item_output_source_rows_data,item_id,game_json)
+    for food_key, data  in item_configs_filtered_data.items():
+        food_info = {
+            'food_key' : food_key,
+            'food_name': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
+            'food_des': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
+            'food_icon': resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
+            'food_source': make_food_source(dt_item_output_source_rows_data,food_key,game_json),
+            'use_description': make_use_description(
+                tool_static_data_table_rows_data,
+                data['StaticToolName'],
+                game_json.get(extract_tail_name(data.get('UseDescription', {}).get('TableId', '')), {}).get(data.get('UseDescription', {}).get('Key', ''), '')
+            ),
+            'buffs': make_buff(data['Buffs'],gameplay_effect_tips_rows_data, game_json)
         }
 
-        result_ingredient_dict[item_id] = ingredient_info
+        result_food_dict[food_key] = food_info
 
     # 这里将ingredient保存方便入库
-    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "ingredient.json"))
+    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "food.json"))
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(result_ingredient_dict, f, ensure_ascii=False, indent=2)
+        json.dump(result_food_dict, f, ensure_ascii=False, indent=2)
 
 
 
@@ -141,7 +171,7 @@ if __name__ == "__main__":
             'recipes_icon': resolve_resource_path(food_info['ItemIcon']['AssetPathName'], '.png'),
             "categories": make_categories(food_info['Categories'], cooking_food_category_data_table_rows_data, game_json),
             'use_description' : make_use_description(tool_static_data_table_rows_data,food_info['StaticToolName'],game_json[extract_tail_name(food_info['UseDescription']['TableId'])][food_info['UseDescription']['Key']]),
-            'buffs' : make_buff(food_info['Buffs']),
+            'buffs' : make_buff(food_info['Buffs'],gameplay_effect_tips_rows_data, game_json),
             'ingredients': make_ingredients(data['Ingredients'])
         }
 

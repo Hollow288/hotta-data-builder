@@ -172,16 +172,16 @@
             <div>{{ effect | com_lbl_green }}</div>
         </div>
 
-        {% if ingredient_result %}
+        {% if food_result %}
             <div class="details">
                 制 作 方 式
             </div>
             <div class="effect">
-                {% for item in ingredient_result %}
+                {% for item in food_result %}
                     <div class="img-container">
-                        <img src="{{ item.ingredient_icon }}"
+                        <img src="{{ item.food_icon }}"
                              alt="Beet with Fiddlehead" class="item-image"/>
-                         <div class="ingredient-name">{{ item.ingredient_name }}</div>
+                         <div class="ingredient-name">{{ item.food_name }}</div>
                         <div class="quantity">{{ item.amount }}</div>
 
                     </div>

@@ -5,7 +5,7 @@ import os
 from tortoise import Tortoise
 
 from config import database_config
-from models import SuitUnactivateDetail, CookRecipesDataTable, RecipesIngredients, IngredientData
+from models import SuitUnactivateDetail, CookRecipesDataTable, RecipesFood, FoodData
 from models.matrix import Matrix
 from utils.minio_client import minio_client
 
@@ -50,16 +50,16 @@ async def to_do():
             recipes_icon=minio_url
         )
 
-        for ingredient_key, amount in data['ingredients'].items():
+        for food_key, amount in data['ingredients'].items():
 
-            ingredientData = await IngredientData.filter(ingredient_key=ingredient_key).first()
+            food_data = await FoodData.filter(food_key=food_key).first()
 
-            if ingredientData is None:
-                print(f"入库{recipes_obj.recipes_name}时,食材 {ingredient_key} 未收录!")
+            if food_data is None:
+                print(f"入库{recipes_obj.recipes_name}时,食材 {food_key} 未收录!")
             else:
 
-                await RecipesIngredients.create(
-                    ingredient_id=ingredientData.ingredient_id,
+                await RecipesFood.create(
+                    food_id=food_data.food_id,
                     recipes_id=recipes_obj.recipes_id,
                     amount=amount
                 )
