@@ -23,7 +23,13 @@ async def process_food(food: dict, env: Environment, browser, screenshot_dir: Pa
 
         make_recipes_background_url(food)
 
-        food['effect'] = f'{food["use_description"] + "，" if food["use_description"] else ""}{food["buffs"]}'
+        parts = []
+        if food.get("use_description"):
+            parts.append(food["use_description"])
+        if food.get("buffs"):
+            parts.append(food["buffs"])
+
+        food["effect"] = "<br>".join(parts)
 
         template = env.get_template("template-food.html")
         html_content = template.render(**food)

@@ -108,6 +108,9 @@ def make_categories(categories: list, cooking_food_category_data_table_rows_data
 
 def make_use_description(tool_static_data_table_rows_data: dict, static_tool_name: str, template: str) -> str:
 
+    if static_tool_name == 'None':
+        return template
+
     value = [float(tool_static_data_table_rows_data[static_tool_name]['ToolValue'])]
 
     return format_description(template,value)
@@ -151,8 +154,13 @@ def make_buff(buffs: list, gameplay_effect_tips_rows_data: dict, game_json: dict
         buff_class_path = buff.get('BuffClass', {}).get('AssetPathName')
 
         if buff_class_path is None or buff_template.get(extract_tail_name(buff_class_path)) is None:
-            row_data = gameplay_effect_tips_rows_data[extract_tail_name(buff['BuffClass']['AssetPathName'])]
-            template = game_json[extract_tail_name(row_data['Desc']['TableId'])][row_data['Desc']['Key']]
+            buff_key = extract_tail_name(buff['BuffClass']['AssetPathName'])
+            row_data = gameplay_effect_tips_rows_data.get(buff_key)
+
+            if row_data is None:
+                template = ""
+            else:
+                template = game_json[extract_tail_name(row_data['Desc']['TableId'])].get(row_data['Desc']['Key'], "")
         else:
             template = buff_template[extract_tail_name(buff['BuffClass']['AssetPathName'])]
 
@@ -173,11 +181,7 @@ def make_ingredients(ingredients:list)->dict:
 
 def make_food_source(dt_item_output_source_rows_data: dict, food_key: str, game_json: dict) -> str:
 
-    if food_key == "Item_Dandelion_zhongzi":
-        food_key = "Item_Dandelion_001"
-
-    key = food_key.split("_", 1)[1]
-    this_source = dt_item_output_source_rows_data.get(key, {"SourceArray":[]})
+    this_source = dt_item_output_source_rows_data.get(food_key, {"SourceArray":[]})
 
     result_list = []
 

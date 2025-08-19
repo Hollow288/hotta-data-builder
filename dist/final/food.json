@@ -1,4 +1,22 @@
 {
+  "Item_Vera_Cooking6": {
+    "food_key": "Item_Vera_Cooking6",
+    "food_name": "可可奶茶",
+    "food_des": "会让所有人露出笑容的不可思议饮料！茶味十足注意失眠风险。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking6.png",
+    "food_source": "",
+    "use_description": "饮用后物攻+5%，持续15分钟。",
+    "buffs": "物攻提高<shuzhi>5%</>，持续<shuzhi>900</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking7": {
+    "food_key": "Item_Vera_Cooking7",
+    "food_name": "零度冰红茶",
+    "food_des": "为什么冰镇红茶不叫冰红茶?",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking7.png",
+    "food_source": "",
+    "use_description": "饮用后冰攻+5%，持续15分钟。",
+    "buffs": "冰攻提高<shuzhi>5%</>，持续<shuzhi>900</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
   "Item_Vera_Cooking8": {
     "food_key": "Item_Vera_Cooking8",
     "food_name": "柠檬百香对撞",
@@ -7,6 +25,15 @@
     "food_source": "",
     "use_description": "恢复<ComLblGreen>500</>点耐力",
     "buffs": "使用后立刻恢复(<ComLblGreen>15%+20,000</>)点拓荒者生命值。"
+  },
+  "Item_Vera_Cooking11": {
+    "food_key": "Item_Vera_Cooking11",
+    "food_name": "转轮",
+    "food_des": "畅销镜都的另类特饮，有苦与甜两种口味，不过他们都是一样的包装和色泽，因而让人难以分辨。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking11.png",
+    "food_source": "",
+    "use_description": "饮用后50%几率回复所有生命，50%几率扣除25%最大生命。",
+    "buffs": ""
   },
   "Item_Vera_Cooking12": {
     "food_key": "Item_Vera_Cooking12",
@@ -17,6 +44,195 @@
     "use_description": "恢复<ComLblGreen>10</>点饱食度",
     "buffs": "使用后立刻恢复(<ComLblGreen>15%+20,000</>)点拓荒者生命值。"
   },
+  "Item_Vera_Cooking24": {
+    "food_key": "Item_Vera_Cooking24",
+    "food_name": "三文鱼寿司",
+    "food_des": "绝对是最新鲜的三文鱼！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking24.png",
+    "food_source": "",
+    "use_description": "饮用后物攻+10%，持续5分钟。",
+    "buffs": "物攻提高<shuzhi>10%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking25": {
+    "food_key": "Item_Vera_Cooking25",
+    "food_name": "金枪鱼寿司",
+    "food_des": "绝对是最新鲜的金枪鱼！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking25.png",
+    "food_source": "",
+    "use_description": "饮用后火攻+10%，持续5分钟。",
+    "buffs": "火攻提高<shuzhi>10%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking26": {
+    "food_key": "Item_Vera_Cooking26",
+    "food_name": "鲑鱼子寿司",
+    "food_des": "绝对是最新鲜的鱼子！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking26.png",
+    "food_source": "",
+    "use_description": "饮用后冰攻+10%，持续5分钟。",
+    "buffs": "冰攻提高<shuzhi>10%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking27": {
+    "food_key": "Item_Vera_Cooking27",
+    "food_name": "甜虾寿司",
+    "food_des": "绝对是最新鲜甜虾！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking27.png",
+    "food_source": "",
+    "use_description": "饮用后雷攻+10%，持续5分钟。",
+    "buffs": "雷攻提高<shuzhi>10%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking28": {
+    "food_key": "Item_Vera_Cooking28",
+    "food_name": "茹素菜包",
+    "food_des": "好吃的菜包子，便宜大个。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking28.png",
+    "food_source": "",
+    "use_description": "食用后耐力消耗-25%，持续5分钟。",
+    "buffs": "耐力消耗降低<shuzhi>20%</>，持续<shuzhi>60</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Cooking29": {
+    "food_key": "Item_Vera_Cooking29",
+    "food_name": "功夫肉包",
+    "food_des": "皮薄肉嫩的大包子，好吃不贵。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking29.png",
+    "food_source": "",
+    "use_description": "食用后跳跃高度+50%，持续5分钟。",
+    "buffs": "跳跃力提高<shuzhi>33%</>，持续<shuzhi>60</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Cooking30": {
+    "food_key": "Item_Vera_Cooking30",
+    "food_name": "绵软豆沙包",
+    "food_des": "绵软的豆沙包，绝对不腻。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking30.png",
+    "food_source": "",
+    "use_description": "食用后速度+20%，持续5分钟。",
+    "buffs": "移动速度提高<shuzhi>20%</>，持续<shuzhi>100</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Cooking31": {
+    "food_key": "Item_Vera_Cooking31",
+    "food_name": "喷香烤鸭",
+    "food_des": "外酥里嫩，肉汁横流。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking31.png",
+    "food_source": "",
+    "use_description": "食用后速度+30%，持续10分钟。",
+    "buffs": "移动速度提高<shuzhi>30%</>，持续<shuzhi>200</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Cooking32": {
+    "food_key": "Item_Vera_Cooking32",
+    "food_name": "蜜汁烤鸡",
+    "food_des": "滑嫩可口，不传秘方。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking32.png",
+    "food_source": "",
+    "use_description": "食用后跳跃高度+100%，持续10分钟。",
+    "buffs": "跳跃力提高<shuzhi>60%</>，持续<shuzhi>120</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Cooking33": {
+    "food_key": "Item_Vera_Cooking33",
+    "food_name": "风味羊肉串",
+    "food_des": "谁能拒绝羊肉串呢？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking33.png",
+    "food_source": "",
+    "use_description": "饮用后物攻+5%，持续10分钟。",
+    "buffs": "物攻提高<shuzhi>5%</>，持续<shuzhi>600</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking34": {
+    "food_key": "Item_Vera_Cooking34",
+    "food_name": "无刺烤鱼",
+    "food_des": "没有刺的烤鱼，不二之选。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking34.png",
+    "food_source": "",
+    "use_description": "饮用后冰攻+5%，持续10分钟。",
+    "buffs": "冰攻提高<shuzhi>5%</>，持续<shuzhi>600</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking35": {
+    "food_key": "Item_Vera_Cooking35",
+    "food_name": "炭烤蘑菇",
+    "food_des": "吃菌子，躺板板。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking35.png",
+    "food_source": "",
+    "use_description": "饮用后雷攻+5%，持续5分钟。",
+    "buffs": "雷攻提高<shuzhi>5%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking36": {
+    "food_key": "Item_Vera_Cooking36",
+    "food_name": "山楂糖葫芦",
+    "food_des": "又酸又甜，是童年的味道。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking36.png",
+    "food_source": "",
+    "use_description": "饮用后火攻+5%，持续5分钟。",
+    "buffs": "火攻提高<shuzhi>5%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking37": {
+    "food_key": "Item_Vera_Cooking37",
+    "food_name": "草莓糖葫芦",
+    "food_des": "超大果草莓，停不下来。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking37.png",
+    "food_source": "",
+    "use_description": "饮用后物攻+5%，持续5分钟。",
+    "buffs": "物攻提高<shuzhi>5%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking38": {
+    "food_key": "Item_Vera_Cooking38",
+    "food_name": "葡萄糖葫芦",
+    "food_des": "最好吃的葡萄串起来的糖葫芦。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking38.png",
+    "food_source": "",
+    "use_description": "饮用后冰攻+5%，持续5分钟。",
+    "buffs": "冰攻提高<shuzhi>5%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking39": {
+    "food_key": "Item_Vera_Cooking39",
+    "food_name": "草莓冰激凌",
+    "food_des": "草莓的味道，比别的味道更清爽。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking39.png",
+    "food_source": "",
+    "use_description": "饮用后物攻+7%，持续5分钟。",
+    "buffs": "物攻提高<shuzhi>7%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking40": {
+    "food_key": "Item_Vera_Cooking40",
+    "food_name": "巧克力冰激凌",
+    "food_des": "你永远可以相信巧克力味冰淇淋！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking40.png",
+    "food_source": "",
+    "use_description": "饮用后火攻+7%，持续5分钟。",
+    "buffs": "火攻提高<shuzhi>7%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking41": {
+    "food_key": "Item_Vera_Cooking41",
+    "food_name": "甜瓜冰激凌",
+    "food_des": "或许不如直接吃甜瓜带劲。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking41.png",
+    "food_source": "",
+    "use_description": "饮用后冰攻+7%，持续5分钟。",
+    "buffs": "冰攻提高<shuzhi>7%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking42": {
+    "food_key": "Item_Vera_Cooking42",
+    "food_name": "抹茶冰激凌",
+    "food_des": "茶粉现磨，醇香浓厚。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking42.png",
+    "food_source": "",
+    "use_description": "饮用后雷攻+7%，持续5分钟。",
+    "buffs": "雷攻提高<shuzhi>7%</>，持续<shuzhi>300</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking43": {
+    "food_key": "Item_Vera_Cooking43",
+    "food_name": "沙葱冰激凌",
+    "food_des": "尝一口试试？",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking43.png",
+    "food_source": "",
+    "use_description": "食用后跳跃高度+75%，持续5分钟。",
+    "buffs": "跳跃力提高<shuzhi>45%</>，持续<shuzhi>60</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Cooking44": {
+    "food_key": "Item_Vera_Cooking44",
+    "food_name": "影迷可乐",
+    "food_des": "娱乐时怎么能少得了大杯可乐！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking44.png",
+    "food_source": "",
+    "use_description": "食用后速度+25%，持续5分钟。",
+    "buffs": "移动速度提高<shuzhi>25%</>，持续<shuzhi>100</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
   "Item_Vera_Cooking45": {
     "food_key": "Item_Vera_Cooking45",
     "food_name": "畅饮水",
@@ -26,6 +242,24 @@
     "use_description": "恢复<ComLblGreen>200</>点耐力",
     "buffs": "使用后立刻恢复(<ComLblGreen>10%+1,500</>)点拓荒者生命值。"
   },
+  "Item_Vera_Cooking46": {
+    "food_key": "Item_Vera_Cooking46",
+    "food_name": "膨膨薯片",
+    "food_des": "膨膨薯片，彭彭心动的感觉。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking46.png",
+    "food_source": "",
+    "use_description": "饮用后雷攻+5%，持续10分钟。",
+    "buffs": "雷攻提高<shuzhi>5%</>，持续<shuzhi>600</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
+  "Item_Vera_Cooking47": {
+    "food_key": "Item_Vera_Cooking47",
+    "food_name": "砰砰爆米花",
+    "food_des": "砰砰爆米花，看戏吃瓜的绝佳伴侣。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking47.png",
+    "food_source": "",
+    "use_description": "饮用后火攻+5%，持续10分钟。",
+    "buffs": "火攻提高<shuzhi>5%</>，持续<shuzhi>600</>秒。“注意事项：全场景生效，死亡或传送不清除”"
+  },
   "Item_Vera_Cooking48": {
     "food_key": "Item_Vera_Cooking48",
     "food_name": "小沙獭杯面",
@@ -34,6 +268,24 @@
     "food_source": "",
     "use_description": "恢复<ComLblGreen>10</>点饱食度",
     "buffs": ""
+  },
+  "Item_Vera_Cooking49": {
+    "food_key": "Item_Vera_Cooking49",
+    "food_name": "宅宅快乐水",
+    "food_des": "快乐水，吨吨吨！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking49.png",
+    "food_source": "",
+    "use_description": "食用后速度+20%，持续10分钟。",
+    "buffs": "移动速度提高<shuzhi>20%</>，持续<shuzhi>200</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Cooking50": {
+    "food_key": "Item_Vera_Cooking50",
+    "food_name": "咕咕巧克力",
+    "food_des": "咕咕巧克力，纵享丝滑。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking50.png",
+    "food_source": "",
+    "use_description": "食用后耐力消耗-33%，持续5分钟。",
+    "buffs": "耐力消耗降低<shuzhi>30%</>，持续<shuzhi>60</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
   },
   "Item_Vera_Cooking51": {
     "food_key": "Item_Vera_Cooking51",
@@ -52,6 +304,96 @@
     "food_source": "",
     "use_description": "恢复<ComLblGreen>5</>点饱食度",
     "buffs": "使用后立刻恢复(<ComLblGreen>10%+1,500</>)点拓荒者生命值。"
+  },
+  "Item_Norn_Cooking1": {
+    "food_key": "Item_Norn_Cooking1",
+    "food_name": "经典风味咖啡",
+    "food_des": "经久不衰的风味咖啡。无论是经过特殊工艺处理后的醇香，还是价格的合理，都让它在消费者群体中口碑极佳。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Norn/Norn_Cooking1.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "耐力消耗降低<shuzhi>20%</>，持续<shuzhi>180</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Drinking1": {
+    "food_key": "Item_Vera_Drinking1",
+    "food_name": "袖珍舞曲",
+    "food_des": "据说花费几口饮尽到杯底，能用来测验这位客人的耐心程度。小贴士：此饮品酒精含量较低，饮用后可能导致轻微晕眩感，未成年禁止饮酒。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_jiudi_1.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "移动速度提高<shuzhi>30%</>，持续<shuzhi>600</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Drinking2": {
+    "food_key": "Item_Vera_Drinking2",
+    "food_name": "往梦船",
+    "food_des": "调制时如不够熟练，甜头时常会盖过应有的浓郁果味。小贴士：此饮品酒精含量较低，饮用后可能导致轻微晕眩感，未成年禁止饮酒。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_jiudi_2.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "跳跃力提高<shuzhi>60%</>，持续<shuzhi>300</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Drinking3": {
+    "food_key": "Item_Vera_Drinking3",
+    "food_name": "轻羽飞扬",
+    "food_des": "有人为这种酒呈现的颜色到底该叫“天青”还是“淡绿”争吵不休。小贴士：此饮品酒精含量较低，饮用后可能导致轻微晕眩感，未成年禁止饮酒。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_jiudi_3.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "耐力消耗降低<shuzhi>35%</>，持续<shuzhi>300</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_Vera_Drinking4": {
+    "food_key": "Item_Vera_Drinking4",
+    "food_name": "烽烟",
+    "food_des": "酒不可貌相，它的相对健康程度已经可说是鹤立鸡群了。小贴士：此饮品酒精含量较低，饮用后可能导致轻微晕眩感，未成年禁止饮酒。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_jiudi_4.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "火攻提高<shuzhi>10%</>，持续<shuzhi>900</>秒。“注意事项：全场景生效，死亡或传送不清除” / "
+  },
+  "Item_Vera_Drinking5": {
+    "food_key": "Item_Vera_Drinking5",
+    "food_name": "絮语",
+    "food_des": "如果不是用人工果物作原料，恐怕味觉的清新还能更上层楼。小贴士：此饮品酒精含量较低，饮用后可能导致轻微晕眩感，未成年禁止饮酒。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_jiudi_5.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "雷攻提高<shuzhi>10%</>，持续<shuzhi>900</>秒。“注意事项：全场景生效，死亡或传送不清除” / "
+  },
+  "Item_Vera_Drinking6": {
+    "food_key": "Item_Vera_Drinking6",
+    "food_name": "铁马冰河",
+    "food_des": "调酒师们对于这酒说得最多的一句是“你好，这个做不了去冰的”。小贴士：此饮品酒精含量较低，饮用后可能导致轻微晕眩感，未成年禁止饮酒。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_jiudi_6.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "冰攻提高<shuzhi>10%</>，持续<shuzhi>900</>秒。“注意事项：全场景生效，死亡或传送不清除” / "
+  },
+  "Item_Vera_Drinking7": {
+    "food_key": "Item_Vera_Drinking7",
+    "food_name": "金盏花田",
+    "food_des": "不想在重要场合开口露出一嘴黄牙的话，喝完要记得漱口。小贴士：此饮品酒精含量较低，饮用后可能导致轻微晕眩感，未成年禁止饮酒。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_jiudi_7.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "物攻提高<shuzhi>10%</>，持续<shuzhi>900</>秒。“注意事项：全场景生效，死亡或传送不清除” / "
+  },
+  "Item_Vera_Drinking8": {
+    "food_key": "Item_Vera_Drinking8",
+    "food_name": "雨林迷踪",
+    "food_des": "精心雕琢出的热带口感，是为了在维拉地区所不可能望见的某些风景。小贴士：此饮品酒精含量较低，饮用后可能导致轻微晕眩感，未成年禁止饮酒。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_jiudi_8.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "隐身，移动速度提高<shuzhi>20%</>，持续<shuzhi>300</>秒，攻击命中显形，效果移除。“注意事项：全场景生效，死亡或传送不清除” / "
+  },
+  "Item_Vera_Sobering": {
+    "food_key": "Item_Vera_Sobering",
+    "food_name": "醒酒剂",
+    "food_des": "能消除酒效果的药剂。镜花堂出品，它能快速中和人体内的酒精浓度以达到醒酒目的，在处理酒醉闹事的客人时有奇效。饮酒可不要贪杯喔~",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/ui_icon_JD_xingjiuyao.png",
+    "food_source": "",
+    "use_description": "消除酒BUFF效果",
+    "buffs": ""
   },
   "Item_Jiuyu_Cooking1": {
     "food_key": "Item_Jiuyu_Cooking1",
@@ -386,6 +728,42 @@
     "use_description": "恢复<ComLblGreen>600</>点耐力",
     "buffs": "全队生命值提升<shuzhi>10000</>，持续<shuzhi>7</>天，同种效果不能叠加。"
   },
+  "Item_Jiuyu_Cooking38": {
+    "food_key": "Item_Jiuyu_Cooking38",
+    "food_name": "强化注射剂",
+    "food_des": "过去用于培养精英战士的药剂，在民间奇人的研究下得以复原，功效要先等胆子大的人体验完。不过针剂上的爆发标记似乎已指明功效。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Permanent_Crit.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>{0}</>点耐力",
+    "buffs": "所装备的武器和意志的基础属性暂时提升至与满星相当，持续<shuzhi>7</>天。"
+  },
+  "Item_Jiuyu_Cooking39": {
+    "food_key": "Item_Jiuyu_Cooking39",
+    "food_name": "暖暖起泡酒",
+    "food_des": "金黄色的液体在玻璃瓶中闪闪发光，轻轻晃动即可见细腻的气泡跳跃。一口下去，温暖的感觉逐渐蔓延，伴随着淡淡的酒香，如同春日的阳光穿透云层，给予身心最贴心的抚慰。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking39.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>{0}</>点耐力",
+    "buffs": "每<ComLblGreen>0</>秒恢复<ComLblGreen>0</>生命值，持续<ComLblGreen>0</>秒 / 增加寒冰抗性<ComLblGreen>15%</>，寒冰抗性<ComLblGreen>675</>，持续<ComLblGreen>600</>秒。"
+  },
+  "Item_Jiuyu_Cooking40": {
+    "food_key": "Item_Jiuyu_Cooking40",
+    "food_name": "奶香杏仁糊",
+    "food_des": "光滑细腻的杏仁糊中融合浓郁的奶香，一口品尝，宛如丝缎般滑过舌尖。淡淡的杏仁香气与醇厚的奶味交织，令人回味无穷，仿佛在冬日里找到了一丝温暖的甜蜜。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking40.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>{0}</>点耐力",
+    "buffs": "移动速度提高<shuzhi>20%</>，增加<shuzhi>15%</>+<shuzhi>675</>冰抗，持续<ComLblGreen>600</>秒。只在大世界生效，死亡或传送会清除效果。"
+  },
+  "Item_Jiuyu_Cooking41": {
+    "food_key": "Item_Jiuyu_Cooking41",
+    "food_name": "暖蜜柚子水",
+    "food_des": "清澈如晶的柚子水融合了甜蜜的蜂蜜，每一口都带有淡淡的柚香和蜜糖的温暖。在冷寒之时饮用，仿佛阳光穿透雾霭，暖意渐生。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking41.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>{0}</>点耐力",
+    "buffs": "耐力消耗降低<shuzhi>10%</>，增加<shuzhi>15%</>+<shuzhi>675</>冰抗，持续<ComLblGreen>600</>秒。只在大世界生效，死亡或传送会清除效果。"
+  },
   "Item_Jiuyu_Cooking42": {
     "food_key": "Item_Jiuyu_Cooking42",
     "food_name": "枫糖",
@@ -466,6 +844,15 @@
     "food_source": "",
     "use_description": "恢复<ComLblGreen>800</>点耐力",
     "buffs": "使用后立刻恢复(<ComLblGreen>20%+60,000</>)点拓荒者生命值。"
+  },
+  "Item_Kailo_Cooking6": {
+    "food_key": "Item_Kailo_Cooking6",
+    "food_name": "超超超ACE抹茶芭菲",
+    "food_des": "来自艾达的复古美食，制作原料在现在的启罗十分稀有，据说配方来自奥丁酒馆，ACE说明了它的美味。但也有传言ACE不是形容味道的，而是制作者的名字。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Norn/Icon_norn_ranquest_05.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": "移动速度提高<shuzhi>25%</>，持续<shuzhi>300</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
   },
   "Item_Kailo_Cooking7": {
     "food_key": "Item_Kailo_Cooking7",
@@ -580,7 +967,7 @@
     "food_name": "粉贝壳",
     "food_des": "在诺恩中心区海滩拾到的粉色贝壳，含在嘴里有股甜甜的感觉！",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Icon_ShellPink.png",
-    "food_source": "",
+    "food_source": "诺恩中心区海滩",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
   },
@@ -589,7 +976,7 @@
     "food_name": "黄贝壳",
     "food_des": "在诺恩中心区海滩拾到的黄色贝壳，含在嘴里有股咸苦的感觉！",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Icon_ShellYellow.png",
-    "food_source": "",
+    "food_source": "诺恩中心区海滩",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
   },
@@ -598,7 +985,7 @@
     "food_name": "蓝贝壳",
     "food_des": "在诺恩中心区海滩拾到的蓝色贝壳，含在嘴里有股清凉的感觉！",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Icon_ShellBlue.png",
-    "food_source": "",
+    "food_source": "诺恩中心区海滩",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
   },
@@ -607,7 +994,7 @@
     "food_name": "红贝壳",
     "food_des": "在诺恩中心区海滩拾到的红色贝壳，含在嘴里有股火辣的感觉！",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/Icon_ShellRed.png",
-    "food_source": "",
+    "food_source": "诺恩中心区海滩",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
   },
@@ -1592,12 +1979,21 @@
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": "使用后立刻恢复(<ComLblGreen>3%+1,000</>)点拓荒者生命值。"
   },
+  "TestItem_AddMaxHP": {
+    "food_key": "TestItem_AddMaxHP",
+    "food_name": "生命之花",
+    "food_des": "增加生命上限",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/item/Item_Plant002.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": ""
+  },
   "item_activity_cooking_RM_1": {
     "food_key": "item_activity_cooking_RM_1",
     "food_name": "苹果",
     "food_des": "稀有水果，听说只有再特定季节采集落果时，才能发现。\r\n\r\n艾达咖啡馆活动期间可获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_1.png",
-    "food_source": "",
+    "food_source": "采集落果",
     "use_description": "恢复<ComLblGreen>4</>点饱食度",
     "buffs": ""
   },
@@ -1606,7 +2002,7 @@
     "food_name": "野猪肉",
     "food_des": "野猪或许能从星岛的树林中找到。\r\n\r\n艾达咖啡馆活动期间可获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_2.png",
-    "food_source": "",
+    "food_source": "狩猎野猪",
     "use_description": "恢复<ComLblGreen>4</>点饱食度",
     "buffs": ""
   },
@@ -1615,7 +2011,7 @@
     "food_name": "火鸡肉",
     "food_des": "稀有食材，据说所有野生的火鸡都被鬣狗帮抓走了，或许能从他们身上发现。\r\n\r\n艾达咖啡馆活动期间可获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_3.png",
-    "food_source": "",
+    "food_source": "击败鬣狗帮",
     "use_description": "恢复<ComLblGreen>4</>点饱食度",
     "buffs": ""
   },
@@ -1624,7 +2020,7 @@
     "food_name": "芝麻",
     "food_des": "稀有食材，据说这种芝麻长的很像赤米基麦，或许能在采集赤米基麦时发现。\r\n\r\n艾达咖啡馆活动期间可获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_4.png",
-    "food_source": "",
+    "food_source": "采集赤米基麦",
     "use_description": "恢复<ComLblGreen>4</>点饱食度",
     "buffs": ""
   },
@@ -1633,7 +2029,7 @@
     "food_name": "方糖",
     "food_des": "紧俏的稀缺物资，或许能从艾达之子身上找到一些。\r\n\r\n艾达咖啡馆活动期间可获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_5.png",
-    "food_source": "",
+    "food_source": "击败艾达之子",
     "use_description": "恢复<ComLblGreen>4</>点饱食度",
     "buffs": ""
   },
@@ -1642,7 +2038,7 @@
     "food_name": "葡萄",
     "food_des": "稀有水果，野外从未发现，有小道消息说掠夺者的秘密基地内有种植了一些，或许能从他们身上发现。\r\n\r\n艾达咖啡馆活动期间可获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_6.png",
-    "food_source": "",
+    "food_source": "击败掠夺者",
     "use_description": "恢复<ComLblGreen>4</>点饱食度",
     "buffs": ""
   },
@@ -1651,7 +2047,7 @@
     "food_name": "三文鱼",
     "food_des": "稀有食材，艾达星上真正的三文鲑鱼早已灭绝，现今只能从雷克鲑身上找到几块相似口感味觉的鱼肉。\r\n\r\n艾达咖啡馆活动期间可获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/shicai/item_activity_cooking_RM_7.png",
-    "food_source": "",
+    "food_source": "捕捞雷克鲑 / 击败克罗恩地区·索贝克",
     "use_description": "恢复<ComLblGreen>4</>点饱食度",
     "buffs": ""
   },
@@ -1660,7 +2056,7 @@
     "food_name": "糯米粉",
     "food_des": "柔软、韧滑、香糯。拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food1.png",
-    "food_source": "",
+    "food_source": "采集霍米基麦、赤米基麦 / 拾月斋活动商人 / 参与镜都赛车赛事 / 参与常乐坊斗地主 / 娱乐城街机玩法",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1669,7 +2065,7 @@
     "food_name": "莲子",
     "food_des": "甜滋滋、凉丝丝，做成莲蓉也很好吃！拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food2.png",
-    "food_source": "",
+    "food_source": "采集仙人掌球、芦荟 / 拾月斋活动商人 / 参与镜都赛车赛事 / 参与常乐坊斗地主 / 娱乐城街机玩法",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1678,7 +2074,7 @@
     "food_name": "黑胡椒",
     "food_des": "闻起来好像让人觉得有点鼻子痒痒的……拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food3.png",
-    "food_source": "",
+    "food_source": "采集辣椒 / 拾月斋活动商人 / 参与镜都赛车赛事 / 参与常乐坊斗地主 / 娱乐城街机玩法",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1687,7 +2083,7 @@
     "food_name": "冰淇淋",
     "food_des": "在它融化之前把它吃掉！拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food4.png",
-    "food_source": "",
+    "food_source": "拾月斋活动商人 / 参与镜都赛车赛事 / 参与常乐坊斗地主 / 娱乐城街机玩法",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1696,7 +2092,7 @@
     "food_name": "豆沙",
     "food_des": "在制作的时候就已经放了足够多的糖了，再加糖就要甜到掉牙了！拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food5.png",
-    "food_source": "",
+    "food_source": "采集落果 / 拾月斋活动商人 / 参与镜都赛车赛事 / 参与常乐坊斗地主 / 娱乐城街机玩法",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1705,7 +2101,7 @@
     "food_name": "果仁",
     "food_des": "小巧精致的多种果仁，营养丰富。拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food6.png",
-    "food_source": "",
+    "food_source": "采集气球果、松果、榛子 / 拾月斋活动商人 / 参与镜都赛车赛事 / 参与常乐坊斗地主 / 娱乐城街机玩法",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1714,7 +2110,7 @@
     "food_name": "火腿",
     "food_des": "肌红脂白，风味独特，滋味鲜美。拾月斋活动期间制作月饼所需的材料，活动期间开启维拉密码箱、开启维拉世界首领密码箱、参与镜都赛车赛事、参与常乐坊斗地主、游玩娱乐城街机、购买边境货运公司终端装置内的货物可能随机获得。",
     "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Cafe/cafe_2/item_activity3_food7.png",
-    "food_source": "",
+    "food_source": "狩猎旱地掠夺者、玛格玛 / 狩猎鹅颈兽、惊惧兽 / 狩猎剑齿狼、赤火蜥 / 狩猎盾甲犀、巨角犀 / 拾月斋活动商人 / 参与镜都赛车赛事 / 参与常乐坊斗地主 / 娱乐城街机玩法",
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1736,6 +2132,42 @@
     "use_description": "恢复<ComLblGreen>30</>点饱食度",
     "buffs": "- 增加<ComLblGreen>10</>，持续<ComLblGreen>0</>秒"
   },
+  "Item_JiuYu_quest_e60010_1": {
+    "food_key": "Item_JiuYu_quest_e60010_1",
+    "food_name": "玉兰的手打肉丸",
+    "food_des": "玉兰亲手制作。将肉馅与佐料搅拌均匀，捶打起胶握成丸子，口感软弹细腻，味道鲜甜。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/JIUYU/Item_JiuYu_quest_3.png",
+    "food_source": "",
+    "use_description": "食用后跳跃高度+100%，持续10分钟。",
+    "buffs": "跳跃力提高<shuzhi>100%</>，持续<shuzhi>600</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_JiuYu_quest_e60010_2": {
+    "food_key": "Item_JiuYu_quest_e60010_2",
+    "food_name": "玉兰的腿劈竹筒饭",
+    "food_des": "玉兰亲手制作。将练武时劈开的竹子收集起来，塞入肉与糯米烧煮而成，色香味俱佳。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/JIUYU/Item_JiuYu_quest_4.png",
+    "food_source": "",
+    "use_description": "食用后速度+30%，持续10分钟。",
+    "buffs": "移动速度提高<shuzhi>30%</>，持续<shuzhi>600</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_JiuYu_quest_e60023_1": {
+    "food_key": "Item_JiuYu_quest_e60023_1",
+    "food_name": "绣春的手工包子",
+    "food_des": "昱华庄包子铺绣春手工制作的包子，皮薄馅嫩，鲜而不腻，深受附近的人们喜爱。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking29.png",
+    "food_source": "",
+    "use_description": "食用后跳跃高度+50%，持续5分钟。",
+    "buffs": "跳跃力提高<shuzhi>50%</>，持续<shuzhi>300</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果” / 使用后立刻恢复(<ComLblGreen>12%+3,300</>)点拓荒者生命值。"
+  },
+  "Item_JiuYu_quest_e60010_3": {
+    "food_key": "Item_JiuYu_quest_e60010_3",
+    "food_name": "昱华庄糖葫芦",
+    "food_des": "用竹签将山楂串起来，蘸上麦芽糖稀撒上芝麻，吃起来又酸又甜。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Item_Vera_Cooking36.png",
+    "food_source": "",
+    "use_description": "食用后速度+15%，持续5分钟。",
+    "buffs": "移动速度提高<shuzhi>15%</>，持续<shuzhi>300</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
   "Item_Cooking_Activity_ZSLJ_1": {
     "food_key": "Item_Cooking_Activity_ZSLJ_1",
     "food_name": "微醺葡萄汁",
@@ -1744,5 +2176,41 @@
     "food_source": "",
     "use_description": "恢复<ComLblGreen>10</>点饱食度",
     "buffs": ""
+  },
+  "Item_Cooking_Activity_ZSLJ_3": {
+    "food_key": "Item_Cooking_Activity_ZSLJ_3",
+    "food_name": "鲜榨橙汁",
+    "food_des": "以橙子为原料新鲜榨取的果汁饮料，含有丰富的维生素C，能提高免疫力。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/caiyao/Jiuyu_Cooking39.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>{0}</>点耐力",
+    "buffs": "每<ComLblGreen>0</>秒恢复<ComLblGreen>0</>生命值，持续<ComLblGreen>0</>秒 / 增加寒冰抗性<ComLblGreen>15%</>，寒冰抗性<ComLblGreen>675</>，持续<ComLblGreen>600</>秒。"
+  },
+  "Item_norn_ranquest_005": {
+    "food_key": "Item_norn_ranquest_005",
+    "food_name": "巨无霸抹茶芭菲",
+    "food_des": "风靡星岛的新款甜品，经典抹茶口味搭配时令限定水果，每日只有一百份！",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Norn/Icon_norn_ranquest_05.png",
+    "food_source": "格网-妙味餐厅",
+    "use_description": "特殊任务物品",
+    "buffs": "移动速度提高<shuzhi>25%</>，持续<shuzhi>300</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
+  },
+  "Item_norn_ranquest_008": {
+    "food_key": "Item_norn_ranquest_008",
+    "food_name": " 珍藏的美酒",
+    "food_des": " 于上世纪末尾，由知名葡萄酒庄园主亲酿的美酒，是招待贵宾时才会拿出来的珍品。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Norn/Icon_norn_ranquest_08.png",
+    "food_source": "格网-妙味餐厅 / 格网室内区击碎箱子",
+    "use_description": "特殊任务物品",
+    "buffs": "耐力消耗降低<shuzhi>10%</>，增加<shuzhi>15%</>+<shuzhi>675</>冰抗，持续<ComLblGreen>600</>秒。只在大世界生效，死亡或传送会清除效果。"
+  },
+  "Item_norn_ranquest_012": {
+    "food_key": "Item_norn_ranquest_012",
+    "food_name": " 一袋咖啡豆",
+    "food_des": " 一袋醇香的咖啡豆，是繁忙的上班族不可或缺的口粮。在某些压力过大的场所，你可能会看到有人干嚼豆子。",
+    "food_icon": "C:/XM/MY/Hotta/Content/Resources/Icon/Norn/Icon_norn_ranquest_12.png",
+    "food_source": "格网-妙味餐厅 / 格网-杂货商人",
+    "use_description": "特殊任务物品",
+    "buffs": "耐力消耗降低<shuzhi>35%</>，持续<shuzhi>120</>秒。“注意事项：只在主城和大世界生效，死亡或传送会清除效果”"
   }
 }

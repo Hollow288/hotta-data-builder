@@ -116,10 +116,11 @@ if __name__ == "__main__":
         key: val
         for key, val in item_configs_rows_data.items()
         if val.get("ItemType") == 'ITEM_TYPE_FOOD'
-           and val.get("StaticToolName") != "None"
            and val.get("bAutoUseWhenAdd") != True
+           and val.get("ItemBrief")['Key'] != 'brief_Show'
            and val.get("FeedToCorralMonsterAddExp", 0) < 50
            and val.get("ItemIcon", {}).get("AssetPathName") != "None"
+           and not (val.get("StaticToolName") == "None" and len(val.get("Buffs", [])) == 0)
     }
 
     output_path = os.path.abspath(
@@ -141,7 +142,7 @@ if __name__ == "__main__":
             'food_name': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
             'food_des': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
             'food_icon': resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
-            'food_source': make_food_source(dt_item_output_source_rows_data,food_key,game_json),
+            'food_source': make_food_source(dt_item_output_source_rows_data,data['OutputSourceID'],game_json),
             'use_description': make_use_description(
                 tool_static_data_table_rows_data,
                 data['StaticToolName'],
