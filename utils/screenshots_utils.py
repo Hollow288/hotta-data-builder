@@ -27,7 +27,7 @@ def make_fonts_url(font_map: dict, port: int) -> dict:
 
 def make_minio_img_url(url: str) -> str:
     endpoint = os.getenv("ENDPOINT", "localhost:9000")
-    return f"http://{endpoint}/{url}"
+    return f"http://{endpoint}/hotta/{url}"
 
 
 def make_item_name_icon(weapon_category: str) -> str:

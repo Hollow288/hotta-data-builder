@@ -9,7 +9,7 @@ from models import Weapons, WeaponSensualityLevelData, WeaponUpgradeStarPack, We
 from utils.minio_client import minio_client
 
 
-async def to_do():
+async def weapons_info_to_database():
     # 初始化数据库
     await Tortoise.init(
         config=database_config.TORTOISE_ORM
@@ -76,6 +76,3 @@ async def to_do():
                     item_name=skill_name,
                     item_describe=skill_desc
                 )
-
-if __name__ == "__main__":
-   asyncio.run(to_do())

@@ -10,7 +10,7 @@ from models.matrix import Matrix
 from utils.minio_client import minio_client
 
 
-async def to_do():
+async def recipes_info_to_database():
     # 初始化数据库
     await Tortoise.init(
         config=database_config.TORTOISE_ORM
@@ -23,23 +23,6 @@ async def to_do():
 
     for name, data in recipes_json.items():
 
-        minio_url = ''
-
-        local_icon_path = data['recipes_icon']
-        if local_icon_path and os.path.exists(local_icon_path):
-            bucket_name = 'hotta-recipes-icon'
-            object_name = f"{os.path.basename(local_icon_path)}"
-
-            if not minio_client.bucket_exists(bucket_name):
-                minio_client.make_bucket(bucket_name)
-
-            # 上传文件
-            minio_client.fput_object(bucket_name, object_name, local_icon_path)
-
-            # 生成访问地址（如果你自己部署了域名或用 minio 默认url）
-            minio_url = f"{bucket_name}/{object_name}"
-
-
         recipes_obj = await CookRecipesDataTable.create(
             recipes_key=name,
             recipes_name=data['recipes_name'],
@@ -47,7 +30,7 @@ async def to_do():
             categories=data['categories'],
             use_description=data['use_description'],
             buffs=data['buffs'],
-            recipes_icon=minio_url
+            recipes_icon=data['recipes_icon']
         )
 
         for food_key, amount in data['ingredients'].items():
@@ -63,7 +46,3 @@ async def to_do():
                     recipes_id=recipes_obj.recipes_id,
                     amount=amount
                 )
-
-
-if __name__ == "__main__":
-   asyncio.run(to_do())

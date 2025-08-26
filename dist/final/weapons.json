@@ -1,7 +1,7 @@
 {
   "spear_ice": {
     "ItemName": "霜冻长枪",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_R_Spear_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_R_Spear_Ice01.png",
     "ItemRarity": "R",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -38,7 +38,7 @@
   },
   "digger_physic": {
     "ItemName": "格斗刀",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_R_Ds_Phy01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_R_Ds_Phy01.png",
     "ItemRarity": "R",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -74,7 +74,7 @@
   },
   "sword_thunder": {
     "ItemName": "电磁刃",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_R_Sword_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_R_Sword_Thunder01.png",
     "ItemRarity": "R",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -109,7 +109,7 @@
   },
   "bow_fire": {
     "ItemName": "复合弓",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SR_Bow_Fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SR_Bow_Fire01.png",
     "ItemRarity": "R",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -144,7 +144,7 @@
   },
   "stave_thunder": {
     "ItemName": "圣痕权杖",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SR_Stave_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SR_Stave_Thunder01.png",
     "ItemRarity": "SR",
     "WeaponCategory": "恩赐",
     "WeaponElement": {
@@ -187,7 +187,7 @@
   },
   "cannon_ice": {
     "ItemName": "终结者",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SR_Cannon_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SR_Cannon_Ice01.png",
     "ItemRarity": "SR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -225,7 +225,7 @@
   },
   "hammer_ice": {
     "ItemName": "初动重击",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SR_Hammer_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SR_Hammer_Ice01.png",
     "ItemRarity": "SR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -269,7 +269,7 @@
   },
   "bow_physic": {
     "ItemName": "夜雀之羽",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_R_Bow_Phy01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_R_Bow_Phy01.png",
     "ItemRarity": "SR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -311,7 +311,7 @@
   },
   "spear_thunder": {
     "ItemName": "雷霆战戟",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Spear_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Spear_Thunder01.png",
     "ItemRarity": "SR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -355,7 +355,7 @@
   },
   "digger_thunder": {
     "ItemName": "疾雷双刃",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Ds_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Ds_Thunder01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -398,7 +398,7 @@
   },
   "bigsword_ice": {
     "ItemName": "蔷薇之锋",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_BigSword_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_BigSword_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -443,7 +443,7 @@
   },
   "bow_ice": {
     "ItemName": "冰风之矢",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Bow_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Bow_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -485,7 +485,7 @@
   },
   "ShieldAxe_Fire": {
     "ItemName": "V2熔驱盾",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_ShieldAxe_Fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_ShieldAxe_Fire01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -527,7 +527,7 @@
   },
   "stave_ice": {
     "ItemName": "零度指针",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Stave_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Stave_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "恩赐",
     "WeaponElement": {
@@ -570,7 +570,7 @@
   },
   "sickle_fire": {
     "ItemName": "黑鸦冥镰",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Sickle_Fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Sickle_Fire01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -614,7 +614,7 @@
   },
   "gun_fire": {
     "ItemName": "炽焰左轮",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Gun_Fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Gun_Fire01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -657,7 +657,7 @@
   },
   "sword_physic": {
     "ItemName": "红莲刃",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SR_Sword_Fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SR_Sword_Fire01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -700,7 +700,7 @@
   },
   "darts_physic": {
     "ItemName": "环海轮刃",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Darts_Phy01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Darts_Phy01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -743,7 +743,7 @@
   },
   "cube_fire": {
     "ItemName": "否决立方",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Cube_Fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Cube_Fire01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "恩赐",
     "WeaponElement": {
@@ -786,7 +786,7 @@
   },
   "dgun_thunder": {
     "ItemName": "超电磁双星",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_DGun_Thunder.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_DGun_Thunder.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -828,7 +828,7 @@
   },
   "Mark_physic": {
     "ItemName": "破晓",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Mark_Physic01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Mark_Physic01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -874,7 +874,7 @@
   },
   "Immortal_thunder": {
     "ItemName": "阿赖耶识",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Immortal_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Immortal_Thunder01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -917,7 +917,7 @@
   },
   "Suspension_thunder": {
     "ItemName": "启明星",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_naimxs_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_naimxs_Thunder01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "恩赐",
     "WeaponElement": {
@@ -960,7 +960,7 @@
   },
   "Frigg_ice": {
     "ItemName": "巴尔蒙克",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_frigg_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_frigg_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1002,7 +1002,7 @@
   },
   "funnel_fire": {
     "ItemName": "斯帕克",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_funnel_Fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_funnel_Fire01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1045,7 +1045,7 @@
   },
   "Dkatana_ice": {
     "ItemName": "流泉彻心",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_dkatana_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_dkatana_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -1089,7 +1089,7 @@
   },
   "fan_superpower": {
     "ItemName": "影织",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_fan_superpower01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_fan_superpower01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1139,7 +1139,7 @@
   },
   "arm_physic": {
     "ItemName": "晚祷",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Arm_Physic01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Arm_Physic01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "恩赐",
     "WeaponElement": {
@@ -1185,7 +1185,7 @@
   },
   "tianlang_thunder": {
     "ItemName": "破钧",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Tianlang_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Tianlang_Thunder01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1228,7 +1228,7 @@
   },
   "Snipe_fire": {
     "ItemName": "四叶十字",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Snipe_fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Snipe_fire01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1270,7 +1270,7 @@
   },
   "iceblade_ice": {
     "ItemName": "不灭之翼",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_iceblade_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_iceblade_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1314,7 +1314,7 @@
   },
   "Whip_physic": {
     "ItemName": "莫比乌斯",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Whip_Phy01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Whip_Phy01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1360,7 +1360,7 @@
   },
   "fenrir_thunder": {
     "ItemName": "格莱普尼",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Fenrir_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Fenrir_Thunder01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1405,7 +1405,7 @@
   },
   "umbrella_fire": {
     "ItemName": "陵光",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_umbrella_Fire01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_umbrella_Fire01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -1450,7 +1450,7 @@
   },
   "Yoyo_ice": {
     "ItemName": "片光零羽",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_yoyo_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_yoyo_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1494,7 +1494,7 @@
   },
   "queen_superpower": {
     "ItemName": "月星钏",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_feiouna.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_feiouna.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "恩赐",
     "WeaponElement": {
@@ -1545,7 +1545,7 @@
   },
   "Chainsaw_physic": {
     "ItemName": "小小飓风",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Chainsaw_physic01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Chainsaw_physic01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1590,7 +1590,7 @@
   },
   "Rubilia_thunder": {
     "ItemName": "绝响",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Rubilia_Thunder01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Rubilia_Thunder01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1635,7 +1635,7 @@
   },
   "brush_fire": {
     "ItemName": "松彗",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_liuhuo.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_liuhuo.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1682,7 +1682,7 @@
   },
   "yulan_ice": {
     "ItemName": "骈臻",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_yulan_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_yulan_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1731,7 +1731,7 @@
   },
   "Zeke_physic": {
     "ItemName": "执明",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Zeke_Phy01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Zeke_Phy01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1776,7 +1776,7 @@
   },
   "mimi_thunder": {
     "ItemName": "孟章",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_mimi.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_mimi.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -1820,7 +1820,7 @@
   },
   "feise_fire": {
     "ItemName": "重蕊",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_feise.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_feise.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1866,7 +1866,7 @@
   },
   "Linghan_ice": {
     "ItemName": "监兵",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Linghan_Ice01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Linghan_Ice01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1910,7 +1910,7 @@
   },
   "Nanyin_superpower": {
     "ItemName": "紫竹",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Nanyin.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Nanyin.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -1956,7 +1956,7 @@
   },
   "Killknife_physic": {
     "ItemName": "规衡",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Killknife.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Killknife.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2001,7 +2001,7 @@
   },
   "Blevi_thunder": {
     "ItemName": "契约徽章玫茨",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_bulewei.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_bulewei.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "恩赐",
     "WeaponElement": {
@@ -2045,7 +2045,7 @@
   },
   "Lances_Ice": {
     "ItemName": "坏家伙",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_yanuo.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_yanuo.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2094,7 +2094,7 @@
   },
   "Asuka_physic": {
     "ItemName": "朗基努斯之枪",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_mingrixiang.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_mingrixiang.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -2137,7 +2137,7 @@
   },
   "DFishChess_Fire": {
     "ItemName": "纵横",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_DFishChess.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_DFishChess.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2181,7 +2181,7 @@
   },
   "Loslyn_ice": {
     "ItemName": "静澜",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_luosilin.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_luosilin.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2225,7 +2225,7 @@
   },
   "Ace_Physic": {
     "ItemName": "跳跳糖",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_ACE_Phy01.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_ACE_Phy01.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2269,7 +2269,7 @@
   },
   "Paradox_fire": {
     "ItemName": "EP-7000天火",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_paluodi.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_paluodi.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2316,7 +2316,7 @@
   },
   "AyanamiRei_thunder": {
     "ItemName": "救赎",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_AyanamiRei.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_AyanamiRei.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2360,7 +2360,7 @@
   },
   "Nora_superpower": {
     "ItemName": "噪音",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_nuola.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_nuola.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2407,7 +2407,7 @@
   },
   "MerylX_thunder": {
     "ItemName": "破城之锋",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_meilierkai.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_meilierkai.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -2453,7 +2453,7 @@
   },
   "Tkatana_Fire": {
     "ItemName": "业火",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_asurada.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_asurada.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2498,7 +2498,7 @@
   },
   "GreyFox_ice": {
     "ItemName": "魔女之匙",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_huihu.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_huihu.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "恩赐",
     "WeaponElement": {
@@ -2545,7 +2545,7 @@
   },
   "SwordX_physic": {
     "ItemName": "赤风",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_SwordX.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_SwordX.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2590,7 +2590,7 @@
   },
   "BlackStar_SuperPower": {
     "ItemName": "湮灭之星",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_naimeixisiLK.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_naimeixisiLK.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2638,7 +2638,7 @@
   },
   "Antoria_thunder": {
     "ItemName": "镇魂曲",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Antoria.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Antoria.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2684,7 +2684,7 @@
   },
   "GunBox_fire": {
     "ItemName": "耳光",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_GunBox.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_GunBox.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2730,7 +2730,7 @@
   },
   "Lyncis_ice": {
     "ItemName": "哧溜",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_Lyncis.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Lyncis.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2775,7 +2775,7 @@
   },
   "StabDagger_Phy": {
     "ItemName": "双星",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_StabDagger.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_StabDagger.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "坚毅",
     "WeaponElement": {
@@ -2826,7 +2826,7 @@
   },
   "Commodore_Thu": {
     "ItemName": "AF-010侍者",
-    "ItemIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/weapon/Icon/item_Weapon_SSR_xipeier.png",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_xipeier.png",
     "ItemRarity": "SSR",
     "WeaponCategory": "强攻",
     "WeaponElement": {
@@ -2867,6 +2867,50 @@
       },
       "联携": {
         "绞杀螺旋": "当<red>武器充能满</>或触发<red>幻时</>时，从其他武器切换到该武器时<shuzhi>清除自身负面状态</>，对面前区域内的所有目标至多造成共<shuzhi>24,480%</>*攻击力+<shuzhi>1,288</>点伤害，期间免疫伤害持续<shuzhi>2.6</>秒（巅峰联赛不生效）。"
+      }
+    }
+  },
+  "Lechesis_Fire": {
+    "ItemName": "圣裁",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Lechesis.png",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "恩赐",
+    "WeaponElement": {
+      "WeaponElementType": "火物",
+      "WeaponElementName": "装甲溶解",
+      "WeaponElementDesc": "武器充能值充满后下次攻击使敌人进入<shuzhi>45</>秒装甲溶解状态，受到的火焰和物理伤害增加<shuzhi>10%</>，组队玩法中额外提升<shuzhi>15%</>（该效果会替换掉目标的重伤，并且目标拥有该效果无法被添加重伤）。装甲溶解状态受到物理元素攻击会击晕目标<shuzhi>2</>秒，受到火元素攻击会降低怪物<shuzhi>50%</>移动速度<shuzhi>5</>秒，相同目标<shuzhi>15</>秒内最多触发<shuzhi>1</>次"
+    },
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "闪烁着柔和光芒的巨大镰刀。比起斩断生的希望，它更希望斩断和死亡之间的链接。",
+    "RemouldDetail": "<shuzhi>火物融合</>：该武器计算伤害时取装备最高的火焰/物理基础攻击，装备最高的火焰/物理百分比攻击，装备最高的火焰/物理增伤。且该武器能同时视为火焰元素武器和物理元素武器。\r\n<shuzhi>火焰共鸣</>：装备<shuzhi>2</>把及以上火焰武器触发，提升<shuzhi>20%</>火攻和<shuzhi>40%</>火抗，装备后后台可生效（多个火焰共鸣/火焰反应不叠加，优先生效火焰共鸣）。\r\n<shuzhi>物理共鸣</>：装备<shuzhi>2</>把及以上物理武器触发，提升<shuzhi>20%</>物攻和<shuzhi>40%</>物抗，装备后后台可生效（多个物理共鸣/物理反应不叠加，优先生效物理共鸣）。\r\n<shuzhi>圣裁-驻场</>：<shuzhi>圣裁</>任意攻击命中时，对附近目标造成<shuzhi>2,700%</>*火攻+<shuzhi>46%</>*自身最大生命值+<shuzhi>1,620%</>*各元素抗性之和+<shuzhi>5,400%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，圣裁伤害视为普攻伤害，若装备任意<shuzhi>1</>把寒冰/雷电武器，则圣裁伤害提升至<shuzhi>2.5</>倍。此外，圣裁伤害不受除泰坦装备稀有属性以外的增伤效果影响。\r\n装备<shuzhi>武器-圣裁</>进入战斗后，每隔<shuzhi>0.5</>秒对周围敌人造成一次<shuzhi>50%</>*攻击力点火焰伤害，后台可生效，持续到脱离战斗。\r\n装备<shuzhi>武器-圣裁</>进入战斗后，小春日每隔<shuzhi>5</>秒释放一次光波，对范围内队友回复<shuzhi>100%</>*攻击力点生命值，持续到脱离战斗。",
+    "WeaponSensualityLevelData": [],
+    "WeaponUpgradeStarPack": [
+      "最终伤害提升<shuzhi>15%</>。小春日光波对敌对目标造成<shuzhi>60%</>*当前属性攻击力点火焰伤害。<shuzhi>武器-圣裁</>每次普攻或闪避攻击可以回复自身<shuzhi>2%</>生命值。",
+      "当前武器的基础攻击成长+<shuzhi>16%</>",
+      "<shuzhi>技能-斩断！心之锁</>状态下直接解锁<shuzhi>技能-溢彩波涌</>，特殊攻击总计可使用次数为<shuzhi>2</>次。小春日治疗溢出部分将转化为护盾，最高为不超过最大生命值<shuzhi>30%</>。",
+      "当前武器的基础攻击成长+<shuzhi>32%</>",
+      "最终伤害提升<shuzhi>15%</>。小春日光波缩短为间隔<shuzhi>3</>秒释放一次。激活<shuzhi>恩赐共鸣时</>时：小春日光波波及到的目标获得<shuzhi>群心激昂</>效果：获得<shuzhi>25%</>全元素增伤，持续<shuzhi>5</>秒（不可叠加）。",
+      "火元素伤害提升<shuzhi>45%</>。激活<shuzhi>恩赐共鸣时</>时<shuzhi>技能-斩荡晦色</>、<shuzhi>技能-爱之狂想</>、<shuzhi>技能-溢彩波涌</>和<shuzhi>技能-辉光撼心</>将斩杀<shuzhi>16%</>生命值以下怪物。"
+    ],
+    "WeaponSkill": {
+      "普攻": {
+        "从心旋舞": "在地面时，点击普攻可连续进行五次攻击。\r\n第一次攻击对目标至多造成<shuzhi>840%</>*攻击力+<shuzhi>44</>点伤害，并击退目标。\r\n第二次攻击对目标至多造成<shuzhi>1,664%</>*攻击力+<shuzhi>88</>点伤害，并击退目标。\r\n第三次攻击对目标至多造成<shuzhi>2,380%</>*攻击力+<shuzhi>125</>点伤害，并击退目标。\r\n第四次攻击对目标至多造成<shuzhi>3,643%</>*攻击力+<shuzhi>192</>点伤害，并击退目标。\r\n第五次攻击对目标至多造成<shuzhi>10,528%</>*攻击力+<shuzhi>554</>点伤害，并击退目标。",
+        "漫空飞虹": "当拓荒者滞空时，点击普攻可在空中连续进行五次攻击，并消耗耐力。\r\n第一次攻击对目标至多造成<shuzhi>600%</>*攻击力+<shuzhi>32</>点伤害，并击退目标\r\n第二次攻击对目标至多造成<shuzhi>1,248%</>*攻击力+<shuzhi>66</>点伤害，并击退目标\r\n第三次攻击对目标至多造成<shuzhi>2,380%</>*攻击力+<shuzhi>125</>点伤害，并击退目标\r\n第四次攻击对目标至多造成<shuzhi>3,312%</>*攻击力+<shuzhi>174</>点伤害，并击退目标\r\n第五次攻击对目标至多造成<shuzhi>9,776%</>*攻击力+<shuzhi>515</>点伤害，并击退目标",
+        "掠影突袭": "在地面普攻时，使用第一次至第二次普攻中，长按普攻可触发掠影突袭。\r\n莱可西丝向前方进行快速旋转斩击，落地斜劈，对附近目标共造成<shuzhi>5,654%</>*攻击力+<shuzhi>298</>点伤害。",
+        "跃光奔袭": "在地面普攻时，使用第三次至第四次普攻中，长按普攻可触发跃光奔袭。\r\n莱可西丝蓄力，完成后向前冲刺横斩，对附近目标共造成<shuzhi>6,390%</>*攻击力+<shuzhi>336</>点伤害。",
+        "曳光落霓": "滞空时长按普攻（存在敌方目标时点按），攀爬，反向跳攻击或使用喷气背包普攻，可触发曳光落霓。\r\n从空中下落，落地过程中对命中的敌人每次造成<shuzhi>240%</>*攻击力+<shuzhi>13</>点伤害，落地后对附近目标共造成<shuzhi>3,418%</>*攻击力+<shuzhi>180</>点伤害。"
+      },
+      "闪避": {
+        "闪避": "在被命中前闪避，可触发幻时，使一定范围内的目标动作速率变缓；闪避过程中，免疫硬直效果。",
+        "由心一击": "方向键加闪避键触发的前闪避短暂时间内，点击普攻，可触发由心一击，对前方目标至多造成<shuzhi>1,389%</>*攻击力+<shuzhi>73</>点伤害。",
+        "会心一闪": "闪避之后的短暂时间内，点击普攻，可触发会心一闪，对命中目标造成<shuzhi>1,859%</>*攻击力+<shuzhi>98</>点伤害。"
+      },
+      "技能": {
+        "斩荡晦色": "莱可西丝向前挑起敌人，向前快速连续斩击，对附近目标共造成<shuzhi>15,043%</>*攻击力+<shuzhi>792</>点伤害并添加<shuzhi>装甲溶解效果</>，获得<shuzhi>斩断！心之锁</>状态，期间获得持续<shuzhi>25</>秒的霸体，冷却<shuzhi>25</>秒（不受任何冷却时间清除、重置、变化效果的影响）。\r\n<shuzhi>斩断！心之锁</>状态：莱可西丝可在<shuzhi>普攻-掠影突袭</>下长按触发<shuzhi>爱之狂想</>，释放完<shuzhi>爱之狂想</>后可在<shuzhi>普攻-掠影突袭</>下长按触发<shuzhi>溢彩波涌</>，释放完<shuzhi>溢彩波涌</>后可在<shuzhi>普攻-掠影突袭</>下长按触发<shuzhi>辉光撼心</>(<shuzhi>斩断！心之锁</>状态切换武器会移除），上述特殊攻击总计共可使用<shuzhi>3</>次，持续<shuzhi>25</>秒。\r\n<shuzhi>爱之狂想</>：莱可西丝蓄力完成后向前上挑，对附近目标造成<shuzhi>5200%</>*攻击力点伤害。\r\n<shuzhi>溢彩波涌</>：莱可西丝蓄力完成后向前强力上挑，对附近目标造成<shuzhi>27000%</>*攻击力点伤害。\r\n<shuzhi>辉光撼心</>：莱可西丝蓄力完成后向前超级上挑，对附近目标造成<shuzhi>40000%</>*攻击力点伤害。"
+      },
+      "联携": {
+        "逐心破魇": "当<red>武器充能满</>或触发<red>幻时</>时，从其他武器切换到该武器时<shuzhi>清除自身负面状态</>，莱可西丝向前发射心型光波，蓄力完成后斩击光波，光波爆炸对附近目标共造成<shuzhi>16,814%</>*攻击力+<shuzhi>885</>点伤害，期间免疫伤害持续<shuzhi>2.6</>秒（巅峰联赛不生效）。"
       }
     }
   }

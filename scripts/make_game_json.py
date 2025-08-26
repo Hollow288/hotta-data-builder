@@ -98,10 +98,13 @@ def _add_file(result: Dict, seen_keys: set, file_path: Path):
         print(f"❌ 无法解析 {file_path}: {e}")
 
 
-# 加载数据
-grouped_data = load_keys_to_entries_grouped(paths)
+async def generate_game_json():
+    # 加载数据
+    grouped_data = load_keys_to_entries_grouped(paths)
 
-# 构建输出路径（保存到项目根目录的 dist/intermediate/Game.json）
-output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist", "intermediate", "Game.json"))
-with open(output_path, "w", encoding="utf-8") as f:
-    json.dump(grouped_data, f, ensure_ascii=False, indent=2)
+    # 构建输出路径
+    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist", "intermediate", "Game.json"))
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(grouped_data, f, ensure_ascii=False, indent=2)
+    print(f"✅ 生成完成: {output_path}")

@@ -3,7 +3,8 @@ import os
 import shutil
 from pathlib import Path
 
-from utils.common_utils import extract_tail_name, resolve_resource_path, format_description, make_remould_detail
+from utils.common_utils import extract_tail_name, resolve_resource_path, format_description, make_remould_detail, \
+    fix_resolve_resource_path
 
 
 def extract_series_values(data: dict, base_key: str, game_json: dict) -> list:

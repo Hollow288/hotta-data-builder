@@ -1,8 +1,17 @@
 {
+  "Suit_SSR59": {
+    "SuitName": "生命赋格",
+    "MatrixSuitQuality": "SSR",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR59_512.png",
+    "SuitUnactivateDetail": {
+      "意志2件装备效果": "全属性攻击提升30%/40%/50%/60%，辉光撼心伤害提升至54,500%。治疗效果提升25%。装备后后台可生效，多套只生效最高星级",
+      "意志4件装备效果": "武器-圣裁上阵最终伤害提升30%/40%/50%/60%，当激活非恩赐共鸣时，额外获得25%全元素增伤，当激活恩赐共鸣时，会为全队提供自身最高属性的基础攻击/200000，最高不超过35%的最终增伤。装备后后台可生效，多套只生效最高星级"
+    }
+  },
   "Suit_SSR58": {
     "SuitName": "未来星空",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR58_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR58_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "雷电攻击提升30%/40%/50%/60%，<shuzhi>武器-AF-010侍者</>攻击第5段伤害倍率提升至5292%，强化普攻第五段总倍率提升至16632%。",
       "意志4件装备效果": "雷电伤害提升15%/20%/25%/30%；<shuzhi>武器-AF-010侍者</>上阵时暴击伤害提升15%/20%/25%/30%，最终伤害提升25%"
@@ -11,7 +20,7 @@
   "Suit_SSR57": {
     "SuitName": "星空奏鸣曲",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR57_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR57_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "物理攻击提升30%/40%/50%/60%，每击杀一个目标最终伤害提升3%，最多叠加2层，持续60秒，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "全元素伤害提升35%/45%/55%/65%，上阵武器-双星时最终伤害额外提升25%。激活坚毅共鸣时破盾效率提高100%，装备后后台可生效，多套只生效最高星级。"
@@ -20,7 +29,7 @@
   "Suit_SSR56": {
     "SuitName": "新节目",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR56_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR56_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "寒冰攻击提升30%/40%/50%/60%，<shuzhi>技能-焦点冲击</>伤害提升至<shuzhi>17,500%</>。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "寒冰伤害提升28%/37%/46%/55%，琳赛释放技能后额外获得25%寒冰伤害，持续<shuzhi>30</>秒。装备后后台可生效，多套只生效最高星级。"
@@ -29,7 +38,7 @@
   "Suit_SSR55": {
     "SuitName": "天外来客",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR55_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR55_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "火焰攻击提升30%/40%/50%/60%，<shuzhi>技能-响亮大耳光</>造成的伤害提升至28,000%。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "提升45%/55%/65%/75%火元素伤害，释放<shuzhi>技能-胡萝卜快打</>后额外获得20%最终增伤，持续30秒。装备后后台可生效，多套只生效最高星级。"
@@ -38,7 +47,7 @@
   "Suit_SSR54": {
     "SuitName": "守望者",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR54_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR54_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "雷电攻击提升26%/34%/42%/50%，技能-辅助攻击系统S.A.S伤害提升至每次9000%*攻击力，闪避-高速巡航模式-云耐力消耗降低20%，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "雷元素伤害提升25%/35%/45%/55%，上阵武器-镇魂曲额外提升20%最终伤害，装备后后台可生效，多套只生效最高星级。"
@@ -47,7 +56,7 @@
   "Suit_SSR53": {
     "SuitName": "人之心",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR53_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR53_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "全元素攻击提升28%/36%/42%/50%，装备湮灭之星时攻击无视目标35%护盾。装备后后台可生效，多套只生效最高星级",
       "意志4件装备效果": "最终伤害提升20%/26%/33%/40%，装备湮灭之星时，最终伤害提升15%，暴击伤害提升30%。装备后后台可生效，多套只生效最高星级"
@@ -56,7 +65,7 @@
   "suit_SSR52": {
     "SuitName": "烈烈红莲",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR52_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR52_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "物理攻击提升28%/36%/42%/50%，<shuzhi>技能-同心化刃</>伤害提升至<shuzhi>16,000%</>。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "提升21%/29%/37%/45%全元素伤害，装备<shuzhi>武器-赤风</>时提升<shuzhi>35%</>最终伤害。装备后后台可生效，多套只生效最高星级。"
@@ -65,7 +74,7 @@
   "suit_SSR51": {
     "SuitName": "魔力之源",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR51_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR51_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "激活非恩赐共鸣时，冰攻提升28%/34%/40%/46%，激活恩赐共鸣时，全攻提升28%/34%/40%/46%；自身治疗效果提升20%，战斗状态下第一次造成伤害时，自身获得1,000点武器充能值，15秒内最多触发一次，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "连携-时空火花释放成功后，最终伤害提升28%/34%/42%/50%，若处于非恩赐共鸣时释放，冰元素伤害额外提升22%，若处于恩赐共鸣时释放，自身和附近队友暴击率额外提升30%，暴击伤害额外提升15%，以上效果均持续40秒，装备后后台可生效，多套只生效最高星级。"
@@ -74,7 +83,7 @@
   "suit_SSR50": {
     "SuitName": "演绎",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR50_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR50_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "火焰攻击提升28%/36%/43%/50%，所向无前倍率提升至1,420%。装备后后台可生效，多套只生效最高星级",
       "意志4件装备效果": "全元素伤害提升16%/22%/27%/32%，装备<shuzhi>业火</>时额外获得16%/22%/27%/32%的最终伤害提升。装备后后台可生效，多套只生效最高星级"
@@ -83,7 +92,7 @@
   "suit_SSR49": {
     "SuitName": "锋芒",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR49_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR49_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "雷电伤害提升14%/18%/22%/26%，每次触发<shuzhi>连携-静电链</>，暴击伤害提升<shuzhi>12%</>，至多叠加<shuzhi>4</>层，持续<shuzhi>5</>秒。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "装备<shuzhi>武器-破城之锋</>时，雷电攻击提升16%/24%/32%/40%。处于<shuzhi>连携-静电状态</>下的目标被<shuzhi>磁暴</>命中后，进入激化状态，每秒受到<shuzhi>1000%</>倍率的伤害（视为技能伤害），持续<shuzhi>20</>秒。激活<shuzhi>坚毅共鸣</>时，自身暴击率提升<shuzhi>20%</>，附近目标抗暴值降低<shuzhi>15%</>。装备后后台可生效，多套只生效最高星级。"
@@ -92,7 +101,7 @@
   "suit_SSR48": {
     "SuitName": "夜辉",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR48_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR48_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "装备噪音时，全攻提升26%/34%/42%/50%，普攻-极荷伤害倍率提升至1,300%*攻击力，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "全元素伤害提升24%/31%/38%/45%，进入技能-超速模式后，全元素伤害额外提升25%，持续30秒，装备后后台可生效，多套只生效最高星级。"
@@ -101,7 +110,7 @@
   "suit_SSR47": {
     "SuitName": "星期三",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR47_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR47_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "物理攻击提升26%/34%/42%/50%，重击伤害提升至3,500%。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "混乱效果造成伤害间隔缩短为0.5秒。最终伤害提升24%/30%/36%/43%，装备<shuzhi>武器-跳跳糖</>后额外提升35%暴击伤害。装备后后台可生效，多套只生效最高星级。"
@@ -110,7 +119,7 @@
   "suit_SSR46": {
     "SuitName": "铭心",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR46_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR46_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "寒冰伤害提升14%/18%/22%/26%，目标<shuzhi>连携-冰封</>状态解除后，每秒受到玩家1,500倍攻击力的流血伤害（该伤害不受任何增伤效果影响），持续10秒。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "每装备1把冰武器，提升6%最终伤害。进入<shuzhi>连携-凛冽</>状态后，冰攻提升30%/36%/42%/48%，持续40秒。装备后后台可生效，多套只生效最高星级。"
@@ -119,7 +128,7 @@
   "suit_SSR45": {
     "SuitName": "洞微",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR45_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR45_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "火焰攻击提升22%/28%/34%/40%，<shuzhi>技能-以身入局</>每次落子对棋盘内所有目标额外造成<shuzhi>300%</>*攻击力伤害。装备后后台可生效，多套只生效最高星级",
       "意志4件装备效果": "最终伤害提升24%/30%/36%/42%，装备<shuzhi>纵横</>时暴击伤害提升<shuzhi>30%</>，进入战斗状态时额外获得<shuzhi>9</>层<shuzhi>技能-落子无悔</>效果。装备后后台可生效，多套只生效最高星级"
@@ -128,7 +137,7 @@
   "suit_SSR44": {
     "SuitName": "零之轮回",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR44_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR44_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "雷电和寒冰伤害提升13%/16%/19%/22%，装备救赎后，自身获得无视目标30%雷抗效果与冰抗效果（所有单个元素无视抗性总值不能超过50%）。装备后后台可生效，多套只生效最高星级",
       "意志4件装备效果": "最终伤害提升28%/33%/38%/43%，救赎造成伤害后，寒冰攻击，雷电攻击提升20%，持续5秒。后台可生效，多套只生效最高星级"
@@ -137,7 +146,7 @@
   "suit_SSR43": {
     "SuitName": "未来",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR43_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR43_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "物理和火焰攻击提升22%/28%/34%/40%。使用闪避攻击时，可额外消耗<shuzhi>1</>层复仇且不受触发间隔限制。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "全元素伤害提升22%/28%/34%/40%。装备武器-朗基努斯之枪后最终伤害提升22%，技能-复仇倍率提升至<shuzhi>1,800%</>。激活<shuzhi>坚毅共鸣</>时，攻击造成仇恨值提升150%/200%/250%/300%。装备后后台可生效，多套只生效最高星级。"
@@ -146,7 +155,7 @@
   "suit_SSR42": {
     "SuitName": "千面",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR42_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR42_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "寒冰伤害和雷电伤害提升13%/16%/19%/22%，寒冰攻击和雷电攻击提升5%，匿行状态下移动速度提高20%，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "装备至少1把冰武器时，全元素伤害提升32%/38%/44%/50%，装备后后台可生效，多套意志只生效最高星级。释放技能-极地之噬后，最终伤害提升13%，持续60秒。前台使用武器-坏家伙进入战斗状态时，触发1次满额增伤的狂猎（该效果不计入武器-坏家伙的狂猎冷却，但15秒内至多触发1次。"
@@ -155,7 +164,7 @@
   "suit_SSR41": {
     "SuitName": "悖论",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR41_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR41_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "提升20%/25%/30%/35%火焰和物理攻击力，EP-7000天火闪避耐力恢复提高100%，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "装备至少1把火武器时，全元素伤害提升32%/38%/44%/50%，释放重装能源弹额外获得13%最终增伤，持续10秒，技能镜中你我命中目标后，刷新镜面效果以及装甲溶解持续时间，装备后后台可生效，多套只生效最高星级。"
@@ -164,7 +173,7 @@
   "suit_SSR40": {
     "SuitName": "才能开花",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR40_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR40_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "全元素伤害提升13%/16%/19%/22%，释放任意连携后自身治疗效果提升30%,持续30秒。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "释放<shuzhi>粉钻级连锁乱打</>后，取消长按普攻也可以保持蓄力状态。<shuzhi>百万玫茨冲击波</>释放成功后，最终伤害提升<shuzhi>22%</>，持续<shuzhi>30</>秒。激活<shuzhi>非恩赐共鸣</>时，全攻提升34%/40%/46%/52%，激活<shuzhi>恩赐共鸣</>时，自身与附近队友全攻提升17%/20%/23%/26%。装备后后台可生效，多套只生效最高星级。"
@@ -173,7 +182,7 @@
   "suit_SSR39": {
     "SuitName": "热枕",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR39_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR39_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "物理攻击和火焰攻击提高20%/25%/30%/35%。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "装备至少1把物理武器时，全元素伤害提高28%/32%/36%/42%。装备规衡时，全元素伤害额外提高21%。装备后后台可生效，多套只生效最高星级。"
@@ -182,7 +191,7 @@
   "suit_SSR38": {
     "SuitName": "弗渝",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR38_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR38_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "全攻提升20%/24%/28%/32%，虚影额外继承玩家30%攻击力，战斗状态下第一次造成伤害时，自身获得1,000点武器充能值，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "装备紫竹后暴击伤害提升22%，最终伤害提升28%/32%/36%/42%，装备后后台可生效，多套只生效最高星级。"
@@ -191,7 +200,7 @@
   "suit_SSR37": {
     "SuitName": "霜影",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR37_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR37_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "全元素伤害提升9%/12%/15%/18%，发射冰刃时对附近目标额外造成1600%*攻击力伤害。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "释放任意冰武器连携技后，最终伤害提升28%/32%/36%/40%，持续30秒；装备监兵时，全攻提高15%，装备后后台可生效，多套只生效最高星级。"
@@ -200,7 +209,7 @@
   "suit_SSR36": {
     "SuitName": "惊鸿",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR36_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR36_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "释放任意火武器技能或连携后，全攻提升18%/22%/26%/30%，持续30秒。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "装备至少1把火武器时，全元素伤害提升28%/32%/36%/40%。生成妃色幻象时，最终伤害额外提升20%，持续25秒。装备后后台可生效，多套只生效最高星级。"
@@ -209,7 +218,7 @@
   "suit_SSR35": {
     "SuitName": "吟啸",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR35_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR35_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "最终伤害提升10%/12%/14%/16%，小青龙冲击波命中目标后，技能伤害提升30%，持续30秒，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "装备至少1把雷武器时，全元素伤害提升28%/32%/36%/40%，释放青云慑月/飞龙在天后，暴击伤害提升20%，持续30秒，装备后后台可生效，多套只生效最高星级。"
@@ -218,7 +227,7 @@
   "suit_SSR34": {
     "SuitName": "寻心",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR34_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR34_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "蛇链成员上限提升至<shuzhi>5</>名，装备至少<shuzhi>1</>把物理武器时，物攻提升18%/22%/26%/30%。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "添加蛇噬效果后，物攻提升20%，持续30秒。战斗状态下，最终伤害增加28%/32%/36%/40%。装备后后台可生效，多套只生效最高星级。"
@@ -227,7 +236,7 @@
   "suit_SSR33": {
     "SuitName": "赤心",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR33_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR33_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "装备至少1把冰武器时，战斗状态下对附近目标每秒造成260%*攻击力点伤害；释放任意冰武器技能或连携后，最终伤害提升6%/9%/12%/15%，持续30秒。装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "骈臻消耗内劲或战意后，最终伤害提升12%，持续15秒；造成寒冰伤害后，全元素伤害提升28%/32%/36%/40%，持续30秒。装备后后台可生效，多套只生效最高星级。"
@@ -236,7 +245,7 @@
   "suit_SSR32": {
     "SuitName": "春秋笔",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR32_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR32_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "最终伤害提升12%/15%/18%/21%，释放松彗闪避后获得的雀羽数量提升至20枚，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "装备至少1把火武器时，全元素伤害提升28%/32%/36%/40%，释放四方雀唳后，全元素增伤额外提升15%，并在25秒内逐渐减少至10%，装备后后台可生效，多套只生效最高星级。"
@@ -245,7 +254,7 @@
   "suit_SSR31": {
     "SuitName": "求索",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR31_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR31_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "生命值提升105,000/120,000/135,000/150,000，雷攻提升16%/19%/22%/25%，装备后后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "晶极刺数量上限提升至6枚，雷武器攻击命中目标后，全元素伤害提升25%/30%/35%/40%，持续30秒。装备后后台可生效，多套只生效最高星级。"
@@ -254,7 +263,7 @@
   "suit_SSR30": {
     "SuitName": "冒险陨星",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR30_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR30_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "装备至少1把物理武器时，全元素伤害提升12%/15%/18%/21%。装备后台可生效，多套只生效最高星级。",
       "意志4件装备效果": "释放任意物理武器技能或连携后，全元素伤害提升27%/31%/35%/39%，持续25秒。使用小小飓风时耐力消耗减少40%。装备后台可生效，多套只生效最高星级。"
@@ -263,7 +272,7 @@
   "suit_SSR29": {
     "SuitName": "奋念",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR29_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR29_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "造成伤害后，攻击力提高18%/22%/26%/30%，持续30秒，不可叠加。重复获得时只生效最高星级。",
       "意志4件装备效果": "非恩赐共鸣时，释放散流技后，自身获得28%/32%/36%/40%最终伤害提高，持续20秒；恩赐共鸣时，释放散流技后，自身及队友获得14%/16%/18%/20%最终伤害提高，持续20秒。根据自身基础攻击力，获得额外（基础攻击力/10000）%的最终伤害提高，上限5%。该意志效果后台也生效，装备多套生效最高星级。"
@@ -272,7 +281,7 @@
   "suit_SSR28": {
     "SuitName": "含霜",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR28_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR28_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "装备片光零羽/装备至少<shuzhi>2</>种元素/装备至少<shuzhi>2</>种职业武器时，全元素伤害提升12%/15%/18%/21%，装备后台可生效，多套只生效最高星级",
       "意志4件装备效果": "造成寒冰伤害时，全元素伤害提升27%/31%/35%/39%，持续25秒，装备后台可生效，多套只生效最高星级"
@@ -281,7 +290,7 @@
   "suit_SSR27": {
     "SuitName": "风火",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR27_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR27_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "装备至少1把火武器时，火焰攻击提高12%/14%/16%/18%，火焰伤害提高7%/8%/9%/10%，装备后后台可生效，多套只生效最高星级",
       "意志4件装备效果": "根据装备不同元素武器的数量获得不同的效果：每装备1把火焰/寒冰/物理/雷电武器，火焰/寒冰/物理/雷电元素伤害提高9%/11%/13%/15%；每装备1把异能武器，最终伤害提高12%/14%/17%/20%，装备后后台可生效，多套只生效最高星级"
@@ -290,7 +299,7 @@
   "suit_SSR26": {
     "SuitName": "混响鸣鼓",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR26_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR26_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "当前武器装备本意志时获得15%/18%/22%/27%的暴击伤害提升和15%/18%/22%/27%的破盾效率提升",
       "意志4件装备效果": "装备多种（两种及以上）元素或者多种职业武器时获得15%/17%/20%/24%全元素伤害提升，后台可生效，装备多套只生效最高星级"
@@ -299,7 +308,7 @@
   "suit_SSR25": {
     "SuitName": "火山灰雨",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR25_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR25_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "当前武器装备本意志时获得12%/14%/17%/21%的最终伤害提升",
       "意志4件装备效果": "获得15%/17%/20%/24%最终伤害提升，后台可生效，装备多套只生效最高星级"
@@ -308,7 +317,7 @@
   "suit_SSR24": {
     "SuitName": "万物交响",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR24_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR24_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "暴击伤害提高20%/24%/28%/32%，不可叠加。该意志效果后台也生效，装备多套生效最高星级。",
       "意志4件装备效果": "每次造成雷电伤害时，获得5%最终伤害提升，持续10秒，最多可叠加5/6/7/8层。该意志效果后台也生效，装备多套生效最高星级。"
@@ -317,7 +326,7 @@
   "suit_SSR23": {
     "SuitName": "双重魔术",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR23_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR23_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "造成物理伤害时，最终伤害提高8%/9%/10%/11%，物理伤害额外提升4%/4.5%/5%/5.5%，持续3秒。该意志效果后台也生效，装备多套时生效最高星级",
       "意志4件装备效果": "装备2把及以上物理武器时，最终伤害提高24%/26%/29%/32%。该意志效果后台也生效，装备多套时生效最高星级"
@@ -326,7 +335,7 @@
   "suit_SSR22": {
     "SuitName": "英魂再构",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR22_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR22_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "每次切换至该武器时获得8.75%/10%/11.25%/12.5%最终伤害提升，如果是寒冰武器则额外获得5%冰伤提升，持续18秒，多套只生效最高星级",
       "意志4件装备效果": "每次释放不灭之翼连携技时获得12%/13.5%/15%/17%最终伤害提升，可以叠加2层，持续18秒，持续时间结束后扣除1层。装备后后台可生效，多个不叠加；潜态构形期间耐力消耗降低50%"
@@ -335,7 +344,7 @@
   "suit_SSR21": {
     "SuitName": "血色异闻",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR21_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR21_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "火武器攻击命中目标后，提高自身5%/6%/7%/8%最终伤害，2.5%/2.5%/3%/3%最终暴击率，持续25秒，最多可叠加2层，重复获得时只生效最高星级。",
       "意志4件装备效果": "装备2把及以上火武器时获得“流火”效果，最终伤害提高11%/13%/15%/17%，攻击暴击后在25秒内暴击伤害额外提高22%/24%/26%/28%，蓄力攻击命中目标3次后，回复自身1次闪避次数，冷却2秒，重复获得时只生效最高星级。"
@@ -344,7 +353,7 @@
   "suit_SSR20": {
     "SuitName": "杀破狼",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR20_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR20_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "每次造成雷电伤害时有40%概率释放闪电链，对目标造成60%/100%/150%/200%雷攻伤害，最多攻击7个目标，冷却2秒。每次触发闪电链时获得12%雷电伤害提升，持续6秒（闪电链不会触发攻击效果），不叠加。该意志效果后台也生效，装备多套生效最高星级",
       "意志4件装备效果": "每次释放雷武器技能或连携技时获得25%/28%/31%/34%雷电伤害提升，持续15秒，不叠加。该意志效果后台也生效，装备多套生效最高星级"
@@ -353,7 +362,7 @@
   "suit_SSR19": {
     "SuitName": "回忆告解",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR19_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR19_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "使用该武器时获得20%/25%/30%/35%全攻提升。自身生命值越低被治疗效果越高，最高提升100%",
       "意志4件装备效果": "造成物理伤害时获得5%物理伤害提升冷却0.1秒，最多叠加5层，叠满后再获得6%/10%/14%/18%物理伤害提升，持续5秒，重复获得时只生效最高星级。每次闪避获得一次格挡，最多格挡当前生命的60%不低于最大生命的20%，格挡可以累积3次，持续10秒"
@@ -362,7 +371,7 @@
   "suit_SSR18": {
     "SuitName": "不夜城之夜",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR18_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR18_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "攻击命中目标后，提高自身3%/3.7%/4.3%/5%攻击，持续18秒，最多可叠加5层，重复获得时只生效最高等级。",
       "意志4件装备效果": "在自身释放的映月之境内每移动5米，会获得1层【映月】，提高7%/8.3%/9.6%/11%最终伤害，持续15秒，最多可叠加3层。该意志效果后台也生效，装备多套生效最高星级。"
@@ -371,7 +380,7 @@
   "suit_SSR17": {
     "SuitName": "超心流",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR17_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR17_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "触发寒冰共鸣时：每3秒对周围10米内敌人造成60%/100%/150%/220%*冰攻伤害并施加【冰霜】效果：持续3.5秒的5%减速效果，叠加3层后转化为冰冻目标3秒（无法冰冻BOSS）并使目标受到的冰伤提升12%（持续18秒）。该意志效果后台也生效，装备多套生效最高星级。",
       "意志4件装备效果": "攻击目标10次附加12秒【急冻】标记：攻击【急冻】标记的目标寒冰伤害提升25%/28%/31%/34%。该意志效果后台也生效，装备多套生效最高星级。"
@@ -380,7 +389,7 @@
   "suit_SSR16": {
     "SuitName": "白兔舞曲",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR16_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR16_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "释放武器技能后，火攻增加15%/18%/21%/25%，持续25秒，不同星级生效后触发效果，该效果不可叠加",
       "意志4件装备效果": "释放武器技能后，获得【精通】持续15秒，冷却15秒（不同等级【精通】共享冷却），【精通】不可叠加。每次普攻命中目标，火焰伤害增加4%/5%/6%/7%持续至【精通】结束，最多叠加6层，每0.2秒最多添加1层，叠加满6层后获得抵挡1次伤害的护盾"
@@ -389,7 +398,7 @@
   "suit_SSR15": {
     "SuitName": "身心为铁",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR15_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR15_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "从冰武器切换至冰武器时提升15%/18%/21%/25%寒冰攻击，持续10秒。本套装效果后台也生效，但装备多套时只生效星级最高的一套。",
       "意志4件装备效果": "通过武器“巴尔蒙克”释放冰域时，冰域内的敌方目标每秒受到60%/75%/90%/105%攻击的寒冰伤害。"
@@ -398,7 +407,7 @@
   "suit_SSR14": {
     "SuitName": "生命弥合",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR14_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR14_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "治疗目标时，被治疗的目标雷电攻击提升15%/18%/21%/25%，持续20秒，不可叠加，重复获得时只生效最高等级。",
       "意志4件装备效果": "治疗自己或自己的电极时，被治疗的目标获得获得一次“雷击”机会；30秒内下一次攻击附带“雷击”，对首个命中的目标造成300%/375%/450%/525%雷攻伤害（电极造成的伤害减半），触发间隔不低于10秒。“雷击”机会不可叠加，重复获得时只生效最高等级。"
@@ -407,7 +416,7 @@
   "suit_SSR13": {
     "SuitName": "意念升华",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR13_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR13_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "切换至该武器时如果武器充能值处于200~999点，则消耗200点获得15秒15%/18%/21%/25%攻击提升，冷却5秒，不可叠加。",
       "意志4件装备效果": "在连携技可释放状态下每保持0.6秒，下1次连携技命中首个敌人时附带1次106%/122%/140%/160%攻击力的范围伤害（半径5米），至多附带530%/610%/700%/800%；并获得4秒破盾效率提高7%/14%/21%/28%，不可叠加。本套装效果后台也生效，但装备多套时只生效星级最高的一套。"
@@ -416,7 +425,7 @@
   "suit_SSR12": {
     "SuitName": "先锋",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR12_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR12_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "攻击到敌人后为全体队友添加自身当前生命值15%的生命值护盾，持续15秒，脱战后10秒重置。若身上存在其他生命护盾，则将所有的护盾值合并。获得生命护盾时受到伤害减少11%/13%/15%/17%，减伤效果持续15秒，不可叠加。该意志效果后台也生效，装备多套生效最高星级。",
       "意志4件装备效果": "获得生命护盾时提高6%/7.5%/9%/11.5%的攻击力，提升队友3%/3.5%/4.5%/5.75%的攻击力，持续15秒，最多叠加3层。该意志效果后台也生效，装备多套生效最高星级。"
@@ -425,7 +434,7 @@
   "suit_SSR11": {
     "SuitName": "狂热追击",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR11_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR11_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "对于生命值低于60%的目标，暴击伤害提高33%/42%/50%/58%",
       "意志4件装备效果": "暴击时附加持续伤害，每秒对目标造成12%/15%/18%/21%*攻击伤害，持续5秒，不叠加。"
@@ -434,7 +443,7 @@
   "suit_SSR10": {
     "SuitName": "微热苏醒",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR10_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR10_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "闪避技命中目标后附加持续流血，每秒造成15%/19%/22.5%/26%*攻击力伤害，持续5秒。",
       "意志4件装备效果": "周围8米内受到持续伤害的目标的攻击力下降10%/12%/13%/15%"
@@ -443,7 +452,7 @@
   "suit_SSR9": {
     "SuitName": "理性解放",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR9_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR9_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "命中敌人后伤害递增，每次提高1.5%，最多叠加10/13/16/20层，叠加时间2秒。",
       "意志4件装备效果": "每次攻击锁定目标附加10%/12.5%/15%/17.5%*攻击伤害。"
@@ -452,7 +461,7 @@
   "suit_SSR8": {
     "SuitName": "不思议链接",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR8_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR8_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "通过连携技切换到当前武器时，为自身添加150%/200%/250%/300%攻击力的护盾，持续6秒。",
       "意志4件装备效果": "自己和队友在护盾期间造成伤害提升16%/20%/24%/28%"
@@ -461,7 +470,7 @@
   "suit_SSR7": {
     "SuitName": "启程之诗",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR7_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR7_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "对生命高于50%的目标，伤害和破盾效率都提高15%/19%/22.5%/26%",
       "意志4件装备效果": "进入战斗时获得20%/25%/30%/35%伤害提升，持续35秒，脱战5秒后重置。"
@@ -470,7 +479,7 @@
   "suit_SSR6": {
     "SuitName": "多方位打击",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR6_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR6_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "命中空中目标或者空中攻击时伤害提高13%/17%/20%/23%，空中命中目标后重置二段跳。",
       "意志4件装备效果": "技能命中后降低所有武器技能1.5/2/2.5/3秒冷却，并获得36%/45%/54%/63%连携技增伤，持续15秒。"
@@ -479,7 +488,7 @@
   "suit_SSR5": {
     "SuitName": "超直感战法",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR5_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR5_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "每4次闪避恢复一次闪避，闪避攻击附加灼烧，每秒造成13%/17%/21%/25%攻击伤害，持续10秒。",
       "意志4件装备效果": "对异常状态目标增伤13%/17%/21%/25%"
@@ -488,7 +497,7 @@
   "suit_SSR4": {
     "SuitName": "暴力代言",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR4_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR4_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "每削减目标10%破盾值提高自己4%/5%/6%/7%伤害，最多3层，持续25秒。",
       "意志4件装备效果": "周围数量敌人大于2时,攻击恢复伤害的14%/18%/22%/26%生命,每0.5秒内不超过攻击力的36%/42%/48%/54%"
@@ -497,7 +506,7 @@
   "suit_SSR3": {
     "SuitName": "信赖之证",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR3_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR3_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "治疗量和受到治疗效果提升10%/12%/14%/16%",
       "意志4件装备效果": "当自身和队友受到治疗效果时，攻击提升12.5%/15%/17.5%/20%，持续6秒。"
@@ -506,7 +515,7 @@
   "suit_SSR2": {
     "SuitName": "读风之眼",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR2_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR2_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "4米内没有敌方单位时伤害提高12.5%/15%/17.5%/20%",
       "意志4件装备效果": "爆头或者使用冰风之矢技能-穿透箭命中目标后，提升自身攻击15%/18%/21%/25%，持续8秒。"
@@ -515,7 +524,7 @@
   "suit_SSR1": {
     "SuitName": "纯白的守护",
     "MatrixSuitQuality": "SSR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SSR1_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR1_512.png",
     "SuitUnactivateDetail": {
       "意志2件装备效果": "受到敌人伤害后生命低于30%时获得20%/26%/32%/40%最大生命值的护盾，持续10秒，冷却90秒。",
       "意志4件装备效果": "护盾期间将伤害的60%/75%/90%/105%转为生命值，每0.5秒内的恢复量不超过攻击力的105%/127.5%/150%/172.5%"
@@ -524,7 +533,7 @@
   "suit_SR1": {
     "SuitName": "悉数吞噬",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR1_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR1_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "破盾目标时使目标中毒，每秒造成45%/56%/67.5%攻击伤害，持续10秒。"
     }
@@ -532,7 +541,7 @@
   "suit_SR2": {
     "SuitName": "自我斗争",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR2_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR2_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "自身血量越低伤害越高，血量为60%时达到最大值，最大提升10%/12.5%/15%伤害。"
     }
@@ -540,7 +549,7 @@
   "suit_SR3": {
     "SuitName": "极致零度",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR3_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR3_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "生命低于40%时，通过连携技切换到当前武器后，恢复160%/200%/240%攻击力的生命值。"
     }
@@ -548,7 +557,7 @@
   "suit_SR4": {
     "SuitName": "沼泽潜影",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR4_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR4_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "周围每存在一个敌方单位伤害提高6%/7.5%/9%，最多3层。"
     }
@@ -556,7 +565,7 @@
   "suit_SR5": {
     "SuitName": "恶梦成双",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR5_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR5_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "切换至该武器时获得50%/62.5%/75%反伤，持续3秒，冷却30秒；切换至其他武器时获得20%/25%/30%的伤害提升，持续5秒，冷却30秒。"
     }
@@ -564,7 +573,7 @@
   "suit_SR6": {
     "SuitName": "连轴转",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR6_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR6_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "提高10%/12.5%/15%武器充能值的获取速度。"
     }
@@ -572,7 +581,7 @@
   "suit_SR7": {
     "SuitName": "抛物线",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR7_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR7_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "周围6米内没有敌方单位时，伤害提高12%/15%/18%"
     }
@@ -580,7 +589,7 @@
   "suit_SR8": {
     "SuitName": "机能过载",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR8_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR8_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "造成高于100%攻击力的伤害时额外再造成60%/75%/90%*攻击伤害，冷却3秒。"
     }
@@ -588,7 +597,7 @@
   "suit_SR9": {
     "SuitName": "致命锁定",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR9_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR9_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "对重伤目标伤害提高12%/15%/18%"
     }
@@ -596,7 +605,7 @@
   "suit_SR12": {
     "SuitName": "斩草除根",
     "MatrixSuitQuality": "SR",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_SR12_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_SR12_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "通过连携技切换到当前武器后，获得150/200/250点武器充能值。"
     }
@@ -604,7 +613,7 @@
   "suit_R1": {
     "SuitName": "自爆之惧",
     "MatrixSuitQuality": "R",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_R1_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_R1_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "火属性武器伤害提升6%"
     }
@@ -612,7 +621,7 @@
   "suit_R2": {
     "SuitName": "功能冲撞",
     "MatrixSuitQuality": "R",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_R2_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_R2_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "冰属性武器伤害提升6%"
     }
@@ -620,7 +629,7 @@
   "suit_R3": {
     "SuitName": "标准运转",
     "MatrixSuitQuality": "R",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_R3_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_R3_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "雷属性武器伤害提升6%"
     }
@@ -628,7 +637,7 @@
   "suit_R4": {
     "SuitName": "掠夺兴致",
     "MatrixSuitQuality": "R",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_R4_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_R4_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "物理属性武器伤害提升6%"
     }
@@ -636,7 +645,7 @@
   "suit_R6": {
     "SuitName": "风刃之名",
     "MatrixSuitQuality": "R",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_R6_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_R6_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "破盾效率提高18%"
     }
@@ -644,7 +653,7 @@
   "suit_R7": {
     "SuitName": "扫清障碍",
     "MatrixSuitQuality": "R",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_R7_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_R7_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "受到的伤害降低6%"
     }
@@ -652,7 +661,7 @@
   "suit_N1": {
     "SuitName": "荒蛮血脉",
     "MatrixSuitQuality": "N",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_N1_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_N1_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "伤害提升4%"
     }
@@ -660,7 +669,7 @@
   "suit_N2": {
     "SuitName": "暴躁横劈",
     "MatrixSuitQuality": "N",
-    "SuitIcon": "C:/XM/MY/Hotta/Content/Resources/Icon/yizhi/512/icon_matrix_N2_512.png",
+    "SuitIcon": "Resources/Icon/yizhi/512/icon_matrix_N2_512.png",
     "SuitUnactivateDetail": {
       "意志3件装备效果": "受到的伤害降低4%"
     }

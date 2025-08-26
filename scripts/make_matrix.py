@@ -5,7 +5,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 import json
 
-from utils.common_utils import extract_tail_name, find_parent_value_by_key_value, resolve_resource_path
+from utils.common_utils import extract_tail_name, find_parent_value_by_key_value, fix_resolve_resource_path
 from utils.matrix_utils import translate_matrix_info, make_suit_unactivate_detail_list
 
 # 加载 .env 文件
@@ -26,7 +26,7 @@ static_matrix_data_path = os.getenv("STATIC_MATRIX_DATA") or os.path.join(
 # Game.json文件目录
 game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
 
-if __name__ == "__main__":
+async def make_matrix():
     with open(static_matrix_suit_data_table_path, "r", encoding="utf-8") as f:
         static_matrix_suit_data_table = json.load(f)
 
@@ -51,7 +51,7 @@ if __name__ == "__main__":
         matrix_info = {
             'SuitName': game_json[extract_tail_name(data['SuitName']['TableId'])][data['SuitName']['Key']],
             'MatrixSuitQuality': translate_matrix_info(data['MatrixSuitQuality']),
-            'SuitIcon': resolve_resource_path(
+            'SuitIcon': fix_resolve_resource_path(
                 find_parent_value_by_key_value(static_matrix_data_rows_data, 'SuitID', name, 1)['ItemLargeIcon'][
                     'AssetPathName'], '.png'),
             "SuitUnactivateDetail": make_suit_unactivate_detail_list(data['SuitUnactivateDetailList'],
@@ -68,25 +68,3 @@ if __name__ == "__main__":
 
     base_output_dir = Path(__file__).resolve().parent.parent / 'dist'
 
-    for key, item in result_matrix_dict.items():
-        icon_path = item.get("SuitIcon")
-        if not icon_path or not os.path.isfile(icon_path):
-            print(f"图标文件不存在: {icon_path}")
-            continue
-
-        # 从 Hotta 开始的相对路径
-        parts = Path(icon_path).parts
-        try:
-            hotta_index = parts.index("Hotta")
-        except ValueError:
-            print(f"无法识别 Hotta 路径: {icon_path}")
-            continue
-
-        relative_path = Path(*parts[hotta_index:])
-        target_path = base_output_dir / relative_path
-
-        # 创建目标目录
-        target_path.parent.mkdir(parents=True, exist_ok=True)
-
-        # 执行复制
-        shutil.copy2(icon_path, target_path)

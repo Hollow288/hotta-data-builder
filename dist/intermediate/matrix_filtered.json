@@ -1,4 +1,170 @@
 {
+  "Suit_SSR59": {
+    "SuitName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LechesisDes.LechesisDes",
+      "Key": "MatrixSuit_SSR59_SuitName",
+      "SourceString": "生命赋格",
+      "LocalizedString": "生命赋格"
+    },
+    "SuitIcon": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_Lechesis_big.avatar_yizhitips_Lechesis_big",
+      "SubPathString": ""
+    },
+    "SuitRemouldIcon": {
+      "AssetPathName": "/Game/Resources/UI/equiptips/weapon_imitation/tips_avatar_ssr_Lechesis.tips_avatar_ssr_Lechesis",
+      "SubPathString": ""
+    },
+    "SuitIconTemp": {
+      "AssetPathName": "/Game/Resources/UI/yizhi/suit_icon/tips_icon_SSR59.tips_icon_SSR59",
+      "SubPathString": ""
+    },
+    "MatrixSuitQuality": "ITEM_QUALITY_LEGENDRY",
+    "IsOpened": true,
+    "SuitUnactivateDetailList": [
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LechesisDes.LechesisDes",
+        "Key": "MatrixSuit_SSR59_des1",
+        "SourceString": "全属性攻击提升{0}%/{1}%/{2}%/{3}%，辉光撼心伤害提升至{4}%。治疗效果提升{5}%。装备后后台可生效，多套只生效最高星级",
+        "LocalizedString": "全属性攻击提升{0}%/{1}%/{2}%/{3}%，辉光撼心伤害提升至{4}%。治疗效果提升{5}%。装备后后台可生效，多套只生效最高星级"
+      },
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LechesisDes.LechesisDes",
+        "Key": "MatrixSuit_SSR59_des2",
+        "SourceString": "武器-圣裁上阵最终伤害提升{0}%/{1}%/{2}%/{3}%，当激活非恩赐共鸣时，额外获得{4}%全元素增伤，当激活恩赐共鸣时，会为全队提供自身最高属性的基础攻击/200000，最高不超过{5}%的最终增伤。装备后后台可生效，多套只生效最高星级",
+        "LocalizedString": "武器-圣裁上阵最终伤害提升{0}%/{1}%/{2}%/{3}%，当激活非恩赐共鸣时，额外获得{4}%全元素增伤，当激活恩赐共鸣时，会为全队提供自身最高属性的基础攻击/200000，最高不超过{5}%的最终增伤。装备后后台可生效，多套只生效最高星级"
+      }
+    ],
+    "SuitUnactivateDetailParams": [
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix119_AtkUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix119_AtkUp_Level2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix119_AtkUp_Level3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix119_AtkUp_Level4"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Lechesis_PowerAttackL3_MatrixCoeff"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix119_RecoverUp"
+            }
+          }
+        ]
+      },
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix120_FinDamageUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix120_FinDamageUp_Level2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix120_FinDamageUp_Level3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix120_FinDamageUp_Level4"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix120_NotAssistElementDamageUp"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'LechesisEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/LechesisEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix120_AssistFinDamageUp"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "Suit_SSR58": {
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/CommodoreDes.CommodoreDes",

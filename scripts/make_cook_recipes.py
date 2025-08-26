@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 import json
 
-from utils.common_utils import find_parent_value_by_key_value, resolve_resource_path, extract_tail_name
+from utils.common_utils import find_parent_value_by_key_value, fix_resolve_resource_path, extract_tail_name
 from utils.cook_utils import  make_recipes_name_des, make_categories, \
     make_use_description, make_buff, make_ingredients, make_food_source
 
@@ -55,7 +55,7 @@ game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "
 
 
 
-if __name__ == "__main__":
+async def make_cook_recipes():
     with open(cooking_food_data_table_path, "r", encoding="utf-8") as f:
         cooking_food_data_table = json.load(f)
 
@@ -141,7 +141,7 @@ if __name__ == "__main__":
             'food_key' : food_key,
             'food_name': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
             'food_des': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
-            'food_icon': resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
+            'food_icon': fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
             'food_source': make_food_source(dt_item_output_source_rows_data,data['OutputSourceID'],game_json),
             'use_description': make_use_description(
                 tool_static_data_table_rows_data,
@@ -169,7 +169,7 @@ if __name__ == "__main__":
             'recipes_key' : recipes_key,
             'recipes_name' : make_recipes_name_des(data['FoodItemID'],cooking_food_data_table_rows_data,game_json)['recipes_name'],
             'recipes_des' : make_recipes_name_des(data['FoodItemID'],cooking_food_data_table_rows_data,game_json)['recipes_des'],
-            'recipes_icon': resolve_resource_path(food_info['ItemIcon']['AssetPathName'], '.png'),
+            'recipes_icon': fix_resolve_resource_path(food_info['ItemIcon']['AssetPathName'], '.png'),
             "categories": make_categories(food_info['Categories'], cooking_food_category_data_table_rows_data, game_json),
             'use_description' : make_use_description(tool_static_data_table_rows_data,food_info['StaticToolName'],game_json[extract_tail_name(food_info['UseDescription']['TableId'])][food_info['UseDescription']['Key']]),
             'buffs' : make_buff(food_info['Buffs'],gameplay_effect_tips_rows_data, game_json),

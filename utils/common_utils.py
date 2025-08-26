@@ -27,6 +27,35 @@ def extract_tail_name(path: str) -> str:
     return last_part
 
 
+def fix_resolve_resource_path(resource_string: str, ext: str = ".json") -> str:
+    """
+    将 resource_string 转换为相对路径，并统一扩展名。
+
+    处理规则：
+    1. 去掉 "Resources" 之前的部分
+    2. 去掉最后 '.' 后面的内容（如果有的话）
+    3. 拼接指定的扩展名 ext
+
+    示例：
+    "/Game/Resources/Icon/caiyao/Item_Vera_Cooking6.Item_Vera_Cooking6"
+    -> "Resources/Icon/caiyao/Item_Vera_Cooking6.json"
+    """
+    # 找到 "Resources" 的起始位置
+    idx = resource_string.find("Resources")
+    if idx == -1:
+        raise ValueError("资源路径中未找到 'Resources'")
+
+    # 保留从 Resources 开始到结尾的部分
+    path = resource_string[idx:]
+
+    # 去掉最后一个 '.' 及之后的部分
+    if '.' in path:
+        path = path.rsplit('.', 1)[0]
+
+    # 拼接扩展名
+    return path + ext
+
+
 def resolve_resource_path(resource_string: str, ext: str = ".json") -> str:
     """
     将原始资源路径转换为相对于 SOURCE_PATH 的完整路径，并加上指定后缀。
