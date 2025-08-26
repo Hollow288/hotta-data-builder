@@ -24,22 +24,29 @@ async def main():
         config=database_config.TORTOISE_ORM
     )
 
-    # await generate_game_json()
-    # await make_matrix()
-    # await make_weapons()
-    # await make_cook_recipes()
-    #
-    #
-    # await food_info_to_database()
-    # await recipes_info_to_database()
-    # await matrix_info_to_database()
-    # await weapons_info_to_database()
+    tables = ["weapons", "weapon_upgrade_star_pack", "weapon_skill",
+              "weapon_sensuality_level_data","matrix","suit_unactivate_detail",
+              "food_data_table","cook_recipes_data_table","recipes_food"]
 
-    await make_all_recipes_image()
-    await make_all_food_image()
-    await make_all_matrix_image()
-    await make_all_weapons_image()
-    await make_all_weapons_skill_image()
+    for table in tables:
+        await Tortoise.get_connection('default').execute_script(f"TRUNCATE TABLE {table}")
+
+    await generate_game_json()
+    await make_matrix()
+    await make_weapons()
+    await make_cook_recipes()
+
+
+    await food_info_to_database()
+    await recipes_info_to_database()
+    await matrix_info_to_database()
+    await weapons_info_to_database()
+
+    # await make_all_recipes_image()
+    # await make_all_food_image()
+    # await make_all_matrix_image()
+    # await make_all_weapons_image()
+    # await make_all_weapons_skill_image()
 
 
 if __name__ == "__main__":
