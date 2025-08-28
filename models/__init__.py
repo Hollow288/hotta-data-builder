@@ -1,4 +1,5 @@
 from .cook_recipes_data_table import CookRecipesDataTable
+from .fashion_data import FashionData
 from .food_data_table import FoodData
 from .recipes_food import RecipesFood
 from .weapons import Weapons
@@ -17,5 +18,6 @@ __all__ = [
     "SuitUnactivateDetail",
     "FoodData",
     "CookRecipesDataTable",
-    "RecipesFood"
+    "RecipesFood",
+    "FashionData"
 ]
