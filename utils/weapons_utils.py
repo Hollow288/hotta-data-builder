@@ -218,13 +218,13 @@ def make_weapon_skill_desc_value(key: str, ga_parame_num: int, skill_update_tips
 
 
 def make_weapon_skill(weapon_skill_list: list, gameplay_ability_tips_data_rows_data: dict,
-                      skill_update_tips_rows_data: dict, game_json: dict) -> dict:
+                      skill_update_tips_rows_data: dict, game_json: dict) -> list:
     """
     单纯用于武器技能信息整理
 
     """
 
-    result_weapon_skill = {}
+    result_weapon_skill =[]
 
     lowercased_data = {
         k.lower(): v for k, v in gameplay_ability_tips_data_rows_data.items()
@@ -263,9 +263,14 @@ def make_weapon_skill(weapon_skill_list: list, gameplay_ability_tips_data_rows_d
                                                   skill_update_tips_rows_data)
             item_desc = format_description(item_desc_tem, values)
 
-            this_type_skill_list[item_name] = item_desc
+            tem_skill = {}
 
-        result_weapon_skill[skill_type] = this_type_skill_list
+            tem_skill['type'] = skill_type
+            tem_skill['name'] = item_name
+            tem_skill['des'] = item_desc
+            tem_skill['icon'] = fix_resolve_resource_path(item['Value']['Icon']['AssetPathName'],".png")
+
+            result_weapon_skill.append(tem_skill)
 
     return result_weapon_skill
 

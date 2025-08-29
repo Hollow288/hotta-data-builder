@@ -68,11 +68,11 @@ async def weapons_info_to_database():
                 item_describe=item
             )
 
-        for skill_type, skill_data in data['WeaponSkill'].items():
-            for skill_name, skill_desc in skill_data.items():
-                await WeaponSkill.create(
-                    weapons_id=weapons_obj.weapons_id,
-                    skill_type=skill_type,
-                    item_name=skill_name,
-                    item_describe=skill_desc
-                )
+        for skill_data in data['WeaponSkill']:
+            await WeaponSkill.create(
+                weapons_id=weapons_obj.weapons_id,
+                skill_type=skill_data['type'],
+                icon = skill_data['icon'],
+                item_name=skill_data['name'],
+                item_describe=skill_data['des']
+            )
