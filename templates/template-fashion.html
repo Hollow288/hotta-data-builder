@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>创意卡片</title>
+  <style>
+    @font-face {
+      font-family: 'AlibabaPuHuiTi-3-45-Light';
+      src: url('{{AlibabaPuHuiTi_3_45_Light}}') format('truetype');
+    }
+
+    body {
+      font-family: 'AlibabaPuHuiTi-3-45-Light', sans-serif;
+      background: linear-gradient(135deg, #f0f4ff, #fdfdfd);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      max-width: 340px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .content {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 16px;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 18px;
+    }
+
+    .images img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      transition: transform 0.3s ease;
+    }
+    .images img:hover {
+      transform: scale(1.08);
+    }
+    .images .img1 { transform: rotate(-4deg); }
+    .images .img2 { transform: rotate(4deg); }
+
+.description {
+  display: flex;
+  align-items: flex-start;  /* 保证左对齐，但不拉伸 */
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.description div:first-child {
+  flex-shrink: 0;          /* 不被压缩 */
+  min-width: 50px;         /* 固定宽度 */
+  height: fit-content;     /* 自己的高度，不被拉伸 */
+  padding: 2px 6px;
+  font-weight: bold;
+  background: #eef3ff;
+  border-radius: 6px;
+  text-align: center;
+  margin-right: 8px;
+  color: #4a5fc1;
+  align-self: flex-start;  /* 永远顶在上边 */
+}
+
+.description div:last-child {
+  flex: 1;
+}
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="content">
+    <div class="title">{{ fashion_name }}</div>
+
+    <div class="images">
+      {% for icon in icons %}
+        <img src="{{ icon }}" alt="图片{{ loop.index }}" class="img{{ loop.index }}">
+      {% endfor %}
+    </div>
+
+    <br>
+
+    <div class="description">
+      <div>来源</div>
+      <div>{{ active_source }}</div>
+    </div>
+
+    <div class="description">
+      <div>描述</div>
+      <div>{{ description }}</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
