@@ -1,9 +1,19 @@
 {
+  "fashion_dress_89": {
+    "fashion_key": "fashion_dress_89",
+    "fashion_Name": "祈佳期",
+    "Description": "遥寄相思又一年。云阶上，今宵喜相逢。",
+    "ActiveSource": "祈佳期扭蛋活动获取 ",
+    "Icons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f89.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m89.png"
+    ]
+  },
   "fashion_dress_88": {
     "fashion_key": "fashion_dress_88",
     "fashion_Name": "赤岩标工",
     "Description": "红黑配色的工装服，采用耐磨防弹复合面料，模块化拼接的同时兼备战术机能，适用于大部分太空作业及战斗场景。",
-    "ActiveSource": "三十二期通行证奖励",
+    "ActiveSource": "商店获取",
     "Icons": [
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f88.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m88.png"

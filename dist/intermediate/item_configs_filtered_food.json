@@ -162,6 +162,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -387,6 +388,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -630,6 +632,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -855,6 +858,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -1098,6 +1102,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -1323,6 +1328,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -1548,6 +1554,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -1773,6 +1780,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -1998,6 +2006,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -2223,6 +2232,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -2448,6 +2458,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -2673,6 +2684,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -2898,6 +2910,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -3123,6 +3136,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -3348,6 +3362,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -3573,6 +3588,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -3798,6 +3814,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -4023,6 +4040,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -4248,6 +4266,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -4473,6 +4492,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -4698,6 +4718,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -4923,6 +4944,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -5148,6 +5170,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -5373,6 +5396,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -5598,6 +5622,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -5823,6 +5848,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -6066,6 +6092,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -6291,6 +6318,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -6516,6 +6544,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -6722,6 +6751,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -6947,6 +6977,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -7172,6 +7203,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -7415,6 +7447,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -7658,6 +7691,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -7880,6 +7914,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -8102,6 +8137,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -8324,6 +8360,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -8546,6 +8583,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -8786,6 +8824,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -9026,6 +9065,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -9266,6 +9306,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -9506,6 +9547,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -9746,6 +9788,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -9971,6 +10014,7 @@
       "LocalizedString": "醒酒剂"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -10193,6 +10237,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -10415,6 +10460,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -10637,6 +10683,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -10859,6 +10906,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -11081,6 +11129,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -11321,6 +11370,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -11561,6 +11611,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -11783,6 +11834,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -12005,6 +12057,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -12211,6 +12264,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -12417,6 +12471,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -12623,6 +12678,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -12829,6 +12885,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -13035,6 +13092,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -13241,6 +13299,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -13447,6 +13506,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -13653,6 +13713,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -13859,6 +13920,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -14065,6 +14127,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -14271,6 +14334,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -14514,6 +14578,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -14720,6 +14785,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -14926,6 +14992,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -15132,6 +15199,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -15338,6 +15406,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -15544,6 +15613,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -15750,6 +15820,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -15956,6 +16027,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -16199,6 +16271,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -16442,6 +16515,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -16685,6 +16759,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -16928,6 +17003,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -17153,6 +17229,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -17378,6 +17455,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -17603,6 +17681,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -17828,6 +17907,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -18053,6 +18133,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -18278,6 +18359,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -18521,6 +18603,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -18746,6 +18829,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -18971,6 +19055,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -19214,6 +19299,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -19475,6 +19561,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -19700,6 +19787,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -19925,6 +20013,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -20150,6 +20239,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -20375,6 +20465,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -20600,6 +20691,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -20825,6 +20917,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -21068,6 +21161,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -21290,6 +21384,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -21515,6 +21610,7 @@
       "LocalizedString": "药物"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -21740,6 +21836,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -21965,6 +22062,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -22190,6 +22288,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -22415,6 +22514,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -22640,6 +22740,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -22846,6 +22947,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -23071,6 +23173,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -23314,6 +23417,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -23557,6 +23661,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -23760,6 +23865,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -24000,6 +24106,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -24242,6 +24349,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -24484,6 +24592,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -24726,6 +24835,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -24968,6 +25078,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -25210,6 +25321,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -25452,6 +25564,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -25692,6 +25805,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 10,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -25897,6 +26011,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -26102,6 +26217,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 25,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -26307,6 +26423,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -26512,6 +26629,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -26712,6 +26830,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -26912,6 +27031,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 30,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -27112,6 +27232,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 30,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -27312,6 +27433,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 40,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -27517,6 +27639,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -27722,6 +27845,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -27927,6 +28051,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -28132,6 +28257,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -28337,6 +28463,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -28579,6 +28706,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 10,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -28784,6 +28912,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -29024,6 +29153,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 20,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -29229,6 +29359,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 10,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -29434,6 +29565,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 35,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -29676,6 +29808,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 40,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -29881,6 +30014,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 50,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -30086,6 +30220,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 20,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -30291,6 +30426,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 35,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -30496,6 +30632,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 10,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -30701,6 +30838,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 35,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -30906,6 +31044,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -31111,6 +31250,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -31353,6 +31493,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 20,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -31595,6 +31736,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 30,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -31837,6 +31979,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 35,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -32079,6 +32222,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 50,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -32316,6 +32460,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 35,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -32553,6 +32698,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 25,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -32790,6 +32936,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 30,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -33024,6 +33171,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 45,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -33224,6 +33372,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -33422,6 +33571,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 45,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -33622,6 +33772,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -33822,6 +33973,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -34022,6 +34174,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 40,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -34259,6 +34412,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 40,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -34496,6 +34650,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 15,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -34733,6 +34888,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 30,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -34970,6 +35126,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 15,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -35207,6 +35364,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 35,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -35412,6 +35570,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -35615,6 +35774,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -35818,6 +35978,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -36058,6 +36219,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -36300,6 +36462,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -36542,6 +36705,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -36745,6 +36909,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -36985,6 +37150,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -37225,6 +37391,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -37465,6 +37632,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -37705,6 +37873,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -37945,6 +38114,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -38185,6 +38355,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -38420,6 +38591,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 25,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -38620,6 +38792,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 25,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -38857,6 +39030,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 25,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -39094,6 +39268,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 30,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -39331,6 +39506,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 20,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -39568,6 +39744,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 30,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -39805,6 +39982,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 20,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -40042,6 +40220,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 20,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -40242,6 +40421,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -40479,6 +40659,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 20,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -40679,6 +40860,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -40879,6 +41061,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 25,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -41079,6 +41262,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -41279,6 +41463,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -41479,6 +41664,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -41679,6 +41865,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -41879,6 +42066,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -42079,6 +42267,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -42279,6 +42468,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -42479,6 +42669,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 35,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -42679,6 +42870,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -42879,6 +43071,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 45,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -43079,6 +43272,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -43279,6 +43473,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -43479,6 +43674,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -43679,6 +43875,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -43879,6 +44076,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -44079,6 +44277,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -44279,6 +44478,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -44479,6 +44679,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -44679,6 +44880,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -44877,6 +45079,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -45075,6 +45278,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -45273,6 +45477,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -45471,6 +45676,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 15,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -45671,6 +45877,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 50,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -45871,6 +46078,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 45,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -46071,6 +46279,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 40,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -46269,6 +46478,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 30,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -46469,6 +46679,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 40,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -46525,6 +46736,810 @@
       "vegetable"
     ],
     "FeedToCorralMonsterAddExp": 20,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "MMO_Fish_001": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/shicai/Ocean_Harvest_004.Ocean_Harvest_004",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "MMO_Fish_001_name",
+      "SourceString": "普通鱼肉",
+      "LocalizedString": "普通鱼肉"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "MMO_Fish_001_des",
+      "SourceString": "普通鱼肉",
+      "LocalizedString": "普通鱼肉"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": true,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": true,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_POOR",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "/Game/Resources/CoreBlueprints/SceneItem/CookPot/FoodHarvest/drop_white.drop_white_C",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_1",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Food",
+      "SourceString": "食材",
+      "LocalizedString": "食材"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": true,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": true,
+    "FeedToCorralMonsterTags": [
+      "fish"
+    ],
+    "FeedToCorralMonsterAddExp": 5,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "MMO_Fish_002": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/shicai/Ocean_Harvest_004.Ocean_Harvest_004",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "MMO_Fish_002_name",
+      "SourceString": "优质鱼肉",
+      "LocalizedString": "优质鱼肉"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "MMO_Fish_002_des",
+      "SourceString": "优质鱼肉",
+      "LocalizedString": "优质鱼肉"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": true,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": true,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_COMMON",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "/Game/Resources/CoreBlueprints/SceneItem/CookPot/FoodHarvest/drop_white.drop_white_C",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_2",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Food",
+      "SourceString": "食材",
+      "LocalizedString": "食材"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": true,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": true,
+    "FeedToCorralMonsterTags": [
+      "fish"
+    ],
+    "FeedToCorralMonsterAddExp": 5,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "MMO_Fish_003": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/shicai/Ocean_Harvest_004.Ocean_Harvest_004",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "MMO_Fish_003_name",
+      "SourceString": "美味鱼肉",
+      "LocalizedString": "美味鱼肉"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "MMO_Fish_003_des",
+      "SourceString": "美味鱼肉",
+      "LocalizedString": "美味鱼肉"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": true,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": true,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_RARE",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "/Game/Resources/CoreBlueprints/SceneItem/CookPot/FoodHarvest/drop_white.drop_white_C",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_3",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Food",
+      "SourceString": "食材",
+      "LocalizedString": "食材"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": true,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": true,
+    "FeedToCorralMonsterTags": [
+      "fish"
+    ],
+    "FeedToCorralMonsterAddExp": 5,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "MMO_Fish_004": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/shicai/Ocean_Harvest_004.Ocean_Harvest_004",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "MMO_Fish_004_name",
+      "SourceString": "极鲜鱼肉",
+      "LocalizedString": "极鲜鱼肉"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "MMO_Fish_004_des",
+      "SourceString": "极鲜鱼肉",
+      "LocalizedString": "极鲜鱼肉"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": true,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": true,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_EPIC",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "/Game/Resources/CoreBlueprints/SceneItem/CookPot/FoodHarvest/drop_white.drop_white_C",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_4",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Food",
+      "SourceString": "食材",
+      "LocalizedString": "食材"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": true,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": true,
+    "FeedToCorralMonsterTags": [
+      "fish"
+    ],
+    "FeedToCorralMonsterAddExp": 5,
     "Tags": [],
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
@@ -46693,6 +47708,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -46898,6 +47914,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -47101,6 +48118,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -47304,6 +48322,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -47539,6 +48558,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 10,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -47776,6 +48796,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 40,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -47981,6 +49002,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -48186,6 +49208,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -48428,6 +49451,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -48636,6 +49660,7 @@
       "LocalizedString": "测试道具"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -48826,6 +49851,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -49016,6 +50042,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -49206,6 +50233,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -49396,6 +50424,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -49586,6 +50615,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -49776,6 +50806,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -49966,6 +50997,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -50156,6 +51188,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -50346,6 +51379,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -50536,6 +51570,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -50726,6 +51761,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -50916,6 +51952,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -51106,6 +52143,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -51296,6 +52334,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -51516,6 +52555,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -51736,6 +52776,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -51961,6 +53002,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -52186,6 +53228,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -52429,6 +53472,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -52654,6 +53698,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -52879,6 +53924,7 @@
       "LocalizedString": "饮料"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -53122,6 +54168,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -53347,6 +54394,7 @@
       "LocalizedString": "小吃"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -53572,6 +54620,7 @@
       "LocalizedString": "酒"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -53797,6 +54846,7 @@
       "LocalizedString": "食材"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": true,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -54009,6 +55059,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -54221,6 +55272,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -54433,6 +55485,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -54645,6 +55698,7 @@
       "LocalizedString": "菜肴"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "destroy",
@@ -54699,6 +55753,818 @@
     "bTamingMonster": false,
     "FeedToCorralMonsterTags": [],
     "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "mmo_CorralFeed_meat": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/pet/VeraPet/Item_PetMeat.Item_PetMeat",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "mmo_CorralFeed_meat_name",
+      "SourceString": "驯兽精肉粮",
+      "LocalizedString": "驯兽精肉粮"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "mmo_CorralFeed_meat_desc",
+      "SourceString": "精选多种肉类制成的兽粮，在驯兽玩法中投喂使用。",
+      "LocalizedString": "精选多种肉类制成的兽粮，在驯兽玩法中投喂使用。"
+    },
+    "UseDescription": {
+      "CultureInvariantString": null
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": true,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": true,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_POOR",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_1",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Food",
+      "SourceString": "食材",
+      "LocalizedString": "食材"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": true,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": true,
+    "FeedToCorralMonsterTags": [
+      "CorralMeat"
+    ],
+    "FeedToCorralMonsterAddExp": 5,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "mmo_CorralFeed_grass": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/pet/VeraPet/Item_PetGrass.Item_PetGrass",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "mmo_CorralFeed_grass_name",
+      "SourceString": "驯兽百草粮",
+      "LocalizedString": "驯兽百草粮"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "mmo_CorralFeed_grass_desc",
+      "SourceString": "汇聚多种鲜草，食草动物喜爱的健康美味，在驯兽玩法中投喂使用。",
+      "LocalizedString": "汇聚多种鲜草，食草动物喜爱的健康美味，在驯兽玩法中投喂使用。"
+    },
+    "UseDescription": {
+      "CultureInvariantString": null
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": true,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": true,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_POOR",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_1",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Food",
+      "SourceString": "食材",
+      "LocalizedString": "食材"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": true,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": true,
+    "FeedToCorralMonsterTags": [
+      "CorralGrass"
+    ],
+    "FeedToCorralMonsterAddExp": 5,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "mmo_CorralFeed_water": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/pet/VeraPet/Item_PetWater.Item_PetWater",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "mmo_CorralFeed_water_name",
+      "SourceString": "驯兽甘露酿",
+      "LocalizedString": "驯兽甘露酿"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "mmo_CorralFeed_water_desc",
+      "SourceString": "采集日月甘露，仙兽最钟爱的滋养品，在驯兽玩法中投喂使用。",
+      "LocalizedString": "采集日月甘露，仙兽最钟爱的滋养品，在驯兽玩法中投喂使用。"
+    },
+    "UseDescription": {
+      "CultureInvariantString": null
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": true,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": true,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_POOR",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_1",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Food",
+      "SourceString": "食材",
+      "LocalizedString": "食材"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": true,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": true,
+    "FeedToCorralMonsterTags": [
+      "CorralWater"
+    ],
+    "FeedToCorralMonsterAddExp": 5,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "mmo_CorralFeed_fish": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/pet/VeraPet/Item_PetFish.Item_PetFish",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "mmo_CorralFeed_fish_name",
+      "SourceString": "驯兽鲜鱼粮",
+      "LocalizedString": "驯兽鲜鱼粮"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "mmo_CorralFeed_fish_desc",
+      "SourceString": "甄选优质鱼类，水中与两栖宠物的营养佳肴，在驯兽玩法中投喂使用。",
+      "LocalizedString": "甄选优质鱼类，水中与两栖宠物的营养佳肴，在驯兽玩法中投喂使用。"
+    },
+    "UseDescription": {
+      "CultureInvariantString": null
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": true,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": true,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_POOR",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_1",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Food",
+      "SourceString": "食材",
+      "LocalizedString": "食材"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": true,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": true,
+    "FeedToCorralMonsterTags": [
+      "CorralFish"
+    ],
+    "FeedToCorralMonsterAddExp": 5,
     "Tags": [],
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,

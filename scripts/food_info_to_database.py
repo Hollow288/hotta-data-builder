@@ -10,9 +10,9 @@ from models import FoodData
 
 async def food_info_to_database():
     # 初始化数据库
-    await Tortoise.init(
-        config=database_config.TORTOISE_ORM
-    )
+    # await Tortoise.init(
+    #     config=database_config.TORTOISE_ORM
+    # )
 
     food_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "food.json"))
 

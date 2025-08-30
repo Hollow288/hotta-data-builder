@@ -1898,6 +1898,42 @@
     "use_description": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
+  "MMO_Fish_001": {
+    "food_key": "MMO_Fish_001",
+    "food_name": "普通鱼肉",
+    "food_des": "普通鱼肉",
+    "food_icon": "Resources/Icon/shicai/Ocean_Harvest_004.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>1</>点饱食度",
+    "buffs": ""
+  },
+  "MMO_Fish_002": {
+    "food_key": "MMO_Fish_002",
+    "food_name": "优质鱼肉",
+    "food_des": "优质鱼肉",
+    "food_icon": "Resources/Icon/shicai/Ocean_Harvest_004.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>2</>点饱食度",
+    "buffs": ""
+  },
+  "MMO_Fish_003": {
+    "food_key": "MMO_Fish_003",
+    "food_name": "美味鱼肉",
+    "food_des": "美味鱼肉",
+    "food_icon": "Resources/Icon/shicai/Ocean_Harvest_004.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>3</>点饱食度",
+    "buffs": ""
+  },
+  "MMO_Fish_004": {
+    "food_key": "MMO_Fish_004",
+    "food_name": "极鲜鱼肉",
+    "food_des": "极鲜鱼肉",
+    "food_icon": "Resources/Icon/shicai/Ocean_Harvest_004.png",
+    "food_source": "",
+    "use_description": "恢复<ComLblGreen>4</>点饱食度",
+    "buffs": ""
+  },
   "Item_Condiment_01": {
     "food_key": "Item_Condiment_01",
     "food_name": "气泡水",
@@ -2248,5 +2284,41 @@
     "food_source": "",
     "use_description": "恢复<ComLblGreen>20</>点饱食度",
     "buffs": "增加物理攻击<ComLblGreen>12%</>，物理攻击<ComLblGreen>600</>，持续<ComLblGreen>900</>秒。"
+  },
+  "mmo_CorralFeed_meat": {
+    "food_key": "mmo_CorralFeed_meat",
+    "food_name": "驯兽精肉粮",
+    "food_des": "精选多种肉类制成的兽粮，在驯兽玩法中投喂使用。",
+    "food_icon": "Resources/Icon/pet/VeraPet/Item_PetMeat.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": ""
+  },
+  "mmo_CorralFeed_grass": {
+    "food_key": "mmo_CorralFeed_grass",
+    "food_name": "驯兽百草粮",
+    "food_des": "汇聚多种鲜草，食草动物喜爱的健康美味，在驯兽玩法中投喂使用。",
+    "food_icon": "Resources/Icon/pet/VeraPet/Item_PetGrass.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": ""
+  },
+  "mmo_CorralFeed_water": {
+    "food_key": "mmo_CorralFeed_water",
+    "food_name": "驯兽甘露酿",
+    "food_des": "采集日月甘露，仙兽最钟爱的滋养品，在驯兽玩法中投喂使用。",
+    "food_icon": "Resources/Icon/pet/VeraPet/Item_PetWater.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": ""
+  },
+  "mmo_CorralFeed_fish": {
+    "food_key": "mmo_CorralFeed_fish",
+    "food_name": "驯兽鲜鱼粮",
+    "food_des": "甄选优质鱼类，水中与两栖宠物的营养佳肴，在驯兽玩法中投喂使用。",
+    "food_icon": "Resources/Icon/pet/VeraPet/Item_PetFish.png",
+    "food_source": "",
+    "use_description": "",
+    "buffs": ""
   }
 }

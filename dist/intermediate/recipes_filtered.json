@@ -24,7 +24,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1002": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -61,7 +63,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1003": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -88,7 +92,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1004": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -115,7 +121,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1005": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -152,7 +160,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1006": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -179,7 +189,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1007": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -226,7 +238,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1008": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -273,7 +287,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1009": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -320,7 +336,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1010": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -357,7 +375,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1011": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -394,7 +414,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1012": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -441,7 +463,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1014": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -488,7 +512,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1015": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -525,7 +551,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1016": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -592,7 +620,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1017": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -629,7 +659,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1018": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -666,7 +698,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1019": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -693,7 +727,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1020": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -730,7 +766,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1021": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -767,7 +805,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1022": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -814,7 +854,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1023": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -861,7 +903,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1024": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -898,7 +942,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1025": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -935,7 +981,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1026": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -992,7 +1040,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1027": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1029,7 +1079,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1028": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1076,7 +1128,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1029": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1133,7 +1187,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1030": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1180,7 +1236,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1031": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1207,7 +1265,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1032": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1244,7 +1304,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1033": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1281,7 +1343,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1034": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1318,7 +1382,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1035": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1345,7 +1411,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_1036": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1382,7 +1450,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2001": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1419,7 +1489,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2002": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1446,7 +1518,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2003": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1483,7 +1557,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2004": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1520,7 +1596,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2005": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1557,7 +1635,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2006": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1594,7 +1674,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2007": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1641,7 +1723,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2008": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1678,7 +1762,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2009": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1705,7 +1791,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2010": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1742,7 +1830,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2011": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1779,7 +1869,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2012": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1826,7 +1918,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2013": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1873,7 +1967,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2014": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1910,7 +2006,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2015": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1947,7 +2045,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2016": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -1994,7 +2094,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2017": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2041,7 +2143,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2018": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2088,7 +2192,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2019": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2135,7 +2241,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2020": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2172,7 +2280,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2021": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2209,7 +2319,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2022": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2256,7 +2368,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2023": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2293,7 +2407,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2024": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2340,7 +2456,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2025": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2377,7 +2495,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2026": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2404,7 +2524,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2027": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2441,7 +2563,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2028": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2468,7 +2592,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2029": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2515,7 +2641,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2030": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2542,7 +2670,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_2031": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2579,7 +2709,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3001": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2616,7 +2748,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3002": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2643,7 +2777,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3003": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2690,7 +2826,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3004": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2727,7 +2865,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3006": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2754,7 +2894,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3007": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2791,7 +2933,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3008": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2838,7 +2982,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3009": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2875,7 +3021,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3010": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2902,7 +3050,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3011": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2929,7 +3079,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3012": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2956,7 +3108,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3013": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -2983,7 +3137,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3014": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3010,7 +3166,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3015": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3047,7 +3205,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3016": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3094,7 +3254,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3017": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3131,7 +3293,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3018": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3178,7 +3342,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3019": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3215,7 +3381,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3020": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3262,7 +3430,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3021": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3309,7 +3479,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3022": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3356,7 +3528,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3023": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3393,7 +3567,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3024": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3440,7 +3616,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3025": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3487,7 +3665,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3026": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3544,7 +3724,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3027": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3591,7 +3773,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3028": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3628,7 +3812,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3029": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3675,7 +3861,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3030": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3702,7 +3890,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3031": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3729,7 +3919,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3032": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3756,7 +3948,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3033": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3793,7 +3987,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3034": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3830,7 +4026,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_3035": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3867,7 +4065,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4001": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3914,7 +4114,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4002": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3951,7 +4153,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4003": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -3988,7 +4192,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4004": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4035,7 +4241,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4005": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4072,7 +4280,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4006": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4109,7 +4319,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4007": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4156,7 +4368,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4008": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4213,7 +4427,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4009": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4250,7 +4466,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4010": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4287,7 +4505,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4011": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4334,7 +4554,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4012": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4391,7 +4613,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4013": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4438,7 +4662,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4014": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4485,7 +4711,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4015": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4532,7 +4760,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4016": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4569,7 +4799,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4017": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4606,7 +4838,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4018": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4653,7 +4887,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4019": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4700,7 +4936,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4020": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4747,7 +4985,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4021": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4784,7 +5024,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4022": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4821,7 +5063,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4023": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4868,7 +5112,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4024": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4915,7 +5161,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4025": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -4952,7 +5200,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4026": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5009,7 +5259,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4027": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5056,7 +5308,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4028": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5093,7 +5347,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4029": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5140,7 +5396,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4030": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5187,7 +5445,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4031": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5224,7 +5484,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4032": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5271,7 +5533,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4033": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5308,7 +5572,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4034": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5355,7 +5621,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4035": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5412,7 +5680,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4036": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5449,7 +5719,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4037": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5496,7 +5768,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_4038": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5533,7 +5807,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_5001": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5580,7 +5856,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_5003": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5617,7 +5895,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_5005": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5654,7 +5934,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_5007": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5691,7 +5973,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Cooking_5008": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5738,7 +6022,9 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   },
   "Activity_ZSLJ_2_cooking": {
     "KitchenUtensilType": "EKitchenUtensils::KITCHEN_UTENSIL_POT",
@@ -5805,6 +6091,8 @@
     "NeedPlayerLevel": 1,
     "bAddToDish": true,
     "RecipeType": "ERecipeType::RECIPE_TYPE_NORMAL",
-    "MysteriousRecipeItemID": "None"
+    "MysteriousRecipeItemID": "None",
+    "NeedPhysicsStrength": 0,
+    "NeedCookLevel": 0
   }
 }

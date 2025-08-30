@@ -11,9 +11,9 @@ from models.fashion_data import FashionData
 
 async def fashion_info_to_database():
     # 初始化数据库
-    await Tortoise.init(
-        config=database_config.TORTOISE_ORM
-    )
+    # await Tortoise.init(
+    #     config=database_config.TORTOISE_ORM
+    # )
 
     fashion_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "fashion_data.json"))
 

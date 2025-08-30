@@ -60,7 +60,7 @@ async def make_all_weapons_skill_image():
 
     try:
         # 初始化数据库
-        await Tortoise.init(config=database_config.TORTOISE_ORM)
+        # await Tortoise.init(config=database_config.TORTOISE_ORM)
 
         screenshot_dir = Path(__file__).parent.parent / "dist" / "screenshots" / "weapons-skill"
         screenshot_dir.mkdir(exist_ok=True)

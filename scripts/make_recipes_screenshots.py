@@ -58,7 +58,7 @@ async def make_all_recipes_image():
     server.start()
 
     try:
-        await Tortoise.init(config=database_config.TORTOISE_ORM)
+        # await Tortoise.init(config=database_config.TORTOISE_ORM)
 
         screenshot_dir = Path(__file__).parent.parent / "dist" / "screenshots" / "recipes"
         screenshot_dir.mkdir(exist_ok=True)

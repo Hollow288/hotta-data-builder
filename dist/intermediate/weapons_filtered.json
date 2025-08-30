@@ -259,6 +259,7 @@
       "LocalizedString": "武器R"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "spear_ice_meltpack",
@@ -584,6 +585,7 @@
       "LocalizedString": "武器R"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "digger_physic_meltpack",
@@ -909,6 +911,7 @@
       "LocalizedString": "武器R"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "sword_thunder_meltpack",
@@ -1234,6 +1237,7 @@
       "LocalizedString": "武器R"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "bow_fire_meltpack",
@@ -1587,6 +1591,7 @@
       "LocalizedString": "武器SR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "stave_thunder_meltpack",
@@ -1922,6 +1927,7 @@
       "LocalizedString": "武器SR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "cannon_ice_meltpack",
@@ -2257,6 +2263,7 @@
       "LocalizedString": "武器SR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "hammer_ice_meltpack",
@@ -2592,6 +2599,7 @@
       "LocalizedString": "武器SR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "bow_physic_meltpack",
@@ -2927,6 +2935,7 @@
       "LocalizedString": "武器SR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "spear_thunder_meltpack",
@@ -3298,6 +3307,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "digger_thunder_meltpack",
@@ -3669,6 +3679,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "bigsword_ice_meltpack",
@@ -4049,6 +4060,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "bow_ice_meltpack",
@@ -4429,6 +4441,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "ShieldAxe_fire_meltpack",
@@ -4782,6 +4795,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "stave_ice_meltpack",
@@ -5153,6 +5167,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "sickle_fire_meltpack",
@@ -5526,6 +5541,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "gun_fire_meltpack",
@@ -5906,6 +5922,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "sword_physic_meltpack",
@@ -6277,6 +6294,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "darts_physic_meltpack",
@@ -6621,6 +6639,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "cube_fire_meltpack",
@@ -6992,6 +7011,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "dgun_thunder_meltpack",
@@ -7354,6 +7374,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Mark_physic_meltpack",
@@ -7716,6 +7737,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Immortal_thunder_meltpack",
@@ -8089,6 +8111,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Suspension_thunder_meltpack",
@@ -8451,6 +8474,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Frigg_ice_meltpack",
@@ -8824,6 +8848,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "funnel_fire_meltpack",
@@ -9197,6 +9222,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Dkatana_ice_meltpack",
@@ -9590,6 +9616,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "fan_superpower_meltpack",
@@ -9952,6 +9979,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "arm_physic_meltpack",
@@ -10314,6 +10342,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "tianlang_thunder_meltpack",
@@ -10687,6 +10716,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Snipe_fire_meltpack",
@@ -11060,6 +11090,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "iceblade_ice_meltpack",
@@ -11433,6 +11464,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Whip_physic_meltpack",
@@ -11824,6 +11856,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "fenrir_thunder_meltpack",
@@ -12197,6 +12230,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "umbrella_fire_meltpack",
@@ -12559,6 +12593,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Yoyo_ice_meltpack",
@@ -12932,6 +12967,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "queen_superpower_meltpack",
@@ -13294,6 +13330,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Chainsaw_physic_meltpack",
@@ -13667,6 +13704,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Rubilia_thunder_meltpack",
@@ -14040,6 +14078,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "brush_fire_meltpack",
@@ -14402,6 +14441,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "yulan_ice_meltpack",
@@ -14775,6 +14815,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Zeke_physic_meltpack",
@@ -15148,6 +15189,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "mimi_thunder_meltpack",
@@ -15510,6 +15552,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "feise_fire_meltpack",
@@ -15883,6 +15926,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Linghan_ice_meltpack",
@@ -16256,6 +16300,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Nanyin_superpower_meltpack",
@@ -16618,6 +16663,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Killknife_physic_meltpack",
@@ -16991,6 +17037,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "blevi_thunder_meltpack",
@@ -17353,6 +17400,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Lances_Ice_meltpack",
@@ -17726,6 +17774,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Asuka_physic_meltpack",
@@ -18109,6 +18158,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "DFishChess_Fire_meltpack",
@@ -18482,6 +18532,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Loslyn_ice_meltpack",
@@ -18865,6 +18916,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "ACE_Physic_meltpack",
@@ -18935,7 +18987,7 @@
     "MaxUpgradeStar": 6,
     "IsWeaponMaterial": false,
     "IsFateWeapon": false,
-    "IsUpPoolWeapon": true,
+    "IsUpPoolWeapon": false,
     "IsWarehouseWeapon": true,
     "AwardPackageID": "drop_weapon_ssr_first",
     "WeaponSkillList": [
@@ -19238,6 +19290,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Paradox_fire_meltpack",
@@ -19611,6 +19664,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "AyanamiRei_thunder_meltpack",
@@ -19984,6 +20038,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Nora_superpower_meltpack",
@@ -20357,6 +20412,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "MerylX_thunder_meltpack",
@@ -20730,6 +20786,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Tkatana_Fire_meltpack",
@@ -21103,6 +21160,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "GreyFox_ice_meltpack",
@@ -21476,6 +21534,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "SwordX_physic_meltpack",
@@ -21849,6 +21908,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "BlackStar_SuperPower_meltpack",
@@ -22222,6 +22282,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Antoria_thunder_meltpack",
@@ -22595,6 +22656,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "GunBox_fire_meltpack",
@@ -22968,6 +23030,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Lyncis_ice_meltpack",
@@ -23341,6 +23404,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "StabDagger_Phy_meltpack",
@@ -23714,6 +23778,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Commodore_Thu_meltpack",
@@ -24087,6 +24152,7 @@
       "LocalizedString": "武器SSR"
     },
     "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
     "bShowOutputSource": false,
     "bCanMelt": true,
     "MeltPackID": "Lechesis_Fire_meltpack",
@@ -24120,6 +24186,369 @@
       "Key": "Lechesis_Fire_ssr_1",
       "SourceString": "闪烁着柔和光芒的巨大镰刀。比起斩断生的希望，它更希望斩断和死亡之间的链接。",
       "LocalizedString": "闪烁着柔和光芒的巨大镰刀。比起斩断生的希望，它更希望斩断和死亡之间的链接。"
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": true,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Puppeteer_Ice": {
+    "UpgradeStarPackID": "Puppeteer_Ice_ssr_star",
+    "MaxUpgradeStar": 6,
+    "IsWeaponMaterial": false,
+    "IsFateWeapon": false,
+    "IsUpPoolWeapon": true,
+    "IsWarehouseWeapon": true,
+    "AwardPackageID": "drop_weapon_ssr_first",
+    "WeaponSkillList": [
+      "GA_FPlayerPuppeteerMelee",
+      "GA_FPlayerPuppeteerEvade",
+      "GA_FPlayerPuppeteerSkill",
+      "GA_FPlayerPuppeteerChangeSkill"
+    ],
+    "IsSkillSet": false,
+    "SkillSetSwitchIndex": -1,
+    "bCustomWeaponElement": false,
+    "ItemLargeIcon": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Icon/item_Weapon_SSR_Puppeteer.item_Weapon_SSR_Puppeteer",
+      "SubPathString": ""
+    },
+    "ItemUnLockIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponUPIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponSlayLetterIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxTupoLevel": 0,
+    "UpgradePackId": "Puppeteer_Ice_ssr_lv",
+    "TupoPackId": "Ice_ssr_tupo_BD",
+    "RecastType": "EHottaCurrencyType::FakeDiamond",
+    "RecastCount": 100,
+    "UpgradeReturnLevel": 0,
+    "UpgradeReturnDropID": "None",
+    "SensualityPackId": "None",
+    "WeaponFashionID": "imitation_75",
+    "MountIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponSlotCounts": 4,
+    "WeaponIconForMatrix": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/icon_yizhi/yizhi_SSR_Puppeteer.yizhi_SSR_Puppeteer",
+      "SubPathString": ""
+    },
+    "MatrixSuitArray": [
+      {
+        "MatrixSuitName": "suit_SSR60",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
+          "Key": "Puppeteer_MatrixSSR_des",
+          "SourceString": "二件套提供冰攻和分支伤害，四件套提供冰元素增伤和最终增伤",
+          "LocalizedString": "二件套提供冰攻和分支伤害，四件套提供冰元素增伤和最终增伤"
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SSR25",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
+          "Key": "Umbrella_fire_reason_3",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SSR26",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
+          "Key": "Umbrella_fire_reason_3",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SR5",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
+          "Key": "tuijianyizhi04",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      }
+    ],
+    "WeaponFashionIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "PreviewWeaponClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "FashionWeaponInfos": [],
+    "WeaponAttackTable": "operate_xxxx",
+    "WeaponBackdrop": {
+      "WeaponElementType": "EWeaponElementType::None",
+      "NeedHiddenComponent": [],
+      "WeaponBackdropActor": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ActorTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    "SoloLeagueBanPickBanner": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_Puppeteer_big.avatar_yizhitips_Puppeteer_big",
+      "SubPathString": ""
+    },
+    "WeaponAbilityMaxValue": 16.0,
+    "WeaponAbilityMap": [],
+    "WeaponMatchDes": {
+      "CultureInvariantString": null
+    },
+    "ItemBadgeUIIcon": {
+      "AssetPathName": "/Game/Resources/UI/plugin/icon/bigsize/Weapon_Puppeteer_512.Weapon_Puppeteer_512",
+      "SubPathString": ""
+    },
+    "TrainingMediaID": "Teaching_Puppeteer_ice",
+    "OrderLevel": 0,
+    "StrengthenPackID": "None",
+    "StrengthenEffectPackID": "None",
+    "MaxStrengthenLevel": 0,
+    "EquipDamageMult": 1.0,
+    "AdvancePackId": "None",
+    "AdvanceMaterialItemIdList": [],
+    "CanTupo": false,
+    "EquipTupoPackId": "None",
+    "TupoOrangeItemID": "None",
+    "TupoRedItemID": "None",
+    "OldEquipItemID": "None",
+    "UncommonPackId": "None",
+    "AwakeningId": "None",
+    "WeaponExp": 0,
+    "bReminderAutoEquip": false,
+    "bForeceReminder": false,
+    "WeaponTypeData": {
+      "WeaponCategory": "EWeaponCategory::DPS",
+      "WeaponType": "EWeaponType::Puppeteer",
+      "WeaponClassType": "EWeaponClassType::Sharp",
+      "ChargeLevel": "ChargeType_Default",
+      "WeaponElementType": "EWeaponElementType::Ice",
+      "WeaponAccessoryElementType": 16
+    },
+    "ChargeLevel": "ChargeType_Default",
+    "bUnequipedCanInlayGemstone": false,
+    "GemstoneSlotConfigArray": [],
+    "SuitId": 0,
+    "PassiveEffectGridNum": 0,
+    "PassiveEffectNum": 0,
+    "PassiveEffectGroupIndex": 0,
+    "RecylceItemID": [],
+    "AdvanceExpRecycleScale": 0.4,
+    "EquipSkillID": "None",
+    "bIdentifyEquip": false,
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Icon/item_Weapon_SSR_Puppeteer.item_Weapon_SSR_Puppeteer",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
+      "Key": "Puppeteer_Ice_WeaponName",
+      "SourceString": "波吕克斯",
+      "LocalizedString": "波吕克斯"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_Puppeteer.name_Puppeteer",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
+      "Key": "Puppeteer_Ice_des",
+      "SourceString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。",
+      "LocalizedString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。"
+    },
+    "UseDescription": {
+      "CultureInvariantString": null
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": false,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_WEAPON",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 43,
+    "ArrangeType": 0,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_SSR",
+    "ItemQuality": "ITEM_QUALITY_LEGENDRY",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_WEAPON",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_WEAPON",
+    "ItemActorClass": {
+      "AssetPathName": "/Game/Resources/CoreBlueprints/Weapons/Player/SSR/WeaponPuppeteer_Ice_SSR.WeaponPuppeteer_Ice_SSR_C",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "Puppeteer_Ice_ssr_1",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "None",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_INVALID",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_WeaponSSR",
+      "SourceString": "武器SSR",
+      "LocalizedString": "武器SSR"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "Puppeteer_Ice_meltpack",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": true,
+    "LotteryDrawing": {
+      "AssetPathName": "/Game/Resources/UI/shizhuang/nitai/xiangqing/imitation_75.imitation_75",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "/Game/Resources/UI/chouka/Card/Weapon/SSR_lh_Puppeteer.SSR_lh_Puppeteer",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
+      "Key": "Puppeteer_Ice_des",
+      "SourceString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。",
+      "LocalizedString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。"
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",

@@ -5845,5 +5845,97 @@
         "icon": "Resources/Icon/skill/WeaponSkill/Lechesis_ChangeSkill.png"
       }
     ]
+  },
+  "Puppeteer_Ice": {
+    "ItemName": "波吕克斯",
+    "ItemIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Puppeteer.png",
+    "ItemRarity": "SSR",
+    "WeaponCategory": "强攻",
+    "WeaponElement": {
+      "WeaponElementType": "冰雷",
+      "WeaponElementName": "高压彻骨",
+      "WeaponElementDesc": "武器充能值充满后下次攻击使敌人进入<shuzhi>45</>秒高压彻骨状态，受到的寒冰和雷电伤害增加<shuzhi>10%</>，组队玩法中额外提升<shuzhi>15%</>（该效果会替换掉目标的重伤，并且目标拥有该效果无法被添加重伤）。高压彻骨状态受到冰元素攻击会冰冻目标<shuzhi>2</>秒，受到雷元素攻击会清除目标的增益效果，相同目标<shuzhi>15</>秒内最多触发<shuzhi>1</>次"
+    },
+    "ArmorBroken": 16.0,
+    "Charging": 14.0,
+    "Description": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。",
+    "RemouldDetail": "<shuzhi>冰雷融合</>：该武器计算伤害时取装备最高的寒冰/雷电基础攻击，装备最高的寒冰/雷电百分比攻击，装备最高的寒冰/雷电增伤。且该武器能同时视为寒冰元素武器和雷电元素武器\r\n<shuzhi>雷电共鸣</>：装备<shuzhi>2</>把及以上雷电武器触发，提升<shuzhi>20%</>雷攻和<shuzhi>40%</>雷抗，装备后后台可生效（多个雷电共鸣/雷电反应不叠加，优先生效雷电共鸣）\r\n<shuzhi>寒冰共鸣</>：装备<shuzhi>2</>把及以上寒冰武器触发，提升<shuzhi>20%</>冰攻和<shuzhi>40%</>冰抗，装备后后台可生效（多个寒冰共鸣/寒冰反应不叠加，优先生效寒冰共鸣）\r\n<shuzhi>波吕克斯-驻场</>：<shuzhi>波吕克斯</>任意攻击命中时，对附近目标造成<shuzhi>2,700%</>*冰攻+<shuzhi>46%</>*自身最大生命值+<shuzhi>1,620%</>*各元素抗性之和+<shuzhi>5,400%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，伤害视为普攻伤害，若装备任意<shuzhi>1</>把物理/火焰武器，则伤害提升至<shuzhi>2.5</>倍。此外，伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果\r\n<shuzhi>核心</>：部分攻击会获得<shuzhi>普攻-基本功积累</>，消耗<shuzhi>普攻-基本功积累</>可以释放<shuzhi>技能-触怒之爪</>并获得<shuzhi>技能-默契积累</>，<shuzhi>技能-默契积累</>可以解锁<shuzhi>普攻-瑰丽共鸣</>",
+    "WeaponSensualityLevelData": [],
+    "WeaponUpgradeStarPack": [
+      "最终伤害提升<shuzhi>15%</>，<shuzhi>普攻-基本功积累</>获取量翻倍",
+      "当前武器的基础攻击成长+<shuzhi>16%</>",
+      "每次释放<shuzhi>技能-触怒之爪</>可以恢复自身<shuzhi>20%</>最大生命值。释放<shuzhi>技能-触怒之爪</>、<shuzhi>普攻-瑰丽共鸣</>期间自身获得<shuzhi>60%</>减伤",
+      "当前武器的基础攻击成长+<shuzhi>32%</>",
+      "最终伤害提升<shuzhi>15%</>，自身受到致命伤害时，抵挡一次致死效果并免疫一小段时间，该效果<shuzhi>60</>秒最多触发一次，装备后后台可生效",
+      "寒冰伤害提升<shuzhi>50%</>，<shuzhi>技能-触怒之爪</>第一次攻击倍率提升至<shuzhi>20000%</>，第二次攻击倍率提升至<shuzhi>32000%</>"
+    ],
+    "WeaponSkill": [
+      {
+        "type": "普攻",
+        "name": "烛线血影",
+        "des": "在地面时，点击普攻可连续进行五次攻击。\r\n第一次攻击对目标至多造成<shuzhi>720%</>*攻击力+<shuzhi>38</>点伤害，并击退目标。\r\n第二次攻击对目标至多造成<shuzhi>2,320%</>*攻击力+<shuzhi>122</>点伤害，并击退目标。\r\n第三次攻击对目标至多造成<shuzhi>1,760%</>*攻击力+<shuzhi>93</>点伤害，并击退目标。\r\n第四次攻击对目标至多造成<shuzhi>1,800%</>*攻击力+<shuzhi>95</>点伤害，并击退目标。\r\n第五次攻击对目标至多造成<shuzhi>4,070%</>*攻击力+<shuzhi>214</>点伤害，并击退目标。\r\n<shuzhi>基本功积累</>：第<shuzhi>1</>/<shuzhi>2</>/<shuzhi>3</>/<shuzhi>4</>/<shuzhi>5</>段对应获得<shuzhi>5</>/<shuzhi>5</>/<shuzhi>5</>/<shuzhi>10</>/<shuzhi>25</>点基本功积累。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_Melee.png"
+      },
+      {
+        "type": "普攻",
+        "name": "凌空纵跃",
+        "des": "当拓荒者滞空时，点击普攻可在空中连续进行两次攻击，并消耗耐力。\r\n第一次攻击对目标至多造成<shuzhi>720%</>*攻击力+<shuzhi>38</>点伤害，并击退目标\r\n第二次攻击对目标至多造成<shuzhi>1,785%</>*攻击力+<shuzhi>94</>点伤害，并击退目标\r\n第二次攻击后继续攻击会触发<shuzhi>下落攻击</>，下落攻击后继续攻击会直接进入<shuzhi>普攻第四段</>。\r\n<shuzhi>基本功积累</>：第<shuzhi>1</>/<shuzhi>2</>段对应获得<shuzhi>5</>/<shuzhi>5</>点基本功积累。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_AirAttack.png"
+      },
+      {
+        "type": "普攻",
+        "name": "瑰丽共鸣",
+        "des": "当<shuzhi>技能-默契积累</>达到<shuzhi>2</>并在地面使用任意段普攻时，长按普攻可触发瑰丽共鸣。\r\n海伦与波吕克斯协同攻击对目标至多造成<shuzhi>80,000%</>*攻击力+<shuzhi>4,211</>点伤害，并击退目标。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_MeleeBranch.png"
+      },
+      {
+        "type": "普攻",
+        "name": "凌空纵跃-落",
+        "des": "滞空时长按普攻（存在敌方目标时点按），攀爬，反向跳攻击或使用喷气背包普攻，可触发凌空纵跃-落。\r\n从空中下落，落地过程中对命中的敌人每次造成<shuzhi>60%</>*攻击力+<shuzhi>3</>点伤害，落地后对附近目标共造成<shuzhi>1,200%</>*攻击力+<shuzhi>63</>点伤害。\r\n<shuzhi>基本功积累</>：获得<shuzhi>10</>点基本功积累。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_JumpAttack.png"
+      },
+      {
+        "type": "闪避",
+        "name": "闪避",
+        "des": "在被命中前闪避，可触发幻时，使一定范围内的目标动作速率变缓；闪避过程中，免疫硬直效果。",
+        "icon": "Resources/Icon/skill/WeaponSkill/common_evade.png"
+      },
+      {
+        "type": "闪避",
+        "name": "贵宾之礼",
+        "des": "方向键加闪避键触发的前闪避短暂时间内，点击普攻，可触发贵宾之礼，对前方目标至多造成<shuzhi>1,561%</>*攻击力+<shuzhi>82</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_FEvadeA.png"
+      },
+      {
+        "type": "闪避",
+        "name": "牵引秘力",
+        "des": "闪避之后的短暂时间内，点击普攻，可触发死亡舞剧，对命中目标造成<shuzhi>2,661%</>*攻击力+<shuzhi>140</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_BEvadeA.png"
+      },
+      {
+        "type": "闪避",
+        "name": "软弹可蹦",
+        "des": "长按闪避，可以在前方召唤波吕克斯蹦床，蹦床最多存在<shuzhi>3</>个。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_Bed.png"
+      },
+      {
+        "type": "技能",
+        "name": "触怒之爪",
+        "des": "点按技能时海伦召唤波吕克斯真身发动强力攻击。\r\n每次攻击消耗<shuzhi>50</>点<shuzhi>普攻-基本功积累</>并获得<shuzhi>1</>点默契积累，两次攻击后波吕克斯陷入沉睡，技能进入冷却，冷却时间<shuzhi>24</>秒。\r\n第一次攻击对目标至多造成<shuzhi>10,000%</>*攻击力+<shuzhi>526</>点伤害，并击退目标。\r\n第二次攻击对目标至多造成<shuzhi>15,000%</>*攻击力+<shuzhi>789</>点伤害，并击退目标。\r\n<shuzhi>默契积累</>：<shuzhi>2</>点默契积累解锁<shuzhi>普攻-瑰丽共鸣</>。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_Skill1.png"
+      },
+      {
+        "type": "技能",
+        "name": "傀儡侍卫",
+        "des": "长按技能时海伦召唤并操控波吕克斯真身。\r\n期间可以操控波吕克斯小范围移动，连续点按技能波吕克斯将发动循环的两次攻击。\r\n跳跃和闪避可以退出该状态。\r\n召唤波吕克斯对目标至多造成<shuzhi>1,260%</>*攻击力+<shuzhi>66</>点伤害，并击退目标。\r\n第一次攻击对目标至多造成<shuzhi>1,080%</>*攻击力+<shuzhi>57</>点伤害，并击退目标。\r\n第二次攻击对目标至多造成<shuzhi>3,150%</>*攻击力+<shuzhi>166</>点伤害，并击退目标。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_HoldSkill1.png"
+      },
+      {
+        "type": "联携",
+        "name": "死亡舞剧",
+        "des": "当<red>武器充能满</>或触发<red>幻时</>时，从其他武器切换到该武器时<shuzhi>清除自身负面状态</>，海伦召唤人偶剧场，幕布升起后，波吕克斯出现向前方发动攻击，对附近目标共造成<shuzhi>19,949%</>*攻击力+<shuzhi>1,050</>点伤害，期间免疫伤害持续<shuzhi>2.6</>秒（巅峰联赛不生效）。",
+        "icon": "Resources/Icon/skill/WeaponSkill/PUPPETEER/Puppeteer_ChangeSkill.png"
+      }
+    ]
   }
 }

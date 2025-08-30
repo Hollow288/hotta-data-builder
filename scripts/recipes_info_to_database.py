@@ -12,9 +12,9 @@ from utils.minio_client import minio_client
 
 async def recipes_info_to_database():
     # 初始化数据库
-    await Tortoise.init(
-        config=database_config.TORTOISE_ORM
-    )
+    # await Tortoise.init(
+    #     config=database_config.TORTOISE_ORM
+    # )
 
     recipes_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "recipes.json"))
 

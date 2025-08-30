@@ -1,4 +1,150 @@
 {
+  "Suit_SSR60": {
+    "SuitName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
+      "Key": "MatrixSuit_SSR60_SuitName",
+      "SourceString": "无尽梦呓",
+      "LocalizedString": "无尽梦呓"
+    },
+    "SuitIcon": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_Puppeteer_big.avatar_yizhitips_Puppeteer_big",
+      "SubPathString": ""
+    },
+    "SuitRemouldIcon": {
+      "AssetPathName": "/Game/Resources/UI/equiptips/weapon_imitation/tips_avatar_ssr_Puppeteer.tips_avatar_ssr_Puppeteer",
+      "SubPathString": ""
+    },
+    "SuitIconTemp": {
+      "AssetPathName": "/Game/Resources/UI/yizhi/suit_icon/tips_icon_SSR60.tips_icon_SSR60",
+      "SubPathString": ""
+    },
+    "MatrixSuitQuality": "ITEM_QUALITY_LEGENDRY",
+    "IsOpened": true,
+    "SuitUnactivateDetailList": [
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
+        "Key": "MatrixSuit_SSR60_des1",
+        "SourceString": "寒冰攻击提升{0}%/{1}%/{2}%/{3}%，普攻-瑰丽共鸣倍率提升至120000%。装备后后台可生效，多套只生效最高星级",
+        "LocalizedString": "寒冰攻击提升{0}%/{1}%/{2}%/{3}%，普攻-瑰丽共鸣倍率提升至120000%。装备后后台可生效，多套只生效最高星级"
+      },
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
+        "Key": "MatrixSuit_SSR60_des2",
+        "SourceString": "最终伤害提升{0}%/{1}%/{2}%/{3}%，武器-波吕克斯上阵冰元素伤害提升{4}%。装备后后台可生效，多套只生效最高星级",
+        "LocalizedString": "最终伤害提升{0}%/{1}%/{2}%/{3}%，武器-波吕克斯上阵冰元素伤害提升{4}%。装备后后台可生效，多套只生效最高星级"
+      }
+    ],
+    "SuitUnactivateDetailParams": [
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix121_IceDmgUp_Lv1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix121_IceDmgUp_Lv2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix121_IceDmgUp_Lv3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix121_IceDmgUp_Lv4"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix121_ExSkillDmgUp"
+            }
+          }
+        ]
+      },
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix122_FinalDmgUp_Lv1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix122_FinalDmgUp_Lv2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix122_FinalDmgUp_Lv3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix122_FinalDmgUp_Lv4"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'PuppeteerEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/PuppeteerEffectFigure.0"
+              },
+              "RowName": "Buff_Matrix122_IceDmgUp_Back"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "Suit_SSR59": {
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LechesisDes.LechesisDes",
@@ -190,14 +336,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/CommodoreDes.CommodoreDes",
         "Key": "MatrixSuit_SSR58_des1",
-        "SourceString": "雷电攻击提升{0}%/{1}%/{2}%/{3}%，<shuzhi>武器-AF-010侍者</>攻击第5段伤害倍率提升至5292%，强化普攻第五段总倍率提升至16632%。",
-        "LocalizedString": "雷电攻击提升{0}%/{1}%/{2}%/{3}%，<shuzhi>武器-AF-010侍者</>攻击第5段伤害倍率提升至5292%，强化普攻第五段总倍率提升至16632%。"
+        "SourceString": "雷电攻击提升{0}%/{1}%/{2}%/{3}%，<shuzhi>武器-AF-010侍者</>攻击第5段伤害倍率提升至5292%，强化普攻第五段总倍率提升至16632%，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "雷电攻击提升{0}%/{1}%/{2}%/{3}%，<shuzhi>武器-AF-010侍者</>攻击第5段伤害倍率提升至5292%，强化普攻第五段总倍率提升至16632%，装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/CommodoreDes.CommodoreDes",
         "Key": "MatrixSuit_SSR58_des2",
-        "SourceString": "雷电伤害提升{0}%/{1}%/{2}%/{3}%；<shuzhi>武器-AF-010侍者</>上阵时暴击伤害提升{4}%/{5}%/{6}%/{7}%，最终伤害提升{8}%",
-        "LocalizedString": "雷电伤害提升{0}%/{1}%/{2}%/{3}%；<shuzhi>武器-AF-010侍者</>上阵时暴击伤害提升{4}%/{5}%/{6}%/{7}%，最终伤害提升{8}%"
+        "SourceString": "雷电伤害提升{0}%/{1}%/{2}%/{3}%；<shuzhi>武器-AF-010侍者</>上阵时暴击伤害提升{4}%/{5}%/{6}%/{7}%，最终伤害提升{8}%，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "雷电伤害提升{0}%/{1}%/{2}%/{3}%；<shuzhi>武器-AF-010侍者</>上阵时暴击伤害提升{4}%/{5}%/{6}%/{7}%，最终伤害提升{8}%，装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [

@@ -1,4 +1,410 @@
 {
+  "fashion_dress_89": {
+    "FashionType": "EFashionType::Dress",
+    "WeaponType": "EWeaponType::None",
+    "Name": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "fashion_dress_89_name",
+      "SourceString": "祈佳期",
+      "LocalizedString": "祈佳期"
+    },
+    "OrnamentID": "None",
+    "SortOrder": 89,
+    "bShowNeedUnlock": false,
+    "OverSeaShowNeedUnlock": [],
+    "OverseabShowNeedUnlock": [],
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "fashion_dress_89_des",
+      "SourceString": "遥寄相思又一年。云阶上，今宵喜相逢。",
+      "LocalizedString": "遥寄相思又一年。云阶上，今宵喜相逢。"
+    },
+    "Description_os": [],
+    "OverseaDescription": [],
+    "Quality": "ITEM_QUALITY_LEGENDRY",
+    "ArtPackID": "fashion_dress_89",
+    "DisplayArtPackID": "None",
+    "PreviewActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "ActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "SocketName": "None",
+    "CharmValue": 0,
+    "ItemId": "fashion_dress_89_4",
+    "bShowOperateButton": true,
+    "ActiveSource": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "output_Fashion89",
+      "SourceString": "祈佳期扭蛋活动获取 ",
+      "LocalizedString": "祈佳期扭蛋活动获取 "
+    },
+    "ActiveSource_os": [],
+    "OverseaActiveSource": [
+      {
+        "Key": "EHottaOverSeaRegionType::OVERSEA_NONE",
+        "Value": {
+          "TextDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": {
+                "CultureInvariantString": null
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OverseaOutputSourceID": [],
+    "bCloseOutlineMaterial": false,
+    "bDynamicOrnament": false,
+    "HeadwearSkeletalMeshIdle": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "bUseAnimInstance": false,
+    "HeadwearkeletaMeshInstance": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "SkeletaMeshInstanceMap": [],
+    "Coloring": [
+      {
+        "MaterialSlotName": "cloth",
+        "ColoringNum": 5
+      }
+    ],
+    "CloringSort": [
+      "",
+      "0,1,4,2,5",
+      "0,1,4,2,5"
+    ],
+    "ColoringPreset": [
+      {
+        "PartColors": [
+          {
+            "IconColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "PartColor": [
+              {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PartColors": [
+          {
+            "IconColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            "PartColor": [
+              {
+                "R": 1.5,
+                "G": 1.5,
+                "B": 1.5,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              {
+                "R": 0.713953,
+                "G": 0.399083,
+                "B": 2.0,
+                "A": 1.0,
+                "Hex": "DCAAFF"
+              },
+              {
+                "R": 2.0,
+                "G": 0.866145,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "FFF000"
+              },
+              {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              {
+                "R": 1.2,
+                "G": 1.197228,
+                "B": 1.154931,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              {
+                "R": 1.164598,
+                "G": 0.708466,
+                "B": 1.8,
+                "A": 1.0,
+                "Hex": "FFDBFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PartColors": [
+          {
+            "IconColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            "PartColor": [
+              {
+                "R": 1.024567,
+                "G": 0.608827,
+                "B": 1.5,
+                "A": 1.0,
+                "Hex": "FFCDFF"
+              },
+              {
+                "R": 0.484618,
+                "G": 0.259706,
+                "B": 1.5,
+                "A": 1.0,
+                "Hex": "B98BFF"
+              },
+              {
+                "R": 1.5,
+                "G": 0.632173,
+                "B": 0.09375,
+                "A": 1.0,
+                "Hex": "FFD156"
+              },
+              {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              {
+                "R": 1.5,
+                "G": 1.5,
+                "B": 1.5,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              {
+                "R": 1.5,
+                "G": 0.469383,
+                "B": 0.265625,
+                "A": 1.0,
+                "Hex": "FFB68D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Icon": {
+      "AssetPathName": "/Game/Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_89.fashion_icon_dress_89",
+      "SubPathString": ""
+    },
+    "ForbidHairs": [
+      {
+        "Key": "RCT_MAN",
+        "Value": {
+          "HairIds": [],
+          "ForeHairIds": [],
+          "CenterHairIds": [],
+          "BackHairIds": []
+        }
+      }
+    ],
+    "IdleSequences": [
+      {
+        "Key": "RCT_WOMAN",
+        "Value": {
+          "AssetPathName": "/Game/Resources/Characters/Player/female_01/Animation/Hand/qt/char_h_stand_pe_qt.char_h_stand_pe_qt",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Key": "RCT_MAN",
+        "Value": {
+          "AssetPathName": "/Game/Resources/Characters/Player/male_01/Animation/Hand/s/char_h_stand_pe_s.char_h_stand_pe_s",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Skirts": [
+      {
+        "Key": "RCT_WOMAN",
+        "Value": false
+      },
+      {
+        "Key": "RCT_MAN",
+        "Value": false
+      }
+    ],
+    "SuperSkirts": [
+      {
+        "Key": "RCT_WOMAN",
+        "Value": true
+      }
+    ],
+    "bCanChangeTransform": false,
+    "ChangeOffsetUDMin": 0.0,
+    "ChangeOffsetUDMax": 0.0,
+    "ChangeOffsetLRMin": 0.0,
+    "ChangeOffsetLRMax": 0.0,
+    "ChangeScaleMin": 1.0,
+    "ChangeScaleMax": 1.0,
+    "SkirtIKLRFootAdjust": 0.0,
+    "bExhibitBySwitch": false,
+    "SwitchType": "EGameFunctionType::ExhibitFashionDressSwitch",
+    "bActiveEffectSlot": false,
+    "FashionParticleSystem": {
+      "AssetPathName": "/Game/Resources/Effect/Particles/FX_Buff/FX_fashion/P_fashion_dress_87.P_fashion_dress_87",
+      "SubPathString": ""
+    },
+    "EffectAttachPointName": "None",
+    "FashionEffectTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "bDedicatedFunction": false,
+    "DedicatedFunctionMap": [],
+    "ExtraSkeletalMesh": [],
+    "bActiveShine": false,
+    "ShineData": [],
+    "bUseMountSetting": true,
+    "MountAnimData": [],
+    "bUseFashionAnimSetting": true,
+    "FashionAnimData": [
+      {
+        "Key": "RCT_WOMAN",
+        "Value": {
+          "FashionAnimMap": [
+            {
+              "Key": "0",
+              "Value": {
+                "LeisureAnimSequeArray": [
+                  {
+                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_XYC_show.f_player_fashion_XYC_show",
+                    "SubPathString": ""
+                  }
+                ],
+                "NormalToExclusiveAnim": {
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_XYC_enterstandby.f_player_fashion_XYC_enterstandby",
+                  "SubPathString": ""
+                },
+                "ExclusiveIdleAnim": {
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_XYC_idle.f_player_fashion_XYC_idle",
+                  "SubPathString": ""
+                },
+                "StandPeAnim": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "LookAroundAnim": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Key": "RCT_MAN",
+        "Value": {
+          "FashionAnimMap": [
+            {
+              "Key": "0",
+              "Value": {
+                "LeisureAnimSequeArray": [
+                  {
+                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_XYC_show.m_player_fashion_XYC_show",
+                    "SubPathString": ""
+                  }
+                ],
+                "NormalToExclusiveAnim": {
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_XYC_enterstandby.m_player_fashion_XYC_enterstandby",
+                  "SubPathString": ""
+                },
+                "ExclusiveIdleAnim": {
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_XYC_idle.m_player_fashion_XYC_idle",
+                  "SubPathString": ""
+                },
+                "StandPeAnim": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "LookAroundAnim": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "SkirtIKLRFootOffsetData": [],
+    "HarmoniousFashionConfig": {
+      "FashionData": []
+    },
+    "ExclusiveHeadMaterials_Woman": [
+      {
+        "AssetPathName": "/Game/Resources/Characters/Player/female_01/f_face/ter_new/MI_f_player_face_001_new.MI_f_player_face_001_new",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Resources/Characters/Player/female_01/f_face/ter_new/MI_f_player_face_001_new_lod.MI_f_player_face_001_new_lod",
+        "SubPathString": ""
+      }
+    ],
+    "ExclusiveHeadMaterials_Man": [
+      {
+        "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
+        "SubPathString": ""
+      }
+    ]
+  },
   "fashion_dress_88": {
     "FashionType": "EFashionType::Dress",
     "WeaponType": "EWeaponType::None",
@@ -38,9 +444,9 @@
     "bShowOperateButton": true,
     "ActiveSource": {
       "TableId": "/Game/Resources/Text/ST_item.ST_Item",
-      "Key": "OutputSource_BP32",
-      "SourceString": "三十二期通行证奖励",
-      "LocalizedString": "三十二期通行证奖励"
+      "Key": "battlepass_dress",
+      "SourceString": "商店获取",
+      "LocalizedString": "商店获取"
     },
     "ActiveSource_os": [
       {

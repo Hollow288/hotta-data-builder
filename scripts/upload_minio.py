@@ -31,5 +31,5 @@ def upload_folder_to_minio(local_dir, bucket_name, prefix=""):
 
 
 if __name__ == "__main__":
-    # upload_folder_to_minio("C:\XM\MY\Hotta\Content\Resources\Icon", "hotta","Resources\Icon")
-    upload_folder_to_minio(r"C:\XM\MY\Hotta\Content\Resources\UI\shizhuang\Fashion_icon\item_fashion_icon", "hotta",r"Resources\UI\shizhuang\Fashion_icon\item_fashion_icon")
+    upload_folder_to_minio(r"E:\UnrealExporter\output\Hotta\Content\Resources\Icon", "hotta","Resources\Icon")
+    upload_folder_to_minio(r"E:\UnrealExporter\output\Hotta\Content\Resources\UI\shizhuang\Fashion_icon\item_fashion_icon", "hotta",r"Resources\UI\shizhuang\Fashion_icon\item_fashion_icon")
