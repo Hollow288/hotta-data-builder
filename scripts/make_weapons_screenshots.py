@@ -70,7 +70,7 @@ async def make_all_weapons_image():
         env.filters['highlight_shuzhi'] = highlight_shuzhi
 
         async with async_playwright() as p:
-            browser = await p.firefox.launch(headless=True)
+            browser = await p.chromium.launch(headless=True)
             semaphore = Semaphore(MAX_CONCURRENT_PAGES)
 
             tasks = [

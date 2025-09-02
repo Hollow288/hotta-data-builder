@@ -82,7 +82,7 @@ async def make_all_weapons_skill_image():
 
         # 开始浏览器
         async with async_playwright() as p:
-            browser = await p.firefox.launch(headless=True)
+            browser = await p.chromium.launch(headless=True)
             semaphore = Semaphore(MAX_CONCURRENT_PAGES)  # 最多 4 个并发任务
             tasks = [
                 make_weapons_skill_page(w, font_server_port, env, semaphore, screenshot_dir, browser)

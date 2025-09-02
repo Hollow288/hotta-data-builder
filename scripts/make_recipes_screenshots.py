@@ -73,7 +73,7 @@ async def make_all_recipes_image():
         env.filters['com_lbl_green'] = com_lbl_green
 
         async with async_playwright() as p:
-            browser = await p.firefox.launch(headless=True)
+            browser = await p.chromium.launch(headless=True)
             semaphore = Semaphore(MAX_CONCURRENT_PAGES)
 
             tasks = [
