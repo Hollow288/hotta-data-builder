@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>创意卡片</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font: 14px/20px "Lato", Arial, sans-serif;
+            color: #9E9E9E;
+            margin-top: 30px;
+            background: transparent;
+        }
+
+        .slide-container {
+            margin: auto;
+            width: 370px;
+            text-align: center;
+            background: transparent;
+        }
+
+        .card {
+            background: white;
+            width: 350px;
+            display: inline-block;
+            /*margin: auto;*/
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-radius: 19px;
+            position: relative;
+            text-align: center;
+            box-shadow: -1px 15px 30px -12px black;
+        }
+
+        .card__image {
+            position: relative;
+            height: 100px;
+            margin-bottom: 25px;
+            background: linear-gradient(180deg, #FFF4E5 0%, #FFE5B4 100%);
+            border-top-left-radius: 14px;
+            border-top-right-radius: 14px;
+            overflow: visible;
+        }
+
+        .card__image img {
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%) scale(0.4);
+            transform-origin: top center;
+            width: auto;
+            filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.3));
+        }
+
+        .card__level {
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 3px;
+            color: #EC9B3B;
+        }
+
+        .card__name {
+            font-size: 26px;
+            color: black;
+            font-weight: 900;
+            margin-bottom: 5px;
+        }
+
+        .card__description {
+            position: relative;
+            padding: 20px 20px 15px;
+        }
+
+        .card__description::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: #ccc;
+            margin-top: 15px;
+        }
+
+
+
+        .card__stars {
+            text-align: left;
+            padding: 0 15px ;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .card__stars div {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .card__stars .stars {
+            font-size: 12px;
+            width: 100px;
+            display: inline-block;
+            line-height: 1.2;
+        }
+
+        .card__stars .desc {
+            color: #555;
+            flex: 1;
+            word-break: break-word;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+    <div class="card">
+        <div class="card__image">
+            <img src="{{card_image}}" alt="barbarian"/>
+        </div>
+        <div class="card__level">{{item_rarity}}</div>
+        <div class="card__name">{{item_name}}</div>
+        <div class="card__description">
+            {{use_description | highlight_shuzhi}}
+        </div>
+
+        <div class="card__stars">
+            {% for desc in artifact_attribute_data %}
+            <div>
+                <span class="stars">{{ '⭐' * loop.index }}</span>
+                <span class="desc">{{ desc | highlight_shuzhi}}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+</body>
+</html>

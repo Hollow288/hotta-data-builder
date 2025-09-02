@@ -1,8 +1,11 @@
 import asyncio
 
 from config import database_config
+from scripts.artifact_info_to_database import artifact_info_to_database
 from scripts.fashion_info_to_database import fashion_info_to_database
 from scripts.food_info_to_database import food_info_to_database
+from scripts.make_artifact_data import make_artifact_data
+from scripts.make_artifact_screenshots import make_all_artifact_image
 from scripts.make_cook_recipes import make_cook_recipes
 from scripts.make_fashion_data import make_fashion_data
 from scripts.make_fashion_screenshots import make_all_fashion_image
@@ -29,7 +32,7 @@ async def main():
 
     # tables = ["weapons", "weapon_upgrade_star_pack", "weapon_skill",
     #           "weapon_sensuality_level_data","matrix","suit_unactivate_detail",
-    #           "food_data_table","cook_recipes_data_table","recipes_food","fashion_data"]
+    #           "food_data_table","cook_recipes_data_table","recipes_food","fashion_data","artifact_data"]
     #
     # for table in tables:
     #     await Tortoise.get_connection('default').execute_script(f"TRUNCATE TABLE {table}")
@@ -39,20 +42,23 @@ async def main():
     # await make_weapons()
     # await make_cook_recipes()
     # await make_fashion_data()
+    await make_artifact_data()
     #
     #
     # await food_info_to_database()
     # await recipes_info_to_database()
     # await matrix_info_to_database()
     # await weapons_info_to_database()
-    await fashion_info_to_database()
+    # await fashion_info_to_database()
+    await artifact_info_to_database()
 
     # await make_all_recipes_image()
     # await make_all_food_image()
     # await make_all_matrix_image()
     # await make_all_weapons_image()
     # await make_all_weapons_skill_image()
-    await make_all_fashion_image()
+    # await make_all_fashion_image()
+    await make_all_artifact_image()
 
 
 if __name__ == "__main__":

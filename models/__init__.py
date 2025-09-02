@@ -1,3 +1,4 @@
+from .artifact_data import ArtifactData
 from .cook_recipes_data_table import CookRecipesDataTable
 from .fashion_data import FashionData
 from .food_data_table import FoodData
@@ -19,5 +20,6 @@ __all__ = [
     "FoodData",
     "CookRecipesDataTable",
     "RecipesFood",
-    "FashionData"
+    "FashionData",
+    "ArtifactData"
 ]

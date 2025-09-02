@@ -1,0 +1,478 @@
+{
+  "artifact_ssr_001": {
+    "artifact_key": "artifact_ssr_001",
+    "item_name": "巨擎手臂",
+    "use_description": "使用巨擎手臂进行战斗，持续20秒，冷却<shuzhi>300</>秒，免疫硬直，再次点击取消使用。普攻总计可造成<shuzhi>1,387.7%</>*攻击伤害和<shuzhi>强控击飞</>效果；技能造成<shuzhi>453.5%</>*攻击伤害和<shuzhi>强控浮空</>效果，冷却<shuzhi>10</>秒。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_001.png",
+    "artifact_attribute_data": [
+      "每次攻击可射出<shuzhi>2</>枚飞弹对目标造成伤害，每枚飞弹造成<shuzhi>34.8%</>攻击伤害。",
+      "冷却时间缩短至<shuzhi>200</>秒",
+      "每次攻击可射出<shuzhi>4</>枚飞弹对目标造成伤害，每枚飞弹造成<shuzhi>34.8%</>攻击伤害。",
+      "降低<shuzhi>2%</>受到的物理伤害，不上阵也生效，巅峰联赛中不生效",
+      "巨擎手臂持续<shuzhi>30</>秒，持续期间受到所有伤害减少<shuzhi>20%</>"
+    ]
+  },
+  "artifact_ssr_002": {
+    "artifact_key": "artifact_ssr_002",
+    "item_name": "原能护盾",
+    "use_description": "竖起一道原能护盾，持续<shuzhi>10</>秒，可阻挡子弹穿透。护盾有<shuzhi>200%</>*拓荒者最大生命值的能量值，冷却<shuzhi>90</>秒。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_002.png",
+    "artifact_attribute_data": [
+      "若敌方目标穿过原能护盾，减速<shuzhi>50%</>持续<shuzhi>2</>秒",
+      "冷却时间缩短至<shuzhi>60</>秒",
+      "持续时间延长至<shuzhi>20</>秒",
+      "降低<shuzhi>2%</>受到的寒冰伤害，不上阵也生效，巅峰联赛中不生效",
+      "拓荒者及友方穿过原能护盾会获得伤害提升<shuzhi>25%</>持续<shuzhi>7</>秒"
+    ]
+  },
+  "artifact_ssr_004": {
+    "artifact_key": "artifact_ssr_004",
+    "item_name": "V型机甲",
+    "use_description": "驾驶机器人进行战斗，持续<shuzhi>30</>秒，冷却<shuzhi>200</>秒。免疫硬直，再次点击取消驾驶并引爆机器人。拥有技能：<yellow_lbl_14_1>瞄准射击</>。\r\n<yellow_lbl_14_1>瞄准射击</>：高频发射火焰子弹，每次命中造成<shuzhi>44.4%</>*攻击力伤害。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_004.png",
+    "artifact_attribute_data": [
+      "驾驶机甲时，免疫火焰伤害和控制效果",
+      "获得新技能：<yellow_lbl_14_1>炮击</>\r\n<yellow_lbl_14_1>炮击</>：向锁定目标释放<shuzhi>6</>次炮击，每次命中造成<shuzhi>155.2%</>*攻击力伤害",
+      "驾驶机甲时，伤害附带灼烧效果",
+      "增加<shuzhi>2%</>火焰伤害，不上阵也生效，巅峰联赛中不生效",
+      "获得新技能：<yellow_lbl_14_1>火焰力场</>\r\n<yellow_lbl_14_1>火焰力场</>：原地释放大范围火焰力场，最多可造成<shuzhi>1146.8%</>*攻击力伤害"
+    ]
+  },
+  "artifact_ssr_005": {
+    "artifact_key": "artifact_ssr_005",
+    "item_name": "时空裂隙",
+    "use_description": "利用质子炸弹，坍缩身前的空间，范围内持续吸附目标<shuzhi>10</>秒，1.5秒延迟后中心区域每<shuzhi>0.5</>秒造成<shuzhi>39.6%</>*攻击力伤害，冷却<shuzhi>100</>秒。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_005.png",
+    "artifact_attribute_data": [
+      "处于坍缩空间离地面近的敌人无法使用闪避，吸附时间延长至<shuzhi>15</>秒",
+      "伤害范围提升<shuzhi>1</>倍",
+      "区域内的目标受到伤害增加<shuzhi>20%</>",
+      "降低<shuzhi>2%</>受到的火焰伤害，不上阵也生效，巅峰联赛中不生效",
+      "处于坍缩空间内的敌方单位无法被治疗"
+    ]
+  },
+  "artifact_ssr_006": {
+    "artifact_key": "artifact_ssr_006",
+    "item_name": "禁锢空间",
+    "use_description": "制造一个半径<shuzhi>7</>米的禁锢空间持续<shuzhi>10</>秒，地面持续能量波动，对地面目标每秒造成<shuzhi>73.4%</>*攻击力的当前武器元素类型伤害；若目标触碰区域边缘，附带<shuzhi>2</>秒<shuzhi>强控眩晕</>效果 ，冷却<shuzhi>240</>秒。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_006.png",
+    "artifact_attribute_data": [
+      "眩晕延长至<shuzhi>3</>秒，冷却缩短至<shuzhi>180</>秒",
+      "能量波动造成伤害额外提高<shuzhi>30%</>",
+      "冷却缩短至<shuzhi>120</>秒",
+      "增加<shuzhi>2%</>物理伤害，不上阵也生效，巅峰联赛中不生效",
+      "每<shuzhi>3</>秒会额外触发一次地震波，命中<shuzhi>浮空</>目标（跳跃可躲避）"
+    ]
+  },
+  "artifact_ssr_008": {
+    "artifact_key": "artifact_ssr_008",
+    "item_name": "无人机",
+    "use_description": "召唤无人机，持续<shuzhi>15</>秒，每<shuzhi>5</>秒提升自身<shuzhi>5%</>最终减伤，冷却<shuzhi>120</>秒。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_008.png",
+    "artifact_attribute_data": [
+      "解除控制，并在接下来<shuzhi>5</>秒内免疫控制",
+      "持续时长延长至<shuzhi>25</>秒",
+      "每<shuzhi>5</>秒额外为拓荒者叠加一层伤害提升<shuzhi>5%</>的激励效果",
+      "降低<shuzhi>2%</>受到的雷电伤害，不上阵也生效，巅峰联赛中不生效",
+      "无人机持续期间，拓荒者获得攻击回复效果，<shuzhi>20%</>的伤害值转换为自身生命"
+    ]
+  },
+  "artifact_ssr_010": {
+    "artifact_key": "artifact_ssr_010",
+    "item_name": "全息投影",
+    "use_description": "释放基于自身的全息投影，投影会同步复刻角色武器攻击，投影造成的伤害为角色造成伤害的<shuzhi>50%</>，持续<shuzhi>15</>秒，冷却<shuzhi>180</>秒。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_010.png",
+    "artifact_attribute_data": [
+      "持续时间延长至<shuzhi>20</>秒",
+      "投影造成的伤害提升至角色的<shuzhi>75%</>",
+      "再次点击，自身移形换位，出现在投影的位置",
+      "增加<shuzhi>2%</>雷电伤害，不上阵也生效，巅峰联赛中不生效",
+      "投影造成的伤害提升至角色的<shuzhi>100%</>，移形换位时解除自身控制"
+    ]
+  },
+  "artifact_ssr_011": {
+    "artifact_key": "artifact_ssr_011",
+    "item_name": "死亡抑制",
+    "use_description": "生成一个持续<shuzhi>8</>秒的隔断空间，友方玩家在空间内免疫硬直效果，且受到敌方伤害使自身生命值不会低于<shuzhi>20%</>，冷却时间<shuzhi>90</>秒，离开空间则失去所有增益效果。进入过空间的<shuzhi>8</>秒后，在<shuzhi>45</>秒内无法再获得相同的空间效果。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_011_icon.png",
+    "artifact_attribute_data": [
+      "<shuzhi>8</>秒后，友方玩家在空间内恢复<shuzhi>15%</>的生命值。",
+      "友方单位在空间内时获得<shuzhi>25%</>的吸血效果。",
+      "友方玩家在空间内免疫一切控制",
+      "增加<shuzhi>2%</>寒冰伤害，不上阵也生效，巅峰联赛中不生效",
+      "在空间内的友方玩家的生命值低于或等于<shuzhi>40%</>时，吸血效果翻倍，直到源器消失。"
+    ]
+  },
+  "artifact_ssr_012": {
+    "artifact_key": "artifact_ssr_012",
+    "item_name": "考恩特Ⅱ型",
+    "use_description": "使用考恩特Ⅱ型，获得一个持续<shuzhi>5</>秒的护盾。承受1次攻击后消失，消失时击退周围敌人并造成<shuzhi>100%</>攻击力+<shuzhi>50</>点伤害，若在护盾生成1秒内被击破，则眩晕<shuzhi>2</>秒。护盾破碎后获得当前生命值百分比的增伤效果持续<shuzhi>10</>秒（最大不超过<shuzhi>60%</>），冷却<shuzhi>30</>秒，与考恩特共享冷却",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_012_icon.png",
+    "artifact_attribute_data": [
+      "使用时，若血量大于<shuzhi>90%</>，立刻获得<shuzhi>100</>点能量；若当前血量低于<shuzhi>90%</>，立刻获得<shuzhi>50</>点能量，增伤结束时，再获得<shuzhi>50</>点能量",
+      "考恩特Ⅱ型增伤时间提升至<shuzhi>12</>秒",
+      "考恩特Ⅱ型增伤上限提升至<shuzhi>70%</>",
+      "增加<shuzhi>2%</>火焰伤害，不上阵也生效，巅峰联赛中不生效",
+      "若已损失血量大于当前血量，则按照已损失血量百分比获得增伤效果（最大不超过<shuzhi>70%</>）"
+    ]
+  },
+  "artifact_ssr_013": {
+    "artifact_key": "artifact_ssr_013",
+    "item_name": "悬浮滑板",
+    "use_description": "使用悬浮滑板在地面和流沙上进行移动，移动时消耗耐力，使用滑板时可快速向前位移一段距离，冷却90秒",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_016.png",
+    "artifact_attribute_data": [
+      "冷却缩减至60秒",
+      "地面使用耐力消耗降低一半，水中使用不消耗耐力",
+      "在游泳状态使用无视冷却",
+      "增加<shuzhi>2%</>火焰伤害，不上阵也生效，巅峰联赛中不生效",
+      "冷却缩减至30秒"
+    ]
+  },
+  "artifact_ssr_014": {
+    "artifact_key": "artifact_ssr_014",
+    "item_name": "天选骰子",
+    "use_description": "投出手中所有骰子，投出不同数量的骰子有不同的效果；战斗中每次投出骰子时随机从<shuzhi>10</>个增益效果中获得<shuzhi>1</>个，脱战后清除（包括：冰伤提升<shuzhi>10%</>、火伤提升<shuzhi>10%</>、雷伤提升<shuzhi>10%</>、物伤提升<shuzhi>10%</>、异能伤害提升<shuzhi>10%</>、受到的冰伤降低<shuzhi>5%</>、受到的火伤降低<shuzhi>5%</>、受到的雷伤降低<shuzhi>5%</>、受到的物伤降低<shuzhi>5%</>、受到的异能伤害降低<shuzhi>5%</>；投出不同数量骰子时均只随机获得<shuzhi>1</>个增益效果，所有效果均只叠加<shuzhi>1</>层，天选骰子5星时投出3个骰子获得全部元素增伤效果）；每<shuzhi>30</>秒获得一个新骰子，最多积攒<shuzhi>3</>个骰子。<shuzhi>考恩特</>和<shuzhi>考恩特Ⅱ型</>上阵时不可使用骰子：\r\n投出<shuzhi>1</>个骰子时，立刻获得<shuzhi>180</>点武器充能值，如果投出<shuzhi>1</>点或者<shuzhi>6</>点，则获得<shuzhi>热核</>效果：获得<shuzhi>20%</>的伤害提升，持续<shuzhi>35</>秒\r\n投出<shuzhi>2</>个骰子时，立刻获得<shuzhi>180</>点武器充能值和<shuzhi>热核</>效果，如果<shuzhi>2</>个骰子点数相同则获得<shuzhi>聚变</>效果：清除所有武器的技能冷却时间\r\n投出<shuzhi>3</>个骰子时，立刻获得<shuzhi>180</>点武器充能值、<shuzhi>热核</>效果和<shuzhi>聚变</>效果，如果<shuzhi>3</>个骰子点数相同则获得<shuzhi>超频</>效果：<shuzhi>6</>秒内释放连携不扣除充能值\r\n卸下源器天选骰子时，清除源器天选骰子所加的随机增益效果和热核效果",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_014.png",
+    "artifact_attribute_data": [
+      "每个骰子的获得时间缩短为<shuzhi>20</>秒",
+      "<shuzhi>热核</>增伤效果提升：获得<shuzhi>25%</>的伤害提升，持续<shuzhi>45</>秒",
+      "每次投出骰子后有<shuzhi>50%</>概率获得1个骰子，<shuzhi>15</>秒冷却",
+      "增加<shuzhi>2%</>寒冰伤害，不上阵也生效，巅峰联赛中不生效",
+      "投出<shuzhi>3</>个骰子时必定获得全部元素增伤效果，如果点数之和大于等于<shuzhi>14</>，也可获得<shuzhi>超频</>效果"
+    ]
+  },
+  "artifact_ssr_015": {
+    "artifact_key": "artifact_ssr_015",
+    "item_name": "小鹈鹕号",
+    "use_description": "潜水状态下，可使用小鹈鹕号加快潜水移速，移动时会持续消耗耐力，停止移动时会缓慢恢复耐力，冷却<shuzhi>90</>秒，小鹈鹕号可积攒<shuzhi>2</>次充能使用。使用小鹈鹕号时，小鹈鹕号会自动打开<shuzhi>潜水灯</>，照亮周围",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_015.png",
+    "artifact_attribute_data": [
+      "冷却时间缩短至<shuzhi>60</>秒",
+      "使用小鹈鹕号时可回满耐力，疲惫状态下不生效",
+      "小鹈鹕号可积攒<shuzhi>3</>次充能使用",
+      "增加<shuzhi>2%</>雷电伤害，不上阵也生效，巅峰联赛中不生效",
+      "冷却时间缩短至<shuzhi>30</>秒，同时解锁小鹈鹕号新涂装<shuzhi>【流彩】</>"
+    ]
+  },
+  "artifact_ssr_016": {
+    "artifact_key": "artifact_ssr_016",
+    "item_name": "升限针剂",
+    "use_description": "使用时会标记当前使用武器，使该武器获得<shuzhi>3</>支针剂，针剂持续存在<shuzhi>200</>秒，并获得<shuzhi>微创</>效果：<shuzhi>5%</>的伤害提升，持续<shuzhi>200</>秒。每次释放标记的武器技能时消耗<shuzhi>1</>支针剂并获得<shuzhi>升限</>效果：获得<shuzhi>20%</>的伤害提升，持续<shuzhi>20</>秒（切换到其他武器时移除升限效果），升限针剂<shuzhi>240</>秒冷却\r\n卸下升限针剂或切换源器组时会移除剩余的针剂、微创和升限效果，重新标记武器时移除原标记的针剂",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_016.png",
+    "artifact_attribute_data": [
+      "每次获得的针剂数量提升至<shuzhi>5</>支",
+      "<shuzhi>微创</>效果持续期间，命中带有“重伤”的目标时伤害提升<shuzhi>20%</>",
+      "冷却时间降低到<shuzhi>150</>秒",
+      "增加<shuzhi>2%</>物理伤害，不上阵也生效，巅峰联赛中不生效",
+      "使用升限针剂标记武器时回复满生命值（巅峰联赛中回复<shuzhi>20%</>最大生命值）"
+    ]
+  },
+  "artifact_ssr_018": {
+    "artifact_key": "artifact_ssr_018",
+    "item_name": "海洋之心",
+    "use_description": "在目标位置生成一颗海洋之心，冷却<shuzhi>60</>秒，海洋之心每<shuzhi>2</>秒对附近目标造成<shuzhi>4%</>（巅峰联赛为<shuzhi>0.4%</>）*玩家最大生命值点伤害，伤害元素类型跟随当前武器，持续<shuzhi>45</>秒，且被命中目标受到的伤害提升<shuzhi>5%</>，持续<shuzhi>5</>秒",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_018.png",
+    "artifact_attribute_data": [
+      "海洋之心每<shuzhi>15</>秒发动<shuzhi>1</>次潮汐，对附近目标造成<shuzhi>30%</>（巅峰联赛为<shuzhi>3%</>）*自身最大生命值点伤害",
+      "海洋之心持续时间提升至<shuzhi>90</>秒",
+      "被海洋之心命中目标受到的伤害额外提升<shuzhi>7%</>",
+      "增加<shuzhi>2%</>雷电伤害，不上阵也生效，巅峰联赛中不生效",
+      "当拓荒者潜海时，释放海洋之心可变身为一条海豚，<shuzhi>15</>秒内不会被怪物攻击，且移动速度提升，变身至多持续<shuzhi>45</>秒\r\n变身状态下，下次攻击将拍打海水，对附近目标造成<shuzhi>50%</>（巅峰联赛为<shuzhi>5%</>）*自身最大生命值点伤害，并解除变身"
+    ]
+  },
+  "artifact_ssr_019": {
+    "artifact_key": "artifact_ssr_019",
+    "item_name": "疾行履",
+    "use_description": "使用疾行履进入疾风神行状态，可在墙面上自由移动，使用跳跃快速移动小段距离，效果持续<shuzhi>15</>秒，冷却<shuzhi>90</>秒（疾行履仅限九域可用）",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_019.png",
+    "artifact_attribute_data": [
+      "疾风神行持续时间提升至<shuzhi>30</>秒",
+      "疾风神行状态下地面与墙面移动速度提升<shuzhi>15%</>，跳跃高度增加",
+      "疾行履可积攒<shuzhi>2</>次充能使用",
+      "降低<shuzhi>2%</>受到的物理伤害，不上阵也生效，巅峰联赛中不生效",
+      "疾风神行持续期间，空中攻击命中恢复闪避次数，使用闪避恢复所有耐力"
+    ]
+  },
+  "artifact_ssr_020": {
+    "artifact_key": "artifact_ssr_020",
+    "item_name": "泡泡枪",
+    "use_description": "使用泡泡枪，短按消耗<shuzhi>1</>点泡泡水，向前吹出少量小泡泡，每个造成攻击*<shuzhi>20%</>伤害。长按<shuzhi>0.5</>秒消耗<shuzhi>5</>点泡泡水，向前吹出大泡泡，对碰到的敌人造成攻击*<shuzhi>600%</>伤害，包裹大部分小型的目标向空中飞去，同一目标<shuzhi>15</>秒内最多被包裹飞起<shuzhi>1</>次，对霸体目标无效，吹出大泡泡冷却<shuzhi>5</>秒。泡泡水每<shuzhi>3</>秒恢复<shuzhi>1</>点，完成击杀时，恢复<shuzhi>10</>点泡泡水，泡泡枪可存储的泡泡水上限为<shuzhi>30</>点。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_020.png",
+    "artifact_attribute_data": [
+      "增加吹出的小泡泡数量，吹出小泡泡同时向后位移，在使用源器后，获得<shuzhi>10%</>的移动速度提升，持续<shuzhi>30</>秒",
+      "每次释放小泡泡/大泡泡玩家获得<shuzhi>1</>层/<shuzhi>3</>层欢乐时光，每层欢乐时光为玩家提供<shuzhi>2.4%</>伤害提升，最多<shuzhi>5</>层，持续<shuzhi>60</>秒",
+      "使用泡泡枪后，召唤一个泡泡精灵，泡泡精灵会持续发出泡泡，并刷新玩家欢乐时光持续时间，持续<shuzhi>150</>秒",
+      "增加<shuzhi>2%</>火焰伤害，不上阵也生效，巅峰联赛中不生效",
+      "欢乐时光的伤害提升效果每层额外提升<shuzhi>0.8%</>"
+    ]
+  },
+  "artifact_ssr_021": {
+    "artifact_key": "artifact_ssr_021",
+    "item_name": "三重假面",
+    "use_description": "使用将戴上三重假面中的隐空面具，在大世界探索行动时，不会受到BOSS以外的怪物攻击，被部分怪物发现时将会触发探查，在佩戴隐空面具的状态下，对受面具影响下的怪物发动攻击不会引起其他怪物的围攻。再次使用三重假面可卸下当前面具，进入冷却，冷却时间<shuzhi>20</>秒。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_021.png",
+    "artifact_attribute_data": [
+      "解锁逐猎面具，使用三重假面时进入选择，再次使用三重假面确认佩戴，佩戴逐猎面具时，可从地图中看到九域的精英成就怪物位置信息。",
+      "当前上阵三重假面时，移动速度提升<shuzhi>8%</>，元素伤害提升<shuzhi>8%</>。",
+      "解锁翎悉面具，佩戴翎悉面具时，当靠近处有未解锁的宝箱时，将会提示并指引前往宝箱所在位置。",
+      "增加<shuzhi>2%</>寒冰伤害，不上阵也生效，巅峰联赛中不生效",
+      "当前上阵三重假面时，元素伤害额外提升<shuzhi>8%</>。"
+    ]
+  },
+  "artifact_sr_001": {
+    "artifact_key": "artifact_sr_001",
+    "item_name": "浮游冰炮",
+    "use_description": "召唤浮游冰炮，持续<shuzhi>20</>秒，冷却<shuzhi>240</>秒。浮游炮拥有技能：激光束，每次对目标造成<shuzhi>5.6%</>*攻击力伤害。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_001.png",
+    "artifact_attribute_data": [
+      "浮游冰炮持续<shuzhi>24</>秒",
+      "获得新技能：<yellow_lbl_14_1>激光阵</>，连续伤害目标<shuzhi>4</>次可冰冻目标，对目标造成最多<shuzhi>93.2%</>*攻击力伤害",
+      "冷却时间缩短至<shuzhi>150</>秒",
+      "增加<shuzhi>1.5%</>寒冰伤害，不上阵也生效，巅峰联赛中不生效",
+      "获得新技能：<yellow_lbl_14_1>冲击</>，对目标造成<shuzhi>55.9%</>*攻击力伤害，并强控眩晕目标<shuzhi>0.5</>秒"
+    ]
+  },
+  "artifact_sr_004": {
+    "artifact_key": "artifact_sr_004",
+    "item_name": "喷气背包",
+    "use_description": "按住不放，按照箭头指示方向冲刺一段距离，进入滑翔状态，每秒消耗<shuzhi>10</>点耐力，充能时间为<shuzhi>30</>秒，滞空滑行不受充能影响，可积攒<shuzhi>2</>次充能使用。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_004.png",
+    "artifact_attribute_data": [
+      "每<shuzhi>20</>秒恢复1次充能，滑翔不消耗耐力",
+      "滑翔时间超过3秒获得一次重击强化，下次使用滑翔伞重击时强控眩晕目标2秒",
+      "每<shuzhi>15</>秒恢复1次充能",
+      "降低<shuzhi>1.5%</>受到的物理伤害，不上阵也生效，巅峰联赛中不生效",
+      "最多可积攒<shuzhi>3</>次使用"
+    ]
+  },
+  "artifact_sr_005": {
+    "artifact_key": "artifact_sr_005",
+    "item_name": "熔岩炸弹",
+    "use_description": "向前方抛出熔岩爆弹轰击目标，造成<shuzhi>567%</>*攻击力伤害，附带<shuzhi>强控击飞</>，冷却<shuzhi>45</>秒。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_005.png",
+    "artifact_attribute_data": [
+      "命中附带<shuzhi>2</>秒<shuzhi>强控眩晕</>和灼烧效果",
+      "爆炸范围扩大<shuzhi>50%</>",
+      "冷却时间缩短至<shuzhi>30</>秒",
+      "增加<shuzhi>1.5%</>火焰伤害，不上阵也生效，巅峰联赛中不生效",
+      "命中附带<shuzhi>3</>秒<shuzhi>强控眩晕</>，给目标添加<shuzhi>10</>秒耐力灼烧，每次使用技能扣除<shuzhi>100</>点耐力。"
+    ]
+  },
+  "artifact_sr_006": {
+    "artifact_key": "artifact_sr_006",
+    "item_name": "喷气滑板",
+    "use_description": "使用后向前冲刺一段距离，并在阻力的情况下慢慢减速直到停止，冲刺期间对碰撞的目标造成<shuzhi>380%</>*攻击力伤害，并造成<shuzhi>击飞</>效果，充能时间<shuzhi>90</>秒，并<shuzhi>可在游泳状态下使用</>滑板冲刺功能。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_006.png",
+    "artifact_attribute_data": [
+      "滑行期间每秒获得<shuzhi>10</>点武器充能值",
+      "充能时间缩短至<shuzhi>60</>秒",
+      "滑板碰撞伤害提高<shuzhi>100%</>，充能时间缩短至<shuzhi>45</>秒",
+      "降低<shuzhi>1.5%</>受到的寒冰伤害，不上阵也生效，巅峰联赛中不生效",
+      "滑板状态下免疫控制，使用滑板攻击命中目标附带<shuzhi>5</>秒<shuzhi>强控眩晕</>效果，充能时间缩短至<shuzhi>30</>秒"
+    ]
+  },
+  "artifact_sr_007": {
+    "artifact_key": "artifact_sr_007",
+    "item_name": "磁力风暴",
+    "use_description": "扭曲磁场，释放<shuzhi>1</>个带电核的旋风，在场景内随机路径移动，持续<shuzhi>10</>秒，将周围目标卷至空中，每秒对目标造成<shuzhi>186.3%</>*攻击力伤害，冷却<shuzhi>100</>秒。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_007.png",
+    "artifact_attribute_data": [
+      "释放<shuzhi>2</>个带电核的旋风",
+      "旋风伤害提升<shuzhi>20%</>",
+      "释放<shuzhi>3</>个带电核的旋风",
+      "增加<shuzhi>1.5%</>雷电伤害，不上阵也生效，巅峰联赛中不生效",
+      "处于旋风中的单位每次受到伤害有<shuzhi>50%</>几率进入<shuzhi>3</>秒混乱状态（移动方向与摇杆相反）"
+    ]
+  },
+  "artifact_sr_009": {
+    "artifact_key": "artifact_sr_009",
+    "item_name": "量子披风",
+    "use_description": "进入量子态，使敌人无法通过光学手段观测到自身，持续<shuzhi>10</>秒。发动攻击会解除此效果，冷却<shuzhi>120</>秒。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_009.png",
+    "artifact_attribute_data": [
+      "量子态持续<shuzhi>20</>秒",
+      "冷却缩短至<shuzhi>80</>秒",
+      "量子态下发动的攻击伤害增加<shuzhi>100%</>，<shuzhi>1</>次伤害后解除此效果",
+      "增加<shuzhi>1.5%</>雷电伤害，不上阵也生效，巅峰联赛中不生效",
+      "量子态下<shuzhi>3</>次伤害后解除伤害增加<shuzhi>100%</>效果"
+    ]
+  },
+  "artifact_sr_010": {
+    "artifact_key": "artifact_sr_010",
+    "item_name": "多重飞弹",
+    "use_description": "在身后空投一个飞弹发射器，持续<shuzhi>8</>秒，冷却<shuzhi>60</>秒。释放多枚飞弹攻击附近敌方单位，每发飞弹造成<shuzhi>34.8%</>*攻击力伤害。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_003.png",
+    "artifact_attribute_data": [
+      "每秒释放的飞弹数量增加",
+      "多重飞弹伤害提高<shuzhi>20%</>",
+      "多重飞弹持续<shuzhi>12</>秒",
+      "增加<shuzhi>1.5%</>物理伤害，不上阵也生效，巅峰联赛中不生效",
+      "每秒释放的飞弹数量再次增加"
+    ]
+  },
+  "artifact_sr_011": {
+    "artifact_key": "artifact_sr_011",
+    "item_name": "机械手臂",
+    "use_description": "弹射出机械手臂，将指定目标拉至身边，或将自身牵引至目标身边，命中造成<shuzhi>100%</>伤害，附带<shuzhi>强控浮空</>效果，同时回复自身<shuzhi>300</>点武器充能值；也可利用机械手臂到达一些难以去到的地方，可积攒<shuzhi>2</>次充能，每<shuzhi>30</>秒恢复<shuzhi>1</>次充能。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_011.png",
+    "artifact_attribute_data": [
+      "使用后获得电磁护盾，使自身受到伤害减少<shuzhi>20%</>，持续<shuzhi>7</>秒",
+      "每<shuzhi>15</>秒恢复<shuzhi>1</>次充能",
+      "最多可积攒<shuzhi>3</>次",
+      "增加<shuzhi>1.5%</>寒冰伤害，不上阵也生效，巅峰联赛中不生效",
+      "命中使目标在<shuzhi>7</>秒内最终伤害降低<shuzhi>30%</>"
+    ]
+  },
+  "artifact_sr_012": {
+    "artifact_key": "artifact_sr_012",
+    "item_name": "考恩特",
+    "use_description": "召唤机器人张开一个持续<shuzhi>5</>秒的护盾。护盾<shuzhi>5</>秒后或者承受一次攻击后消失，消失时击退周围敌人并造成<shuzhi>100%</>攻击力+<shuzhi>50</>点伤害。若护盾在生成后<shuzhi>1</>秒内打碎，还会额外眩晕敌人<shuzhi>2</>秒。冷却时间<shuzhi>30</>秒，与考恩特Ⅱ共享冷却时间。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_012_card.png",
+    "artifact_attribute_data": [
+      "护盾被打碎时，使攻击者以及附近的敌人移动速度降低<shuzhi>35%</>，持续<shuzhi>6</>秒。",
+      "护盾结束（破碎）后，根据已损失的血量的百分比，增加等额的最终伤害，持续<shuzhi>10</>秒，最低<shuzhi>30%</>。",
+      "护盾结束（破碎）后，增加<shuzhi>30%</>的移速，持续<shuzhi>6</>秒。",
+      "降低<shuzhi>1.5%</>受到的火焰伤害，不上阵也生效，巅峰联赛中不生效",
+      "护盾破碎时，获得<shuzhi>5</>秒的反伤效果，将受到的伤害以<shuzhi>0.6</>倍返还给攻击者。"
+    ]
+  },
+  "artifact_sr_013": {
+    "artifact_key": "artifact_sr_013",
+    "item_name": "奇点魔方",
+    "use_description": "使用魔方改变周围的引力，使敌人受到<shuzhi>100%</>攻击力伤害，接着抓取敌人使其浮空随后击飞敌人并再次造成<shuzhi>120%</>攻击力伤害。冷却<shuzhi>30</>秒。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_012.png",
+    "artifact_attribute_data": [
+      "开启魔方时，使自身伤害提高<shuzhi>10%</>，持续<shuzhi>10</>秒。",
+      "开启魔方后，扣除周围敌人<shuzhi>200</>点武器充能值。",
+      "魔方的使用次数增加至<shuzhi>2</>次。",
+      "增加<shuzhi>1.5%</>雷电伤害，不上阵也生效，巅峰联赛中不生效",
+      "开启魔方后，根据已损失的血量获得武器充能值。每失去<shuzhi>1%</>的血量获得<shuzhi>10</>点武器充能值。"
+    ]
+  },
+  "artifact_sr_014": {
+    "artifact_key": "artifact_sr_014",
+    "item_name": "原能手炮",
+    "use_description": "向指定位置射出<shuzhi>1</>枚机械原能炮弹，命中地面或水面生成一个可攀爬的机械原能柱，最多存在<shuzhi>20</>秒，冷却<shuzhi>50</>秒，最多可积攒<shuzhi>2</>枚。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_sr_008.png",
+    "artifact_attribute_data": [
+      "机械原能柱存在时间提升至<shuzhi>30</>秒",
+      "切换至原能手炮时，耐力恢复速度提升30%持续<shuzhi>20</>秒",
+      "最多可存储<shuzhi>3</>次充能",
+      "增加<shuzhi>1.5%</>火焰伤害，不上阵也生效，巅峰联赛中不生效",
+      "充能时间缩短至<shuzhi>40</>秒"
+    ]
+  },
+  "artifact_sr_015": {
+    "artifact_key": "artifact_sr_015",
+    "item_name": "磁暴脉冲",
+    "use_description": "引爆磁性炸弹，对目标造成<shuzhi>{0}%</>*攻击力的电属性伤害和<shuzhi>强控击飞</>效果，并使自己在<shuzhi>5</>秒内免疫硬直效果，冷却<shuzhi>35</>秒。",
+    "item_rarity": "SR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_r_002.png",
+    "artifact_attribute_data": [
+      "可在控制状态下使用",
+      "使用后自身在<shuzhi>5</>秒内免疫控制",
+      "命中目标后给目标添加一个携带<shuzhi>7</>秒的磁性炸弹，目标使用普攻/闪避/技能后立即引爆炸弹，造成<shuzhi>5</>秒<shuzhi>40%</>减速，触发后消失",
+      "降低<shuzhi>1.5%</>受到的雷电伤害，不上阵也生效，巅峰联赛中不生效",
+      "目标引爆磁性炸弹后，清除目标当前所有增益buff"
+    ]
+  },
+  "artifact_ssr_023": {
+    "artifact_key": "artifact_ssr_023",
+    "item_name": "生电控制枪",
+    "use_description": "向指定位置发射一枚能量弹，命中“野兽”类型怪物后可以将其控制为友方（对boss无效，且仅在大世界生效），持续<shuzhi>30</>秒，冷却时间<shuzhi>60</>秒，能量弹再次命中受到控制的目标后，目标所受控制解除，同时受到控制的怪物数量上限为<shuzhi>1</>只，最多可存储<shuzhi>2</>次充能。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_023.png",
+    "artifact_attribute_data": [
+      "控制持续时长提升至<shuzhi>60</>秒，最多可存储<shuzhi>3</>次充能",
+      "当前上阵“生电控制枪”时，跳跃高度提升<shuzhi>10%</>，伤害提升<shuzhi>8%</>。",
+      "冷却时间缩短为<shuzhi>30</>秒。",
+      "提升<shuzhi>2%</>寒冰伤害，不上阵也生效。",
+      "同时受到控制的怪物数量上限提升至<shuzhi>2</>只，超出控制数量上限的怪物将会自动解除控制。\r\n伤害提升效果变为<shuzhi>16%</>。"
+    ]
+  },
+  "artifact_ssr_022": {
+    "artifact_key": "artifact_ssr_022",
+    "item_name": "飞引仪",
+    "use_description": "操控飞引仪向空中发射一枚能够延伸出能量绳索的空间锚定组件，通过拖拽能量绳索在地面与空中自由移动。\r\n地面移动：向前发射一枚空间锚定组件，随后借力向前跳起，消耗<shuzhi>15</>点能量值。\r\n空中移动：在空中生成一枚空间锚定组件，随后顺势向前摆荡，消耗<shuzhi>12</>点能量值，摆荡经过一定角度后，可以再次点按，触发空中加速，向前弹射一段距离。\r\n能量值上限为<shuzhi>100</>点，每秒回复<shuzhi>0.75</>点能量值。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_022.png",
+    "artifact_attribute_data": [
+      "能量上限提升至<shuzhi>120</>。",
+      "触发空中加速的条件降低且摆荡速度获得提升。",
+      "触发空中加速后，获得额外<shuzhi>3</>点能量值。",
+      "降低<shuzhi>2%</>受到的雷电伤害，不上阵也生效，巅峰联赛中不生效。",
+      "每秒能量回复提升至<shuzhi>1.5</>点。"
+    ]
+  },
+  "artifact_ssr_024": {
+    "artifact_key": "artifact_ssr_024",
+    "item_name": "增益力场",
+    "use_description": "增益力场分为进攻/防御两种形态，不同形态提供不同增益效果，可通过使用源器进行切换(战斗状态中才可使用及生效,脱战恢复初始形态)。\r\n进攻形态下，获得<shuzhi>20%</>增伤。\r\n防御形态下，获得<shuzhi>10%</>减伤，自身受到致命伤害时，抵挡一次致死伤害并免疫伤害一小段时间，该效果每<shuzhi>240</>秒至多触发一次。\r\n<shuzhi>考恩特</>、<shuzhi>考恩特Ⅱ型</>及<shuzhi>天选骰子</>上阵时不可使用<shuzhi>增益力场</>。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_024.png",
+    "artifact_attribute_data": [
+      "防御形态下减伤效果提升至<shuzhi>20%</>。",
+      "进攻形态下增伤效果提升至<shuzhi>40%</>。",
+      "防御形态下抵挡致死效果的触发间隔缩短至每隔<shuzhi>120</>秒至多触发一次。",
+      "提升<shuzhi>2%</>异能抗性，不上阵也生效，巅峰联赛中不生效。",
+      "进攻形态下增伤效果提升至<shuzhi>55%</>。"
+    ]
+  },
+  "artifact_ssr_025": {
+    "artifact_key": "artifact_ssr_025",
+    "item_name": "Mark II战眼",
+    "use_description": "向前方抛出Mark II战眼，落地后展开，投射幻影，持续嘲讽附近的敌对怪物，幻影持续<shuzhi>3</>秒，Mark II战眼存在<shuzhi>10</>秒，冷却<shuzhi>30</>秒。",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_025.png",
+    "artifact_attribute_data": [
+      "Mark II战眼展开及消失时，吸附附近的敌对目标",
+      "当前上阵Mark II战眼时，最终伤害提升<shuzhi>15%</>",
+      "Mark II战眼持续期间，可再次激活，传送到Mark II战眼位置并销毁",
+      "降低<shuzhi>2%</>受到的寒冰伤害，不上阵也生效，巅峰联赛中不生效",
+      "当前上阵Mark II战眼时，最终伤害额外提升<shuzhi>10%</>"
+    ]
+  },
+  "artifact_ssr_026": {
+    "artifact_key": "artifact_ssr_026",
+    "item_name": "阻断装置",
+    "use_description": "开启阻断装置形成跟随自己的大范围空间，空间内敌方单位降低<shuzhi>75%</>受治疗效果，不可叠加。持续<shuzhi>15</>秒，冷却<shuzhi>45</>秒",
+    "item_rarity": "SSR",
+    "card_image": "Resources/UI/Artifact/itemicon/artifact_ssr_026.png",
+    "artifact_attribute_data": [
+      "持续时间提升至<shuzhi>25</>秒",
+      "空间内敌方单位受到的伤害提升<shuzhi>5%</>，不可叠加",
+      "冷却时间降低至<shuzhi>25</>秒",
+      "受到的火焰伤害降低<shuzhi>2%</>，不上阵也生效，巅峰联赛中不生效",
+      "空间内敌方单位受到的伤害再获得<shuzhi>5%</>提升，不可叠加"
+    ]
+  }
+}
