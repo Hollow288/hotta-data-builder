@@ -33,8 +33,9 @@ skill_update_tips_path = os.getenv("SKILL_UPDATE_TIPS") or os.path.join(
 
 
 # Game.json文件目录
-game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
-
+game_json_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "dist", "intermediate", "Game.json")
+)
 
 async def make_artifact_data():
     with open(artifact_data_table_path, "r", encoding="utf-8") as f:
@@ -68,27 +69,27 @@ async def make_artifact_data():
     }
 
     output_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "artifact_filter_data.json"))
+        os.path.join(os.path.dirname(__file__), "..","..", "dist/intermediate", "artifact_filter_data.json"))
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(artifact_filter_data, f, ensure_ascii=False, indent=2)
 
-    result_artifact_dict = {}
+    result_artifact_list = []
 
     for name, data in artifact_filter_data.items():
         artifact_info = {
-            "artifact_key": name,
-            "item_name": game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
-            "use_description": make_use_description(data['InitialSkill']['SkillTemplate']['AssetPathName'],gameplay_ability_tips_data_rows_data,skill_update_tips_rows_data,game_json),
-            "item_rarity": translate_weapon_info(data['ItemRarity']),
-            "card_image": fix_resolve_resource_path(data['CardImage']['AssetPathName'], '.png'),
-            "artifact_attribute_data": make_artifact_attribute_data(data['AdvanceAttributeID'],artifact_advance_attribute_rows_data,game_json)
+            "artifactKey": name,
+            "artifactName": game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
+            "useDescription": make_use_description(data['InitialSkill']['SkillTemplate']['AssetPathName'],gameplay_ability_tips_data_rows_data,skill_update_tips_rows_data,game_json),
+            "artifactRarity": translate_weapon_info(data['ItemRarity']),
+            "artifactIcon": fix_resolve_resource_path(data['CardImage']['AssetPathName'], '.png'),
+            "artifactDetail": make_artifact_attribute_data(data['AdvanceAttributeID'],artifact_advance_attribute_rows_data,game_json)
         }
 
-        result_artifact_dict[name] = artifact_info
+        result_artifact_list.append(artifact_info)
 
     output_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "dist/final", "artifact_data.json"))
+        os.path.join(os.path.dirname(__file__), "..","..", "dist/final", "artifact.json"))
 
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(result_artifact_dict, f, ensure_ascii=False, indent=2)
+        json.dump(result_artifact_list, f, ensure_ascii=False, indent=2)

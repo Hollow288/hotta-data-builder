@@ -24,7 +24,9 @@ static_matrix_data_path = os.getenv("STATIC_MATRIX_DATA") or os.path.join(
 )
 
 # Game.json文件目录
-game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
+game_json_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "dist", "intermediate", "Game.json")
+)
 
 async def make_matrix():
     with open(static_matrix_suit_data_table_path, "r", encoding="utf-8") as f:
@@ -41,30 +43,31 @@ async def make_matrix():
     static_matrix_data_rows_data = static_matrix_data[0].get("Rows", {})
 
     output_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "matrix_filtered.json"))
+        os.path.join(os.path.dirname(__file__), "..","..", "dist/intermediate", "matrix_filtered.json"))
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(static_matrix_suit_data_table_rows_data, f, ensure_ascii=False, indent=2)
 
-    result_matrix_dict = {}
+    result_matrix_list = []
 
     for name, data in static_matrix_suit_data_table_rows_data.items():
         matrix_info = {
-            'SuitName': game_json[extract_tail_name(data['SuitName']['TableId'])][data['SuitName']['Key']],
-            'MatrixSuitQuality': translate_matrix_info(data['MatrixSuitQuality']),
-            'SuitIcon': fix_resolve_resource_path(
+            'matrixKey': name,
+            'matrixName': game_json[extract_tail_name(data['SuitName']['TableId'])][data['SuitName']['Key']],
+            'matrixQuality': translate_matrix_info(data['MatrixSuitQuality']),
+            'matrixIcon': fix_resolve_resource_path(
                 find_parent_value_by_key_value(static_matrix_data_rows_data, 'SuitID', name, 1)['ItemLargeIcon'][
                     'AssetPathName'], '.png'),
-            "SuitUnactivateDetail": make_suit_unactivate_detail_list(data['SuitUnactivateDetailList'],
+            "matrixDetail": make_suit_unactivate_detail_list(data['SuitUnactivateDetailList'],
                                                                          data['SuitUnactivateDetailParams'],
                                                                          data['MatrixSuitQuality'], game_json)
         }
 
-        result_matrix_dict[name] = matrix_info
+        result_matrix_list.append(matrix_info)
 
     # 最终保存
-    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "matrix.json"))
+    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..", "dist/final", "matrix.json"))
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(result_matrix_dict, f, ensure_ascii=False, indent=2)
+        json.dump(result_matrix_list, f, ensure_ascii=False, indent=2)
 
     base_output_dir = Path(__file__).resolve().parent.parent / 'dist'
 

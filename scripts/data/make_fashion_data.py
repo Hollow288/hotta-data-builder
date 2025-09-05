@@ -21,8 +21,9 @@ art_pack_data_table_path = os.getenv("ART_PACK_DATA_TABLE") or os.path.join(
 )
 
 # Game.json文件目录
-game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
-
+game_json_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "dist", "intermediate", "Game.json")
+)
 
 async def make_fashion_data():
 
@@ -46,27 +47,27 @@ async def make_fashion_data():
     }
 
     output_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "fashion_filter_data.json"))
+        os.path.join(os.path.dirname(__file__), "..","..", "dist/intermediate", "fashion_filter_data.json"))
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(fashion_filter_data, f, ensure_ascii=False, indent=2)
 
-    result_fashion_dict = {}
+    result_fashion_list = []
 
     for name, data in fashion_filter_data.items():
         fashion_info = {
-            "fashion_key": name,
-            "fashion_Name": data['Name']['LocalizedString'],
-            "Description": data['Description']['LocalizedString'],
-            "ActiveSource": data.get('ActiveSource', {}).get('LocalizedString', ''),
-            "Icons": make_fashion_icons(data['ArtPackID'],art_pack_data_table_rows_data)
+            "fashionKey": name,
+            "fashionName": data['Name']['LocalizedString'],
+            "description": data['Description']['LocalizedString'],
+            "source": data.get('ActiveSource', {}).get('LocalizedString', ''),
+            "fashionIcons": make_fashion_icons(data['ArtPackID'],art_pack_data_table_rows_data)
         }
 
-        result_fashion_dict[name] = fashion_info
+        result_fashion_list.append(fashion_info)
 
 
     output_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "dist/final", "fashion_data.json"))
+        os.path.join(os.path.dirname(__file__), "..","..", "dist/final", "fashion.json"))
 
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(result_fashion_dict, f, ensure_ascii=False, indent=2)
+        json.dump(result_fashion_list, f, ensure_ascii=False, indent=2)

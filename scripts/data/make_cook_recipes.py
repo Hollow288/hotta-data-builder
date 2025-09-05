@@ -51,8 +51,9 @@ gameplay_effect_tips_data_table_path = os.getenv("GAMEPLAY_EFFECT_TIPS_DATA_TABL
 
 
 # Game.json文件目录
-game_json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "Game.json"))
-
+game_json_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "dist", "intermediate", "Game.json")
+)
 
 
 async def make_cook_recipes():
@@ -108,7 +109,7 @@ async def make_cook_recipes():
 
 
     output_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "recipes_filtered.json"))
+        os.path.join(os.path.dirname(__file__), "..","..", "dist/intermediate", "recipes_filtered.json"))
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(recipes_filtered_data, f, ensure_ascii=False, indent=2)
 
@@ -124,7 +125,7 @@ async def make_cook_recipes():
     }
 
     output_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..", "dist/intermediate", "item_configs_filtered_food.json"))
+        os.path.join(os.path.dirname(__file__), "..","..", "dist/intermediate", "item_configs_filtered_food.json"))
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(item_configs_filtered_data, f, ensure_ascii=False, indent=2)
 
@@ -132,18 +133,18 @@ async def make_cook_recipes():
     # 过滤字典，同时记录缺失项
     missing_keys = []
     filtered_data = {}
-    result_food_dict = {}
-    result_cook_dict = {}
+    result_food_list = []
+    result_cook_list = []
     type_list = set()
 
     for food_key, data  in item_configs_filtered_data.items():
         food_info = {
-            'food_key' : food_key,
-            'food_name': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
-            'food_des': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
-            'food_icon': fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
-            'food_source': make_food_source(dt_item_output_source_rows_data,data['OutputSourceID'],game_json),
-            'use_description': make_use_description(
+            'foodKey' : food_key,
+            'foodName': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
+            'foodDes': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
+            'foodIcon': fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
+            'source': make_food_source(dt_item_output_source_rows_data,data['OutputSourceID'],game_json),
+            'useDescription': make_use_description(
                 tool_static_data_table_rows_data,
                 data['StaticToolName'],
                 game_json.get(extract_tail_name(data.get('UseDescription', {}).get('TableId', '')), {}).get(data.get('UseDescription', {}).get('Key', ''), '')
@@ -151,12 +152,12 @@ async def make_cook_recipes():
             'buffs': make_buff(data['Buffs'],gameplay_effect_tips_rows_data, game_json)
         }
 
-        result_food_dict[food_key] = food_info
+        result_food_list.append(food_info)
 
     # 这里将ingredient保存方便入库
-    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "food.json"))
+    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..", "dist/final", "food.json"))
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(result_food_dict, f, ensure_ascii=False, indent=2)
+        json.dump(result_food_list, f, ensure_ascii=False, indent=2)
 
 
 
@@ -166,23 +167,23 @@ async def make_cook_recipes():
         food_info = cooking_food_data_table_rows_data[data['FoodItemID']]
 
         recipes_info = {
-            'recipes_key' : recipes_key,
-            'recipes_name' : make_recipes_name_des(data['FoodItemID'],cooking_food_data_table_rows_data,game_json)['recipes_name'],
-            'recipes_des' : make_recipes_name_des(data['FoodItemID'],cooking_food_data_table_rows_data,game_json)['recipes_des'],
-            'recipes_icon': fix_resolve_resource_path(food_info['ItemIcon']['AssetPathName'], '.png'),
+            'recipesKey' : recipes_key,
+            'recipesName' : make_recipes_name_des(data['FoodItemID'],cooking_food_data_table_rows_data,game_json)['recipes_name'],
+            'recipesDes' : make_recipes_name_des(data['FoodItemID'],cooking_food_data_table_rows_data,game_json)['recipes_des'],
+            'recipesIcon': fix_resolve_resource_path(food_info['ItemIcon']['AssetPathName'], '.png'),
             "categories": make_categories(food_info['Categories'], cooking_food_category_data_table_rows_data, game_json),
-            'use_description' : make_use_description(tool_static_data_table_rows_data,food_info['StaticToolName'],game_json[extract_tail_name(food_info['UseDescription']['TableId'])][food_info['UseDescription']['Key']]),
+            'useDescription' : make_use_description(tool_static_data_table_rows_data,food_info['StaticToolName'],game_json[extract_tail_name(food_info['UseDescription']['TableId'])][food_info['UseDescription']['Key']]),
             'buffs' : make_buff(food_info['Buffs'],gameplay_effect_tips_rows_data, game_json),
             'ingredients': make_ingredients(data['Ingredients'])
         }
 
-        result_cook_dict[recipes_key] = recipes_info
+        result_cook_list.append(recipes_info)
 
 
     # 这里将recipes保存方便入库
-    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist/final", "recipes.json"))
+    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..", "dist/final", "recipes.json"))
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(result_cook_dict, f, ensure_ascii=False, indent=2)
+        json.dump(result_cook_list, f, ensure_ascii=False, indent=2)
 
 
 

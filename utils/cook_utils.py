@@ -170,11 +170,14 @@ def make_buff(buffs: list, gameplay_effect_tips_rows_data: dict, game_json: dict
 
     return " / ".join(result)
 
-def make_ingredients(ingredients:list)->dict:
-    result = {}
+def make_ingredients(ingredients:list)->list:
+    result = []
     for ingredient in ingredients:
+        tem_dict = {'ingredient_name': ingredient['DesignedItemsID'][0],
+                    'ingredient_num': ingredient['MinNeedIngredientAmount']}
+        result.append(tem_dict)
 
-        result[ingredient['DesignedItemsID'][0]] = ingredient['MinNeedIngredientAmount']
+        # result[ingredient['DesignedItemsID'][0]] = ingredient['MinNeedIngredientAmount']
 
     return result
 

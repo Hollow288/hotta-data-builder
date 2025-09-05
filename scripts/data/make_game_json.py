@@ -103,7 +103,7 @@ async def generate_game_json():
     grouped_data = load_keys_to_entries_grouped(paths)
 
     # 构建输出路径
-    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dist", "intermediate", "Game.json"))
+    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..", "dist", "intermediate", "Game.json"))
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(grouped_data, f, ensure_ascii=False, indent=2)
