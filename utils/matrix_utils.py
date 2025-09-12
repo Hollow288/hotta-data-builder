@@ -20,13 +20,13 @@ def translate_matrix_info(key: str) -> str:
 
 
 def make_suit_unactivate_detail_list(detail_list: list, detail_params_list: list, matrix_suit_quality: str,
-                                     game_json: dict) -> dict:
+                                     game_json: dict) -> list:
     """
     单纯用于意志套装效果整理
 
     """
 
-    result_suit_unactivate_detail = {}
+    result_suit_unactivate_detail = []
 
     for index, item in enumerate(detail_list):
 
@@ -56,8 +56,14 @@ def make_suit_unactivate_detail_list(detail_list: list, detail_params_list: list
                     remould_detail_params['Value'])
 
         if matrix_suit_quality != 'ITEM_QUALITY_LEGENDRY':
-            result_suit_unactivate_detail['意志3件装备效果'] = format_description(item_des, value_list)
-        else:
-            result_suit_unactivate_detail[f'意志{num}件装备效果'] = format_description(item_des, value_list)
+            tem = {}
+            tem['type'] = '意志3件装备效果'
+            tem['desc'] = format_description(item_des, value_list)
+            result_suit_unactivate_detail.append(tem)
 
+        else:
+            tem = {}
+            tem['type'] = f'意志{num}件装备效果'
+            tem['desc'] = format_description(item_des, value_list)
+            result_suit_unactivate_detail.append(tem)
     return result_suit_unactivate_detail
