@@ -118,16 +118,16 @@
 <div class="slide-container">
     <div class="card">
         <div class="card__image">
-            <img src="{{card_image}}" alt="barbarian"/>
+            <img src="{{artifactIcon}}" alt="barbarian"/>
         </div>
-        <div class="card__level">{{item_rarity}}</div>
-        <div class="card__name">{{item_name}}</div>
+        <div class="card__level">{{artifactRarity}}</div>
+        <div class="card__name">{{artifactName}}</div>
         <div class="card__description">
-            {{use_description | highlight_shuzhi}}
+            {{useDescription | highlight_shuzhi}}
         </div>
 
         <div class="card__stars">
-            {% for desc in artifact_attribute_data %}
+            {% for desc in artifactDetail %}
             <div>
                 <span class="stars">{{ '⭐' * loop.index }}</span>
                 <span class="desc">{{ desc | highlight_shuzhi}}</span>

@@ -38,8 +38,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.1);
         display: flex;
         align-items: center;
@@ -53,8 +53,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.1);
         display: flex;
         align-items: center;
@@ -67,7 +67,7 @@
         padding-top: 10px;
     }
 
-    .basic-introduce{
+    .basic-introduce {
         font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;
         color: white;
         margin: 10px;
@@ -81,23 +81,23 @@
         <div class="row">
             <!-- 左侧图片部分 -->
             <div class="basic-content-img">
-                <img src="{{ suit_icon }}"
+                <img src="{{ matrixIcon }}"
                      alt="缩略图" width="220px" height="220px">
             </div>
 
             <!-- 右侧内容部分 -->
             <div class="basic-content" style="margin-left: 30px">
                 <div style="font-family:'ZCOOL KuaiLe', serif;font-size: 20px;color: white;margin-top: 10px;width: 100%">
-                     &nbsp;&nbsp;&nbsp;>>> {{ suit_name }}
+                    &nbsp;&nbsp;&nbsp;>>> {{ matrixName }}
                 </div>
                 <div class="basic-introduce">
-                    {% for unactivate in suit_unactivate_detail %}
+                    {% for detail in matrixDetail %}
                     <div>
                         <div style="font-family:'TTTGB-Medium',serif;font-size: 20px;color: peru">
-                            {{unactivate.item_name}}：
+                            {{detail.type}}：
                         </div>
                         <div>
-                          &nbsp;&nbsp;&nbsp;&nbsp;{{unactivate.item_describe | highlight_shuzhi }}
+                            &nbsp;&nbsp;&nbsp;&nbsp;{{detail.desc | highlight_shuzhi }}
                         </div>
                     </div>
                     {% endfor %}

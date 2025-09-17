@@ -45,8 +45,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
@@ -55,8 +55,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -66,8 +66,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -76,8 +76,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -143,12 +143,12 @@
         <div class="row" style="display: flex">
             <div class="basic-content-img" style=" border-radius: 15px; padding: 10px; display: inline-block;
                 ">
-                <img src="{{ item_icon }}"
+                <img src="{{ weaponIcon }}"
                      alt="缩略图" width="250px" height="250px">
             </div>
             <div class="basic-content" style="margin-left: 50px">
                 <div class="font-arms-name">
-                    |&nbsp;{{ item_name }}
+                    |&nbsp;{{ weaponName }}
                 </div>
                 <div style="display: flex;">
                     <div class="font-other-title" style="min-width: 200px;">
@@ -157,7 +157,7 @@
                                 武器定位:
                             </div>
                             <div class="arms-icon">
-                                <img src="{{ weapon_category }}"
+                                <img src="{{ weaponCategory }}"
                                      alt="缩略图" width="50px" height="50px">
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                                 武器属性:
                             </div>
                             <div class="arms-icon">
-                                <img src="{{ weapon_element_type }}"
+                                <img src="{{ weaponElementType }}"
                                      alt="缩略图" width="50px" height="50px">
                             </div>
                         </div>
@@ -182,7 +182,7 @@
                                 武器破防:
                             </div>
                             <div class="pfcn">
-                                {{armor_broken}}
+                                {{armorBroken}}
                             </div>
                         </div>
                     </div>
@@ -212,10 +212,12 @@
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
                             <!-- 单独一行的内容 -->
                             <div style="font-size: 15px;color: #d86b01; font-weight: bold; margin-bottom: 5px;">
-                                {{melee.item_name}}
+                                {{melee.name}}
                             </div>
                             <!-- 后续描述内容 -->
-                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{melee.item_describe | highlight_shuzhi }}</div>
+                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{melee.description |
+                                highlight_shuzhi }}
+                            </div>
                         </div>
                     </div>
                     {% endfor %}
@@ -230,10 +232,12 @@
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
                             <!-- 单独一行的内容 -->
                             <div style="font-size: 15px;color: #d86b01; font-weight: bold; margin-bottom: 5px;">
-                                {{back.item_name}}
+                                {{back.name}}
                             </div>
                             <!-- 后续描述内容 -->
-                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{back.item_describe | highlight_shuzhi }}</div>
+                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{back.description |
+                                highlight_shuzhi }}
+                            </div>
                         </div>
                     </div>
                     {% endfor %}
@@ -252,10 +256,12 @@
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
                             <!-- 单独一行的内容 -->
                             <div style="font-size: 15px;color: #d86b01; font-weight: bold; margin-bottom: 5px;">
-                                {{skill.item_name}}
+                                {{skill.name}}
                             </div>
                             <!-- 后续描述内容 -->
-                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{skill.item_describe | highlight_shuzhi }}</div>
+                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{skill.description |
+                                highlight_shuzhi }}
+                            </div>
                         </div>
                     </div>
                     {% endfor %}
@@ -270,10 +276,12 @@
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
                             <!-- 单独一行的内容 -->
                             <div style="font-size: 15px;color: #d86b01; font-weight: bold; margin-bottom: 5px;">
-                                {{success.item_name}}
+                                {{success.name}}
                             </div>
                             <!-- 后续描述内容 -->
-                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{success.item_describe | highlight_shuzhi }}</div>
+                            <div style="font-size: 14px; color: #ffffff;white-space: pre-line">{{success.description |
+                                highlight_shuzhi }}
+                            </div>
                         </div>
                     </div>
                     {% endfor %}

@@ -1,38 +1,44 @@
 import asyncio
+import os
+import httpx
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 from playwright.async_api import async_playwright
 
-from models import Weapons, WeaponUpgradeStarPack, WeaponSensualityLevelData, WeaponSkill
 from utils.font_server import FontServer
 from utils.screenshots_utils import make_fonts_url, make_minio_img_url, make_item_name_icon, weapons_num_to_desc, \
     make_weapons_background_url, highlight_shuzhi
-from tortoise import Tortoise
 
-from config import database_config
 from asyncio import Semaphore
+from dotenv import load_dotenv
 
+# 加载 .env 文件
+load_dotenv()
 
+# 原数据目录
+
+x_api_key = os.getenv("X_API_KEY")
+api_url = os.getenv("API_URL")
 
 # 控制最多同时打开多少个页面
 MAX_CONCURRENT_PAGES = 4
 
-async def make_weapons_skill_page(weapons: dict, font_server_port: int, env: Environment, page_sema: Semaphore, screenshot_dir: Path, browser):
+
+async def make_weapons_skill_page(weapons: dict, font_server_port: int, env: Environment, page_sema: Semaphore,
+                                  screenshot_dir: Path, browser):
     async with page_sema:
         # 字段处理
         weapons = make_fonts_url(weapons, font_server_port)
-        weapons['item_icon'] = make_minio_img_url(weapons['item_icon'])
-        weapons['weapon_category'] = make_item_name_icon(weapons['weapon_category'])
-        weapons['weapon_element_type'] = make_item_name_icon(weapons['weapon_element_type'])
-        weapons['armor_broken'] = weapons_num_to_desc(weapons['armor_broken'])
+        weapons['weaponCategory'] = make_item_name_icon(weapons['weaponCategory'])
+        weapons['weaponElementType'] = make_item_name_icon(weapons['weaponElement']['weaponElementType'])
+        weapons['armorBroken'] = weapons_num_to_desc(weapons['armorBroken'])
         weapons['charging'] = weapons_num_to_desc(weapons['charging'])
         make_weapons_background_url(weapons)
 
-        # 获取技能数据
-        weapon_skill = await WeaponSkill.filter(weapons_id=weapons["weapons_id"]).values("skill_type", "item_name", "item_describe")
-
         def get_type(skills, skill_type):
-            return [s for s in skills if s["skill_type"] == skill_type] or None
+            return [s for s in skills if s["type"] == skill_type] or None
+
+        weapon_skill = weapons["weaponSkill"]
 
         weapons["weapon_melee"] = get_type(weapon_skill, "普攻")
         weapons["weapon_back_attack"] = get_type(weapon_skill, "闪避")
@@ -47,36 +53,39 @@ async def make_weapons_skill_page(weapons: dict, font_server_port: int, env: Env
         page = await browser.new_page()
         await page.set_content(html_content, timeout=600000)
         locator = page.locator(".card")
-        screenshot_path = screenshot_dir / f"{weapons['item_name']}.png"
+        screenshot_path = screenshot_dir / f"{weapons['weaponName']}.png"
         await locator.screenshot(path=str(screenshot_path))
         await page.close()
 
 
 async def make_all_weapons_skill_image():
     font_server_port = 2288
-    font_dir = Path(__file__).parent.parent / "assets" / "fonts"
+    font_dir = Path(__file__).parent.parent.parent / "assets" / "fonts"
     server = FontServer(str(font_dir), port=font_server_port)
     server.start()
 
     try:
-        # 初始化数据库
-        # await Tortoise.init(config=database_config.TORTOISE_ORM)
 
-        screenshot_dir = Path(__file__).parent.parent / "dist" / "screenshots" / "weapons-skill"
+        screenshot_dir = Path(__file__).parent.parent.parent / "dist" / "screenshots" / "weapons-skill"
         screenshot_dir.mkdir(exist_ok=True)
 
         files = {file.stem for file in screenshot_dir.iterdir() if file.is_file()}
 
-        weapons_list = await Weapons.all().values(
-            "weapons_id", "item_name", "item_rarity", "weapon_category",
-            "weapon_element_type", "weapon_element_name", "weapon_element_desc",
-            "armor_broken", "charging", "item_icon", "description", "remould_detail"
-        )
+        headers = {
+            "Content-Type": "application/json",
+            "X-API-KEY": x_api_key,
+        }
 
-        weapons_list = [w for w in weapons_list if w["item_name"] not in files]
+        response = httpx.get(f'{api_url}/weapons', headers=headers)
+
+        data = response.json()
+
+        weapons_list = data['data']
+
+        weapons_list = [w for w in weapons_list if w["weaponName"] not in files]
 
         # Jinja2 环境
-        template_dir = Path(__file__).parent.parent / "templates"
+        template_dir = Path(__file__).parent.parent.parent / "templates"
         env = Environment(loader=FileSystemLoader(str(template_dir)))
         env.filters['highlight_shuzhi'] = highlight_shuzhi
 
@@ -93,7 +102,6 @@ async def make_all_weapons_skill_image():
 
     finally:
         server.stop()
-
 
 
 if __name__ == "__main__":

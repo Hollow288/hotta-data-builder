@@ -1,27 +1,31 @@
 import asyncio
+import os
+import httpx
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 from playwright.async_api import async_playwright
 
-from models import ArtifactData
 from utils.font_server import FontServer
-from utils.screenshots_utils import make_fonts_url, make_minio_img_url, \
-     highlight_shuzhi
-from tortoise import Tortoise
-
-from config import database_config
+from utils.screenshots_utils import make_fonts_url, highlight_shuzhi
+from dotenv import load_dotenv
 from asyncio import Semaphore
 
+# 加载 .env 文件
+load_dotenv()
+
+# 原数据目录
+
+x_api_key = os.getenv("X_API_KEY")
+api_url = os.getenv("API_URL")
 
 # 控制最多同时打开多少个页面
 MAX_CONCURRENT_PAGES = 4
 
-async def process_artifact(artifact: dict, env: Environment, browser, screenshot_dir: Path, semaphore: Semaphore, font_server_port: int):
+
+async def process_artifact(artifact: dict, env: Environment, browser, screenshot_dir: Path, semaphore: Semaphore,
+                           font_server_port: int):
     async with semaphore:
         artifact = make_fonts_url(artifact, font_server_port)
-
-        artifact['card_image'] = make_minio_img_url(artifact['card_image'])
-
 
         template = env.get_template("template-artifact.html")
         html_content = template.render(**artifact)
@@ -31,29 +35,37 @@ async def process_artifact(artifact: dict, env: Environment, browser, screenshot
 
         locator = page.locator(".slide-container")
 
-
-        screenshot_path = screenshot_dir / f"{artifact['item_name']}.png"
+        screenshot_path = screenshot_dir / f"{artifact['artifactName']}.png"
         await locator.screenshot(path=str(screenshot_path), omit_background=True)
         await page.close()
 
+
 async def make_all_artifact_image():
     font_server_port = 2288
-    font_dir = Path(__file__).parent.parent / "assets" / "fonts"
+    font_dir = Path(__file__).parent.parent.parent / "assets" / "fonts"
     server = FontServer(str(font_dir), port=font_server_port)
     server.start()
 
     try:
-        await Tortoise.init(config=database_config.TORTOISE_ORM)
 
-        screenshot_dir = Path(__file__).parent.parent / "dist" / "screenshots" / "artifact"
+        screenshot_dir = Path(__file__).parent.parent.parent / "dist" / "screenshots" / "artifact"
         screenshot_dir.mkdir(exist_ok=True)
         files = [file.stem for file in screenshot_dir.iterdir() if file.is_file()]
 
-        artifact_list = await ArtifactData.all().values("item_rarity", "item_name", "card_image", "use_description", "artifact_attribute_data")
+        headers = {
+            "Content-Type": "application/json",
+            "X-API-KEY": x_api_key,
+        }
 
-        artifact_list = [w for w in artifact_list if w["item_name"] not in files]
+        response = httpx.get(f'{api_url}/artifact', headers=headers)
 
-        template_dir = Path(__file__).parent.parent / "templates"
+        data = response.json()
+
+        artifact_list = data['data']
+
+        artifact_list = [w for w in artifact_list if w["artifactName"] not in files]
+
+        template_dir = Path(__file__).parent.parent.parent / "templates"
         env = Environment(loader=FileSystemLoader(str(template_dir)))
 
         # env.filters['com_lbl_green'] = com_lbl_green
@@ -72,8 +84,6 @@ async def make_all_artifact_image():
             await browser.close()
     finally:
         server.stop()
-
-
 
 
 if __name__ == "__main__":

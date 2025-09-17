@@ -45,8 +45,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
@@ -55,8 +55,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -66,8 +66,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -76,8 +76,8 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 15px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -140,12 +140,12 @@
         <div class="row" style="display: flex">
             <div class="basic-content-img" style=" border-radius: 15px; padding: 10px; display: inline-block;
                 ">
-                <img src="{{ item_icon }}"
+                <img src="{{ weaponIcon }}"
                      alt="缩略图" width="250px" height="250px">
             </div>
             <div class="basic-content" style="margin-left: 50px">
                 <div class="font-arms-name">
-                    |&nbsp;{{ item_name }}
+                    |&nbsp;{{ weaponName }}
                 </div>
                 <div style="display: flex;">
                     <div class="font-other-title" style="min-width: 200px;">
@@ -154,7 +154,7 @@
                                 武器定位:
                             </div>
                             <div class="arms-icon">
-                                <img src="{{ weapon_category }}"
+                                <img src="{{ weaponCategory }}"
                                      alt="缩略图" width="50px" height="50px">
                             </div>
                         </div>
@@ -165,7 +165,7 @@
                                 武器属性:
                             </div>
                             <div class="arms-icon">
-                                <img src="{{ weapon_element_type }}"
+                                <img src="{{ weaponElementType }}"
                                      alt="缩略图" width="50px" height="50px">
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                                 武器破防:
                             </div>
                             <div class="pfcn">
-                                {{armor_broken}}
+                                {{armorBroken}}
                             </div>
                         </div>
                     </div>
@@ -207,15 +207,15 @@
                 <div class="other-content-txt">
                     <div>
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
-                        <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>{{weapon_element_name}} </strong></span>
-                            {{weapon_element_desc | highlight_shuzhi}}
+                            <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>{{weaponElement.weaponElementName}} </strong></span>
+                            {{weaponElement.weaponElementDesc | highlight_shuzhi}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        {% if remould_detail %}
+        {% if remouldDetail %}
         <div class="row" style="display: flex">
             <div class="other-content">
                 <div class="subheading">
@@ -224,7 +224,9 @@
                 <div class="divider"></div>
                 <div class="other-content-txt">
                     <div>
-                        <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;white-space: pre-line">{{remould_detail | highlight_shuzhi }}</div>
+                        <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;white-space: pre-line">
+                            {{remouldDetail | highlight_shuzhi }}
+                        </div>
                     </div>
 
                 </div>
@@ -233,8 +235,7 @@
         {% endif %}
 
 
-
-        {% if weapon_sensuality_level_data %}
+        {% if weaponSensualityLevelData %}
         <div class="row" style="display: flex">
             <div class="other-content">
                 <div class="subheading">
@@ -242,11 +243,11 @@
                 </div>
                 <div class="divider"></div>
                 <div class="other-content-txt">
-                    {% for sensuality in weapon_sensuality_level_data %}
+                    {% for sensuality in weaponSensualityLevelData %}
                     <div>
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
-                        <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>{{sensuality.item_name}} </strong></span>
-                            {{sensuality.item_describe | highlight_shuzhi}}
+                            <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>通感{{loop.index}}星 </strong></span>
+                            {{sensuality | highlight_shuzhi}}
                         </div>
                     </div>
                     {% endfor %}
@@ -256,7 +257,7 @@
         </div>
         {% endif %}
 
-        {% if weapon_upgrade_star_pack %}
+        {% if weaponUpgradeStarPack %}
         <div class="row" style="display: flex">
             <div class="other-content">
                 <div class="subheading">
@@ -264,11 +265,11 @@
                 </div>
                 <div class="divider"></div>
                 <div class="other-content-txt">
-                    {% for star in weapon_upgrade_star_pack %}
+                    {% for star in weaponUpgradeStarPack %}
                     <div>
                         <div style="font-family: 'AlibabaPuHuiTi-3-55-Regular', serif;">
-                        <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>{{star.item_name}} </strong></span>
-                            {{star.item_describe | highlight_shuzhi}}
+                            <span style="font-size: 20px;font-family:'TTTGB-Medium',serif;color: #d86b01"><strong>进阶{{loop.index}}星 </strong></span>
+                            {{star | highlight_shuzhi}}
                         </div>
                     </div>
                     {% endfor %}

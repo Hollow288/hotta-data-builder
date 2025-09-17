@@ -154,18 +154,18 @@
 
 <div class="card">
     <div class="content">
-        <div class="title">{{ food_name }}</div>
+        <div class="title">{{ foodName }}</div>
         <div class="divider"></div>
         <div class="img-container">
-            <img src="{{ food_icon }}"
+            <img src="{{ foodIcon }}"
                  alt="Beet with Fiddlehead"/>
         </div>
 
 
-        {% if food_source %}
+        {% if source %}
         <div class="description">
             <div style="width: 100px; font-weight: bold;">获取途径:</div>
-            <div>{{ food_source }}</div>
+            <div>{{ source }}</div>
         </div>
         {% endif %}
 
@@ -176,7 +176,7 @@
 
         <div class="description">
             <div style="width: 100px; font-weight: bold;">描述:</div>
-            <div>{{ food_des }}</div>
+            <div>{{ foodDes }}</div>
         </div>
 
 

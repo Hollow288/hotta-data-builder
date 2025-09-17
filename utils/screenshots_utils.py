@@ -69,7 +69,7 @@ def make_weapons_background_url(weapons:dict):
 
     endpoint = os.getenv("ENDPOINT", "localhost:9000")
 
-    weapons['background_url'] = f"http://{endpoint}/{bucket_name}/background-{weapons['item_name']}.jpeg"
+    weapons['background_url'] = f"http://{endpoint}/{bucket_name}/background-{weapons['weaponName']}.jpeg"
 
     weapons['default_background_url'] = f"http://{endpoint}/{bucket_name}/background-arms.jpeg"
 

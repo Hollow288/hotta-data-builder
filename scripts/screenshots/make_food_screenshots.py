@@ -1,31 +1,40 @@
 import asyncio
+import os
+
+import httpx
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 from playwright.async_api import async_playwright
 
-from models import FoodData
 from utils.font_server import FontServer
-from utils.screenshots_utils import make_fonts_url, make_minio_img_url, \
+from utils.screenshots_utils import make_fonts_url, \
     make_recipes_background_url, com_lbl_green, highlight_shuzhi
-from tortoise import Tortoise
 
-from config import database_config
+from dotenv import load_dotenv
 from asyncio import Semaphore
 
+# 加载 .env 文件
+load_dotenv()
+
+# 原数据目录
+
+x_api_key = os.getenv("X_API_KEY")
+api_url = os.getenv("API_URL")
 
 # 控制最多同时打开多少个页面
 MAX_CONCURRENT_PAGES = 4
 
-async def process_food(food: dict, env: Environment, browser, screenshot_dir: Path, semaphore: Semaphore, font_server_port: int):
+
+async def process_food(food: dict, env: Environment, browser, screenshot_dir: Path, semaphore: Semaphore,
+                       font_server_port: int):
     async with semaphore:
         food = make_fonts_url(food, font_server_port)
-        food['food_icon'] = make_minio_img_url(food['food_icon'])
 
         make_recipes_background_url(food)
 
         parts = []
-        if food.get("use_description"):
-            parts.append(food["use_description"])
+        if food.get("useDescription"):
+            parts.append(food["useDescription"])
         if food.get("buffs"):
             parts.append(food["buffs"])
 
@@ -38,28 +47,37 @@ async def process_food(food: dict, env: Environment, browser, screenshot_dir: Pa
         await page.set_content(html_content, timeout=600000)
 
         locator = page.locator(".card")
-        screenshot_path = screenshot_dir / f"{food['food_name']}.png"
+        screenshot_path = screenshot_dir / f"{food['foodName']}.png"
         await locator.screenshot(path=str(screenshot_path))
         await page.close()
 
+
 async def make_all_food_image():
     font_server_port = 2288
-    font_dir = Path(__file__).parent.parent / "assets" / "fonts"
+    font_dir = Path(__file__).parent.parent.parent / "assets" / "fonts"
     server = FontServer(str(font_dir), port=font_server_port)
     server.start()
 
     try:
-        # await Tortoise.init(config=database_config.TORTOISE_ORM)
 
-        screenshot_dir = Path(__file__).parent.parent / "dist" / "screenshots" / "recipes"
+        screenshot_dir = Path(__file__).parent.parent.parent / "dist" / "screenshots" / "recipes"
         screenshot_dir.mkdir(exist_ok=True)
         files = [file.stem for file in screenshot_dir.iterdir() if file.is_file()]
 
-        food_list = await FoodData.all().values("food_id", "food_name", "food_des", "food_icon", "food_source", "use_description", "buffs")
+        headers = {
+            "Content-Type": "application/json",
+            "X-API-KEY": x_api_key,
+        }
 
-        food_list = [w for w in food_list if w["food_name"] not in files]
+        response = httpx.get(f'{api_url}/food', headers=headers)
 
-        template_dir = Path(__file__).parent.parent / "templates"
+        data = response.json()
+
+        food_list = data['data']
+
+        food_list = [w for w in food_list if w["foodName"] not in files]
+
+        template_dir = Path(__file__).parent.parent.parent / "templates"
         env = Environment(loader=FileSystemLoader(str(template_dir)))
 
         env.filters['com_lbl_green'] = com_lbl_green
@@ -78,8 +96,6 @@ async def make_all_food_image():
             await browser.close()
     finally:
         server.stop()
-
-
 
 
 if __name__ == "__main__":

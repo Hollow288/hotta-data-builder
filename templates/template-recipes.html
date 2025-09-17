@@ -154,10 +154,10 @@
 
 <div class="card">
     <div class="content">
-        <div class="title">{{ recipes_name }}</div>
+        <div class="title">{{ recipesName }}</div>
         <div class="divider"></div>
         <div class="img-container">
-            <img src="{{ recipes_icon }}"
+            <img src="{{ recipesIcon }}"
                  alt="Beet with Fiddlehead"/>
         </div>
 
@@ -173,21 +173,21 @@
         </div>
 
         {% if food_result %}
-            <div class="details">
-                制 作 方 式
-            </div>
-            <div class="effect">
-                {% for item in food_result %}
-                    <div class="img-container">
-                        <img src="{{ item.food_icon }}"
-                             alt="Beet with Fiddlehead" class="item-image"/>
-                         <div class="ingredient-name">{{ item.food_name }}</div>
-                        <div class="quantity">{{ item.amount }}</div>
-
-                    </div>
-                {% endfor %}
+        <div class="details">
+            制 作 方 式
+        </div>
+        <div class="effect">
+            {% for item in food_result %}
+            <div class="img-container">
+                <img src="{{ item.foodIcon }}"
+                     alt="Beet with Fiddlehead" class="item-image"/>
+                <div class="ingredient-name">{{ item.foodName }}</div>
+                <div class="quantity">{{ item.amount }}</div>
 
             </div>
+            {% endfor %}
+
+        </div>
         {% endif %}
 
 
