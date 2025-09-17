@@ -1,0 +1,751 @@
+[
+  {
+    "fashionKey": "fashion_dress_88",
+    "fashionName": "赤岩标工",
+    "description": "红黑配色的工装服，采用耐磨防弹复合面料，模块化拼接的同时兼备战术机能，适用于大部分太空作业及战斗场景。",
+    "source": "三十二期通行证奖励",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f88.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m88.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_87",
+    "fashionName": "海盐星趣",
+    "description": "蓝白配色如浪沫轻涌，与贝壳海星作伴，享受夏日海滩的浪漫与清爽。",
+    "source": "海盐星趣扭蛋活动获取 ",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f87.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m87.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_86",
+    "fashionName": "窒空舰骑",
+    "description": "一暗一白的深空战服，警红涌动，如驾驭星穹的寂冷骑士，未来感与压迫力并存。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f86.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m86.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_85",
+    "fashionName": "新宙探索",
+    "description": "兼时尚与实用为一体的新材料宇航服，在宇宙探索时带来足够安全感。",
+    "source": "活动中获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f84.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m84.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_84",
+    "fashionName": "白菜汪汪 ",
+    "description": "和菜狗一起体验田地间的农趣，享用亲手栽培的新鲜蔬菜吧~",
+    "source": "白菜汪汪扭蛋活动获取 ",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f85.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m85.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_83",
+    "fashionName": "领航探员",
+    "description": "舒适简约的设计体现出干练的气质，搭配科技型配饰能协助穿着者执行任务。",
+    "source": "领航探员扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f83.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m83.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_82",
+    "fashionName": "明日留白",
+    "description": "新型科技布料清爽贴身，设计经典简约。它就像留白的明天，等你赋予色彩和意义。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f82.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m82.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_81",
+    "fashionName": "悦动风尚",
+    "description": "以宽松轻便为主要卖点的休闲套装，又以亮色点缀凸显个性。最近似乎颇受户外运动者的欢迎。",
+    "source": "活动中获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f79.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m79.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_80",
+    "fashionName": "玫瑰礼赞",
+    "description": "「一万个世纪短于玫瑰盛开的瞬间。」这是今天的纪年法。",
+    "source": "玫瑰礼赞扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_MGLZ_f.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_MGLZ_m.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_79",
+    "fashionName": "探韶华",
+    "description": "火树银花迎新岁，笙歌十里春风醉。",
+    "source": "探韶华扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f80.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m80.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_78",
+    "fashionName": "飞奔梦幻岛",
+    "description": "爬烟囱送礼物的方式实在是太老套了。在这个落雪之夜，十二点的钟响起后，和我一起去梦幻岛亲自去取你的礼物吧。",
+    "source": "飞奔梦幻岛扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f78.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m78.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_77",
+    "fashionName": "陷落绮梦",
+    "description": "愿情谊如绮梦，永不褪色。",
+    "source": "陷落绮梦扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f77.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m77.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_76",
+    "fashionName": "街潮色彩",
+    "description": "醒目活力的飘带、廓形设计的外套，搭配简约黑色短下装，彰显不羁风采。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f76.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m76.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_75",
+    "fashionName": "心跳狂欢夜",
+    "description": "好孩子们排好队，乖乖把糖果交给我。至于坏孩子们……准备好去大闹一番了吗？！",
+    "source": "心跳狂欢夜扭蛋活动",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f75.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m75.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_74",
+    "fashionName": "晴空落英",
+    "description": "飞鸟自晴空穿掠而过，羽毛伴着落英打着旋儿下坠，叫醒在树下乘凉午睡的旅人。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f74.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m74.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_73",
+    "fashionName": "闲趣时光",
+    "description": "工作暂停，学习暂停，接下来是休息时间，就先休息一个……世纪吧！",
+    "source": "活动中获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f55.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m55_new.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_72",
+    "fashionName": "夏日特调",
+    "description": "你印象中的夏天是什么滋味：甜腻或是涩口，如阳光热烈或如海风慵懒？它似乎无法被简单定义，那不如把这些情绪混合搅拌，等它们冒出粉色的泡沫，然后一饮而尽。",
+    "source": "夏日特调扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_dress_72f.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_dress_72m.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_71",
+    "fashionName": "太阳雨",
+    "description": "正确的风格无所谓简约或是极繁。日光和大雨对撞，也产生微妙的平衡。",
+    "source": "活动中获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_dress_71f.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_dress_71m.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_70",
+    "fashionName": "惊奇科学家",
+    "description": "推理、计算、实验、创造，统统不在话下。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_dress_70f.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_dress_70m.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_69",
+    "fashionName": "捕梦网",
+    "description": "兔子先生反方向拨动指针，瞬间星星降落，步伐随风而动，童年遗失的那场美梦重现眼前。",
+    "source": "捕梦网扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f69.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m69.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_68",
+    "fashionName": "流浪喵星",
+    "description": "睡了一个白天，是时候活动活动了！咦？是谁闯进了本大王的领地！",
+    "source": "流浪喵星扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/f_dress_68.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/m_dress_68.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_67",
+    "fashionName": "重塑未来",
+    "description": "我们没能阻止灾难的发生，珍视的家园自此变得支离破碎、满目疮痍。如果能有机会，我们一定会竭尽全力：纵然改变不了过去，但我们能够创造未来。",
+    "source": "重塑未来扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/f_dress_67.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/m_dress_67.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_66",
+    "fashionName": "异空跃迁",
+    "description": "加紧跟上我的步伐！不要被时代的浪潮所抛下！",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_dress_66f.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_dress_66m.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_65",
+    "fashionName": "绯炽之红",
+    "description": "以EVA二号机为主题设计的联名款服饰，因优秀的配色和时尚的设计而受到人们的欢迎。",
+    "source": "绯炽之红扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f65.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m65.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_64",
+    "fashionName": "攻袭幻影",
+    "description": "以初号机为主题设计的联名款服饰，在镜都掀起了新的时尚潮流。",
+    "source": "活动中获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f64.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m64.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_63",
+    "fashionName": "锦龙吟",
+    "description": "锦衣做底，赤金刺绣，待新年第一缕春风穿袖而过时，衣袖轻振间，隐隐有龙吟之声。",
+    "source": "锦龙吟扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f63.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m63.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_61",
+    "fashionName": "瑰丽梦魇",
+    "description": "玫瑰在月食之夜盛放，散发糜烂香气，裁剪精灵的梦魇为衣，梦呓也成神谕。",
+    "source": "瑰丽梦魇扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f61.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m61.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_60",
+    "fashionName": "圣雪王爵",
+    "description": "凛冬清晨的钟声敲响，城堡大门缓缓开启，人群拾阶而上皆来庆贺。圣雪之下，王座之上，何人加冕？",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f60.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m60.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_59",
+    "fashionName": "极昼边缘",
+    "description": "金色丝线勾勒日升时的地平线，粉红岩晶凝住日落时的云霞。日光太夺目，只在接近地缘的一刻，人类才敢直视。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f59.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m59.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_58",
+    "fashionName": "织锦璎璃",
+    "description": "尖叫的南瓜人偶，热闹的假面舞会。穿上它，你可以闪亮登场万众瞩目，也可以没入夜色，徒留绯红与风声。",
+    "source": "织锦璎璃扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f58.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m58.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_57",
+    "fashionName": "轩仪堂堂",
+    "description": "下一次远征即将开始，盛装在身，精神抖擞，准备出发吧！",
+    "source": "轩仪堂堂扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f57.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m57.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_56",
+    "fashionName": "玩转时空",
+    "description": "只要给我一个游戏币，我能带你玩上一整天！",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f56.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m56.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_55_YuGang",
+    "fashionName": "海风絮语",
+    "description": "夏日炎炎，漫步在沙滩上，随风摆动的轻纱带来盛夏的摇漾",
+    "source": "海风絮语扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f66.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m66.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_55",
+    "fashionName": "海风絮语",
+    "description": "夏日炎炎，漫步在沙滩上，随风摆动的轻纱带来盛夏的摇漾",
+    "source": "海风絮语扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f66.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m66.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_54",
+    "fashionName": "次元跃迁",
+    "description": "新的世界，新的幻想旅程，出发！",
+    "source": "预购礼包获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f55.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m55_new.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_53",
+    "fashionName": "晨星巡弋 ",
+    "description": "轻薄的纺布，混搭皮革和金属装饰，洋溢着轻装踏上漫漫征途的洒脱",
+    "source": "晨星巡弋扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f54.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m54.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_52",
+    "fashionName": "寻觅众里",
+    "description": "不经意的回首，注意到人群中独一无二的你。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f53.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m53.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_51",
+    "fashionName": "缘此青绿",
+    "description": "模拟上古时期的技法，将画卷绣在衣着上，古朴而典雅。",
+    "source": "缘此青绿扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f52.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m52.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_50",
+    "fashionName": "茵海风潮",
+    "description": "在茵纳斯制式服装的基础上融合了经典时尚元素设计而成的礼服",
+    "source": "茵海风潮扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f51.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m51.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_49",
+    "fashionName": "黑白同调",
+    "description": "黑与白在节日里相遇，奏响同样的旋律，起舞。",
+    "source": "黑白同调扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f50.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m50.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_48",
+    "fashionName": "复逆回潮",
+    "description": "季节往复，心绪回潮，在春日的午后，不如来一次远足吧！",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f49.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m49.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_47",
+    "fashionName": "幻紫",
+    "description": "紫色象征着幸运和财富，是否也意味着更多的宝箱在向你招手？",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f48.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m48.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_46",
+    "fashionName": "金春华章",
+    "description": "金相玉质，探春辞岁，霓裾华裳，云锦天章。",
+    "source": "金春华章扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f47.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m47.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_44",
+    "fashionName": "暖冬奇妙夜",
+    "description": "与伙伴们欢聚在一起，度过惬意的暖冬之夜吧",
+    "source": "限时礼包获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f45.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m45.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_43",
+    "fashionName": "浮光絮语",
+    "description": "遇见由碎金点缀的辉煌明日",
+    "source": "载具盲盒获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f44.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m44.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_42",
+    "fashionName": "矩阵",
+    "description": "理性思考与超凡想象，缺一不可。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f43.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m43.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_41",
+    "fashionName": "不羁鼓点",
+    "description": "冲破漫天黄沙，摇滚永不消逝。",
+    "source": "载具盲盒获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f42.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m42.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_40",
+    "fashionName": "跃动青春",
+    "description": "叛逆，以及对个性的追求，此时光是压抑在心里已经远远不够。总得在哪里表现一些才行。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f41.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m41.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_39",
+    "fashionName": "玫瑰晚宴",
+    "description": "在鬼怪出来凑热闹也不奇怪的日子，穿上这身，应邀参与一场带有危险气息的盛装派对吧……",
+    "source": "玫瑰之轮扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f40.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m40.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_38",
+    "fashionName": "绮想魅影",
+    "description": "充满神秘与浪漫气息的时装，结合了黑色与墨绿等暗色调，营造出的幻想而又神秘的氛围，引领时尚新风潮。",
+    "source": "绮想魅影扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f39.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m39.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_37",
+    "fashionName": "初晓",
+    "description": "为见证奇迹的诞生，向远处进发",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f38.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m38.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_36",
+    "fashionName": "极速飙风",
+    "description": "年轻，就要驰骋。",
+    "source": "载具盲盒获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f36.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m36.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_35",
+    "fashionName": "学院时代",
+    "description": "过去的誓言，就像那课本里缤纷的书签。",
+    "source": "时装盲盒获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f35.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m35.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_34",
+    "fashionName": "晴虹",
+    "description": "心情如初夏般晴朗，每一天都要开心度过哟。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f34.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m34.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_33",
+    "fashionName": "海滨假日",
+    "description": "是时候放下手中的工作，好好去度个假了！听说班吉斯好像在举办祈活节庆典活动……",
+    "source": "海风之轮扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f33.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m33.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_32",
+    "fashionName": "默翼",
+    "description": "我，目睹战舰在猎户座的端沿起火燃烧。",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f32.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m32.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_31",
+    "fashionName": "绒绒派对",
+    "description": "这里是绒绒派对！毛茸茸就是入场券哦！",
+    "source": "商店获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f31.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m31.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_30",
+    "fashionName": "欧气自来",
+    "description": "欧莱雅男士联动时装",
+    "source": "欧莱雅男士联动时装",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f29.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m29.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_29",
+    "fashionName": "幻梦",
+    "description": "从漫天礼花中出场，从乐声中走来，向幻梦的黄金时代缓缓迈出舞步。",
+    "source": "时装盲盒获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f28.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m28.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_26",
+    "fashionName": "星辉",
+    "description": "在穿着这身衣服时，使命感会油然而生……披星戴月，执行公务。",
+    "source": "时装盲盒获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f26.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m26.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_25",
+    "fashionName": "沙漠极光",
+    "description": "收拾疲惫的身体，披上粗砾的外衣，欢迎来到沙的国度。",
+    "source": "",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f25.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m25.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_18",
+    "fashionName": "荒原",
+    "description": "以“华丽而危险”为宣传卖点的套装，设计师从古典派设计中汲取灵感的自我突破之作。",
+    "source": "第一期通行证限定奖励",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f03.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m09.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_17",
+    "fashionName": "勿忘我",
+    "description": "适用于极端高温环境的时装，只为冒险者提供最基础的遮蔽。",
+    "source": "时装盲盒获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f07.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m07.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_16",
+    "fashionName": "迅风",
+    "description": "偏向运动系的风格，适合充满青春活力的你！",
+    "source": "75级等级礼包获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f04.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m08.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_14",
+    "fashionName": "流光行动",
+    "description": "时装与科技结合的实验性作品，在布料中铺设了光学隐蔽材料，并配以悬浮组件作为装饰。",
+    "source": "",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f06.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m06.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_19",
+    "fashionName": "秩序",
+    "description": "参照大灾变前部分政府部门的制服设计的套装，给人以端庄严肃的印象。",
+    "source": "",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f18.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_10",
+    "fashionName": "背水",
+    "description": "完全抛弃防护性能的设计，仅针对注重敏捷与行动力的冒险者推出。",
+    "source": "",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f02.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m11.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_11",
+    "fashionName": "绝地",
+    "description": "粗犷狂野的风格，针对喜好展露个性的冒险者设计。",
+    "source": "",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f08.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m10.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_7",
+    "fashionName": "使命",
+    "description": "根据人体工程学设计，能完美贴合人体的皮肤的战斗服，具有极佳的延展性。",
+    "source": "",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f05.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m05.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_8",
+    "fashionName": "星砂",
+    "description": "根据人体工程学设计，能完美贴合人体的皮肤的战斗服，具有极佳的延展性。",
+    "source": "官网1500W预约福利",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f12.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m17.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_20",
+    "fashionName": "水果硬糖",
+    "description": "今天会是什么味道的糖果呢？",
+    "source": "",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f19.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m19.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_21",
+    "fashionName": "午夜时分",
+    "description": "危险与机遇隐匿于前方，让我们走进那黑夜，去冒险吧。",
+    "source": "班吉斯展会活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f20.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m20.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_22",
+    "fashionName": "时代",
+    "description": "以“叛逆、激情、张扬”为核心设计理念的休闲运动服装，不禁让人回想起乘着远望号来到艾达星之前的那个时代。",
+    "source": "",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f21.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m21.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_23",
+    "fashionName": "早樱",
+    "description": "选用轻柔面料制作的初春时装，宛若樱花花瓣落在肩头。",
+    "source": "班吉斯展会活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f22.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m22.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_24",
+    "fashionName": "沙幕探索",
+    "description": "兼顾实用性与舒适性，适合在沙地探索时穿着的服装。",
+    "source": "时装盲盒获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f23.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m23.png"
+    ]
+  }
+]
