@@ -17108,7 +17108,7 @@
     "MaxUpgradeStar": 6,
     "IsWeaponMaterial": false,
     "IsFateWeapon": false,
-    "IsUpPoolWeapon": true,
+    "IsUpPoolWeapon": false,
     "IsWarehouseWeapon": true,
     "AwardPackageID": "drop_weapon_ssr_first",
     "WeaponSkillList": [
@@ -24315,7 +24315,18 @@
       "AssetPathName": "None",
       "SubPathString": ""
     },
-    "FashionWeaponInfos": [],
+    "FashionWeaponInfos": [
+      {
+        "FashionMeshOrder": "EWeaponMeshType::WEAPONMESH_THIRDORDER",
+        "FashionName": {
+          "Namespace": "",
+          "Key": "41AA0A4145F00B94F9B04CBCCCACDBD9",
+          "SourceString": "波吕克斯·幽灵仆从",
+          "LocalizedString": "波吕克斯·幽灵仆从"
+        },
+        "FashionImitationId": "imitation_fashion_75_w"
+      }
+    ],
     "WeaponAttackTable": "operate_xxxx",
     "WeaponBackdrop": {
       "WeaponElementType": "EWeaponElementType::None",
@@ -24549,6 +24560,369 @@
       "Key": "Puppeteer_Ice_des",
       "SourceString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。",
       "LocalizedString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。"
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": true,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Nanto_Phy": {
+    "UpgradeStarPackID": "Nanto_Phy_ssr_star",
+    "MaxUpgradeStar": 6,
+    "IsWeaponMaterial": false,
+    "IsFateWeapon": false,
+    "IsUpPoolWeapon": true,
+    "IsWarehouseWeapon": true,
+    "AwardPackageID": "drop_weapon_ssr_first",
+    "WeaponSkillList": [
+      "GA_MPlayerNantoMelee",
+      "GA_MPlayerNantoEvade",
+      "GA_MPlayerNantoSkill",
+      "GA_MPlayerNantoChangeSkill"
+    ],
+    "IsSkillSet": false,
+    "SkillSetSwitchIndex": -1,
+    "bCustomWeaponElement": false,
+    "ItemLargeIcon": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Icon/item_Weapon_SSR_Nanto_Phy.item_Weapon_SSR_Nanto_Phy",
+      "SubPathString": ""
+    },
+    "ItemUnLockIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponUPIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponSlayLetterIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxTupoLevel": 0,
+    "UpgradePackId": "Nanto_Phy_ssr_lv",
+    "TupoPackId": "physic_ssr_tupo_AC",
+    "RecastType": "EHottaCurrencyType::FakeDiamond",
+    "RecastCount": 100,
+    "UpgradeReturnLevel": 0,
+    "UpgradeReturnDropID": "None",
+    "SensualityPackId": "None",
+    "WeaponFashionID": "imitation_73",
+    "MountIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponSlotCounts": 4,
+    "WeaponIconForMatrix": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/icon_yizhi/yizhi_SSR_Nanto_Phy.yizhi_SSR_Nanto_Phy",
+      "SubPathString": ""
+    },
+    "MatrixSuitArray": [
+      {
+        "MatrixSuitName": "suit_SSR61",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
+          "Key": "Asuka_MatrixSSR_des",
+          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
+          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SSR25",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
+          "Key": "Umbrella_fire_reason_3",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SSR26",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
+          "Key": "Umbrella_fire_reason_3",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SR9",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
+          "Key": "zeke_matrix_sr",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      }
+    ],
+    "WeaponFashionIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "PreviewWeaponClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "FashionWeaponInfos": [],
+    "WeaponAttackTable": "operate_zm",
+    "WeaponBackdrop": {
+      "WeaponElementType": "EWeaponElementType::None",
+      "NeedHiddenComponent": [],
+      "WeaponBackdropActor": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ActorTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    "SoloLeagueBanPickBanner": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR61_256.avatar_matrix_SSR61_256",
+      "SubPathString": ""
+    },
+    "WeaponAbilityMaxValue": 16.0,
+    "WeaponAbilityMap": [],
+    "WeaponMatchDes": {
+      "CultureInvariantString": null
+    },
+    "ItemBadgeUIIcon": {
+      "AssetPathName": "/Game/Resources/UI/plugin/icon/bigsize/Weapon_nandou_512.Weapon_nandou_512",
+      "SubPathString": ""
+    },
+    "TrainingMediaID": "Teaching_Nanto_Phy",
+    "OrderLevel": 0,
+    "StrengthenPackID": "None",
+    "StrengthenEffectPackID": "None",
+    "MaxStrengthenLevel": 0,
+    "EquipDamageMult": 1.0,
+    "AdvancePackId": "None",
+    "AdvanceMaterialItemIdList": [],
+    "CanTupo": false,
+    "EquipTupoPackId": "None",
+    "TupoOrangeItemID": "None",
+    "TupoRedItemID": "None",
+    "OldEquipItemID": "None",
+    "UncommonPackId": "None",
+    "AwakeningId": "None",
+    "WeaponExp": 0,
+    "bReminderAutoEquip": false,
+    "bForeceReminder": false,
+    "WeaponTypeData": {
+      "WeaponCategory": "EWeaponCategory::DPS",
+      "WeaponType": "EWeaponType::Nanto",
+      "WeaponClassType": "EWeaponClassType::Strength",
+      "ChargeLevel": "ChargeType_Default",
+      "WeaponElementType": "EWeaponElementType::Physics",
+      "WeaponAccessoryElementType": 4
+    },
+    "ChargeLevel": "ChargeType_Default",
+    "bUnequipedCanInlayGemstone": false,
+    "GemstoneSlotConfigArray": [],
+    "SuitId": 0,
+    "PassiveEffectGridNum": 0,
+    "PassiveEffectNum": 0,
+    "PassiveEffectGroupIndex": 0,
+    "RecylceItemID": [],
+    "AdvanceExpRecycleScale": 0.4,
+    "EquipSkillID": "None",
+    "bIdentifyEquip": false,
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Icon/item_Weapon_SSR_Nanto_Phy.item_Weapon_SSR_Nanto_Phy",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
+      "Key": "Nanto_Phy_ssr",
+      "SourceString": "青霜",
+      "LocalizedString": "青霜"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_nandou.name_nandou",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
+      "Key": "Nanto_Phy_ssr_1",
+      "SourceString": "前任安霍尔集团安全主管列文主导开发的高性能拳套，作为其麾下行动小组「青霜」的秘密武器。讽刺的是，这件精密工具的首个执行目标竟是其创造者本人。在「寂静花园」行动中，南斗用青霜亲手处决了被判定为奸细的列文。霜是无声无息降临的，它不像雨雪那般声势浩大，却能在一夜之间改变整个世界的面貌。",
+      "LocalizedString": "前任安霍尔集团安全主管列文主导开发的高性能拳套，作为其麾下行动小组「青霜」的秘密武器。讽刺的是，这件精密工具的首个执行目标竟是其创造者本人。在「寂静花园」行动中，南斗用青霜亲手处决了被判定为奸细的列文。霜是无声无息降临的，它不像雨雪那般声势浩大，却能在一夜之间改变整个世界的面貌。"
+    },
+    "UseDescription": {
+      "CultureInvariantString": null
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": false,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_WEAPON",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 43,
+    "ArrangeType": 0,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_SSR",
+    "ItemQuality": "ITEM_QUALITY_LEGENDRY",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_WEAPON",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_WEAPON",
+    "ItemActorClass": {
+      "AssetPathName": "/Game/Resources/CoreBlueprints/Weapons/Player/SSR/WeaponNanto_Phy_SSR.WeaponNanto_Phy_SSR_C",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "Nanto_Phy_ssr_1",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "None",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_INVALID",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_WeaponSSR",
+      "SourceString": "武器SSR",
+      "LocalizedString": "武器SSR"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "Nanto_Phy_meltpack",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": true,
+    "LotteryDrawing": {
+      "AssetPathName": "/Game/Resources/UI/shizhuang/nitai/xiangqing/imitation_73.imitation_73",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "/Game/Resources/UI/chouka/Card/Weapon/SSR_lh_nandou.SSR_lh_nandou",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
+      "Key": "Nanto_Phy_ssr_1",
+      "SourceString": "前任安霍尔集团安全主管列文主导开发的高性能拳套，作为其麾下行动小组「青霜」的秘密武器。讽刺的是，这件精密工具的首个执行目标竟是其创造者本人。在「寂静花园」行动中，南斗用青霜亲手处决了被判定为奸细的列文。霜是无声无息降临的，它不像雨雪那般声势浩大，却能在一夜之间改变整个世界的面貌。",
+      "LocalizedString": "前任安霍尔集团安全主管列文主导开发的高性能拳套，作为其麾下行动小组「青霜」的秘密武器。讽刺的是，这件精密工具的首个执行目标竟是其创造者本人。在「寂静花园」行动中，南斗用青霜亲手处决了被判定为奸细的列文。霜是无声无息降临的，它不像雨雪那般声势浩大，却能在一夜之间改变整个世界的面貌。"
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",

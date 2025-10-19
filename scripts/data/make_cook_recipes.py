@@ -140,8 +140,17 @@ async def make_cook_recipes():
     for food_key, data  in item_configs_filtered_data.items():
         food_info = {
             'foodKey' : food_key,
-            'foodName': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
-            'foodDes': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
+            'foodName': game_json.get(
+                            extract_tail_name(data['ItemName']['TableId']), {}
+                        ).get(
+                            data['ItemName']['Key'], data['ItemName']['LocalizedString']
+                        ),
+            'foodDes': game_json.get(
+    extract_tail_name(data['Description']['TableId']), {}
+).get(
+    data['Description']['Key'], data['Description']['LocalizedString']
+)
+,
             'foodIcon': fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
             'source': make_food_source(dt_item_output_source_rows_data,data['OutputSourceID'],game_json),
             'useDescription': make_use_description(

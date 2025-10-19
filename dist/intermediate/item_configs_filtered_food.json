@@ -23480,6 +23480,1886 @@
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   },
+  "Item_Kailo_Cooking16": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/caiyao/Kailo_Cooking_16.Kailo_Cooking_16",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking16_name",
+      "SourceString": "黑硬脂巧克力",
+      "LocalizedString": "黑硬脂巧克力"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking16_des",
+      "SourceString": "醇香浓厚，味较苦，提神醒脑。",
+      "LocalizedString": "醇香浓厚，味较苦，提神醒脑。"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_EPIC",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_10",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase.buff_AddThunderAtkFoodBase_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 1200.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 1,
+          "fStrengthMult": 0.12,
+          "fStrengthAdd": 500.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": false
+        },
+        "bNotShowInTips": false
+      }
+    ],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Item_Kailo_Cooking17": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/caiyao/Kailo_Cooking_17.Kailo_Cooking_17",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking17_name",
+      "SourceString": "牛奶硬脂巧克力",
+      "LocalizedString": "牛奶硬脂巧克力"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking17_des",
+      "SourceString": "香浓可口，微苦带甜，一切都刚刚好。",
+      "LocalizedString": "香浓可口，微苦带甜，一切都刚刚好。"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_EPIC",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_10",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase.buff_AddPhyAtkFoodBase_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 1200.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 1,
+          "fStrengthMult": 0.12,
+          "fStrengthAdd": 500.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": false
+        },
+        "bNotShowInTips": false
+      }
+    ],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Item_Kailo_Cooking18": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/caiyao/Kailo_Cooking_18.Kailo_Cooking_18",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking18_name",
+      "SourceString": "白硬脂巧克力",
+      "LocalizedString": "白硬脂巧克力"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking18_des",
+      "SourceString": "甜味与奶香的暴击，吃多了容易腻。",
+      "LocalizedString": "甜味与奶香的暴击，吃多了容易腻。"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_EPIC",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_10",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase.buff_AddIceAtkFoodBase_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 1200.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 1,
+          "fStrengthMult": 0.12,
+          "fStrengthAdd": 500.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": false
+        },
+        "bNotShowInTips": false
+      }
+    ],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Item_Kailo_Cooking19": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/caiyao/Kailo_Cooking_19.Kailo_Cooking_19",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking19_name",
+      "SourceString": "抹茶硬脂巧克力",
+      "LocalizedString": "抹茶硬脂巧克力"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking19_des",
+      "SourceString": "浓醇可可和清新茶香的完美结合。",
+      "LocalizedString": "浓醇可可和清新茶香的完美结合。"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_EPIC",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_10",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase.buff_AddFireAtkFoodBase_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 1200.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 1,
+          "fStrengthMult": 0.12,
+          "fStrengthAdd": 500.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": false
+        },
+        "bNotShowInTips": false
+      }
+    ],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Item_Kailo_Cooking20": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/caiyao/Kailo_Cooking_20.Kailo_Cooking_20",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking20_name",
+      "SourceString": "布莱顿皇家曲奇",
+      "LocalizedString": "布莱顿皇家曲奇"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking20_des",
+      "SourceString": "金黄酥脆，入口即化，绵密浓香。",
+      "LocalizedString": "金黄酥脆，入口即化，绵密浓香。"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_RARE",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_10",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/SkillEffect/CoolDown/common/GE_UseCoolDown.GE_UseCoolDown_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 0.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 0,
+          "fStrengthMult": 1.0,
+          "fStrengthAdd": 0.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": true
+        },
+        "bNotShowInTips": true
+      },
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddHealthFoodBase.buff_AddHealthFoodBase_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 0.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 0,
+          "fStrengthMult": 0.13,
+          "fStrengthAdd": 10000.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": false
+        },
+        "bNotShowInTips": false
+      }
+    ],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Item_Kailo_Cooking21": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/caiyao/Kailo_Cooking_21.Kailo_Cooking_21",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking21_name",
+      "SourceString": "星丰奶酪饼",
+      "LocalizedString": "星丰奶酪饼"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking21_des",
+      "SourceString": "咸香的硬质奶酪烘焙而成，还有坚果的香气。",
+      "LocalizedString": "咸香的硬质奶酪烘焙而成，还有坚果的香气。"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_RARE",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_10",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/SkillEffect/CoolDown/common/GE_UseCoolDown.GE_UseCoolDown_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 0.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 0,
+          "fStrengthMult": 1.0,
+          "fStrengthAdd": 0.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": true
+        },
+        "bNotShowInTips": true
+      },
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddHealthFoodBase.buff_AddHealthFoodBase_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 0.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 0,
+          "fStrengthMult": 0.16,
+          "fStrengthAdd": 34000.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": false
+        },
+        "bNotShowInTips": false
+      }
+    ],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Item_Kailo_Cooking22": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/caiyao/Kailo_Cooking_22.Kailo_Cooking_22",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking22_name",
+      "SourceString": "黑松露电焗蜗牛",
+      "LocalizedString": "黑松露电焗蜗牛"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking22_des",
+      "SourceString": "运用新型料理方式，充分发挥软嫩Q弹的肉质与黑松露的清香。",
+      "LocalizedString": "运用新型料理方式，充分发挥软嫩Q弹的肉质与黑松露的清香。"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_EPIC",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_10",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/SkillEffect/CoolDown/common/GE_UseCoolDown.GE_UseCoolDown_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 0.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 0,
+          "fStrengthMult": 1.0,
+          "fStrengthAdd": 0.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": true
+        },
+        "bNotShowInTips": true
+      },
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddHealthFoodBase.buff_AddHealthFoodBase_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 0.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 0,
+          "fStrengthMult": 0.2,
+          "fStrengthAdd": 60000.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": false
+        },
+        "bNotShowInTips": false
+      }
+    ],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Item_Kailo_Cooking23": {
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/caiyao/Kailo_Cooking_23.Kailo_Cooking_23",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking23_name",
+      "SourceString": "生机苹果金宝",
+      "LocalizedString": "生机苹果金宝"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "Item_Kailo_Cooking23_des",
+      "SourceString": "生机植物研究所推出的高级甜点，凸显原料品质。",
+      "LocalizedString": "生机植物研究所推出的高级甜点，凸显原料品质。"
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+      "Key": "item_food_usedesc_3",
+      "SourceString": "恢复<ComLblGreen>{0}</>点饱食度",
+      "LocalizedString": "恢复<ComLblGreen>{0}</>点饱食度"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": true,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_FOOD",
+    "DisplayTypeText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "LogItemType": 7,
+    "ArrangeType": 100,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_Invalid",
+    "ItemQuality": "ITEM_QUALITY_EPIC",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_DECORATE",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_NONE",
+    "ItemActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "food_satiety_10",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [
+      {
+        "Tag": {
+          "TagName": "Status.Property.CantUseTransFormCard"
+        },
+        "CheckType": "EItemGameplayTagUsing::Absent",
+        "FailureMessage": {
+          "TableId": "/Game/Resources/Text/QRSLCommon_ST.QRSLCommon_ST",
+          "Key": "SkillErrorCode.Display.ArtifactCommonSea",
+          "SourceString": "当前状态无法使用",
+          "LocalizedString": "当前状态无法使用"
+        }
+      }
+    ],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_SUPPLY",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/SkillEffect/CoolDown/common/GE_UseCoolDown.GE_UseCoolDown_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 0.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 0.0,
+          "nStackCount": 0,
+          "fStrengthMult": 1.0,
+          "fStrengthAdd": 0.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": true
+        },
+        "bNotShowInTips": true
+      },
+      {
+        "BuffClass": {
+          "AssetPathName": "/Game/Resources/Abilities/Buff/Food/Dive/buff_Food_AddRecoveryHp.buff_Food_AddRecoveryHp_C",
+          "SubPathString": ""
+        },
+        "ModifyData": {
+          "nLevel": 1,
+          "fDuration": 15.0,
+          "fModifyDuration": 0.0,
+          "fPeriod": 3.0,
+          "nStackCount": 0,
+          "fStrengthMult": 0.07,
+          "fStrengthAdd": 20000.0,
+          "nStartTime": 0,
+          "CalcOfflineTime": false
+        },
+        "bNotShowInTips": false
+      }
+    ],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [
+      {
+        "Key": "EHottaCurrencyType::Gold",
+        "Value": 100
+      }
+    ],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_Cooking",
+      "SourceString": "菜肴",
+      "LocalizedString": "菜肴"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "destroy",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": false,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
   "Item_GreyFoxFurniture_Candy": {
     "ItemIcon": {
       "AssetPathName": "/Game/Resources/Icon/caiyao/GreyFoxFurniture_Candy.GreyFoxFurniture_Candy",
@@ -23755,7 +25635,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -23959,7 +25839,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -24202,7 +26082,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -24445,7 +26325,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -24688,7 +26568,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -24931,7 +26811,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -25174,7 +27054,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -25417,7 +27297,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -25658,7 +27538,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -25901,7 +27781,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -27127,7 +29007,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -27529,7 +29409,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -27735,7 +29615,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -28559,7 +30439,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -28802,7 +30682,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -29006,7 +30886,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -29249,7 +31129,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -29455,7 +31335,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -29904,7 +31784,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -30110,7 +31990,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -30316,7 +32196,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -30522,7 +32402,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -30934,7 +32814,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -31346,7 +33226,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -32318,7 +34198,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -32556,7 +34436,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -32794,7 +34674,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -33029,7 +34909,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -33267,7 +35147,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -33667,7 +35547,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -34508,7 +36388,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -34984,7 +36864,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -35460,7 +37340,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -35664,7 +37544,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -35868,7 +37748,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -36799,7 +38679,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -37003,7 +38883,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -37244,7 +39124,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -37485,7 +39365,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -37726,7 +39606,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -37967,7 +39847,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -38208,7 +40088,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -38449,7 +40329,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -38687,7 +40567,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -38888,7 +40768,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -39126,7 +41006,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -39364,7 +41244,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -39602,7 +41482,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -39840,7 +41720,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -40078,7 +41958,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -40316,7 +42196,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -40517,7 +42397,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -40755,7 +42635,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -40956,7 +42836,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -41157,7 +43037,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -41358,7 +43238,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -41559,7 +43439,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -41760,7 +43640,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -41961,7 +43841,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -42162,7 +44042,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -42363,7 +44243,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -42564,7 +44444,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -42765,7 +44645,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -42966,7 +44846,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -43167,7 +45047,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -43368,7 +45248,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -43569,7 +45449,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -43770,7 +45650,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -43971,7 +45851,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -44172,7 +46052,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -44373,7 +46253,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -44574,7 +46454,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -44775,7 +46655,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -44974,7 +46854,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -45173,7 +47053,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -45372,7 +47252,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -45571,7 +47451,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -45772,7 +47652,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -45973,7 +47853,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -46174,7 +48054,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -46373,7 +48253,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -46574,7 +48454,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -46746,7 +48626,7 @@
   },
   "MMO_Fish_001": {
     "ItemIcon": {
-      "AssetPathName": "/Game/Resources/Icon/shicai/Ocean_Harvest_004.Ocean_Harvest_004",
+      "AssetPathName": "/Game/Resources/Icon/shicai/Item_FishMeat01.Item_FishMeat01",
       "SubPathString": ""
     },
     "ArtPackID": "None",
@@ -46775,7 +48655,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -46868,7 +48748,7 @@
     "BookName": "None",
     "LetterID": "None",
     "MountId": "None",
-    "OutputSourceID": "None",
+    "OutputSourceID": "MMO_Fish_001",
     "OutputSourceID_os": [],
     "OutputSourceID_Region": [],
     "OptionalBoxID": [],
@@ -46941,13 +48821,13 @@
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
     "MasterGiftStackNum": 0,
-    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "AvailableServerMode": "EHottaServerModeLimit::MMOServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   },
   "MMO_Fish_002": {
     "ItemIcon": {
-      "AssetPathName": "/Game/Resources/Icon/shicai/Ocean_Harvest_004.Ocean_Harvest_004",
+      "AssetPathName": "/Game/Resources/Icon/shicai/Item_FishMeat02.Item_FishMeat02",
       "SubPathString": ""
     },
     "ArtPackID": "None",
@@ -46976,7 +48856,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -47069,7 +48949,7 @@
     "BookName": "None",
     "LetterID": "None",
     "MountId": "None",
-    "OutputSourceID": "None",
+    "OutputSourceID": "MMO_Fish_002",
     "OutputSourceID_os": [],
     "OutputSourceID_Region": [],
     "OptionalBoxID": [],
@@ -47142,13 +49022,13 @@
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
     "MasterGiftStackNum": 0,
-    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "AvailableServerMode": "EHottaServerModeLimit::MMOServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   },
   "MMO_Fish_003": {
     "ItemIcon": {
-      "AssetPathName": "/Game/Resources/Icon/shicai/Ocean_Harvest_004.Ocean_Harvest_004",
+      "AssetPathName": "/Game/Resources/Icon/shicai/Item_FishMeat03.Item_FishMeat03",
       "SubPathString": ""
     },
     "ArtPackID": "None",
@@ -47177,7 +49057,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -47270,7 +49150,7 @@
     "BookName": "None",
     "LetterID": "None",
     "MountId": "None",
-    "OutputSourceID": "None",
+    "OutputSourceID": "MMO_Fish_003",
     "OutputSourceID_os": [],
     "OutputSourceID_Region": [],
     "OptionalBoxID": [],
@@ -47343,13 +49223,13 @@
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
     "MasterGiftStackNum": 0,
-    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "AvailableServerMode": "EHottaServerModeLimit::MMOServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   },
   "MMO_Fish_004": {
     "ItemIcon": {
-      "AssetPathName": "/Game/Resources/Icon/shicai/Ocean_Harvest_004.Ocean_Harvest_004",
+      "AssetPathName": "/Game/Resources/Icon/shicai/Item_FishMeat04.Item_FishMeat04",
       "SubPathString": ""
     },
     "ArtPackID": "None",
@@ -47378,7 +49258,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -47471,7 +49351,7 @@
     "BookName": "None",
     "LetterID": "None",
     "MountId": "None",
-    "OutputSourceID": "None",
+    "OutputSourceID": "MMO_Fish_004",
     "OutputSourceID_os": [],
     "OutputSourceID_Region": [],
     "OptionalBoxID": [],
@@ -47544,7 +49424,7 @@
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
     "MasterGiftStackNum": 0,
-    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "AvailableServerMode": "EHottaServerModeLimit::MMOServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   },
@@ -48416,7 +50296,7 @@
     "UpgradeRouteConfigId": "None",
     "bNeedNoticeMessage": false,
     "bNeedShowFirstGetTips": false,
-    "bAlwaysBind": true,
+    "bAlwaysBind": false,
     "bShowAttrIcon": true,
     "bNotReminder": true,
     "EquipBatchLevel": 0,
@@ -55887,7 +57767,7 @@
     "BookName": "None",
     "LetterID": "None",
     "MountId": "None",
-    "OutputSourceID": "None",
+    "OutputSourceID": "mmo_CorralFeed",
     "OutputSourceID_os": [],
     "OutputSourceID_Region": [],
     "OptionalBoxID": [],
@@ -55955,12 +57835,12 @@
     "FeedToCorralMonsterTags": [
       "CorralMeat"
     ],
-    "FeedToCorralMonsterAddExp": 5,
+    "FeedToCorralMonsterAddExp": 20,
     "Tags": [],
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
     "MasterGiftStackNum": 0,
-    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "AvailableServerMode": "EHottaServerModeLimit::MMOServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   },
@@ -56090,7 +57970,7 @@
     "BookName": "None",
     "LetterID": "None",
     "MountId": "None",
-    "OutputSourceID": "None",
+    "OutputSourceID": "mmo_CorralFeed",
     "OutputSourceID_os": [],
     "OutputSourceID_Region": [],
     "OptionalBoxID": [],
@@ -56158,12 +58038,12 @@
     "FeedToCorralMonsterTags": [
       "CorralGrass"
     ],
-    "FeedToCorralMonsterAddExp": 5,
+    "FeedToCorralMonsterAddExp": 20,
     "Tags": [],
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
     "MasterGiftStackNum": 0,
-    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "AvailableServerMode": "EHottaServerModeLimit::MMOServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   },
@@ -56293,7 +58173,7 @@
     "BookName": "None",
     "LetterID": "None",
     "MountId": "None",
-    "OutputSourceID": "None",
+    "OutputSourceID": "mmo_CorralFeed",
     "OutputSourceID_os": [],
     "OutputSourceID_Region": [],
     "OptionalBoxID": [],
@@ -56361,12 +58241,12 @@
     "FeedToCorralMonsterTags": [
       "CorralWater"
     ],
-    "FeedToCorralMonsterAddExp": 5,
+    "FeedToCorralMonsterAddExp": 20,
     "Tags": [],
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
     "MasterGiftStackNum": 0,
-    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "AvailableServerMode": "EHottaServerModeLimit::MMOServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   },
@@ -56496,7 +58376,7 @@
     "BookName": "None",
     "LetterID": "None",
     "MountId": "None",
-    "OutputSourceID": "None",
+    "OutputSourceID": "mmo_CorralFeed",
     "OutputSourceID_os": [],
     "OutputSourceID_Region": [],
     "OptionalBoxID": [],
@@ -56564,12 +58444,12 @@
     "FeedToCorralMonsterTags": [
       "CorralFish"
     ],
-    "FeedToCorralMonsterAddExp": 5,
+    "FeedToCorralMonsterAddExp": 20,
     "Tags": [],
     "bMasterGiftItem": false,
     "MasterGiftWeeklyGiveNum": 0,
     "MasterGiftStackNum": 0,
-    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "AvailableServerMode": "EHottaServerModeLimit::MMOServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
   }

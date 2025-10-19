@@ -1,4 +1,140 @@
 {
+  "Suit_SSR61": {
+    "SuitName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
+      "Key": "MatrixSuit_SSR61_SuitName",
+      "SourceString": "边缘人",
+      "LocalizedString": "边缘人"
+    },
+    "SuitIcon": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR61_256.avatar_matrix_SSR61_256",
+      "SubPathString": ""
+    },
+    "SuitRemouldIcon": {
+      "AssetPathName": "/Game/Resources/UI/equiptips/weapon_imitation/tips_avatar_ssr_nandou.tips_avatar_ssr_nandou",
+      "SubPathString": ""
+    },
+    "SuitIconTemp": {
+      "AssetPathName": "/Game/Resources/UI/yizhi/suit_icon/tips_icon_SSR61.tips_icon_SSR61",
+      "SubPathString": ""
+    },
+    "MatrixSuitQuality": "ITEM_QUALITY_LEGENDRY",
+    "IsOpened": true,
+    "SuitUnactivateDetailList": [
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
+        "Key": "MatrixSuit_SSR61_des1",
+        "SourceString": "物理攻击提升{0}%/{1}%/{2}%/{3}%，<shuzhi>技能-玄宿·风卷残云</>第一段总伤害提升至8000%，<shuzhi>技能-玄宿·风卷残云</>第二段总伤害提升至12500%",
+        "LocalizedString": "物理攻击提升{0}%/{1}%/{2}%/{3}%，<shuzhi>技能-玄宿·风卷残云</>第一段总伤害提升至8000%，<shuzhi>技能-玄宿·风卷残云</>第二段总伤害提升至12500%"
+      },
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
+        "Key": "MatrixSuit_SSR61_des2",
+        "SourceString": "全元素伤害提升{0}%/{1}%/{2}%/{3}%,<shuzhi>武器-青霜</>上阵时角色额外获得{4}%最终伤害。",
+        "LocalizedString": "全元素伤害提升{0}%/{1}%/{2}%/{3}%,<shuzhi>武器-青霜</>上阵时角色额外获得{4}%最终伤害。"
+      }
+    ],
+    "SuitUnactivateDetailParams": [
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix123_PhyAtkMultAdd_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix123_PhyAtkMultAdd_Level2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix123_PhyAtkMultAdd_Level3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix123_PhyAtkMultAdd_Level4"
+            }
+          }
+        ]
+      },
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix124_ElementDamageUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix124_ElementDamageUp_Level2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix124_ElementDamageUp_Level3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix124_ElementDamageUp_Level4"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'NantoEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/NantoEffectFigure.0"
+              },
+              "RowName": "Cal_Matrix124_FinalDamageUp"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "Suit_SSR60": {
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
@@ -5410,7 +5546,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix51Level1_FireAtkMul"
             }
@@ -5420,7 +5556,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix51Level2_FireAtkMul"
             }
@@ -5430,7 +5566,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix51Level3_FireAtkMul"
             }
@@ -5440,7 +5576,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix51Level4_FireAtkMul"
             }
@@ -5450,7 +5586,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix51Level1_FireDamMul"
             }
@@ -5460,7 +5596,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix51Level2_FireDamMul"
             }
@@ -5470,7 +5606,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix51Level3_FireDamMul"
             }
@@ -5480,7 +5616,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix51Level4_FireDamMul"
             }
@@ -5494,7 +5630,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix52Level1_DamMul"
             }
@@ -5504,7 +5640,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix52Level2_DamMul"
             }
@@ -5514,7 +5650,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix52Level3_DamMul"
             }
@@ -5524,7 +5660,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix52Level4_DamMul"
             }
@@ -5534,7 +5670,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix52Level1_FinalDamMul"
             }
@@ -5544,7 +5680,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix52Level2_FinalDamMul"
             }
@@ -5554,7 +5690,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix52Level3_FinalDamMul"
             }
@@ -5564,7 +5700,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'UmbrellaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/UmbrellaEffectFigure.0"
               },
               "RowName": "Matrix52Level4_FinalDamMul"
             }
