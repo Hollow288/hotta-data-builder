@@ -46,12 +46,12 @@ async def import_multiple_files(file_paths, db_name, mongo_uri):
 # 调用示例
 if __name__ == "__main__":
     files = [
-        "C:/XM/MY/hotta-data-builder/dist/final/artifact.json",
-        "C:/XM/MY/hotta-data-builder/dist/final/fashion.json",
-        "C:/XM/MY/hotta-data-builder/dist/final/food.json",
-        "C:/XM/MY/hotta-data-builder/dist/final/matrix.json",
-        "C:/XM/MY/hotta-data-builder/dist/final/recipes.json",
-        "C:/XM/MY/hotta-data-builder/dist/final/weapons.json"
+        "E:/JavaProject/hotta-data-builder/dist/final/artifact.json",
+        "E:/JavaProject/hotta-data-builder/dist/final/fashion.json",
+        "E:/JavaProject/hotta-data-builder/dist/final/food.json",
+        "E:/JavaProject/hotta-data-builder/dist/final/matrix.json",
+        "E:/JavaProject/hotta-data-builder/dist/final/recipes.json",
+        "E:/JavaProject/hotta-data-builder/dist/final/weapons.json"
     ]
 
     asyncio.run(import_multiple_files(
