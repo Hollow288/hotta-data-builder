@@ -1,5 +1,15 @@
 [
   {
+    "fashionKey": "fashion_dress_95",
+    "fashionName": "魅艳恶魔",
+    "description": "玫瑰色剪影于狂欢之夜唤醒沉睡的嗜血诱惑。",
+    "source": "魅艳恶魔扭蛋活动获取 ",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f94.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m94.png"
+    ]
+  },
+  {
     "fashionKey": "fashion_dress_94",
     "fashionName": "柔白舰羽",
     "description": "素白如羽，银线流转，干练优雅。",
@@ -43,7 +53,7 @@
     "fashionKey": "fashion_dress_90",
     "fashionName": "黯炎护卫",
     "description": "黯色中蕴藏忠诚和力量，护卫之责如影随形。",
-    "source": "三十四期通行证奖励",
+    "source": "商店获取",
     "fashionIcons": [
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f90.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m90.png"

@@ -1,4 +1,421 @@
 {
+  "fashion_dress_95": {
+    "FashionType": "EFashionType::Dress",
+    "WeaponType": "EWeaponType::None",
+    "Name": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "fashion_dress_95_name",
+      "SourceString": "魅艳恶魔",
+      "LocalizedString": "魅艳恶魔"
+    },
+    "OrnamentID": "None",
+    "SortOrder": 95,
+    "bShowNeedUnlock": true,
+    "OverSeaShowNeedUnlock": [],
+    "OverseabShowNeedUnlock": [],
+    "Description": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "fashion_dress_95_des",
+      "SourceString": "玫瑰色剪影于狂欢之夜唤醒沉睡的嗜血诱惑。",
+      "LocalizedString": "玫瑰色剪影于狂欢之夜唤醒沉睡的嗜血诱惑。"
+    },
+    "Description_os": [],
+    "OverseaDescription": [],
+    "Quality": "ITEM_QUALITY_LEGENDRY",
+    "ArtPackID": "fashion_dress_95",
+    "DisplayArtPackID": "None",
+    "PreviewActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "ActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "SocketName": "None",
+    "CharmValue": 0,
+    "ItemId": "fashion_dress_95_4",
+    "bShowOperateButton": true,
+    "ActiveSource": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "output_Fashion95",
+      "SourceString": "魅艳恶魔扭蛋活动获取 ",
+      "LocalizedString": "魅艳恶魔扭蛋活动获取 "
+    },
+    "ActiveSource_os": [],
+    "OverseaActiveSource": [
+      {
+        "Key": "EHottaOverSeaRegionType::OVERSEA_NONE",
+        "Value": {
+          "TextDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": {
+                "CultureInvariantString": null
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OverseaOutputSourceID": [],
+    "bCloseOutlineMaterial": false,
+    "bDynamicOrnament": false,
+    "HeadwearSkeletalMeshIdle": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "bUseAnimInstance": false,
+    "HeadwearkeletaMeshInstance": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "SkeletaMeshInstanceMap": [],
+    "Coloring": [
+      {
+        "MaterialSlotName": "cloth",
+        "ColoringNum": 5
+      }
+    ],
+    "CloringSort": [
+      "",
+      "0,1,4,2,5",
+      "0,1,4,2,5"
+    ],
+    "ColoringPreset": [
+      {
+        "PartColors": [
+          {
+            "IconColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "PartColor": [
+              {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PartColors": [
+          {
+            "IconColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            "PartColor": [
+              {
+                "R": 1.5,
+                "G": 1.5,
+                "B": 1.5,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              {
+                "R": 1.5,
+                "G": 1.5,
+                "B": 1.5,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              {
+                "R": 0.1875,
+                "G": 0.1875,
+                "B": 0.1875,
+                "A": 1.0,
+                "Hex": "787878"
+              },
+              {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              {
+                "R": 1.5,
+                "G": 1.5,
+                "B": 1.5,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              {
+                "R": 0.110026,
+                "G": 0.14667,
+                "B": 0.203125,
+                "A": 1.0,
+                "Hex": "5D6B7C"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PartColors": [
+          {
+            "IconColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 0.0,
+              "Hex": "000000"
+            },
+            "PartColor": [
+              {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0,
+                "Hex": "FF0000"
+              },
+              {
+                "R": 0.091553,
+                "G": 0.094769,
+                "B": 0.130208,
+                "A": 1.0,
+                "Hex": "555765"
+              },
+              {
+                "R": 0.0625,
+                "G": 0.0625,
+                "B": 0.0625,
+                "A": 1.0,
+                "Hex": "464646"
+              },
+              {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              {
+                "R": 0.084635,
+                "G": 0.085885,
+                "B": 0.135417,
+                "A": 1.0,
+                "Hex": "525367"
+              },
+              {
+                "R": 1.0,
+                "G": 1.0,
+                "B": 1.0,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Icon": {
+      "AssetPathName": "/Game/Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_94.fashion_icon_dress_94",
+      "SubPathString": ""
+    },
+    "ForbidHairs": [
+      {
+        "Key": "RCT_MAN",
+        "Value": {
+          "HairIds": [],
+          "ForeHairIds": [],
+          "CenterHairIds": [],
+          "BackHairIds": []
+        }
+      }
+    ],
+    "IdleSequences": [
+      {
+        "Key": "RCT_WOMAN",
+        "Value": {
+          "AssetPathName": "/Game/Resources/Characters/Player/female_01/Animation/Hand/qt/char_h_stand_pe_qt.char_h_stand_pe_qt",
+          "SubPathString": ""
+        }
+      },
+      {
+        "Key": "RCT_MAN",
+        "Value": {
+          "AssetPathName": "/Game/Resources/Characters/Player/male_01/Animation/Hand/s/char_h_stand_pe_s.char_h_stand_pe_s",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "Skirts": [
+      {
+        "Key": "RCT_WOMAN",
+        "Value": false
+      },
+      {
+        "Key": "RCT_MAN",
+        "Value": true
+      }
+    ],
+    "SuperSkirts": [
+      {
+        "Key": "RCT_WOMAN",
+        "Value": true
+      }
+    ],
+    "bCanChangeTransform": false,
+    "ChangeOffsetUDMin": 0.0,
+    "ChangeOffsetUDMax": 0.0,
+    "ChangeOffsetLRMin": 0.0,
+    "ChangeOffsetLRMax": 0.0,
+    "ChangeScaleMin": 1.0,
+    "ChangeScaleMax": 1.0,
+    "SkirtIKLRFootAdjust": 0.0,
+    "bExhibitBySwitch": false,
+    "SwitchType": "EGameFunctionType::ExhibitFashionDressSwitch",
+    "bActiveEffectSlot": false,
+    "FashionParticleSystem": {
+      "AssetPathName": "/Game/Resources/Effect/Particles/FX_Buff/FX_fashion/P_fashion_dress_87.P_fashion_dress_87",
+      "SubPathString": ""
+    },
+    "EffectAttachPointName": "None",
+    "FashionEffectTransform": {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0,
+        "W": 1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    "bDedicatedFunction": false,
+    "DedicatedFunctionMap": [],
+    "ExtraSkeletalMesh": [],
+    "bActiveShine": false,
+    "ShineData": [],
+    "bUseMountSetting": true,
+    "MountAnimData": [],
+    "bUseFashionAnimSetting": true,
+    "FashionAnimData": [
+      {
+        "Key": "RCT_WOMAN",
+        "Value": {
+          "FashionAnimMap": [
+            {
+              "Key": "0",
+              "Value": {
+                "LeisureAnimSequeArray": [
+                  {
+                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_WSJ_show.f_player_fashion_WSJ_show",
+                    "SubPathString": ""
+                  }
+                ],
+                "NormalToExclusiveAnim": {
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_WSJ_enterstandby.f_player_fashion_WSJ_enterstandby",
+                  "SubPathString": ""
+                },
+                "ExclusiveIdleAnim": {
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_WSJ_idle.f_player_fashion_WSJ_idle",
+                  "SubPathString": ""
+                },
+                "StandPeAnim": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "LookAroundAnim": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Key": "RCT_MAN",
+        "Value": {
+          "FashionAnimMap": [
+            {
+              "Key": "0",
+              "Value": {
+                "LeisureAnimSequeArray": [
+                  {
+                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_WSJ_show.m_player_fashion_WSJ_show",
+                    "SubPathString": ""
+                  }
+                ],
+                "NormalToExclusiveAnim": {
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_WSJ_enterstandby.m_player_fashion_WSJ_enterstandby",
+                  "SubPathString": ""
+                },
+                "ExclusiveIdleAnim": {
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_WSJ_idle.m_player_fashion_WSJ_idle",
+                  "SubPathString": ""
+                },
+                "StandPeAnim": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                },
+                "LookAroundAnim": {
+                  "AssetPathName": "None",
+                  "SubPathString": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "bOnlyHeadLookOnPhotograph": true,
+    "SkirtIKLRFootOffsetData": [],
+    "HarmoniousFashionConfig": {
+      "FashionData": []
+    },
+    "ExclusiveHeadMaterials_Woman": [
+      {
+        "AssetPathName": "/Game/Resources/Characters/Player/female_01/f_face/ter_new/MI_f_player_face_001_new.MI_f_player_face_001_new",
+        "SubPathString": ""
+      },
+      {
+        "AssetPathName": "/Game/Resources/Characters/Player/female_01/f_face/ter_new/MI_f_player_face_001_new_lod.MI_f_player_face_001_new_lod",
+        "SubPathString": ""
+      }
+    ],
+    "ExclusiveHeadMaterials_Man": [
+      {
+        "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
+        "SubPathString": ""
+      }
+    ],
+    "FashionOrnamentIDMap": [
+      {
+        "Key": "ECharacterSex::CHARACTERSEX_MALE",
+        "Value": {
+          "NameList": [
+            "Fashion_Ornament_1"
+          ]
+        }
+      }
+    ]
+  },
   "fashion_dress_94": {
     "FashionType": "EFashionType::Dress",
     "WeaponType": "EWeaponType::None",
@@ -10,7 +427,7 @@
     },
     "OrnamentID": "None",
     "SortOrder": 94,
-    "bShowNeedUnlock": true,
+    "bShowNeedUnlock": false,
     "OverSeaShowNeedUnlock": [],
     "OverseabShowNeedUnlock": [],
     "Description": {
@@ -384,6 +801,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": true,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
@@ -403,7 +821,8 @@
         "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
         "SubPathString": ""
       }
-    ]
+    ],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_93": {
     "FashionType": "EFashionType::Dress",
@@ -790,6 +1209,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
@@ -809,7 +1229,8 @@
         "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
         "SubPathString": ""
       }
-    ]
+    ],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_92": {
     "FashionType": "EFashionType::Dress",
@@ -1173,16 +1594,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_show.f_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_enterstandby.f_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_idle.f_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -1207,16 +1628,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_show.m_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_enterstandby.m_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_idle.m_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -1233,6 +1654,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
@@ -1252,7 +1674,8 @@
         "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
         "SubPathString": ""
       }
-    ]
+    ],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_91": {
     "FashionType": "EFashionType::Dress",
@@ -1616,16 +2039,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_show.f_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_enterstandby.f_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_idle.f_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -1650,16 +2073,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_show.m_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_enterstandby.m_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_idle.m_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -1676,6 +2099,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
@@ -1695,7 +2119,8 @@
         "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
         "SubPathString": ""
       }
-    ]
+    ],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_90": {
     "FashionType": "EFashionType::Dress",
@@ -1736,9 +2161,9 @@
     "bShowOperateButton": true,
     "ActiveSource": {
       "TableId": "/Game/Resources/Text/ST_item.ST_Item",
-      "Key": "OutputSource_BP34",
-      "SourceString": "三十四期通行证奖励",
-      "LocalizedString": "三十四期通行证奖励"
+      "Key": "battlepass_dress",
+      "SourceString": "商店获取",
+      "LocalizedString": "商店获取"
     },
     "ActiveSource_os": [
       {
@@ -2059,16 +2484,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_HYXQ_show.f_player_fashion_HYXQ_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_HYXQ_enterstandby.f_player_fashion_HYXQ_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_HYXQ_idle.f_player_fashion_HYXQ_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -2093,16 +2518,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_HYXQ_show.m_player_fashion_HYXQ_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_HYXQ_enterstandby.m_player_fashion_HYXQ_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_HYXQ_idle.m_player_fashion_HYXQ_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -2119,6 +2544,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
@@ -2138,7 +2564,8 @@
         "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
         "SubPathString": ""
       }
-    ]
+    ],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_89": {
     "FashionType": "EFashionType::Dress",
@@ -2537,6 +2964,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": true,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
@@ -2556,7 +2984,8 @@
         "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
         "SubPathString": ""
       }
-    ]
+    ],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_88": {
     "FashionType": "EFashionType::Dress",
@@ -2920,16 +3349,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_HYXQ_show.f_player_fashion_HYXQ_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_HYXQ_enterstandby.f_player_fashion_HYXQ_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_HYXQ_idle.f_player_fashion_HYXQ_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -2954,16 +3383,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_HYXQ_show.m_player_fashion_HYXQ_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_HYXQ_enterstandby.m_player_fashion_HYXQ_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_HYXQ_idle.m_player_fashion_HYXQ_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -2980,12 +3409,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_87": {
     "FashionType": "EFashionType::Dress",
@@ -3372,6 +3803,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
@@ -3391,7 +3823,8 @@
         "AssetPathName": "/Game/Resources/Characters/Player/male_01/m_face/ter_new2/MI_m_player_face_mrohp_new.MI_m_player_face_mrohp_new",
         "SubPathString": ""
       }
-    ]
+    ],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_86": {
     "FashionType": "EFashionType::Dress",
@@ -3718,16 +4151,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_show.f_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_enterstandby.f_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_idle.f_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -3752,16 +4185,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_show.m_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_enterstandby.m_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_idle.m_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -3778,12 +4211,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_85": {
     "FashionType": "EFashionType::Dress",
@@ -4110,16 +4545,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_show.f_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_enterstandby.f_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_idle.f_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -4144,16 +4579,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_show.m_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_enterstandby.m_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_idle.m_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -4170,12 +4605,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_84": {
     "FashionType": "EFashionType::Dress",
@@ -4562,12 +4999,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_83": {
     "FashionType": "EFashionType::Dress",
@@ -4954,12 +5393,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_82": {
     "FashionType": "EFashionType::Dress",
@@ -5323,16 +5764,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_show.f_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_enterstandby.f_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_idle.f_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -5357,16 +5798,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_show.m_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_enterstandby.m_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_idle.m_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -5383,12 +5824,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_81": {
     "FashionType": "EFashionType::Dress",
@@ -5715,16 +6158,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_show.f_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_enterstandby.f_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Christmas_idle.f_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -5749,16 +6192,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_show.m_player_fashion_Christmas_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_enterstandby.m_player_fashion_Christmas_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Christmas_idle.m_player_fashion_Christmas_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -5775,12 +6218,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_80": {
     "FashionType": "EFashionType::Dress",
@@ -6167,12 +6612,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_79": {
     "FashionType": "EFashionType::Dress",
@@ -6559,12 +7006,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_78": {
     "FashionType": "EFashionType::Dress",
@@ -6951,12 +7400,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_77": {
     "FashionType": "EFashionType::Dress",
@@ -7343,12 +7794,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_76": {
     "FashionType": "EFashionType::Dress",
@@ -7675,16 +8128,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Halloween_show.f_player_fashion_Halloween_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Halloween_enterstandby.f_player_fashion_Halloween_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/female_01/animation/hand/f_player_fashion_Halloween_idle.f_player_fashion_Halloween_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -7709,16 +8162,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Halloween_show.m_player_fashion_Halloween_show",
+                    "AssetPathName": "None",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_XTKHY_enterstandby.m_player_fashion_XTKHY_enterstandby",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_Norn/Player/male_01/animation/hand/m_player_fashion_Halloween_idle.m_player_fashion_Halloween_idle",
+                  "AssetPathName": "None",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -7735,12 +8188,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_75": {
     "FashionType": "EFashionType::Dress",
@@ -8127,12 +8582,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_74": {
     "FashionType": "EFashionType::Dress",
@@ -8407,12 +8864,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_73": {
     "FashionType": "EFashionType::Dress",
@@ -8876,12 +9335,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_72": {
     "FashionType": "EFashionType::Dress",
@@ -9279,12 +9740,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_71": {
     "FashionType": "EFashionType::Dress",
@@ -9613,12 +10076,14 @@
     ],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_70": {
     "FashionType": "EFashionType::Dress",
@@ -9947,12 +10412,14 @@
     ],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_69": {
     "FashionType": "EFashionType::Dress",
@@ -10341,12 +10808,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_68": {
     "FashionType": "EFashionType::Dress",
@@ -10744,12 +11213,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_67": {
     "FashionType": "EFashionType::Dress",
@@ -11138,12 +11609,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_66": {
     "FashionType": "EFashionType::Dress",
@@ -11472,12 +11945,14 @@
     ],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_65": {
     "FashionType": "EFashionType::Dress",
@@ -11825,12 +12300,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_64": {
     "FashionType": "EFashionType::Dress",
@@ -12148,12 +12625,14 @@
     ],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_63": {
     "FashionType": "EFashionType::Dress",
@@ -12547,6 +13026,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [
       {
         "Key": "RCT_MAN",
@@ -12685,7 +13165,8 @@
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_61": {
     "FashionType": "EFashionType::Dress",
@@ -13020,12 +13501,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_60": {
     "FashionType": "EFashionType::Dress",
@@ -13298,7 +13781,7 @@
     "ShineData": [],
     "bUseMountSetting": false,
     "MountAnimData": [],
-    "bUseFashionAnimSetting": true,
+    "bUseFashionAnimSetting": false,
     "FashionAnimData": [
       {
         "Key": "RCT_WOMAN",
@@ -13369,6 +13852,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": [
@@ -13389,7 +13873,8 @@
       ]
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_59": {
     "FashionType": "EFashionType::Dress",
@@ -13664,12 +14149,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_58": {
     "FashionType": "EFashionType::Dress",
@@ -14002,12 +14489,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_57": {
     "FashionType": "EFashionType::Dress",
@@ -14343,12 +14832,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_56": {
     "FashionType": "EFashionType::Dress",
@@ -14666,12 +15157,14 @@
     ],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_55_YuGang": {
     "FashionType": "EFashionType::Dress",
@@ -15112,6 +15605,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": [
@@ -15132,7 +15626,8 @@
       ]
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_55": {
     "FashionType": "EFashionType::Dress",
@@ -15573,6 +16068,7 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": [
@@ -15593,7 +16089,8 @@
       ]
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_54": {
     "FashionType": "EFashionType::Dress",
@@ -16057,12 +16554,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_53": {
     "FashionType": "EFashionType::Dress",
@@ -16657,12 +17156,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_52": {
     "FashionType": "EFashionType::Dress",
@@ -17107,12 +17608,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_51": {
     "FashionType": "EFashionType::Dress",
@@ -17716,12 +18219,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_50": {
     "FashionType": "EFashionType::Dress",
@@ -18161,12 +18666,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_49": {
     "FashionType": "EFashionType::Dress",
@@ -18574,12 +19081,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_48": {
     "FashionType": "EFashionType::Dress",
@@ -19024,12 +19533,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_47": {
     "FashionType": "EFashionType::Dress",
@@ -19474,12 +19985,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_46": {
     "FashionType": "EFashionType::Dress",
@@ -19892,12 +20405,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_44": {
     "FashionType": "EFashionType::Dress",
@@ -20305,12 +20820,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_43": {
     "FashionType": "EFashionType::Dress",
@@ -20718,12 +21235,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_42": {
     "FashionType": "EFashionType::Dress",
@@ -21168,12 +21687,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_41": {
     "FashionType": "EFashionType::Dress",
@@ -21591,12 +22112,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_40": {
     "FashionType": "EFashionType::Dress",
@@ -22026,12 +22549,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_39": {
     "FashionType": "EFashionType::Dress",
@@ -22449,12 +22974,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_38": {
     "FashionType": "EFashionType::Dress",
@@ -22941,12 +23468,14 @@
         }
       }
     ],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_37": {
     "FashionType": "EFashionType::Dress",
@@ -22961,19 +23490,7 @@
     "SortOrder": 37,
     "bShowNeedUnlock": false,
     "OverSeaShowNeedUnlock": [],
-    "OverseabShowNeedUnlock": [
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_NONE",
-        "Value": {
-          "BoolDatas": [
-            {
-              "Key": "EHottaServerMode::BalanceServer",
-              "Value": true
-            }
-          ]
-        }
-      }
-    ],
+    "OverseabShowNeedUnlock": [],
     "Description": {
       "Namespace": "",
       "Key": "423CC9E1445B9C3419FD4B8AB3EBED2F",
@@ -23411,12 +23928,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_36": {
     "FashionType": "EFashionType::Dress",
@@ -23863,12 +24382,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_35": {
     "FashionType": "EFashionType::Dress",
@@ -24290,12 +24811,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_34": {
     "FashionType": "EFashionType::Dress",
@@ -24317,7 +24840,7 @@
           "BoolDatas": [
             {
               "Key": "EHottaServerMode::BalanceServer",
-              "Value": true
+              "Value": false
             }
           ]
         }
@@ -24766,12 +25289,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_33": {
     "FashionType": "EFashionType::Dress",
@@ -25193,12 +25718,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_32": {
     "FashionType": "EFashionType::Dress",
@@ -25220,7 +25747,7 @@
           "BoolDatas": [
             {
               "Key": "EHottaServerMode::BalanceServer",
-              "Value": true
+              "Value": false
             }
           ]
         }
@@ -25695,12 +26222,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_31": {
     "FashionType": "EFashionType::Dress",
@@ -26176,12 +26705,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_30": {
     "FashionType": "EFashionType::Dress",
@@ -26640,12 +27171,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_29": {
     "FashionType": "EFashionType::Dress",
@@ -27053,12 +27586,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_26": {
     "FashionType": "EFashionType::Dress",
@@ -27466,12 +28001,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_25": {
     "FashionType": "EFashionType::Dress",
@@ -27876,12 +28413,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_18": {
     "FashionType": "EFashionType::Dress",
@@ -28403,12 +28942,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_17": {
     "FashionType": "EFashionType::Dress",
@@ -28959,12 +29500,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_16": {
     "FashionType": "EFashionType::Dress",
@@ -28977,25 +29520,8 @@
     },
     "OrnamentID": "None",
     "SortOrder": 16,
-    "bShowNeedUnlock": true,
-    "OverSeaShowNeedUnlock": [
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_TX",
-        "Value": false
-      },
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_TW",
-        "Value": false
-      },
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_KR",
-        "Value": false
-      },
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_PS",
-        "Value": false
-      }
-    ],
+    "bShowNeedUnlock": false,
+    "OverSeaShowNeedUnlock": [],
     "OverseabShowNeedUnlock": [],
     "Description": {
       "Namespace": "",
@@ -29498,12 +30024,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_14": {
     "FashionType": "EFashionType::Dress",
@@ -29525,7 +30053,7 @@
           "BoolDatas": [
             {
               "Key": "EHottaServerMode::BalanceServer",
-              "Value": true
+              "Value": false
             }
           ]
         }
@@ -29912,12 +30440,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_19": {
     "FashionType": "EFashionType::Dress",
@@ -30470,12 +31000,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_10": {
     "FashionType": "EFashionType::Dress",
@@ -31067,12 +31599,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_11": {
     "FashionType": "EFashionType::Dress",
@@ -31094,7 +31628,7 @@
           "BoolDatas": [
             {
               "Key": "EHottaServerMode::BalanceServer",
-              "Value": true
+              "Value": false
             }
           ]
         }
@@ -31501,12 +32035,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_7": {
     "FashionType": "EFashionType::Dress",
@@ -31528,7 +32064,7 @@
           "BoolDatas": [
             {
               "Key": "EHottaServerMode::BalanceServer",
-              "Value": true
+              "Value": false
             }
           ]
         }
@@ -31928,12 +32464,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_8": {
     "FashionType": "EFashionType::Dress",
@@ -31946,7 +32484,7 @@
     },
     "OrnamentID": "None",
     "SortOrder": 8,
-    "bShowNeedUnlock": true,
+    "bShowNeedUnlock": false,
     "OverSeaShowNeedUnlock": [],
     "OverseabShowNeedUnlock": [],
     "Description": {
@@ -32267,7 +32805,7 @@
       }
     ],
     "Icon": {
-      "AssetPathName": "/Game/Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f12.fashion_f12",
+      "AssetPathName": "/Game/Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_12.fashion_icon_dress_12",
       "SubPathString": ""
     },
     "ForbidHairs": [
@@ -32346,12 +32884,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_20": {
     "FashionType": "EFashionType::Dress",
@@ -32409,7 +32949,7 @@
         }
       }
     ],
-    "OutputSourceID": "BlindBox_01",
+    "OutputSourceID": "None",
     "OutputSourceID_os": [],
     "OverseaOutputSourceID": [],
     "bCloseOutlineMaterial": false,
@@ -32756,12 +33296,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_21": {
     "FashionType": "EFashionType::Dress",
@@ -33107,12 +33649,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_22": {
     "FashionType": "EFashionType::Dress",
@@ -33187,7 +33731,7 @@
         }
       }
     ],
-    "OutputSourceID": "BlindBox_01",
+    "OutputSourceID": "None",
     "OutputSourceID_os": [],
     "OverseaOutputSourceID": [],
     "bCloseOutlineMaterial": false,
@@ -33534,12 +34078,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_23": {
     "FashionType": "EFashionType::Dress",
@@ -33984,12 +34530,14 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   },
   "fashion_dress_24": {
     "FashionType": "EFashionType::Dress",
@@ -34397,11 +34945,13 @@
     "MountAnimData": [],
     "bUseFashionAnimSetting": false,
     "FashionAnimData": [],
+    "bOnlyHeadLookOnPhotograph": false,
     "SkirtIKLRFootOffsetData": [],
     "HarmoniousFashionConfig": {
       "FashionData": []
     },
     "ExclusiveHeadMaterials_Woman": [],
-    "ExclusiveHeadMaterials_Man": []
+    "ExclusiveHeadMaterials_Man": [],
+    "FashionOrnamentIDMap": []
   }
 }

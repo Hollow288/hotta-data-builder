@@ -1,4 +1,170 @@
 {
+  "Suit_SSR62": {
+    "SuitName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/VeronikaDes.VeronikaDes",
+      "Key": "MatrixSuit_SSR62_SuitName",
+      "SourceString": "为我俯首",
+      "LocalizedString": "为我俯首"
+    },
+    "SuitIcon": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_weiluonika_big.avatar_yizhitips_weiluonika_big",
+      "SubPathString": ""
+    },
+    "SuitRemouldIcon": {
+      "AssetPathName": "/Game/Resources/UI/equiptips/weapon_imitation/tips_avatar_ssr_Veronika.tips_avatar_ssr_Veronika",
+      "SubPathString": ""
+    },
+    "SuitIconTemp": {
+      "AssetPathName": "/Game/Resources/UI/yizhi/suit_icon/tips_icon_SSR62.tips_icon_SSR62",
+      "SubPathString": ""
+    },
+    "MatrixSuitQuality": "ITEM_QUALITY_LEGENDRY",
+    "IsOpened": true,
+    "SuitUnactivateDetailList": [
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/VeronikaDes.VeronikaDes",
+        "Key": "MatrixSuit_SSR62_des1",
+        "SourceString": "雷电攻击提升{0}%/{1}%/{2}%/{3}%，技能-重弹连发总伤害提升至{4}%，技能-跃影一击总伤害提升至{5}%，技能-归零锁定总伤害提升至{6}%。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "雷电攻击提升{0}%/{1}%/{2}%/{3}%，技能-重弹连发总伤害提升至{4}%，技能-跃影一击总伤害提升至{5}%，技能-归零锁定总伤害提升至{6}%。装备后后台可生效，多套只生效最高星级。"
+      },
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/VeronikaDes.VeronikaDes",
+        "Key": "MatrixSuit_SSR62_des2",
+        "SourceString": "最终伤害提升{0}%/{1}%/{2}%/{3}%，武器-视界上阵时角色额外获得{4}%雷电伤害。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "最终伤害提升{0}%/{1}%/{2}%/{3}%，武器-视界上阵时角色额外获得{4}%雷电伤害。装备后后台可生效，多套只生效最高星级。"
+      }
+    ],
+    "SuitUnactivateDetailParams": [
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR125_ThuAtkUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR125_ThuAtkUp_Level2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR125_ThuAtkUp_Level3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR125_ThuAtkUp_Level4"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Veronika_Skill_MatrixDamage"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Veronika_TriggerSkill_MatrixDamage"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Veronika_PowerSkill_MatrixDamage"
+            }
+          }
+        ]
+      },
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR126_FinDmgUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR126_FinDmgUp_Level2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR126_FinDmgUp_Level3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR126_FinDmgUp_Level4"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'VeronikaEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/VeronikaEffectFigure.0"
+              },
+              "RowName": "Buff_MatrixSSR126_ThuDmgUp"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "Suit_SSR61": {
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
@@ -2267,8 +2433,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AceDes.AceDes",
       "Key": "MatrixSuit_SSR47_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "星期三",
+      "LocalizedString": "星期三"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_anke_big.avatar_yizhitips_anke_big",
@@ -2288,14 +2454,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AceDes.AceDes",
         "Key": "MatrixSuit_SSR47_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "物理攻击提升{0}%/{1}%/{2}%/{3}%，重击伤害提升至{4}%。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "物理攻击提升{0}%/{1}%/{2}%/{3}%，重击伤害提升至{4}%。装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AceDes.AceDes",
         "Key": "MatrixSuit_SSR47_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "混乱效果造成伤害间隔缩短为{0}秒。最终伤害提升{1}%/{2}%/{3}%/{4}%，装备<shuzhi>武器-跳跳糖</>后额外提升{5}%暴击伤害。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "混乱效果造成伤害间隔缩短为{0}秒。最终伤害提升{1}%/{2}%/{3}%/{4}%，装备<shuzhi>武器-跳跳糖</>后额外提升{5}%暴击伤害。装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -2306,7 +2472,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix95PhyAtkUpL1"
             }
@@ -2316,7 +2482,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix95PhyAtkUpL2"
             }
@@ -2326,7 +2492,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix95PhyAtkUpL3"
             }
@@ -2336,7 +2502,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix95PhyAtkUpL4"
             }
@@ -2346,7 +2512,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix95ThreadDamageUpL1"
             }
@@ -2360,7 +2526,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix96BleedPeriod"
             }
@@ -2370,7 +2536,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix96FinalDamageUpL1"
             }
@@ -2380,7 +2546,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix96FinalDamageUpL2"
             }
@@ -2390,7 +2556,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix96FinalDamageUpL3"
             }
@@ -2400,7 +2566,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix96FinalDamageUpL4"
             }
@@ -2410,7 +2576,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'AceEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/AceEffectFigure.0"
               },
               "RowName": "Matrix96AceCritDamageUp"
             }
@@ -3077,8 +3243,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LancesDes.LancesDes",
       "Key": "Matrix_SSR42_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "千面",
+      "LocalizedString": "千面"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_Yanuo_big.avatar_yizhitips_Yanuo_big",
@@ -3098,14 +3264,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LancesDes.LancesDes",
         "Key": "MatrixSuit_SSR42_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "寒冰伤害和雷电伤害提升{1}%/{2}%/{3}%/{4}%，寒冰攻击和雷电攻击提升{5}%，匿行状态下移动速度提高{0}%，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "寒冰伤害和雷电伤害提升{1}%/{2}%/{3}%/{4}%，寒冰攻击和雷电攻击提升{5}%，匿行状态下移动速度提高{0}%，装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LancesDes.LancesDes",
         "Key": "MatrixSuit_SSR42_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把冰武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，装备后后台可生效，多套意志只生效最高星级。释放技能-极地之噬后，最终伤害提升13%，持续{4}秒。前台使用武器-坏家伙进入战斗状态时，触发1次满额增伤的狂猎（该效果不计入武器-坏家伙的狂猎冷却，但15秒内至多触发1次。",
+        "LocalizedString": "装备至少1把冰武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，装备后后台可生效，多套意志只生效最高星级。释放技能-极地之噬后，最终伤害提升13%，持续{4}秒。前台使用武器-坏家伙进入战斗状态时，触发1次满额增伤的狂猎（该效果不计入武器-坏家伙的狂猎冷却，但15秒内至多触发1次。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -3116,7 +3282,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR85_SneakMoveSpeedUp"
             }
@@ -3126,7 +3292,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR85_IceThunderAtkUp_Level1"
             }
@@ -3136,7 +3302,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR85_IceThunderAtkUp_Level2"
             }
@@ -3146,7 +3312,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR85_IceThunderAtkUp_Level3"
             }
@@ -3156,7 +3322,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR85_IceThunderAtkUp_Level4"
             }
@@ -3166,7 +3332,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR85_IceThunderAtkUp_EX"
             }
@@ -3180,7 +3346,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR86_ElementDMGUp_Level1"
             }
@@ -3190,7 +3356,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR86_ElementDMGUp_Level2"
             }
@@ -3200,7 +3366,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR86_ElementDMGUp_Level3"
             }
@@ -3210,7 +3376,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR86_ElementDMGUp_Level4"
             }
@@ -3220,7 +3386,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LancesEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LancesEffectFigure.0"
               },
               "RowName": "Matrix_SSR86_AfterSkillFinDMGUp_Duration"
             }
@@ -3233,8 +3399,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ParadoxDes.ParadoxDes",
       "Key": "MatrixSuit_SSR41_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "悖论",
+      "LocalizedString": "悖论"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR41_256.avatar_matrix_SSR41_256",
@@ -3254,14 +3420,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ParadoxDes.ParadoxDes",
         "Key": "MatrixSuit_SSR41_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "提升{0}%/{1}%/{2}%/{3}%火焰和物理攻击力，EP-7000天火闪避耐力恢复提高100%，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "提升{0}%/{1}%/{2}%/{3}%火焰和物理攻击力，EP-7000天火闪避耐力恢复提高100%，装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ParadoxDes.ParadoxDes",
         "Key": "MatrixSuit_SSR41_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把火武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，释放重装能源弹额外获得{4}%最终增伤，持续{5}秒，技能镜中你我命中目标后，刷新镜面效果以及装甲溶解持续时间，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "装备至少1把火武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，释放重装能源弹额外获得{4}%最终增伤，持续{5}秒，技能镜中你我命中目标后，刷新镜面效果以及装甲溶解持续时间，装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -3272,7 +3438,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR83_level1_AtkUp"
             }
@@ -3282,7 +3448,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR83_level2_AtkUp"
             }
@@ -3292,7 +3458,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR83_level3_AtkUp"
             }
@@ -3302,7 +3468,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR83_level4_AtkUp"
             }
@@ -3316,7 +3482,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR84_level1_ElementDamageUp"
             }
@@ -3326,7 +3492,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR84_level2_ElementDamageUp"
             }
@@ -3336,7 +3502,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR84_level3_ElementDamageUp"
             }
@@ -3346,7 +3512,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR84_level4_ElementDamageUp"
             }
@@ -3356,7 +3522,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR84_BeiDong_FinDamUp"
             }
@@ -3366,7 +3532,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ParadoxEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ParadoxEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR84_BeiDong_FinDamUp_Time"
             }
@@ -3418,7 +3584,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR81_level1_DmgUp"
             }
@@ -3428,7 +3594,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR81_level2_DmgUp"
             }
@@ -3438,7 +3604,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR81_level3_DmgUp"
             }
@@ -3448,7 +3614,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR81_level4_DmgUp"
             }
@@ -3458,7 +3624,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR81_RecoverUp"
             }
@@ -3468,7 +3634,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR81_RecoverUp_Duration"
             }
@@ -3482,7 +3648,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR82_FinalDmgUp"
             }
@@ -3492,7 +3658,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR82_FinalDmgUp_Duration"
             }
@@ -3502,7 +3668,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Matrix82NoAssistAtkUpL1"
             }
@@ -3512,7 +3678,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Matrix82NoAssistAtkUpL2"
             }
@@ -3522,7 +3688,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Matrix82NoAssistAtkUpL3"
             }
@@ -3532,7 +3698,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Matrix82NoAssistAtkUpL4"
             }
@@ -3542,7 +3708,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Matrix82AssistAtkUpL1"
             }
@@ -3552,7 +3718,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Matrix82AssistAtkUpL2"
             }
@@ -3562,7 +3728,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Matrix82AssistAtkUpL3"
             }
@@ -3572,7 +3738,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BleviEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BleviEffectFigure.0"
               },
               "RowName": "Matrix82AssistAtkUpL4"
             }
@@ -3585,8 +3751,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/KillknifeDes.KillknifeDes",
       "Key": "MatrixSuit_SSR39_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "热枕",
+      "LocalizedString": "热枕"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR39_256.avatar_matrix_SSR39_256",
@@ -3606,14 +3772,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/KillknifeDes.KillknifeDes",
         "Key": "MatrixSuit_SSR39_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "物理攻击和火焰攻击提高{0}%/{1}%/{2}%/{3}%。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "物理攻击和火焰攻击提高{0}%/{1}%/{2}%/{3}%。装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/KillknifeDes.KillknifeDes",
         "Key": "MatrixSuit_SSR39_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把物理武器时，全元素伤害提高{0}%/{1}%/{2}%/{3}%。装备规衡时，全元素伤害额外提高{4}%。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "装备至少1把物理武器时，全元素伤害提高{0}%/{1}%/{2}%/{3}%。装备规衡时，全元素伤害额外提高{4}%。装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -3721,8 +3887,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NanyinDes.NanyinDes",
       "Key": "MatrixSuit_SSR38_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "弗渝",
+      "LocalizedString": "弗渝"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR38_256.avatar_matrix_SSR38_256",
@@ -3742,14 +3908,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NanyinDes.NanyinDes",
         "Key": "MatrixSuit_SSR38_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "全攻提升{0}%/{1}%/{2}%/{3}%，虚影额外继承玩家{4}%攻击力，战斗状态下第一次造成伤害时，自身获得{5}点武器充能值，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "全攻提升{0}%/{1}%/{2}%/{3}%，虚影额外继承玩家{4}%攻击力，战斗状态下第一次造成伤害时，自身获得{5}点武器充能值，装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NanyinDes.NanyinDes",
         "Key": "MatrixSuit_SSR38_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备紫竹后暴击伤害提升{0}%，最终伤害提升{4}%/{5}%/{6}%/{7}%，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "装备紫竹后暴击伤害提升{0}%，最终伤害提升{4}%/{5}%/{6}%/{7}%，装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -3917,8 +4083,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LinghanDes.LinghanDes",
       "Key": "MatrixSuit_SSR37_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "霜影",
+      "LocalizedString": "霜影"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR37_256.avatar_matrix_SSR37_256",
@@ -3938,14 +4104,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LinghanDes.LinghanDes",
         "Key": "MatrixSuit_SSR_37_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "全元素伤害提升{0}%/{1}%/{2}%/{3}%，发射冰刃时对附近目标额外造成1600%*攻击力伤害。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "全元素伤害提升{0}%/{1}%/{2}%/{3}%，发射冰刃时对附近目标额外造成1600%*攻击力伤害。装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LinghanDes.LinghanDes",
         "Key": "MatrixSuit_SSR_37_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "释放任意冰武器连携技后，最终伤害提升{0}%/{1}%/{2}%/{3}%，持续{4}秒；装备监兵时，全攻提高{5}%，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "释放任意冰武器连携技后，最终伤害提升{0}%/{1}%/{2}%/{3}%，持续{4}秒；装备监兵时，全攻提高{5}%，装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -3956,7 +4122,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR75_level1_DmgUp"
             }
@@ -3966,7 +4132,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR75_level2_DmgUp"
             }
@@ -3976,7 +4142,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR75_level3_DmgUp"
             }
@@ -3986,7 +4152,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR75_level4_DmgUp"
             }
@@ -4000,7 +4166,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR76_level1_DmgUp"
             }
@@ -4010,7 +4176,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR76_level2_DmgUp"
             }
@@ -4020,7 +4186,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR76_level3_DmgUp"
             }
@@ -4030,7 +4196,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR76_level4_DmgUp"
             }
@@ -4040,7 +4206,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR76_level1_DmgUp_Duration"
             }
@@ -4050,7 +4216,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'LinghanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/LinghanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR76_level1_AtkUp"
             }
@@ -4063,8 +4229,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FeiseDes.FeiseDes",
       "Key": "MatrixSuit_SSR36_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "惊鸿",
+      "LocalizedString": "惊鸿"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR36_256.avatar_matrix_SSR36_256",
@@ -4084,14 +4250,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FeiseDes.FeiseDes",
         "Key": "MatrixSuit_SSR36_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "释放任意火武器技能或连携后，全攻提升{0}%/{1}%/{2}%/{3}%，持续{4}秒。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "释放任意火武器技能或连携后，全攻提升{0}%/{1}%/{2}%/{3}%，持续{4}秒。装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FeiseDes.FeiseDes",
         "Key": "MatrixSuit_SSR36_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把火武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%。生成妃色幻象时，最终伤害额外提升{4}%，持续{5}秒。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "装备至少1把火武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%。生成妃色幻象时，最终伤害额外提升{4}%，持续{5}秒。装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -4102,7 +4268,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr73_level1_ATKUp"
             }
@@ -4112,7 +4278,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr73_level2_ATKUp"
             }
@@ -4122,7 +4288,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr73_level3_ATKUp"
             }
@@ -4132,7 +4298,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr73_level4_ATKUp"
             }
@@ -4142,7 +4308,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr73_ATKUp_duration"
             }
@@ -4156,7 +4322,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr74_level1_AllElementATKUp"
             }
@@ -4166,7 +4332,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr74_level2_AllElementATKUp"
             }
@@ -4176,7 +4342,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr74_level3_AllElementATKUp"
             }
@@ -4186,7 +4352,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr74_level4_AllElementATKUp"
             }
@@ -4196,7 +4362,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr74_FinDMGUp"
             }
@@ -4206,7 +4372,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FeiseEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FeiseEffectFigure.0"
               },
               "RowName": "Buff_Matrix_ssr74_FinDMGUp_duration"
             }
@@ -4219,8 +4385,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MiMiDes.MiMiDes",
       "Key": "MatrixSuit_SSR35_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "吟啸",
+      "LocalizedString": "吟啸"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR35_256.avatar_matrix_SSR35_256",
@@ -4240,14 +4406,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MiMiDes.MiMiDes",
         "Key": "MatrixSuit_SSR35_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "最终伤害提升{0}%/{1}%/{2}%/{3}%，小青龙冲击波命中目标后，技能伤害提升{4}%，持续{5}秒，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "最终伤害提升{0}%/{1}%/{2}%/{3}%，小青龙冲击波命中目标后，技能伤害提升{4}%，持续{5}秒，装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MiMiDes.MiMiDes",
         "Key": "MatrixSuit_SSR35_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把雷武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，释放青云慑月/飞龙在天后，暴击伤害提升{4}%，持续{5}秒，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "装备至少1把雷武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，释放青云慑月/飞龙在天后，暴击伤害提升{4}%，持续{5}秒，装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -4258,7 +4424,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR71_level1_UP"
             }
@@ -4268,7 +4434,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR71_level2_UP"
             }
@@ -4278,7 +4444,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR71_level3_UP"
             }
@@ -4288,7 +4454,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR71_level4_UP"
             }
@@ -4298,7 +4464,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR71_SkillDamUP"
             }
@@ -4308,7 +4474,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR71_SkillDamUPTime"
             }
@@ -4322,7 +4488,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR72_level1_DamageUP"
             }
@@ -4332,7 +4498,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR72_level2_DamageUP"
             }
@@ -4342,7 +4508,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR72_level3_DamageUP"
             }
@@ -4352,7 +4518,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR72_level4_DamageUP"
             }
@@ -4362,7 +4528,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR72_CritDamUP"
             }
@@ -4372,7 +4538,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'MiMiEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/MiMiEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR72_CritDamUPTime"
             }
@@ -4424,7 +4590,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR69_ATKUp_level1"
             }
@@ -4434,7 +4600,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR69_ATKUp_level2"
             }
@@ -4444,7 +4610,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR69_ATKUp_level3"
             }
@@ -4454,7 +4620,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR69_ATKUp_level4"
             }
@@ -4468,7 +4634,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR70_DmgUp_level1"
             }
@@ -4478,7 +4644,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR70_DmgUp_Duration"
             }
@@ -4488,7 +4654,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR70_level1"
             }
@@ -4498,7 +4664,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR70_level2"
             }
@@ -4508,7 +4674,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR70_level3"
             }
@@ -4518,7 +4684,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ZekeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ZekeEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR70_level4"
             }
@@ -4531,8 +4697,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YulanDes.YulanDes",
       "Key": "Matrix_SSR33_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "赤心",
+      "LocalizedString": "赤心"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR33_256.avatar_matrix_SSR33_256",
@@ -4552,14 +4718,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YulanDes.YulanDes",
         "Key": "Buff_Martix_SSR_63_des",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把冰武器时，战斗状态下对附近目标每秒造成{0}%*攻击力点伤害；释放任意冰武器技能或连携后，最终伤害提升{1}%/{2}%/{3}%/{4}%，持续{5}秒。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "装备至少1把冰武器时，战斗状态下对附近目标每秒造成{0}%*攻击力点伤害；释放任意冰武器技能或连携后，最终伤害提升{1}%/{2}%/{3}%/{4}%，持续{5}秒。装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YulanDes.YulanDes",
         "Key": "Buff_Martix_SSR_64_des",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "骈臻消耗内劲或战意后，最终伤害提升{0}%，持续{1}秒；造成寒冰伤害后，全元素伤害提升{2}%/{3}%/{4}%/{5}%，持续{6}秒。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "骈臻消耗内劲或战意后，最终伤害提升{0}%，持续{1}秒；造成寒冰伤害后，全元素伤害提升{2}%/{3}%/{4}%/{5}%，持续{6}秒。装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -4570,7 +4736,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR63_IceyAirDMG"
             }
@@ -4580,7 +4746,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR63_level1_FinDMGUp"
             }
@@ -4590,7 +4756,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR63_level2_FinDMGUp"
             }
@@ -4600,7 +4766,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR63_level3_FinDMGUp"
             }
@@ -4610,7 +4776,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR63_level4_FinDMGUp"
             }
@@ -4620,7 +4786,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR63_FinDMGUp_Duration"
             }
@@ -4634,7 +4800,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR64_WeaponDMGUp"
             }
@@ -4644,7 +4810,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR64_WeaponDMGUp_Duration"
             }
@@ -4654,7 +4820,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR64_level1_ElementATKUp"
             }
@@ -4664,7 +4830,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR64_level2_ElementATKUp"
             }
@@ -4674,7 +4840,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR64_level3_ElementATKUp"
             }
@@ -4684,7 +4850,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR64_level4_ElementATKUp"
             }
@@ -4694,7 +4860,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YulanEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YulanEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR64_ElementAtkUp_Duration"
             }
@@ -4707,8 +4873,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BrushDes.BrushDes",
       "Key": "MatrixSuit_SSR32_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "春秋笔",
+      "LocalizedString": "春秋笔"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR32_256.avatar_matrix_SSR32_256",
@@ -4728,14 +4894,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BrushDes.BrushDes",
         "Key": "MatrixSuit_SSR32_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "最终伤害提升{0}%/{1}%/{2}%/{3}%，释放松彗闪避后获得的雀羽数量提升至20枚，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "最终伤害提升{0}%/{1}%/{2}%/{3}%，释放松彗闪避后获得的雀羽数量提升至20枚，装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BrushDes.BrushDes",
         "Key": "MatrixSuit_SSR32_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把火武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，释放四方雀唳后，全元素增伤额外提升{4}%，并在{5}秒内逐渐减少至{6}%，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "装备至少1把火武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，释放四方雀唳后，全元素增伤额外提升{4}%，并在{5}秒内逐渐减少至{6}%，装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -4746,7 +4912,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix65Level1FinDamUP"
             }
@@ -4756,7 +4922,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix65Level2FinDamUP"
             }
@@ -4766,7 +4932,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix65Level3FinDamUP"
             }
@@ -4776,7 +4942,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix65Level4FinDamUP"
             }
@@ -4790,7 +4956,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix66Level1ExtraAtkUP"
             }
@@ -4800,7 +4966,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix66Level2ExtraAtkUP"
             }
@@ -4810,7 +4976,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix66Level3ExtraAtkUP"
             }
@@ -4820,7 +4986,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix66Level4ExtraAtkUP"
             }
@@ -4830,7 +4996,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix66Level1ExtraAtkUPBrushSkill"
             }
@@ -4840,7 +5006,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix66ExtraAtkUPBrushSkillTime"
             }
@@ -4850,7 +5016,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'BrushEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/BrushEffectFigure.0"
               },
               "RowName": "BrushMatrix66Level4ExtraAtkUPBrushSkillEnd"
             }
@@ -4863,8 +5029,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
       "Key": "MatrixSuit_SSR31_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "求索",
+      "LocalizedString": "求索"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR31_256.avatar_matrix_SSR31_256",
@@ -4884,14 +5050,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
         "Key": "MatrixSuit_SSR_31_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "生命值提升{0}/{1}/{2}/{3}，雷攻提升{4}%/{5}%/{6}%/{7}%，装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "生命值提升{0}/{1}/{2}/{3}，雷攻提升{4}%/{5}%/{6}%/{7}%，装备后后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
         "Key": "MatrixSuit_SSR_31_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "晶极刺数量上限提升至6枚，雷武器攻击命中目标后，全元素伤害提升{0}%/{1}%/{2}%/{3}%，持续{4}秒。装备后后台可生效，多套只生效最高星级。",
+        "LocalizedString": "晶极刺数量上限提升至6枚，雷武器攻击命中目标后，全元素伤害提升{0}%/{1}%/{2}%/{3}%，持续{4}秒。装备后后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -4902,7 +5068,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR67_level1_MaxHPUp"
             }
@@ -4912,7 +5078,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR67_level2_MaxHPUp"
             }
@@ -4922,7 +5088,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR67_level3_MaxHPUp"
             }
@@ -4932,7 +5098,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR67_level4_MaxHPUp"
             }
@@ -4942,7 +5108,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR67_level1_ThunderATKUp"
             }
@@ -4952,7 +5118,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR67_level2_ThunderATKUp"
             }
@@ -4962,7 +5128,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR67_level3_ThunderATKUp"
             }
@@ -4972,7 +5138,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR67_level4_ThunderATKUp"
             }
@@ -4986,7 +5152,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR68_level1_ThunderATKUp"
             }
@@ -4996,7 +5162,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR68_level2_ThunderATKUp"
             }
@@ -5006,7 +5172,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR68_level3_ThunderATKUp"
             }
@@ -5016,7 +5182,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR68_level4_ThunderATKUp"
             }
@@ -5026,7 +5192,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'RubiliaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/RubiliaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR68_level1_ThunderDMGUp_Duration"
             }
@@ -5039,8 +5205,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ChainsawDes.ChainsawDes",
       "Key": "Matrixsuit_SSR30_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "冒险陨星",
+      "LocalizedString": "冒险陨星"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR30_256.avatar_matrix_SSR30_256",
@@ -5060,14 +5226,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ChainsawDes.ChainsawDes",
         "Key": "Buff_Matrix_SSR_59_des",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把物理武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%。装备后台可生效，多套只生效最高星级。",
+        "LocalizedString": "装备至少1把物理武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%。装备后台可生效，多套只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ChainsawDes.ChainsawDes",
         "Key": "Buff_Matrix_SSR_60_des",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "释放任意物理武器技能或连携后，全元素伤害提升{0}%/{1}%/{2}%/{3}%，持续25秒。使用小小飓风时耐力消耗减少{4}%。装备后台可生效，多套只生效最高星级。",
+        "LocalizedString": "释放任意物理武器技能或连携后，全元素伤害提升{0}%/{1}%/{2}%/{3}%，持续25秒。使用小小飓风时耐力消耗减少{4}%。装备后台可生效，多套只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -5078,7 +5244,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix59Level1_FinalDamUPMul"
             }
@@ -5088,7 +5254,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix59Level2_FinalDamUPMul"
             }
@@ -5098,7 +5264,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix59Level3_FinalDamUPMul"
             }
@@ -5108,7 +5274,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix59Level4_FinalDamUPMul"
             }
@@ -5122,7 +5288,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix60Level1_FinalDamUPMul"
             }
@@ -5132,7 +5298,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix60Level2_FinalDamUPMul"
             }
@@ -5142,7 +5308,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix60Level3_FinalDamUPMul"
             }
@@ -5152,7 +5318,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix60Level4_FinalDamUPMul"
             }
@@ -5162,7 +5328,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ChainsawEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ChainsawEffectFigure.0"
               },
               "RowName": "Matrix60EnergyRecoverMul"
             }
@@ -5371,8 +5537,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YoyoDes.YoyoDes",
       "Key": "MatrixSuit_SSR28_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "含霜",
+      "LocalizedString": "含霜"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR28_256.avatar_matrix_SSR28_256",
@@ -5392,14 +5558,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YoyoDes.YoyoDes",
         "Key": "MatrixSuit_SSR28_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备片光零羽/装备至少<shuzhi>2</>种元素/装备至少<shuzhi>2</>种职业武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，装备后台可生效，多套只生效最高星级",
+        "LocalizedString": "装备片光零羽/装备至少<shuzhi>2</>种元素/装备至少<shuzhi>2</>种职业武器时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，装备后台可生效，多套只生效最高星级"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YoyoDes.YoyoDes",
         "Key": "MatrixSuit_SSR28_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "造成寒冰伤害时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，持续{4}秒，装备后台可生效，多套只生效最高星级",
+        "LocalizedString": "造成寒冰伤害时，全元素伤害提升{0}%/{1}%/{2}%/{3}%，持续{4}秒，装备后台可生效，多套只生效最高星级"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -5410,7 +5576,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR57_level1_effect"
             }
@@ -5420,7 +5586,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR57_level2_effect"
             }
@@ -5430,7 +5596,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR57_level3_effect"
             }
@@ -5440,7 +5606,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR57_level4_effect"
             }
@@ -5454,7 +5620,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR58_level1_effect"
             }
@@ -5464,7 +5630,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR58_level2_effect"
             }
@@ -5474,7 +5640,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR58_level3_effect"
             }
@@ -5484,7 +5650,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR58_level4_effect"
             }
@@ -5494,7 +5660,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'YoyoEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/YoyoEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR58_effect_Duration"
             }
@@ -5507,8 +5673,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
       "Key": "MatrixSuit_SSR27_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "风火",
+      "LocalizedString": "风火"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR27_256.avatar_matrix_SSR27_256",
@@ -5528,14 +5694,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
         "Key": "MatrixSuit_SSR27_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备至少1把火武器时，火焰攻击提高{0}%/{1}%/{2}%/{3}%，火焰伤害提高{4}%/{5}%/{6}%/{7}%，装备后后台可生效，多套只生效最高星级",
+        "LocalizedString": "装备至少1把火武器时，火焰攻击提高{0}%/{1}%/{2}%/{3}%，火焰伤害提高{4}%/{5}%/{6}%/{7}%，装备后后台可生效，多套只生效最高星级"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
         "Key": "MatrixSuit_SSR27_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "根据装备不同元素武器的数量获得不同的效果：每装备1把火焰/寒冰/物理/雷电武器，火焰/寒冰/物理/雷电元素伤害提高{0}%/{1}%/{2}%/{3}%；每装备1把异能武器，最终伤害提高{4}%/{5}%/{6}%/{7}%，装备后后台可生效，多套只生效最高星级",
+        "LocalizedString": "根据装备不同元素武器的数量获得不同的效果：每装备1把火焰/寒冰/物理/雷电武器，火焰/寒冰/物理/雷电元素伤害提高{0}%/{1}%/{2}%/{3}%；每装备1把异能武器，最终伤害提高{4}%/{5}%/{6}%/{7}%，装备后后台可生效，多套只生效最高星级"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -6005,8 +6171,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
       "Key": "MatrixSuit_SSR24_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "万物交响",
+      "LocalizedString": "万物交响"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR24_256.avatar_matrix_SSR24_256",
@@ -6026,14 +6192,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
         "Key": "MatrixSuit_SSR24_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "暴击伤害提高{0}%/{1}%/{2}%/{3}%，不可叠加。该意志效果后台也生效，装备多套生效最高星级。",
+        "LocalizedString": "暴击伤害提高{0}%/{1}%/{2}%/{3}%，不可叠加。该意志效果后台也生效，装备多套生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
         "Key": "MatrixSuit_SSR24_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "每次造成雷电伤害时，获得{0}%最终伤害提升，持续10秒，最多可叠加5/6/7/8层。该意志效果后台也生效，装备多套生效最高星级。",
+        "LocalizedString": "每次造成雷电伤害时，获得{0}%最终伤害提升，持续10秒，最多可叠加5/6/7/8层。该意志效果后台也生效，装备多套生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -6044,7 +6210,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FenrirEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure.0"
               },
               "RowName": "FenrirMatrix45Level1CritDam"
             }
@@ -6054,7 +6220,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FenrirEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure.0"
               },
               "RowName": "FenrirMatrix45Level2CritDam"
             }
@@ -6064,7 +6230,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FenrirEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure.0"
               },
               "RowName": "FenrirMatrix45Level3CritDam"
             }
@@ -6074,7 +6240,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FenrirEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure.0"
               },
               "RowName": "FenrirMatrix45Level4CritDam"
             }
@@ -6088,7 +6254,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FenrirEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FenrirEffectFigure.0"
               },
               "RowName": "FenrirMatrix46FinalDam"
             }
@@ -6101,8 +6267,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/WhipDes.WhipDes",
       "Key": "MatrixSuit_SSR23_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "双重魔术",
+      "LocalizedString": "双重魔术"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR23_256.avatar_matrix_SSR23_256",
@@ -6122,14 +6288,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/WhipDes.WhipDes",
         "Key": "MatrixSuit_SSR23_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "造成物理伤害时，最终伤害提高{0}%/{1}%/{2}%/{3}%，物理伤害额外提升{4}%/{5}%/{6}%/{7}%，持续{8}秒。该意志效果后台也生效，装备多套时生效最高星级",
+        "LocalizedString": "造成物理伤害时，最终伤害提高{0}%/{1}%/{2}%/{3}%，物理伤害额外提升{4}%/{5}%/{6}%/{7}%，持续{8}秒。该意志效果后台也生效，装备多套时生效最高星级"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/WhipDes.WhipDes",
         "Key": "MatrixSuit_SSR23_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备2把及以上物理武器时，最终伤害提高{0}%/{1}%/{2}%/{3}%。该意志效果后台也生效，装备多套时生效最高星级",
+        "LocalizedString": "装备2把及以上物理武器时，最终伤害提高{0}%/{1}%/{2}%/{3}%。该意志效果后台也生效，装备多套时生效最高星级"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -6140,7 +6306,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_FinalDamUp_level1"
             }
@@ -6150,7 +6316,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_FinalDamUp_level2"
             }
@@ -6160,7 +6326,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_FinalDamUp_level3"
             }
@@ -6170,7 +6336,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_FinalDamUp_level4"
             }
@@ -6180,7 +6346,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_PhyDamUp_level1"
             }
@@ -6190,7 +6356,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_PhyDamUp_level2"
             }
@@ -6200,7 +6366,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_PhyDamUp_level3"
             }
@@ -6210,7 +6376,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_PhyDamUp_level4"
             }
@@ -6220,7 +6386,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR47_Duration_level1"
             }
@@ -6234,7 +6400,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR48_FinalDamUp_level1"
             }
@@ -6244,7 +6410,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR48_FinalDamUp_level2"
             }
@@ -6254,7 +6420,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR48_FinalDamUp_level3"
             }
@@ -6264,7 +6430,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'WhipEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/WhipEffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR48_FinalDamUp_level4"
             }
@@ -6277,8 +6443,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/IceBladeDes.IceBladeDes",
       "Key": "MatrixSuit_SSR22_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "英魂再构",
+      "LocalizedString": "英魂再构"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR22_256.avatar_matrix_SSR22_256",
@@ -6298,14 +6464,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/IceBladeDes.IceBladeDes",
         "Key": "MatrixSuit_SSR22_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "每次切换至该武器时获得{0}%/{1}%/{2}%/{3}%最终伤害提升，如果是寒冰武器则额外获得{4}%冰伤提升，持续{5}秒，多套只生效最高星级",
+        "LocalizedString": "每次切换至该武器时获得{0}%/{1}%/{2}%/{3}%最终伤害提升，如果是寒冰武器则额外获得{4}%冰伤提升，持续{5}秒，多套只生效最高星级"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/IceBladeDes.IceBladeDes",
         "Key": "MatrixSuit_SSR22_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "每次释放不灭之翼连携技时获得{0}%/{1}%/{2}%/{3}%最终伤害提升，可以叠加2层，持续{4}秒，持续时间结束后扣除1层。装备后后台可生效，多个不叠加；潜态构形期间耐力消耗降低50%",
+        "LocalizedString": "每次释放不灭之翼连携技时获得{0}%/{1}%/{2}%/{3}%最终伤害提升，可以叠加2层，持续{4}秒，持续时间结束后扣除1层。装备后后台可生效，多个不叠加；潜态构形期间耐力消耗降低50%"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -6316,7 +6482,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR43Level1DamUpPer"
             }
@@ -6326,7 +6492,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR43Level2DamUpPer"
             }
@@ -6336,7 +6502,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR43Level3DamUpPer"
             }
@@ -6346,7 +6512,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR43Level4DamUpPer"
             }
@@ -6356,7 +6522,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR43IceDamUpPer"
             }
@@ -6366,7 +6532,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR43Duration"
             }
@@ -6380,7 +6546,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR44Level1DamUpPer"
             }
@@ -6390,7 +6556,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR44Level2DamUpPer"
             }
@@ -6400,7 +6566,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR44Level3DamUpPer"
             }
@@ -6410,7 +6576,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR44Level4DamUpPer"
             }
@@ -6420,7 +6586,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'IceBladeEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/IceBladeEffectFigure.0"
               },
               "RowName": "IceBladeMatrixSSR44Duration"
             }
@@ -6433,8 +6599,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SnipeDes.SnipeDes",
       "Key": "MatrixSuit_SSR21_SuitName",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "血色异闻",
+      "LocalizedString": "血色异闻"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR21_256.avatar_matrix_SSR21_256",
@@ -6454,14 +6620,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SnipeDes.SnipeDes",
         "Key": "MatrixSuit_SSR21_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "火武器攻击命中目标后，提高自身5%/6%/7%/8%最终伤害，2.5%/2.5%/3%/3%最终暴击率，持续25秒，最多可叠加2层，重复获得时只生效最高星级。",
+        "LocalizedString": "火武器攻击命中目标后，提高自身5%/6%/7%/8%最终伤害，2.5%/2.5%/3%/3%最终暴击率，持续25秒，最多可叠加2层，重复获得时只生效最高星级。"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SnipeDes.SnipeDes",
         "Key": "MatrixSuit_SSR21_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "装备2把及以上火武器时获得“流火”效果，最终伤害提高11%/13%/15%/17%，攻击暴击后在25秒内暴击伤害额外提高22%/24%/26%/28%，蓄力攻击命中目标3次后，回复自身1次闪避次数，冷却2秒，重复获得时只生效最高星级。",
+        "LocalizedString": "装备2把及以上火武器时获得“流火”效果，最终伤害提高11%/13%/15%/17%，攻击暴击后在25秒内暴击伤害额外提高22%/24%/26%/28%，蓄力攻击命中目标3次后，回复自身1次闪避次数，冷却2秒，重复获得时只生效最高星级。"
       }
     ],
     "SuitUnactivateDetailParams": []
@@ -6470,8 +6636,8 @@
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TianlangDes.TianlangDes",
       "Key": "MatrixSuit_SSR20_Suitname",
-      "SourceString": null,
-      "LocalizedString": null
+      "SourceString": "杀破狼",
+      "LocalizedString": "杀破狼"
     },
     "SuitIcon": {
       "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_matrix_SSR20_256.avatar_matrix_SSR20_256",
@@ -6491,14 +6657,14 @@
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TianlangDes.TianlangDes",
         "Key": "MatrixSuit_SSR20_des1",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "每次造成雷电伤害时有40%概率释放闪电链，对目标造成{0}%/{1}%/{2}%/{3}%雷攻伤害，最多攻击7个目标，冷却2秒。每次触发闪电链时获得{4}%雷电伤害提升，持续6秒（闪电链不会触发攻击效果），不叠加。该意志效果后台也生效，装备多套生效最高星级",
+        "LocalizedString": "每次造成雷电伤害时有40%概率释放闪电链，对目标造成{0}%/{1}%/{2}%/{3}%雷攻伤害，最多攻击7个目标，冷却2秒。每次触发闪电链时获得{4}%雷电伤害提升，持续6秒（闪电链不会触发攻击效果），不叠加。该意志效果后台也生效，装备多套生效最高星级"
       },
       {
         "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TianlangDes.TianlangDes",
         "Key": "MatrixSuit_SSR20_des2",
-        "SourceString": null,
-        "LocalizedString": null
+        "SourceString": "每次释放雷武器技能或连携技时获得{0}%/{1}%/{2}%/{3}%雷电伤害提升，持续15秒，不叠加。该意志效果后台也生效，装备多套生效最高星级",
+        "LocalizedString": "每次释放雷武器技能或连携技时获得{0}%/{1}%/{2}%/{3}%雷电伤害提升，持续15秒，不叠加。该意志效果后台也生效，装备多套生效最高星级"
       }
     ],
     "SuitUnactivateDetailParams": [
@@ -6509,7 +6675,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix39ThunderL1"
             }
@@ -6519,7 +6685,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix39ThunderL2"
             }
@@ -6529,7 +6695,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix39ThunderL3"
             }
@@ -6539,7 +6705,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix39ThunderL4"
             }
@@ -6549,7 +6715,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix39DamageUp"
             }
@@ -6563,7 +6729,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix40DamageUpL1"
             }
@@ -6573,7 +6739,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix40DamageUpL2"
             }
@@ -6583,7 +6749,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix40DamageUpL3"
             }
@@ -6593,7 +6759,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'TianlangEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/TianlangEffectFigure.0"
               },
               "RowName": "TianlangMatrix40DamageUpL4"
             }
@@ -6645,7 +6811,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix37AtkAddMulLevel1"
             }
@@ -6655,7 +6821,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix37AtkAddMulLevel2"
             }
@@ -6665,7 +6831,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix37AtkAddMulLevel3"
             }
@@ -6675,7 +6841,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix37AtkAddMulLevel4"
             }
@@ -6685,7 +6851,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix37TreatAddMul"
             }
@@ -6699,7 +6865,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix38PhyDamMul"
             }
@@ -6709,7 +6875,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix38PhyDamMulLevel1"
             }
@@ -6719,7 +6885,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix38PhyDamMulLevel2"
             }
@@ -6729,7 +6895,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix38PhyDamMulLevel3"
             }
@@ -6739,7 +6905,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix38PhyDamMulLevel4"
             }
@@ -6749,7 +6915,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix38BlockCurHp"
             }
@@ -6759,7 +6925,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix38BlockMaxHp"
             }
@@ -6769,7 +6935,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'ArmEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/ArmEffectFigure.0"
               },
               "RowName": "Matrix38BlockDuration"
             }
@@ -6947,7 +7113,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_33_Level1_Effect_Period"
             }
@@ -6957,7 +7123,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_33_IceStack_Duration"
             }
@@ -6967,7 +7133,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_33_IceStack_SpeedDown"
             }
@@ -6977,7 +7143,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_33_frozen_3s"
             }
@@ -6987,7 +7153,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_33_IceDefDown"
             }
@@ -6997,7 +7163,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_33_IceDefDown_Duration"
             }
@@ -7011,7 +7177,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_34_IceMark_Duration"
             }
@@ -7021,7 +7187,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_34_Level1_Effect"
             }
@@ -7031,7 +7197,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_34_Level2_Effect"
             }
@@ -7041,7 +7207,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_34_Level3_Effect"
             }
@@ -7051,7 +7217,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'DkatanaEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/DkatanaEffectFigure.0"
               },
               "RowName": "Buff_Matrix_34_Level4_Effect"
             }
@@ -7103,7 +7269,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FunnelEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure.0"
               },
               "RowName": "Matrix31Level1FireAtk"
             }
@@ -7113,7 +7279,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FunnelEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure.0"
               },
               "RowName": "Matrix31Level2FireAtk"
             }
@@ -7123,7 +7289,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FunnelEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure.0"
               },
               "RowName": "Matrix31Level3FireAtk"
             }
@@ -7133,7 +7299,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FunnelEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure.0"
               },
               "RowName": "Matrix31Level4FireAtk"
             }
@@ -7147,7 +7313,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FunnelEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure.0"
               },
               "RowName": "Matrix32Level1FireDamUp"
             }
@@ -7157,7 +7323,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FunnelEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure.0"
               },
               "RowName": "Matrix32Level2FireDamUp"
             }
@@ -7167,7 +7333,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FunnelEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure.0"
               },
               "RowName": "Matrix32Level3FireDamUp"
             }
@@ -7177,7 +7343,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'FunnelEffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/FunnelEffectFigure.0"
               },
               "RowName": "Matrix32Level4FireDamUp"
             }
@@ -7562,7 +7728,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_6_level1"
             }
@@ -7572,7 +7738,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_6_level2_1"
             }
@@ -7582,7 +7748,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_6_level3_1"
             }
@@ -7592,7 +7758,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_6_level4_1"
             }
@@ -7606,7 +7772,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_5_level1_2"
             }
@@ -7616,7 +7782,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_5_level2_2"
             }
@@ -7626,7 +7792,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_5_level3_2"
             }
@@ -7636,7 +7802,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_5_level4_2"
             }
@@ -7646,7 +7812,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Sword_Phy_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Sword_Phy_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_5_level_damage_Duration"
             }
@@ -7698,7 +7864,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_10_Burn_level1"
             }
@@ -7708,7 +7874,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_10_Burn_level2"
             }
@@ -7718,7 +7884,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_10_Burn_level3"
             }
@@ -7728,7 +7894,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_10_Burn_level4"
             }
@@ -7738,7 +7904,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_10_Burn_Duration"
             }
@@ -7752,7 +7918,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_9_level1"
             }
@@ -7762,7 +7928,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_9_level2"
             }
@@ -7772,7 +7938,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_9_level3"
             }
@@ -7782,7 +7948,7 @@
             "Curve": {
               "CurveTable": {
                 "ObjectName": "CurveTable'Gun_Fire_SSR_EffectFigure'",
-                "ObjectPath": "/Game/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure"
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure/Gun_Fire_SSR_EffectFigure.0"
               },
               "RowName": "Buff_Matrix_SSR_9_level4"
             }

@@ -139,6 +139,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -363,6 +390,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -609,6 +663,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -835,6 +890,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -1079,6 +1135,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -1303,6 +1360,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -1531,6 +1615,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -1755,6 +1866,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -1983,6 +2121,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -2209,6 +2374,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -2435,6 +2601,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -2661,6 +2828,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -2887,6 +3055,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -3113,6 +3282,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -3337,6 +3507,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 600.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -3565,6 +3762,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 600.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -3789,6 +4013,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -4017,6 +4268,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -4241,6 +4519,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -4469,6 +4774,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -4693,6 +5025,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.015,
+                "fStrengthAdd": 15.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -4921,6 +5280,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.015,
+                "fStrengthAdd": 15.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -5145,6 +5531,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.015,
+                "fStrengthAdd": 15.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -5373,6 +5786,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.015,
+                "fStrengthAdd": 15.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -5599,6 +6039,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -5825,6 +6266,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -6069,6 +6511,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -6293,6 +6736,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 600.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -6521,6 +6991,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 600.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.01,
+                "fStrengthAdd": 10.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -6728,6 +7225,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -6954,6 +7452,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7180,6 +7679,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7424,6 +7924,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7668,6 +8169,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7891,6 +8393,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -8114,6 +8617,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -8337,6 +8841,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -8560,6 +9065,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -8799,6 +9305,33 @@
           "CalcOfflineTime": true
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -9042,6 +9575,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -9281,6 +9841,33 @@
           "CalcOfflineTime": true
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -9524,6 +10111,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -9765,6 +10379,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -9991,6 +10606,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -10214,6 +10830,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -10435,6 +11052,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -10660,6 +11304,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -10883,6 +11528,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -11104,6 +11776,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -11347,6 +12046,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -11588,6 +12288,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -11811,6 +12512,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12034,6 +12736,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 300.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.025,
+                "fStrengthAdd": 25.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12241,6 +12970,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12448,6 +13178,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12655,6 +13386,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12862,6 +13594,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13069,6 +13802,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13276,6 +14010,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13483,6 +14218,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13690,6 +14426,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13897,6 +14634,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14104,6 +14842,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14311,6 +15050,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14555,6 +15295,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14762,6 +15503,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14969,6 +15711,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15176,6 +15919,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15383,6 +16127,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15590,6 +16335,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15797,6 +16543,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16004,6 +16751,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16248,6 +16996,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16492,6 +17241,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16736,6 +17486,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16980,6 +17731,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -17206,6 +17958,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -17432,6 +18185,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -17658,6 +18412,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -17884,6 +18639,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -18110,6 +18866,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -18336,6 +19093,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -18580,6 +19338,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -18806,6 +19565,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19032,6 +19792,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19276,6 +20037,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19538,6 +20300,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19764,6 +20527,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19990,6 +20754,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -20214,6 +20979,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -20442,6 +21234,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -20668,6 +21487,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -20892,6 +21738,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -21138,6 +22011,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -21361,6 +22235,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -21587,6 +22462,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -21813,6 +22689,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -22037,6 +22914,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -22265,6 +23169,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -22489,6 +23420,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -22717,6 +23675,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 900.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -22924,6 +23909,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -23150,6 +24136,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -23394,6 +24381,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -23618,6 +24606,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddThunderAtkFoodBase_MMO.buff_AddThunderAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 1200.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -23846,6 +24861,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddPhyAtkFoodBase_MMO.buff_AddPhyAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 1200.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -24072,6 +25114,33 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 1200.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
+      }
+    ],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -24296,6 +25365,33 @@
           "CalcOfflineTime": false
         },
         "bNotShowInTips": false
+      }
+    ],
+    "BuffsInServerModes": [
+      {
+        "Key": "EHottaServerMode::MMOServer",
+        "Value": {
+          "Buffs": [
+            {
+              "BuffClass": {
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "SubPathString": ""
+              },
+              "ModifyData": {
+                "nLevel": 1,
+                "fDuration": 1200.0,
+                "fModifyDuration": 0.0,
+                "fPeriod": 0.0,
+                "nStackCount": 1,
+                "fStrengthMult": 0.03,
+                "fStrengthAdd": 30.0,
+                "nStartTime": 0,
+                "CalcOfflineTime": false
+              },
+              "bNotShowInTips": false
+            }
+          ]
+        }
       }
     ],
     "bMultiApplyBuff": false,
@@ -24542,6 +25638,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -24786,6 +25883,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25030,6 +26128,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25274,6 +26373,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25518,6 +26618,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25722,6 +26823,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25963,6 +27065,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -26206,6 +27309,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -26449,6 +27553,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -26692,6 +27797,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -26935,6 +28041,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -27178,6 +28285,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -27421,6 +28529,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -27662,6 +28771,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -27868,6 +28978,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28074,6 +29185,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28280,6 +29392,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28486,6 +29599,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28692,6 +29806,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -28893,6 +30008,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -29094,6 +30210,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -29295,6 +30412,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -29496,6 +30614,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -29702,6 +30821,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -29908,6 +31028,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -29921,7 +31042,19 @@
     "MountId": "None",
     "OutputSourceID": "Meat_003",
     "OutputSourceID_os": [],
-    "OutputSourceID_Region": [],
+    "OutputSourceID_Region": [
+      {
+        "Key": "EHottaServiceRegionType::Region_MainLand",
+        "Value": {
+          "NameDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": "MMO_Corral_Meat"
+            }
+          ]
+        }
+      }
+    ],
     "OptionalBoxID": [],
     "RandomBoxID": [],
     "ItemBrief": {
@@ -30114,6 +31247,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -30127,7 +31261,19 @@
     "MountId": "None",
     "OutputSourceID": "Meat_004",
     "OutputSourceID_os": [],
-    "OutputSourceID_Region": [],
+    "OutputSourceID_Region": [
+      {
+        "Key": "EHottaServiceRegionType::Region_MainLand",
+        "Value": {
+          "NameDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": "MMO_Corral_Meat"
+            }
+          ]
+        }
+      }
+    ],
     "OptionalBoxID": [],
     "RandomBoxID": [],
     "ItemBrief": {
@@ -30320,6 +31466,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -30333,7 +31480,19 @@
     "MountId": "None",
     "OutputSourceID": "Meat_005",
     "OutputSourceID_os": [],
-    "OutputSourceID_Region": [],
+    "OutputSourceID_Region": [
+      {
+        "Key": "EHottaServiceRegionType::Region_MainLand",
+        "Value": {
+          "NameDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": "MMO_Corral_Meat"
+            }
+          ]
+        }
+      }
+    ],
     "OptionalBoxID": [],
     "RandomBoxID": [],
     "ItemBrief": {
@@ -30563,6 +31722,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -30769,6 +31929,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31010,6 +32171,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31216,6 +32378,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31422,6 +32585,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31665,6 +32829,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31871,6 +33036,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32077,6 +33243,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32283,6 +33450,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32489,6 +33657,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32695,6 +33864,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32901,6 +34071,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33107,6 +34278,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33350,6 +34522,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33593,6 +34766,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33836,6 +35010,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -34079,6 +35254,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -34322,6 +35498,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -34560,6 +35737,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -34798,6 +35976,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -35033,6 +36212,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -35234,6 +36414,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -35433,6 +36614,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -35634,6 +36816,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -35835,6 +37018,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36036,6 +37220,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36274,6 +37459,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36512,6 +37698,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36750,6 +37937,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36988,6 +38176,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -37226,6 +38415,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -37427,6 +38617,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -37631,6 +38822,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -37835,6 +39027,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -38076,6 +39269,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -38319,6 +39513,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -38562,6 +39757,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -38766,6 +39962,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39007,6 +40204,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39248,6 +40446,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39489,6 +40688,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39730,6 +40930,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39971,6 +41172,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -40212,6 +41414,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -40453,6 +41656,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -40654,6 +41858,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -40892,6 +42097,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -41130,6 +42336,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -41368,6 +42575,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -41606,6 +42814,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -41844,6 +43053,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42082,6 +43292,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42283,6 +43494,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42521,6 +43733,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42722,6 +43935,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42923,6 +44137,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43124,6 +44339,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43325,6 +44541,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43333,7 +44550,19 @@
     "MountId": "None",
     "OutputSourceID": "Vera_Harvest_015",
     "OutputSourceID_os": [],
-    "OutputSourceID_Region": [],
+    "OutputSourceID_Region": [
+      {
+        "Key": "EHottaServiceRegionType::Region_MainLand",
+        "Value": {
+          "NameDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": "MMO_Corral_Meat"
+            }
+          ]
+        }
+      }
+    ],
     "OptionalBoxID": [],
     "RandomBoxID": [],
     "ItemBrief": {
@@ -43526,6 +44755,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43727,6 +44957,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43928,6 +45159,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44129,6 +45361,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44330,6 +45563,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44531,6 +45765,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44732,6 +45967,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44933,6 +46169,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45134,6 +46371,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45335,6 +46573,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45536,6 +46775,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45737,6 +46977,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45938,6 +47179,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46139,6 +47381,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46340,6 +47583,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46541,6 +47785,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46742,6 +47987,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46941,6 +48187,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47140,6 +48387,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47339,6 +48587,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47538,6 +48787,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47739,6 +48989,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47940,6 +49191,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48141,6 +49393,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48340,6 +49593,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48541,6 +49795,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48742,6 +49997,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48943,6 +50199,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -49144,6 +50401,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -49345,6 +50603,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -49565,6 +50824,7 @@
         "bNotShowInTips": true
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -49771,6 +51031,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -49975,6 +51236,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -50179,6 +51441,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -50420,6 +51683,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -50658,6 +51922,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -50859,6 +52124,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51065,6 +52331,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51308,6 +52575,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51517,6 +52785,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51708,6 +52977,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51899,6 +53169,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -52090,6 +53361,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -52281,6 +53553,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -52472,6 +53745,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -52663,6 +53937,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -52854,6 +54129,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53045,6 +54321,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53236,6 +54513,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53427,6 +54705,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53618,6 +54897,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53809,6 +55089,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -54000,6 +55281,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -54191,6 +55473,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -54417,6 +55700,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -54638,6 +55922,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -54859,6 +56144,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -55085,6 +56371,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -55329,6 +56616,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -55555,6 +56843,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -55781,6 +57070,7 @@
         "bNotShowInTips": true
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -56025,6 +57315,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -56251,6 +57542,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -56477,6 +57769,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -56703,6 +57996,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -56916,6 +58210,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57129,6 +58424,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57342,6 +58638,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57555,6 +58852,7 @@
         "bNotShowInTips": false
       }
     ],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57756,6 +59054,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57959,6 +59258,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -58162,6 +59462,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -58365,6 +59666,7 @@
     "bIsTechSystemItem": false,
     "bBuffOnlyExhibit": false,
     "Buffs": [],
+    "BuffsInServerModes": [],
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [

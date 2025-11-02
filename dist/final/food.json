@@ -1930,7 +1930,7 @@
     "foodName": "秋海棠",
     "foodDes": "花色鲜艳美丽，花瓣用来做菜会使食物附上一股清香。",
     "foodIcon": "Resources/Icon/shicai/Jiuyu_Harvest_001.png",
-    "source": "离州-昱华庄",
+    "source": "离州-昱华庄 / 震州-琼露杂货铺购买获得",
     "useDescription": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1957,7 +1957,7 @@
     "foodName": "竹笋",
     "foodDes": "刚从地下破土而出就被挖走的竹笋，散发着泥土的气息。",
     "foodIcon": "Resources/Icon/shicai/Jiuyu_Harvest_004.png",
-    "source": "震州-清竹苑",
+    "source": "震州-清竹苑 / 震州-琼露杂货铺购买获得",
     "useDescription": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
@@ -1966,7 +1966,7 @@
     "foodName": "青离瑜",
     "foodDes": "离州特产，外青内白，温润如玉，口感爽脆，清新微甜，因此得名青离瑜。",
     "foodIcon": "Resources/Icon/shicai/Jiuyu_Harvest_012.png",
-    "source": "离州-河道附近",
+    "source": "离州-河道附近 / 震州-琼露杂货铺购买获得",
     "useDescription": "恢复<ComLblGreen>1</>点饱食度",
     "buffs": ""
   },
