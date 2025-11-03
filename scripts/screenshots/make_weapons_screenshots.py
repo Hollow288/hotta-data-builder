@@ -36,7 +36,7 @@ async def process_weapon(weapons: dict, env: Environment, browser, screenshot_di
         template = env.get_template("template-weapons.html")
         html_content = template.render(**weapons)
 
-        page = await browser.new_page()
+        page = await browser.new_page(device_scale_factor=2)
         await page.set_content(html_content, timeout=600000)
 
         locator = page.locator(".card")

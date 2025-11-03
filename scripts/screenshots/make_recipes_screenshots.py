@@ -31,7 +31,13 @@ async def process_recipes(recipes: dict, food_list: list, env: Environment, brow
 
         food_result = []
 
-        recipes['effect'] = f'{recipes["useDescription"]}，{recipes["buffs"]}'
+        parts = []
+        if recipes.get("useDescription"):
+            parts.append(recipes["useDescription"])
+        if recipes.get("buffs"):
+            parts.append(recipes["buffs"])
+
+        recipes["effect"] = "<br>".join(parts)
 
         make_recipes_background_url(recipes)
 
@@ -52,7 +58,7 @@ async def process_recipes(recipes: dict, food_list: list, env: Environment, brow
         template = env.get_template("template-recipes.html")
         html_content = template.render(**recipes)
 
-        page = await browser.new_page()
+        page = await browser.new_page(device_scale_factor=2)
         await page.set_content(html_content, timeout=600000)
 
         locator = page.locator(".card")

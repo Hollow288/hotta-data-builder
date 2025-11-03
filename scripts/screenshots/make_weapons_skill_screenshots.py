@@ -50,7 +50,7 @@ async def make_weapons_skill_page(weapons: dict, font_server_port: int, env: Env
         html_content = template.render(**weapons)
 
         # 创建页面并截图
-        page = await browser.new_page()
+        page = await browser.new_page(device_scale_factor=2)
         await page.set_content(html_content, timeout=600000)
         locator = page.locator(".card")
         screenshot_path = screenshot_dir / f"{weapons['weaponName']}.png"

@@ -43,7 +43,7 @@ async def process_food(food: dict, env: Environment, browser, screenshot_dir: Pa
         template = env.get_template("template-food.html")
         html_content = template.render(**food)
 
-        page = await browser.new_page()
+        page = await browser.new_page(device_scale_factor=2)
         await page.set_content(html_content, timeout=600000)
 
         locator = page.locator(".card")

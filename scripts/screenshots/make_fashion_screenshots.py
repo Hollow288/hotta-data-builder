@@ -31,7 +31,7 @@ async def process_fashion(fashion: dict, env: Environment, browser, screenshot_d
         template = env.get_template("template-fashion.html")
         html_content = template.render(**fashion)
 
-        page = await browser.new_page()
+        page = await browser.new_page(device_scale_factor=2)
         await page.set_content(html_content, timeout=600000)
 
         locator = page.locator(".card")

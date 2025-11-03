@@ -30,7 +30,7 @@ async def process_matrix(matrix: dict, env: Environment, browser, screenshot_dir
         template = env.get_template("template-matrix.html")
         html_content = template.render(**matrix)
 
-        page = await browser.new_page()
+        page = await browser.new_page(device_scale_factor=2)
         await page.set_content(html_content, timeout=600000)
 
         locator = page.locator(".card")
