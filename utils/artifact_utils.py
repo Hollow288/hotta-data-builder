@@ -6,7 +6,10 @@ def make_use_description(asset_path_name: str, gameplay_ability_tips_data_rows_d
                          skill_update_tips_rows_data: dict,game_json:dict) -> str:
     item = gameplay_ability_tips_data_rows_data[extract_tail_name(asset_path_name)]
 
-    item_desc_tem = game_json[extract_tail_name(item['Desc']['TableId'])][item['Desc']['Key']]
+    item_desc_tem = game_json.get(extract_tail_name(item['Desc']['TableId']), {}).get(
+        item['Desc']['Key'],
+        item['Desc'].get('LocalizedString')
+    )
 
     values = make_weapon_skill_desc_value(item['GAParamName'], item['GAParameNum'],
                                           skill_update_tips_rows_data)
@@ -33,6 +36,9 @@ def make_artifact_attribute_data(attribute_id: str, artifact_advance_attribute_r
     results = []
 
     for item in sorted_items:
-        results.append(game_json[extract_tail_name(item['Desc']['TableId'])][item['Desc']['Key']].strip())
+        results.append(game_json.get(extract_tail_name(item['Desc']['TableId']), {}).get(
+            item['Desc']['Key'],
+            item['Desc'].get('LocalizedString')
+        ).strip())
 
     return results

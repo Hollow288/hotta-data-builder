@@ -508,5 +508,20 @@
       "受到的火焰伤害降低<shuzhi>2%</>，不上阵也生效，巅峰联赛中不生效",
       "空间内敌方单位受到的伤害再获得<shuzhi>5%</>提升，不可叠加"
     ]
+  },
+  {
+    "artifactKey": "artifact_ssr_027",
+    "artifactName": "神经脉冲调频仪",
+    "useDescription": "开启神经脉冲调频激发潜力，移动速度提升<shuzhi>20%</>，持续<shuzhi>30</>秒，不可叠加。冷却<shuzhi>60</>秒",
+    "artifactRarity": "SSR",
+    "artifactIcon": "Resources/UI/Artifact/itemicon/artifact_ssr_027.png",
+    "artifactThumbnail": "Resources/UI/Artifact/icon/artifact_ssr_027.png",
+    "artifactDetail": [
+      "持续时间提升至<shuzhi>60</>秒。",
+      "移动速度提升至<shuzhi>35%</>，并且每秒回复自身<shuzhi>0.5%</>最大生命值。",
+      "使用后额外获得<shuzhi>25%</>破盾效率和<shuzhi>15%</>全属性抗性提升。",
+      "获得<shuzhi>2%</>物理伤害，不上阵也生效，巅峰联赛中不生效。",
+      "使用期间再次使用获得<shuzhi>5</>秒无敌。"
+    ]
   }
 ]

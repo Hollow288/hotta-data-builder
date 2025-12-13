@@ -1,12 +1,44 @@
 [
   {
-    "fashionKey": "fashion_dress_95",
-    "fashionName": "魅艳恶魔",
-    "description": "玫瑰色剪影于狂欢之夜唤醒沉睡的嗜血诱惑。",
-    "source": "魅艳恶魔扭蛋活动获取 ",
+    "fashionKey": "fashion_dress_98",
+    "fashionName": "探索旅者",
+    "description": "低调又不失时尚的帅气工装。以耐穿和好打理的优点赢得启罗宇宙探索者的青睐，在他们的旅程中留下时尚一笔。",
+    "source": "通行证奖励",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_98.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f98.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m98.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_97",
+    "fashionName": "绵绵颂歌",
+    "description": "戴上棉绒小帽吟唱颂歌，祝福的钟声即将响起。",
+    "source": "绵绵颂歌扭蛋活动获取",
     "fashionIcons": [
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f94.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m94.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_96",
+    "fashionName": "酒蛾醉恋",
+    "description": "蘸取酒红装点绒羽，翼膜金光流连，与君起舞飞升。",
+    "source": "全知数据活动获得",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_96.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f96.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m96.png"
+    ]
+  },
+  {
+    "fashionKey": "fashion_dress_95",
+    "fashionName": "魅艳恶魔",
+    "description": "玫瑰色剪影于狂欢之夜唤醒沉睡的嗜血诱惑。",
+    "source": "魅艳恶魔扭蛋活动获取",
+    "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f95.png",
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m95.png"
     ]
   },
   {
@@ -33,7 +65,7 @@
     "fashionKey": "fashion_dress_92",
     "fashionName": "朱枫兰墨",
     "description": "朱红枫叶飘落于幻光墨色，织就事理与诗韵。",
-    "source": "跃迁服活动奖励",
+    "source": "矿区搜索活动获得",
     "fashionIcons": [
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f92.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m92.png"
@@ -43,7 +75,7 @@
     "fashionKey": "fashion_dress_91",
     "fashionName": "卡丁迷",
     "description": "飞驰赛道，纵享竞速人生。",
-    "source": "跃迁服活动奖励",
+    "source": "永不褪色的乐园 - 活动获取",
     "fashionIcons": [
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f91.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m91.png"
@@ -545,6 +577,7 @@
     "description": "叛逆，以及对个性的追求，此时光是压抑在心里已经远远不够。总得在哪里表现一些才行。",
     "source": "商店获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_41.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f41.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m41.png"
     ]
@@ -595,6 +628,7 @@
     "description": "过去的誓言，就像那课本里缤纷的书签。",
     "source": "时装盲盒获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_35.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f35.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m35.png"
     ]
@@ -625,6 +659,7 @@
     "description": "我，目睹战舰在猎户座的端沿起火燃烧。",
     "source": "商店获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_32.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f32.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m32.png"
     ]
@@ -635,6 +670,7 @@
     "description": "这里是绒绒派对！毛茸茸就是入场券哦！",
     "source": "商店获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_31.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f31.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m31.png"
     ]
@@ -645,6 +681,7 @@
     "description": "欧莱雅男士联动时装",
     "source": "欧莱雅男士联动时装",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_29.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f29.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m29.png"
     ]
@@ -655,6 +692,7 @@
     "description": "从漫天礼花中出场，从乐声中走来，向幻梦的黄金时代缓缓迈出舞步。",
     "source": "时装盲盒获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_28.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f28.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m28.png"
     ]
@@ -665,6 +703,7 @@
     "description": "在穿着这身衣服时，使命感会油然而生……披星戴月，执行公务。",
     "source": "时装盲盒获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_26.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f26.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m26.png"
     ]
@@ -683,8 +722,9 @@
     "fashionKey": "fashion_dress_18",
     "fashionName": "荒原",
     "description": "以“华丽而危险”为宣传卖点的套装，设计师从古典派设计中汲取灵感的自我突破之作。",
-    "source": "第一期通行证限定奖励",
+    "source": "商店获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_03.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f03.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m09.png"
     ]
@@ -695,6 +735,7 @@
     "description": "适用于极端高温环境的时装，只为冒险者提供最基础的遮蔽。",
     "source": "时装盲盒获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_07.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f07.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m07.png"
     ]
@@ -703,8 +744,9 @@
     "fashionKey": "fashion_dress_16",
     "fashionName": "迅风",
     "description": "偏向运动系的风格，适合充满青春活力的你！",
-    "source": "75级等级礼包获取",
+    "source": "",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_04.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f04.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m08.png"
     ]
@@ -713,8 +755,9 @@
     "fashionKey": "fashion_dress_14",
     "fashionName": "流光行动",
     "description": "时装与科技结合的实验性作品，在布料中铺设了光学隐蔽材料，并配以悬浮组件作为装饰。",
-    "source": "",
+    "source": "商店获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_06.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f06.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m06.png"
     ]
@@ -732,8 +775,9 @@
     "fashionKey": "fashion_dress_10",
     "fashionName": "背水",
     "description": "完全抛弃防护性能的设计，仅针对注重敏捷与行动力的冒险者推出。",
-    "source": "",
+    "source": "默认解锁",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_02.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f02.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m11.png"
     ]
@@ -742,8 +786,9 @@
     "fashionKey": "fashion_dress_11",
     "fashionName": "绝地",
     "description": "粗犷狂野的风格，针对喜好展露个性的冒险者设计。",
-    "source": "",
+    "source": "商店获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_08.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f08.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m10.png"
     ]
@@ -752,8 +797,9 @@
     "fashionKey": "fashion_dress_7",
     "fashionName": "使命",
     "description": "根据人体工程学设计，能完美贴合人体的皮肤的战斗服，具有极佳的延展性。",
-    "source": "",
+    "source": "商店获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_05.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f05.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m05.png"
     ]
@@ -764,6 +810,7 @@
     "description": "根据人体工程学设计，能完美贴合人体的皮肤的战斗服，具有极佳的延展性。",
     "source": "官网1500W预约福利",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_12.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f12.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m17.png"
     ]
@@ -772,7 +819,7 @@
     "fashionKey": "fashion_dress_20",
     "fashionName": "水果硬糖",
     "description": "今天会是什么味道的糖果呢？",
-    "source": "",
+    "source": "时装盲盒获取",
     "fashionIcons": [
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f19.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m19.png"
@@ -784,6 +831,7 @@
     "description": "危险与机遇隐匿于前方，让我们走进那黑夜，去冒险吧。",
     "source": "班吉斯展会活动获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_20.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f20.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m20.png"
     ]
@@ -794,6 +842,7 @@
     "description": "以“叛逆、激情、张扬”为核心设计理念的休闲运动服装，不禁让人回想起乘着远望号来到艾达星之前的那个时代。",
     "source": "",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_21.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f21.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m21.png"
     ]
@@ -804,6 +853,7 @@
     "description": "选用轻柔面料制作的初春时装，宛若樱花花瓣落在肩头。",
     "source": "班吉斯展会活动获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_22.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f22.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m22.png"
     ]
@@ -814,6 +864,7 @@
     "description": "兼顾实用性与舒适性，适合在沙地探索时穿着的服装。",
     "source": "时装盲盒获取",
     "fashionIcons": [
+      "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_24.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_f23.png",
       "Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_m23.png"
     ]

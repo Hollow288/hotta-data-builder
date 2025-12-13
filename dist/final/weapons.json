@@ -6196,5 +6196,122 @@
         "icon": "Resources/Icon/skill/WeaponSkill/Veronika_ChangeSkill.png"
       }
     ]
+  },
+  {
+    "weaponKey": "Lana_SuperPower",
+    "weaponName": "进化魔方",
+    "weaponIcon": "Resources/Icon/weapon/Icon/item_Weapon_SSR_Lana.png",
+    "weaponRarity": "SSR",
+    "weaponCategory": "强攻",
+    "weaponElement": {
+      "weaponElementType": "异能",
+      "weaponElementName": "异能",
+      "weaponElementDesc": "武器充能值充满后下次攻击对敌人进行标记，<shuzhi>5</>秒后爆炸，额外受到标记期间所有伤害的<shuzhi>25%</>，最多不超过自身<shuzhi>560%</>攻击。同时间目标只能存在一个标记。"
+    },
+    "armorBroken": 16.0,
+    "charging": 14.0,
+    "description": "魔方的中心，是进化的火种，但火从来都是危险的……\"",
+    "remouldDetail": "<shuzhi>异能共鸣</>：装备<shuzhi>2</>把及以上异能武器触发，提升<shuzhi>30%</>攻击和<shuzhi>60%</>异能抗性，装备后后台也生效（多个异能共鸣/异能反应不叠加，优先生效异能共鸣）。\r\n<shuzhi>状态同步</>：装备的<shuzhi>3</>把武器为异能属性时，技能倍率提升<shuzhi>400%</>，装备后后台可生效。\r\n<shuzhi>多态</>：<shuzhi>进化魔方</>可以主动切换当前所处元素类型（非战斗状态下），可以在技能列表-设置界面中切换。\r\n<shuzhi>分布式系统</>：<shuzhi>进化魔方</>可以主动切换当前模式，可以在【技能列表】-【设置界面】-【模式】中切换。\r\n<shuzhi>锟斤拷烫烫烫-驻场</>：<shuzhi>进化魔方</>任意攻击命中时，对附近目标造成<shuzhi>2,700%</>*异能攻击+<shuzhi>46%</>*自身最大生命值+<shuzhi>1,620%</>*各元素抗性之和+<shuzhi>5,400%</>*暴击值点伤害，每<shuzhi>1.5</>秒至多触发一次，锟斤拷烫烫烫伤害视为普攻伤害，若装备任意<shuzhi>1</>把雷电/寒冰/物理/火焰武器，则锟斤拷烫烫烫伤害提升至<shuzhi>2.5</>倍。此外，锟斤拷烫烫烫伤害不受除泰坦装备稀有属性以外的增伤效果影响，也不会触发额外攻击效果。",
+    "weaponSensualityLevelData": [],
+    "weaponUpgradeStarPack": [
+      "全元素伤害提升<shuzhi>10%</>；<shuzhi>技能-现实干涉</>模式下攻击的冷却时间缩短为<shuzhi>5</>秒。",
+      "当前武器的基础攻击成长+<shuzhi>16%</>",
+      "最终伤害提升<shuzhi>15%</>，<shuzhi>技能-自我复制</>、<shuzhi>技能-模型压缩</>、<shuzhi>技能-参数光束</>攻击释放时给自身添加<shuzhi>15%</>最大生命值护盾，至多不超过<shuzhi>100%</>最大生命值。",
+      "当前武器的基础攻击成长+<shuzhi>32%</>",
+      "无视全元素<shuzhi>30%</>抗性。自身受到致命伤时，抵挡一次致死效果并添加一个<shuzhi>30%</>最大生命值护盾，至多不超过<shuzhi>100%</>最大生命值，该效果<shuzhi>60</>秒最多触发一次。",
+      "最终伤害提升<shuzhi>40%</>，全元素伤害提升<shuzhi>15%</>。周围目标大于<shuzhi>1</>个时，<shuzhi>进化魔方</>自身对周围造成的伤害提升<shuzhi>20%</>。"
+    ],
+    "weaponSkill": [
+      {
+        "type": "普攻",
+        "name": "矩阵运算",
+        "des": "在地面时，点击普攻可连续进行三次攻击。\r\n第一次攻击对目标至多造成<shuzhi>891%</>*攻击力点伤害，并击退目标。\r\n第二次攻击对目标至多造成<shuzhi>1,206%</>*攻击力点伤害，并击退目标。\r\n第三次攻击对目标至多造成<shuzhi>1,836%</>*攻击力点伤害，并击退目标。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_Melee.png"
+      },
+      {
+        "type": "普攻",
+        "name": "矩阵运算",
+        "des": "当拓荒者滞空时，点击普攻可在空中连续进行三次攻击，并消耗耐力。\r\n第一次攻击对目标至多造成<shuzhi>891%</>*攻击力点伤害，并击退目标。\r\n第二次攻击对目标至多造成<shuzhi>1,206%</>*攻击力点伤害，并击退目标。\r\n第三次攻击对目标至多造成<shuzhi>1,836%</>*攻击力点伤害，并击退目标。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_Melee.png"
+      },
+      {
+        "type": "普攻",
+        "name": "自我复制",
+        "des": "<shuzhi>自我复制模式</>下，使用第三段普攻时，点按普攻可触发自我复制。\r\n牵引前方目标并造成至多<shuzhi>3,629%</>*攻击力+<shuzhi>191</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_MeleeBranch1.png"
+      },
+      {
+        "type": "普攻",
+        "name": "模型压缩",
+        "des": "<shuzhi>模型压缩模式</>下，使用第三段普攻时，点按普攻可触发模型压缩。\r\n队伍成员各自恢复<shuzhi>15%/成员数量</>生命最大值，并对前方目标造成至多<shuzhi>2,006%</>*攻击力+<shuzhi>106</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_MeleeBranch2.png"
+      },
+      {
+        "type": "普攻",
+        "name": "参数光束",
+        "des": "<shuzhi>参数光束模式</>下，使用第三段普攻时，点按普攻可触发参数光束。\r\n嘲讽命中目标<shuzhi>2</>秒，并对目标造成至多<shuzhi>2,076%</>*攻击力+<shuzhi>109</>点伤害（该伤害具有<shuzhi>高破盾值</>）。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_MeleeBranch3.png"
+      },
+      {
+        "type": "普攻",
+        "name": "向量转化",
+        "des": "滞空时长按普攻（存在敌方目标时点按），攀爬，反向跳攻击或使用喷气背包普攻，可触发向量转化。\r\n从空中下落，落地过程中对命中的敌人每次造成<shuzhi>123%</>*攻击力+<shuzhi>6</>点伤害，落地后对附近目标共造成<shuzhi>245%</>*攻击力+<shuzhi>13</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_FallingAtk.png"
+      },
+      {
+        "type": "闪避",
+        "name": "闪避",
+        "des": "在被命中前闪避，可触发幻时，使一定范围内的目标动作速率变缓；闪避过程中，免疫硬直效果。",
+        "icon": "Resources/Icon/skill/WeaponSkill/common_evade.png"
+      },
+      {
+        "type": "闪避",
+        "name": "意识分解",
+        "des": "方向键加闪避键触发的前闪避短暂时间内，点击普攻，可触发前闪避攻击，对前方目标至多造成<shuzhi>1,540%</>*攻击力+<shuzhi>81</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_FEvadeAtk.png"
+      },
+      {
+        "type": "闪避",
+        "name": "快捷指令",
+        "des": "闪避之后的短暂时间内，点击普攻，可触发后闪避攻击，对前方目标至多造成<shuzhi>528%</>*攻击力+<shuzhi>28</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_BEvadeAtk.png"
+      },
+      {
+        "type": "闪避",
+        "name": "指令修改",
+        "des": "长按闪避可以切换当前的模式，切换顺序依次为<shuzhi>自我复制模式</>、<shuzhi>模型压缩模式</>、<shuzhi>参数光束模式</>。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_ModeChange.png"
+      },
+      {
+        "type": "闪避",
+        "name": "重力操控",
+        "des": "<shuzhi>算力自由</>：方向键加闪避键触发的前闪避短暂时间内，长按闪避可进入算力自由模式（巅峰联赛无法使用），持续消耗耐力；点按闪避可操控自身向准星方向移动，并在任意墙面/水面/空中自由移动，期间持续消耗耐力，随后长按闪避可回到算力自由模式；算力自由持续期间不受任何移速提升效果的影响，点按特殊技能键可退出算力自由模式。\r\n<shuzhi>自由落体</>：算力自由期间，点按普攻可操控自身向准星方向发起攻击，期间持续消耗耐力，释放攻击后将回到算力自由模式。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_FEvadeHold.png"
+      },
+      {
+        "type": "技能",
+        "name": "进化力量-自我复制",
+        "des": "<shuzhi>自我复制模式</>下，与虚数空间中的意识进行握手协议发动强力攻击。\r\n根据<shuzhi>进化魔方</>的元素类型触发攻击效果：\r\n<red>冰雷</>：对前方目标并造成至多<shuzhi>12,000%</>*攻击力+<shuzhi>632</>点伤害，技能冷却<shuzhi>25</>秒。\r\n<red>火物</>：对前方目标并造成至多<shuzhi>20,000%</>*攻击力+<shuzhi>1,053</>点伤害，技能冷却<shuzhi>25</>秒。\r\n<red>雷冰</>：对前方目标并造成至多<shuzhi>6,000%</>*攻击力+<shuzhi>316</>点伤害，技能冷却<shuzhi>21</>秒。\r\n<red>物火</>：对前方目标并造成至多<shuzhi>9,000%</>*攻击力+<shuzhi>474</>点伤害，技能冷却<shuzhi>21</>秒。\r\n<red>异能</>：对前方目标并造成至多<shuzhi>12,500%</>*攻击力+<shuzhi>658</>点伤害，技能冷却<shuzhi>25</>秒。\r\n释放技能并切换成其他武器后，进入<shuzhi>现实干涉</>模式，每隔<shuzhi>8</>秒进行一次<shuzhi>自我复制</>攻击（切换武器不会打断技能），最多释放三次。\r\n<shuzhi>自我复制</>攻击根据<shuzhi>进化魔方</>的元素类型触发攻击效果：\r\n<red>冰雷</>：牵引前方目标并造成至多<shuzhi>25,000%</>*攻击力+<shuzhi>1,316</>点伤害。\r\n<red>火物</>：牵引前方目标并造成至多<shuzhi>33,000%</>*攻击力+<shuzhi>1,737</>点伤害。\r\n<red>雷冰</>：牵引前方目标并造成至多<shuzhi>18,000%</>*攻击力+<shuzhi>947</>点伤害。\r\n<red>物火</>：牵引前方目标并造成至多<shuzhi>25,000%</>*攻击力+<shuzhi>1,316</>点伤害。\r\n<red>异能</>：牵引前方目标并造成至多<shuzhi>1,000%</>*攻击力+<shuzhi>53</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_skill1.png"
+      },
+      {
+        "type": "技能",
+        "name": "进化力量-模型压缩",
+        "des": "<shuzhi>模型压缩模式</>下，与虚数空间中的意识进行握手协议发动强力攻击。\r\n根据<shuzhi>进化魔方</>的元素类型触发攻击效果：\r\n<red>冰雷</>：对前方目标并造成至多<shuzhi>12,000%</>*攻击力+<shuzhi>632</>点伤害，技能冷却<shuzhi>25</>秒。\r\n<red>火物</>：对前方目标并造成至多<shuzhi>20,000%</>*攻击力+<shuzhi>1,053</>点伤害，技能冷却<shuzhi>25</>秒。\r\n<red>雷冰</>：对前方目标并造成至多<shuzhi>6,000%</>*攻击力+<shuzhi>316</>点伤害，技能冷却<shuzhi>21</>秒。\r\n<red>物火</>：对前方目标并造成至多<shuzhi>9,000%</>*攻击力+<shuzhi>474</>点伤害，技能冷却<shuzhi>21</>秒。\r\n<red>异能</>：对前方目标并造成至多<shuzhi>12,500%</>*攻击力+<shuzhi>658</>点伤害，技能冷却<shuzhi>25</>秒。\r\n释放技能并切换成其他武器后，进入<shuzhi>现实干涉</>模式，每隔<shuzhi>8</>秒进行一次<shuzhi>模型压缩</>攻击（切换武器不会打断技能），最多释放三次。\r\n<shuzhi>模型压缩</>攻击根据<shuzhi>进化魔方</>的元素类型触发攻击效果：\r\n<red>冰雷</>：队伍成员各自恢复<shuzhi>15%/成员数量</>生命最大值，并对前方目标造成至多<shuzhi>16,000%</>*攻击力+<shuzhi>842</>点伤害。\r\n<red>火物</>：队伍成员各自恢复<shuzhi>15%/成员数量</>生命最大值，并对前方目标造成至多<shuzhi>22,000%</>*攻击力+<shuzhi>1,158</>点伤害。\r\n<red>雷冰</>：队伍成员各自恢复<shuzhi>15%/成员数量</>生命最大值，并对前方目标造成至多<shuzhi>13,000%</>*攻击力+<shuzhi>684</>点伤害。\r\n<red>物火</>：队伍成员各自恢复<shuzhi>15%/成员数量</>生命最大值，并对前方目标造成至多<shuzhi>16,000%</>*攻击力+<shuzhi>842</>点伤害。\r\n<red>异能</>：队伍成员各自恢复<shuzhi>15%/成员数量</>生命最大值，并对前方目标造成至多<shuzhi>500%</>*攻击力+<shuzhi>26</>点伤害。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_skill1.png"
+      },
+      {
+        "type": "技能",
+        "name": "进化力量-参数光束",
+        "des": "<shuzhi>参数光束模式</>下，与虚数空间中的意识进行握手协议发动强力攻击。\r\n根据<shuzhi>进化魔方</>的元素类型触发攻击效果：\r\n<red>冰雷</>：对前方目标并造成至多<shuzhi>12,000%</>*攻击力+<shuzhi>632</>点伤害，技能冷却<shuzhi>25</>秒。\r\n<red>火物</>：对前方目标并造成至多<shuzhi>20,000%</>*攻击力+<shuzhi>1,053</>点伤害，技能冷却<shuzhi>25</>秒。\r\n<red>雷冰</>：对前方目标并造成至多<shuzhi>6,000%</>*攻击力+<shuzhi>316</>点伤害，技能冷却<shuzhi>21</>秒。\r\n<red>物火</>：对前方目标并造成至多<shuzhi>9,000%</>*攻击力+<shuzhi>474</>点伤害，技能冷却<shuzhi>21</>秒。\r\n<red>异能</>：对前方目标并造成至多<shuzhi>12,500%</>*攻击力+<shuzhi>658</>点伤害，技能冷却<shuzhi>25</>秒。\r\n释放技能并切换成其他武器后，进入<shuzhi>现实干涉</>模式，每隔<shuzhi>8</>秒进行一次<shuzhi>参数光束</>攻击（切换武器不会打断技能），最多释放三次。\r\n<shuzhi>参数光束</>攻击根据<shuzhi>进化魔方</>的元素类型触发攻击效果：\r\n<red>冰雷</>：嘲讽命中目标<shuzhi>2</>秒，并对目标造成至多<shuzhi>20,000%</>*攻击力+<shuzhi>1,053</>点伤害（该伤害具有<shuzhi>高破盾值</>）。\r\n<red>火物</>：嘲讽命中目标<shuzhi>2</>秒，并对目标造成至多<shuzhi>26,000%</>*攻击力+<shuzhi>1,368</>点伤害（该伤害具有<shuzhi>高破盾值</>）。\r\n<red>雷冰</>：嘲讽命中目标<shuzhi>2</>秒，并对目标造成至多<shuzhi>15,000%</>*攻击力+<shuzhi>789</>点伤害（该伤害具有<shuzhi>高破盾值</>）。\r\n<red>物火</>：嘲讽命中目标<shuzhi>2</>秒，并对目标造成至多<shuzhi>20,000%</>*攻击力+<shuzhi>1,053</>点伤害（该伤害具有<shuzhi>高破盾值</>）。\r\n<red>异能</>：嘲讽命中目标<shuzhi>2</>秒，并对目标造成至多<shuzhi>600%</>*攻击力+<shuzhi>32</>点伤害（该伤害具有<shuzhi>高破盾值</>）。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_skill1.png"
+      },
+      {
+        "type": "联携",
+        "name": "模型协作",
+        "des": "当<red>武器充能满</>或触发<red>幻时</>时，从其他武器切换到该武器时<shuzhi>清除自身负面状态</>，对附近目标造成<shuzhi>6,664%</>*攻击力+<shuzhi>351</>点伤害，期间免疫伤害持续<shuzhi>2.6</>秒（巅峰联赛不生效）释放。",
+        "icon": "Resources/Icon/skill/WeaponSkill/Lana/Lana_ChangeSkill.png"
+      }
+    ]
   }
 ]

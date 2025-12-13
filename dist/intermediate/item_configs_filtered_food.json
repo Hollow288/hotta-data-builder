@@ -8584,7 +8584,7 @@
         }
       }
     ],
-    "BlockID": "None",
+    "BlockID": "common_campbattle",
     "UseSuccessMsg": "",
     "BackToMainForm": false,
     "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_OTHER",
@@ -8808,7 +8808,7 @@
         }
       }
     ],
-    "BlockID": "None",
+    "BlockID": "common_campbattle",
     "UseSuccessMsg": "",
     "BackToMainForm": false,
     "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_OTHER",
@@ -9032,7 +9032,7 @@
         }
       }
     ],
-    "BlockID": "None",
+    "BlockID": "common_campbattle",
     "UseSuccessMsg": "",
     "BackToMainForm": false,
     "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_OTHER",
@@ -9256,7 +9256,7 @@
         }
       }
     ],
-    "BlockID": "None",
+    "BlockID": "common_campbattle",
     "UseSuccessMsg": "",
     "BackToMainForm": false,
     "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_OTHER",
@@ -9524,7 +9524,7 @@
         }
       }
     ],
-    "BlockID": "None",
+    "BlockID": "common_campbattle",
     "UseSuccessMsg": "",
     "BackToMainForm": false,
     "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_OTHER",
@@ -9792,7 +9792,7 @@
         }
       }
     ],
-    "BlockID": "None",
+    "BlockID": "common_campbattle",
     "UseSuccessMsg": "",
     "BackToMainForm": false,
     "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_OTHER",
@@ -10060,7 +10060,7 @@
         }
       }
     ],
-    "BlockID": "None",
+    "BlockID": "common_campbattle",
     "UseSuccessMsg": "",
     "BackToMainForm": false,
     "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_OTHER",
@@ -10328,7 +10328,7 @@
         }
       }
     ],
-    "BlockID": "None",
+    "BlockID": "common_campbattle",
     "UseSuccessMsg": "",
     "BackToMainForm": false,
     "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_OTHER",
@@ -25121,7 +25121,7 @@
           "Buffs": [
             {
               "BuffClass": {
-                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddFireAtkFoodBase_MMO.buff_AddFireAtkFoodBase_MMO_C",
+                "AssetPathName": "/Game/Resources/Abilities/Buff/Food/buff_AddIceAtkFoodBase_MMO.buff_AddIceAtkFoodBase_MMO_C",
                 "SubPathString": ""
               },
               "ModifyData": {
@@ -31053,6 +31053,17 @@
             }
           ]
         }
+      },
+      {
+        "Key": "EHottaServiceRegionType::Region_Oversea",
+        "Value": {
+          "NameDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": "MMO_Corral_Meat"
+            }
+          ]
+        }
       }
     ],
     "OptionalBoxID": [],
@@ -31272,6 +31283,17 @@
             }
           ]
         }
+      },
+      {
+        "Key": "EHottaServiceRegionType::Region_Oversea",
+        "Value": {
+          "NameDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": "MMO_Corral_Meat"
+            }
+          ]
+        }
       }
     ],
     "OptionalBoxID": [],
@@ -31483,6 +31505,17 @@
     "OutputSourceID_Region": [
       {
         "Key": "EHottaServiceRegionType::Region_MainLand",
+        "Value": {
+          "NameDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": "MMO_Corral_Meat"
+            }
+          ]
+        }
+      },
+      {
+        "Key": "EHottaServiceRegionType::Region_Oversea",
         "Value": {
           "NameDatas": [
             {
@@ -44553,6 +44586,17 @@
     "OutputSourceID_Region": [
       {
         "Key": "EHottaServiceRegionType::Region_MainLand",
+        "Value": {
+          "NameDatas": [
+            {
+              "Key": "EHottaServerMode::MMOServer",
+              "Value": "MMO_Corral_Meat"
+            }
+          ]
+        }
+      },
+      {
+        "Key": "EHottaServiceRegionType::Region_Oversea",
         "Value": {
           "NameDatas": [
             {

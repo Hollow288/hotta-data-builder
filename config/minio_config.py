@@ -13,5 +13,5 @@ MINIO_CONFIG = {
     "endpoint": ENDPOINT,
     "access_key": ACCESS_KEY,
     "secret_key": SECRET_KEY,
-    "secure": False
+    "secure": True
 }

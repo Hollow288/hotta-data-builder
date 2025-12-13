@@ -1,5 +1,37 @@
 [
   {
+    "matrixKey": "Suit_SSR63",
+    "matrixName": "生生不息",
+    "matrixQuality": "SSR",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR63_512.png",
+    "matrixDetail": [
+      {
+        "type": "意志2件装备效果",
+        "desc": "全属性攻击提升30%/40%/50%/60%，<shuzhi>闪避-算力自由</>耐力消耗降低，装备<shuzhi>进化魔方</>攻击无视目标30%抗暴。"
+      },
+      {
+        "type": "意志4件装备效果",
+        "desc": "最终伤害提升25%/31%/37%/45%，装备<shuzhi>进化魔方</>后全元素伤害提升10%，暴击伤害提升35%。装备后后台可生效，多套只生效最高星级"
+      }
+    ]
+  },
+  {
+    "matrixKey": "Suit_SSR62",
+    "matrixName": "为我俯首",
+    "matrixQuality": "SSR",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR62_512.png",
+    "matrixDetail": [
+      {
+        "type": "意志2件装备效果",
+        "desc": "雷电攻击提升30%/40%/50%/60%，技能-重弹连发总伤害提升至12,000%，技能-跃影一击总伤害提升至26,000%，技能-归零锁定总伤害提升至75,000%。装备后后台可生效，多套只生效最高星级。"
+      },
+      {
+        "type": "意志4件装备效果",
+        "desc": "最终伤害提升30%/40%/50%/60%，武器-视界上阵时角色额外获得30%雷电伤害。装备后后台可生效，多套只生效最高星级。"
+      }
+    ]
+  },
+  {
     "matrixKey": "Suit_SSR61",
     "matrixName": "边缘人",
     "matrixQuality": "SSR",

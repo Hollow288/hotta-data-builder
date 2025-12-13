@@ -79,7 +79,10 @@ async def make_artifact_data():
     for name, data in artifact_filter_data.items():
         artifact_info = {
             "artifactKey": name,
-            "artifactName": game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
+            "artifactName": game_json.get(extract_tail_name(data['ItemName']['TableId']), {}).get(
+                data['ItemName']['Key'],
+                data['ItemName'].get('LocalizedString')
+            ),
             "useDescription": make_use_description(data['InitialSkill']['SkillTemplate']['AssetPathName'],gameplay_ability_tips_data_rows_data,skill_update_tips_rows_data,game_json),
             "artifactRarity": translate_weapon_info(data['ItemRarity']),
             "artifactIcon": fix_resolve_resource_path(data['CardImage']['AssetPathName'], '.png'),

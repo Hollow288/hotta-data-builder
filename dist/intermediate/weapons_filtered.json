@@ -39,6 +39,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "None",
     "MountIcon": {
@@ -371,6 +372,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "None",
     "MountIcon": {
@@ -703,6 +705,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "None",
     "MountIcon": {
@@ -1035,6 +1038,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "None",
     "MountIcon": {
@@ -1367,6 +1371,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_14",
     "MountIcon": {
@@ -1727,6 +1732,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_15",
     "MountIcon": {
@@ -2069,6 +2075,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_2",
     "MountIcon": {
@@ -2411,6 +2418,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_16",
     "MountIcon": {
@@ -2753,6 +2761,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_4",
     "MountIcon": {
@@ -3095,6 +3104,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_13",
     "MountIcon": {
@@ -3130,8 +3140,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -3139,8 +3149,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -3473,6 +3483,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_3",
     "MountIcon": {
@@ -3508,8 +3519,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -3517,8 +3528,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -3851,6 +3862,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_7",
     "MountIcon": {
@@ -3895,8 +3907,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -3904,8 +3916,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -4238,6 +4250,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_6",
     "MountIcon": {
@@ -4282,8 +4295,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -4291,8 +4304,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -4625,6 +4638,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_11",
     "MountIcon": {
@@ -4985,6 +4999,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_9",
     "MountIcon": {
@@ -5020,8 +5035,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -5029,8 +5044,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -5363,6 +5378,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_10",
     "MountIcon": {
@@ -5389,8 +5405,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -5398,8 +5414,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -5743,6 +5759,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_12",
     "MountIcon": {
@@ -5787,8 +5804,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -5796,8 +5813,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -6130,6 +6147,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_8",
     "MountIcon": {
@@ -6165,8 +6183,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -6174,8 +6192,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -6508,6 +6526,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_1",
     "MountIcon": {
@@ -6859,6 +6878,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_5",
     "MountIcon": {
@@ -6894,8 +6914,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -6903,8 +6923,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -7237,6 +7257,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_20",
     "MountIcon": {
@@ -7263,8 +7284,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -7272,8 +7293,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -7606,6 +7627,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_18",
     "MountIcon": {
@@ -7632,8 +7654,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -7641,8 +7663,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -7975,6 +7997,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_17",
     "MountIcon": {
@@ -8001,8 +8024,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -8010,8 +8033,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -8355,6 +8378,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_28",
     "MountIcon": {
@@ -8381,8 +8405,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -8390,8 +8414,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -8724,6 +8748,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_21",
     "MountIcon": {
@@ -8750,8 +8775,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -8759,8 +8784,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -9104,6 +9129,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_22",
     "MountIcon": {
@@ -9130,8 +9156,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -9139,8 +9165,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -9484,6 +9510,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "Fan_Sensuality",
     "WeaponFashionID": "imitation_23",
     "MountIcon": {
@@ -9510,8 +9537,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -9519,8 +9546,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -9884,6 +9911,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_24",
     "MountIcon": {
@@ -9910,8 +9938,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -9919,8 +9947,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -10253,6 +10281,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_29",
     "MountIcon": {
@@ -10270,8 +10299,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TianlangDes.TianlangDes",
           "Key": "tianlang_reason_1",
-          "SourceString": "2件套和4件套均能增强破钧在雷队的后台增伤能力",
-          "LocalizedString": "2件套和4件套均能增强破钧在雷队的后台增伤能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -10279,8 +10308,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -10288,8 +10317,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -10297,8 +10326,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TianlangDes.TianlangDes",
           "Key": "tianlang_reason_2",
-          "SourceString": "3件套增强低生命时的伤害，契合破钧的玩法",
-          "LocalizedString": "3件套增强低生命时的伤害，契合破钧的玩法"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -10404,8 +10433,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TianlangDes.TianlangDes",
       "Key": "tianlang_thunder_ssr",
-      "SourceString": "破钧",
-      "LocalizedString": "破钧"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_tianlang.name_tianlang",
@@ -10414,8 +10443,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TianlangDes.TianlangDes",
       "Key": "tianlang_thunder_ssr_1",
-      "SourceString": "满溢着雷霆的长枪，代号SMA1-TS00-破钧，能将储存的能量以匪夷所思的形式释放出来。由于破钧生成的电场会干扰使用者的思维，以至于常人无法驾驭。",
-      "LocalizedString": "满溢着雷霆的长枪，代号SMA1-TS00-破钧，能将储存的能量以匪夷所思的形式释放出来。由于破钧生成的电场会干扰使用者的思维，以至于常人无法驾驭。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -10548,8 +10577,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TianlangDes.TianlangDes",
       "Key": "tianlang_thunder_ssr_1",
-      "SourceString": "满溢着雷霆的长枪，代号SMA1-TS00-破钧，能将储存的能量以匪夷所思的形式释放出来。由于破钧生成的电场会干扰使用者的思维，以至于常人无法驾驭。",
-      "LocalizedString": "满溢着雷霆的长枪，代号SMA1-TS00-破钧，能将储存的能量以匪夷所思的形式释放出来。由于破钧生成的电场会干扰使用者的思维，以至于常人无法驾驭。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -10622,6 +10651,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_26",
     "MountIcon": {
@@ -10639,8 +10669,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SnipeDes.SnipeDes",
           "Key": "Snipe_fire_reason_1",
-          "SourceString": "2件套提高最终伤害和暴击率，增加输出，4件套继续提高最终伤害和爆伤，提高上限，且可获得闪避次数",
-          "LocalizedString": "2件套提高最终伤害和暴击率，增加输出，4件套继续提高最终伤害和爆伤，提高上限，且可获得闪避次数"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -10648,8 +10678,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -10657,8 +10687,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -10666,8 +10696,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SnipeDes.SnipeDes",
           "Key": "Snipe_fire_reason_2",
-          "SourceString": "3件套提高攻击力，契合四叶十字的攻击距离",
-          "LocalizedString": "3件套提高攻击力，契合四叶十字的攻击距离"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -10784,8 +10814,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SnipeDes.SnipeDes",
       "Key": "snipe_fire_ssr",
-      "SourceString": "四叶十字",
-      "LocalizedString": "四叶十字"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_anna.name_anna",
@@ -10794,8 +10824,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SnipeDes.SnipeDes",
       "Key": "snipe_fire_ssr_1",
-      "SourceString": "镜都大为流行的VR多人在线射击游戏官方——为某赛季的个人积分冠军特别设计的专属枪支。定制化的实体模型也寄送给了冠军玩家本人，但没想到的是，居然真的能像游戏中那样使用……",
-      "LocalizedString": "镜都大为流行的VR多人在线射击游戏官方——为某赛季的个人积分冠军特别设计的专属枪支。定制化的实体模型也寄送给了冠军玩家本人，但没想到的是，居然真的能像游戏中那样使用……"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -10928,8 +10958,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SnipeDes.SnipeDes",
       "Key": "snipe_fire_ssr_1",
-      "SourceString": "镜都大为流行的VR多人在线射击游戏官方——为某赛季的个人积分冠军特别设计的专属枪支。定制化的实体模型也寄送给了冠军玩家本人，但没想到的是，居然真的能像游戏中那样使用……",
-      "LocalizedString": "镜都大为流行的VR多人在线射击游戏官方——为某赛季的个人积分冠军特别设计的专属枪支。定制化的实体模型也寄送给了冠军玩家本人，但没想到的是，居然真的能像游戏中那样使用……"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -11002,6 +11032,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_30",
     "MountIcon": {
@@ -11019,8 +11050,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/IceBladeDes.IceBladeDes",
           "Key": "IceBlade_ice_reason_1",
-          "SourceString": "二件套和四件套大幅提升不灭之翼的增伤能力且有一定的后台能力，即便搭配其他属性武器也可使用",
-          "LocalizedString": "二件套和四件套大幅提升不灭之翼的增伤能力且有一定的后台能力，即便搭配其他属性武器也可使用"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11028,8 +11059,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11037,8 +11068,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11164,8 +11195,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/IceBladeDes.IceBladeDes",
       "Key": "iceblade_ice_ssr",
-      "SourceString": "不灭之翼",
-      "LocalizedString": "不灭之翼"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_ailisi.name_ailisi",
@@ -11174,8 +11205,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/IceBladeDes.IceBladeDes",
       "Key": "iceblade_ice_ssr_1",
-      "SourceString": "以足刃武器作为核心构筑的作战装甲，有着大灾变前的前沿科学技术，通过汲取使用者的精神力作为驱动武器的能量，必要时会爆发恐怖的潜力。",
-      "LocalizedString": "以足刃武器作为核心构筑的作战装甲，有着大灾变前的前沿科学技术，通过汲取使用者的精神力作为驱动武器的能量，必要时会爆发恐怖的潜力。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -11308,8 +11339,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/IceBladeDes.IceBladeDes",
       "Key": "iceblade_ice_ssr_1",
-      "SourceString": "以足刃武器作为核心构筑的作战装甲，有着大灾变前的前沿科学技术，通过汲取使用者的精神力作为驱动武器的能量，必要时会爆发恐怖的潜力。",
-      "LocalizedString": "以足刃武器作为核心构筑的作战装甲，有着大灾变前的前沿科学技术，通过汲取使用者的精神力作为驱动武器的能量，必要时会爆发恐怖的潜力。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -11382,6 +11413,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_31",
     "MountIcon": {
@@ -11408,8 +11440,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11417,8 +11449,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11544,8 +11576,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/WhipDes.WhipDes",
       "Key": "Whip_physic_ssr",
-      "SourceString": "莫比乌斯",
-      "LocalizedString": "莫比乌斯"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_wumi.name_wumi",
@@ -11554,8 +11586,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/WhipDes.WhipDes",
       "Key": "Whip_physic_ssr_1",
-      "SourceString": "新人执行者乌米惯用的长鞭。乌米对其最满意的一点在于，一般情况下它不会把自己绊一跤。",
-      "LocalizedString": "新人执行者乌米惯用的长鞭。乌米对其最满意的一点在于，一般情况下它不会把自己绊一跤。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -11688,8 +11720,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/WhipDes.WhipDes",
       "Key": "Whip_physic_ssr_1",
-      "SourceString": "新人执行者乌米惯用的长鞭。乌米对其最满意的一点在于，一般情况下它不会把自己绊一跤。",
-      "LocalizedString": "新人执行者乌米惯用的长鞭。乌米对其最满意的一点在于，一般情况下它不会把自己绊一跤。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -11762,6 +11794,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_32",
     "MountIcon": {
@@ -11779,8 +11812,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi01",
-          "SourceString": "提供暴击伤害契合格莱普尼的6阶暴击率提升并拥有不错的后台增伤能力",
-          "LocalizedString": "提供暴击伤害契合格莱普尼的6阶暴击率提升并拥有不错的后台增伤能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11788,8 +11821,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi02",
-          "SourceString": "如果搭配雷队也可以使用天琅意志获得很好的后台增伤能力",
-          "LocalizedString": "如果搭配雷队也可以使用天琅意志获得很好的后台增伤能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11797,8 +11830,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi03",
-          "SourceString": "如果搭配影织也可能使用凛夜意志来获得后台增伤能力",
-          "LocalizedString": "如果搭配影织也可能使用凛夜意志来获得后台增伤能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11806,8 +11839,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11815,8 +11848,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -11824,8 +11857,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -11942,8 +11975,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
       "Key": "fenrir_thunder_ssr",
-      "SourceString": "格莱普尼",
-      "LocalizedString": "格莱普尼"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_fenlier.name_fenlier",
@@ -11952,8 +11985,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
       "Key": "fenrir_thunder_ssr_1",
-      "SourceString": "能够将声波置换成攻击力量的特殊装置，当枷锁被释放，死亡电流将化作利爪，撕裂一切。",
-      "LocalizedString": "能够将声波置换成攻击力量的特殊装置，当枷锁被释放，死亡电流将化作利爪，撕裂一切。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -12086,8 +12119,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
       "Key": "fenrir_thunder_ssr_1",
-      "SourceString": "能够将声波置换成攻击力量的特殊装置，当枷锁被释放，死亡电流将化作利爪，撕裂一切。",
-      "LocalizedString": "能够将声波置换成攻击力量的特殊装置，当枷锁被释放，死亡电流将化作利爪，撕裂一切。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -12160,6 +12193,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_34",
     "MountIcon": {
@@ -12177,8 +12211,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_1",
-          "SourceString": "2件套提高火攻和火伤，4件套契合火队",
-          "LocalizedString": "2件套提高火攻和火伤，4件套契合火队"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12186,8 +12220,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_2",
-          "SourceString": "2件套提高暴击和暴击伤害，4件套继续提高前台和后台火队输出能力",
-          "LocalizedString": "2件套提高暴击和暴击伤害，4件套继续提高前台和后台火队输出能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12195,8 +12229,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12204,8 +12238,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -12322,8 +12356,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
       "Key": "umbrella_fire_ssr",
-      "SourceString": "陵光",
-      "LocalizedString": "陵光"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_lan.name_lan",
@@ -12332,8 +12366,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
       "Key": "umbrella_fire_ssr_1",
-      "SourceString": "朱雀专用的伞式武具，内有各式机关。有着庞大伞身的陵光既能成为释放能量消灭敌人的利器，也能成为阻挡他人视线、隐藏自己举止的工具……",
-      "LocalizedString": "朱雀专用的伞式武具，内有各式机关。有着庞大伞身的陵光既能成为释放能量消灭敌人的利器，也能成为阻挡他人视线、隐藏自己举止的工具……"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -12466,8 +12500,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
       "Key": "umbrella_fire_ssr_1",
-      "SourceString": "朱雀专用的伞式武具，内有各式机关。有着庞大伞身的陵光既能成为释放能量消灭敌人的利器，也能成为阻挡他人视线、隐藏自己举止的工具……",
-      "LocalizedString": "朱雀专用的伞式武具，内有各式机关。有着庞大伞身的陵光既能成为释放能量消灭敌人的利器，也能成为阻挡他人视线、隐藏自己举止的工具……"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -12540,6 +12574,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_35",
     "MountIcon": {
@@ -12557,8 +12592,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YoyoDes.YoyoDes",
           "Key": "yoyo_tuijianyizhi",
-          "SourceString": "二件套和四件套大幅提升装备片光零羽或多类型武器队伍的增伤能力",
-          "LocalizedString": "二件套和四件套大幅提升装备片光零羽或多类型武器队伍的增伤能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12566,8 +12601,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12575,8 +12610,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12691,8 +12726,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YoyoDes.YoyoDes",
       "Key": "Yoyo_ice_ssr",
-      "SourceString": "片光零羽",
-      "LocalizedString": "片光零羽"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_yikaluosi.name_yikaluosi",
@@ -12701,8 +12736,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YoyoDes.YoyoDes",
       "Key": "Yoyo_ice_ssr_1",
-      "SourceString": "结合潮流改装的独特武器，数量零星的珍藏品。愿使用者拥有在漆黑荒野中无畏前行的勇气，纵翎羽逐日，纵寒冰扑火。",
-      "LocalizedString": "结合潮流改装的独特武器，数量零星的珍藏品。愿使用者拥有在漆黑荒野中无畏前行的勇气，纵翎羽逐日，纵寒冰扑火。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -12835,8 +12870,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YoyoDes.YoyoDes",
       "Key": "Yoyo_ice_ssr_1",
-      "SourceString": "结合潮流改装的独特武器，数量零星的珍藏品。愿使用者拥有在漆黑荒野中无畏前行的勇气，纵翎羽逐日，纵寒冰扑火。",
-      "LocalizedString": "结合潮流改装的独特武器，数量零星的珍藏品。愿使用者拥有在漆黑荒野中无畏前行的勇气，纵翎羽逐日，纵寒冰扑火。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -12909,6 +12944,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_36",
     "MountIcon": {
@@ -12926,8 +12962,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/QueenDes.QueenDes",
           "Key": "matrix_reason",
-          "SourceString": "2件套提高全攻，增加输出；4件套进一步提高释放散流技后自身或全队的伤害",
-          "LocalizedString": "2件套提高全攻，增加输出；4件套进一步提高释放散流技后自身或全队的伤害"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12935,8 +12971,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12944,8 +12980,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -12953,8 +12989,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -13071,8 +13107,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/QueenDes.QueenDes",
       "Key": "queen_superpower_ssr",
-      "SourceString": "月星钏",
-      "LocalizedString": "月星钏"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_feiouna.name_feiouna",
@@ -13081,8 +13117,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/QueenDes.QueenDes",
       "Key": "queen_superpower_ssr_1",
-      "SourceString": "奇特的纳米武器，能生成削铁如泥的光刃，过去习惯于在待机时刻变为钏式装置缠绕在主人的臂腕，因而它的主人将其形容为钏。",
-      "LocalizedString": "奇特的纳米武器，能生成削铁如泥的光刃，过去习惯于在待机时刻变为钏式装置缠绕在主人的臂腕，因而它的主人将其形容为钏。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -13215,8 +13251,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/QueenDes.QueenDes",
       "Key": "queen_superpower_ssr_1",
-      "SourceString": "奇特的纳米武器，能生成削铁如泥的光刃，过去习惯于在待机时刻变为钏式装置缠绕在主人的臂腕，因而它的主人将其形容为钏。",
-      "LocalizedString": "奇特的纳米武器，能生成削铁如泥的光刃，过去习惯于在待机时刻变为钏式装置缠绕在主人的臂腕，因而它的主人将其形容为钏。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -13289,6 +13325,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_27",
     "MountIcon": {
@@ -13306,8 +13343,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ChainsawDes.ChainsawDes",
           "Key": "chainsaw_weaponmatrix_des",
-          "SourceString": "两件套和四件套提供泛用后台增伤，且额外减少耐力消耗，契合小小飓风的蓄力攻击方式",
-          "LocalizedString": "两件套和四件套提供泛用后台增伤，且额外减少耐力消耗，契合小小飓风的蓄力攻击方式"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -13315,8 +13352,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -13324,8 +13361,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -13333,8 +13370,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ChainsawDes.ChainsawDes",
           "Key": "chainsaw_weaponmatrix_SR_des",
-          "SourceString": "对重伤目标增伤，适配小小飓风的添加重伤机制",
-          "LocalizedString": "对重伤目标增伤，适配小小飓风的添加重伤机制"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -13440,8 +13477,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ChainsawDes.ChainsawDes",
       "Key": "Chainsaw_physic_ssr",
-      "SourceString": "小小飓风",
-      "LocalizedString": "小小飓风"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_genuonuo.name_genuonuo",
@@ -13450,8 +13487,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ChainsawDes.ChainsawDes",
       "Key": "Chainsaw_physic_ssr_1",
-      "SourceString": "对于小朋友的玩物来说，实在是过于危险了。不可能是那孩子通过正规途径得到的东西。谁知道是用什么技术改装来的……或许是某场冒险中寻获的失落财宝吗？",
-      "LocalizedString": "对于小朋友的玩物来说，实在是过于危险了。不可能是那孩子通过正规途径得到的东西。谁知道是用什么技术改装来的……或许是某场冒险中寻获的失落财宝吗？"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -13584,8 +13621,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ChainsawDes.ChainsawDes",
       "Key": "Chainsaw_physic_ssr_1",
-      "SourceString": "对于小朋友的玩物来说，实在是过于危险了。不可能是那孩子通过正规途径得到的东西。谁知道是用什么技术改装来的……或许是某场冒险中寻获的失落财宝吗？",
-      "LocalizedString": "对于小朋友的玩物来说，实在是过于危险了。不可能是那孩子通过正规途径得到的东西。谁知道是用什么技术改装来的……或许是某场冒险中寻获的失落财宝吗？"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -13658,6 +13695,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_48",
     "MountIcon": {
@@ -13675,8 +13713,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
           "Key": "rubilia_matrix_SSR",
-          "SourceString": "二件套和四件套大幅提升雷队的增伤能力",
-          "LocalizedString": "二件套和四件套大幅提升雷队的增伤能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -13684,8 +13722,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -13693,8 +13731,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -13702,8 +13740,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
           "Key": "rubilia_matrix_SR",
-          "SourceString": "附加额外伤害，契合蕾比莉亚多段攻击的特点",
-          "LocalizedString": "附加额外伤害，契合蕾比莉亚多段攻击的特点"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -13820,8 +13858,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
       "Key": "Rubilia_thunder_ssr",
-      "SourceString": "绝响",
-      "LocalizedString": "绝响"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_leibiliya.name_leibiliya",
@@ -13830,8 +13868,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
       "Key": "Rubilia_thunder_ssr_1",
-      "SourceString": "自混沌深渊中轻轻挥展的一击，终将引发席卷所有人命运的雷暴。",
-      "LocalizedString": "自混沌深渊中轻轻挥展的一击，终将引发席卷所有人命运的雷暴。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -13964,8 +14002,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
       "Key": "Rubilia_thunder_ssr_1",
-      "SourceString": "自混沌深渊中轻轻挥展的一击，终将引发席卷所有人命运的雷暴。",
-      "LocalizedString": "自混沌深渊中轻轻挥展的一击，终将引发席卷所有人命运的雷暴。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -14038,6 +14076,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_37",
     "MountIcon": {
@@ -14055,8 +14094,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BrushDes.BrushDes",
           "Key": "tuijianyizhi01",
-          "SourceString": "二件套提供增伤能力和雀羽的积攒速度，四件套搭配松彗时增伤效果更佳",
-          "LocalizedString": "二件套提供增伤能力和雀羽的积攒速度，四件套搭配松彗时增伤效果更佳"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14064,8 +14103,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_2",
-          "SourceString": "2件套提高暴击和暴击伤害，4件套继续提高前台和后台火队输出能力",
-          "LocalizedString": "2件套提高暴击和暴击伤害，4件套继续提高前台和后台火队输出能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14073,8 +14112,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14082,8 +14121,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -14200,8 +14239,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BrushDes.BrushDes",
       "Key": "Brush_fire_ssr",
-      "SourceString": "松彗",
-      "LocalizedString": "松彗"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_liuhuo.name_liuhuo",
@@ -14210,8 +14249,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BrushDes.BrushDes",
       "Key": "brush_fire_ssr_1",
-      "SourceString": "「暴力反对好吧！真正的文人谁会拿书房用具揍人啊！！」——榕金",
-      "LocalizedString": "「暴力反对好吧！真正的文人谁会拿书房用具揍人啊！！」——榕金"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -14344,8 +14383,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BrushDes.BrushDes",
       "Key": "brush_fire_ssr_1",
-      "SourceString": "「暴力反对好吧！真正的文人谁会拿书房用具揍人啊！！」——榕金",
-      "LocalizedString": "「暴力反对好吧！真正的文人谁会拿书房用具揍人啊！！」——榕金"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -14418,6 +14457,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_38",
     "MountIcon": {
@@ -14435,8 +14475,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YulanDes.YulanDes",
           "Key": "yulan_ice_reason_1",
-          "SourceString": "两件套提高冰队的脱手输出能力和增伤能力，四件套搭配骈臻时增伤效果更佳",
-          "LocalizedString": "两件套提高冰队的脱手输出能力和增伤能力，四件套搭配骈臻时增伤效果更佳"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14444,8 +14484,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14453,8 +14493,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14569,8 +14609,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YulanDes.YulanDes",
       "Key": "Yulan_wuqi_name",
-      "SourceString": "骈臻",
-      "LocalizedString": "骈臻"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_yulan.name_yulan",
@@ -14579,8 +14619,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YulanDes.YulanDes",
       "Key": "Yulan_wuqi_des",
-      "SourceString": "「骈臻」之意为「并至」，姬玉亲自为玉兰挑选的武器，凝聚了九域最新技术，调用时章力量后若是看到一些神奇的景象也请不必惊讶。",
-      "LocalizedString": "「骈臻」之意为「并至」，姬玉亲自为玉兰挑选的武器，凝聚了九域最新技术，调用时章力量后若是看到一些神奇的景象也请不必惊讶。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -14713,8 +14753,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/YulanDes.YulanDes",
       "Key": "Yulan_wuqi_des",
-      "SourceString": "「骈臻」之意为「并至」，姬玉亲自为玉兰挑选的武器，凝聚了九域最新技术，调用时章力量后若是看到一些神奇的景象也请不必惊讶。",
-      "LocalizedString": "「骈臻」之意为「并至」，姬玉亲自为玉兰挑选的武器，凝聚了九域最新技术，调用时章力量后若是看到一些神奇的景象也请不必惊讶。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -14787,6 +14827,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_50",
     "MountIcon": {
@@ -14804,8 +14845,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ZekeDes.ZekeDes",
           "Key": "zeke_matrix_ssr",
-          "SourceString": "二件套提升物攻，四件套提升物理队的增伤能力",
-          "LocalizedString": "二件套提升物攻，四件套提升物理队的增伤能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14813,8 +14854,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14822,8 +14863,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -14831,8 +14872,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ZekeDes.ZekeDes",
           "Key": "zeke_matrix_sr",
-          "SourceString": "对重伤目标伤害提高，契合明景的攻击方式",
-          "LocalizedString": "对重伤目标伤害提高，契合明景的攻击方式"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -14949,8 +14990,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ZekeDes.ZekeDes",
       "Key": "Zeke_physic_ssr",
-      "SourceString": "执明",
-      "LocalizedString": "执明"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_mingjing.name_mingjing",
@@ -14959,8 +15000,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ZekeDes.ZekeDes",
       "Key": "Zeke_physic_ssr_1",
-      "SourceString": "常人难以挥舞的巨剑，剑势凌人，锐不可当。不仅能释放惊人的破坏力，其宽阔的剑身也能带来坚如磐石的安定感。",
-      "LocalizedString": "常人难以挥舞的巨剑，剑势凌人，锐不可当。不仅能释放惊人的破坏力，其宽阔的剑身也能带来坚如磐石的安定感。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -15093,8 +15134,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ZekeDes.ZekeDes",
       "Key": "Zeke_physic_ssr_1",
-      "SourceString": "常人难以挥舞的巨剑，剑势凌人，锐不可当。不仅能释放惊人的破坏力，其宽阔的剑身也能带来坚如磐石的安定感。",
-      "LocalizedString": "常人难以挥舞的巨剑，剑势凌人，锐不可当。不仅能释放惊人的破坏力，其宽阔的剑身也能带来坚如磐石的安定感。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -15167,6 +15208,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_41",
     "MountIcon": {
@@ -15184,8 +15226,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/RubiliaDes.RubiliaDes",
           "Key": "rubilia_matrix_SSR",
-          "SourceString": "二件套和四件套大幅提升雷队的增伤能力",
-          "LocalizedString": "二件套和四件套大幅提升雷队的增伤能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -15193,8 +15235,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -15202,8 +15244,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -15211,8 +15253,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -15329,8 +15371,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MiMiDes.MiMiDes",
       "Key": "mimi_thunder_ssr",
-      "SourceString": "孟章",
-      "LocalizedString": "孟章"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_mimi.name_mimi",
@@ -15339,8 +15381,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MiMiDes.MiMiDes",
       "Key": "mimi_thunder_ssr_1",
-      "SourceString": "蕴含巨大能量的双扇，可崩山石，裂天地。\r\n孟章腾云起，人间浩荡风。",
-      "LocalizedString": "蕴含巨大能量的双扇，可崩山石，裂天地。\r\n孟章腾云起，人间浩荡风。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -15473,8 +15515,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MiMiDes.MiMiDes",
       "Key": "mimi_thunder_ssr_1",
-      "SourceString": "蕴含巨大能量的双扇，可崩山石，裂天地。\r\n孟章腾云起，人间浩荡风。",
-      "LocalizedString": "蕴含巨大能量的双扇，可崩山石，裂天地。\r\n孟章腾云起，人间浩荡风。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -15547,6 +15589,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_51",
     "MountIcon": {
@@ -15564,8 +15607,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_matrix_des",
-          "SourceString": "两件套提供全攻加成，四件套提供全伤及终伤加成。",
-          "LocalizedString": "两件套提供全攻加成，四件套提供全伤及终伤加成。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -15573,8 +15616,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_2",
-          "SourceString": "2件套提高暴击和暴击伤害，4件套继续提高前台和后台火队输出能力",
-          "LocalizedString": "2件套提高暴击和暴击伤害，4件套继续提高前台和后台火队输出能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -15582,8 +15625,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -15591,8 +15634,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -15698,8 +15741,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FeiseDes.FeiseDes",
       "Key": "feise_fire_ssr",
-      "SourceString": "重蕊",
-      "LocalizedString": "重蕊"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_feise.name_feise",
@@ -15708,8 +15751,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FeiseDes.FeiseDes",
       "Key": "feise_fire_ssr_1",
-      "SourceString": "莲瓣层重，杀机隐现。",
-      "LocalizedString": "莲瓣层重，杀机隐现。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -15842,8 +15885,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FeiseDes.FeiseDes",
       "Key": "feise_fire_ssr_1",
-      "SourceString": "莲瓣层重，杀机隐现。",
-      "LocalizedString": "莲瓣层重，杀机隐现。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -15916,6 +15959,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_43",
     "MountIcon": {
@@ -15933,8 +15977,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LinghanDes.LinghanDes",
           "Key": "Linghan_ice_reason_1",
-          "SourceString": "两件套拥有后台全元素伤害提高且强化监兵的冰刃能力，四件套强化冰队的增伤能力且搭配监兵可额外提升全攻",
-          "LocalizedString": "两件套拥有后台全元素伤害提高且强化监兵的冰刃能力，四件套强化冰队的增伤能力且搭配监兵可额外提升全攻"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -15942,8 +15986,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -15951,8 +15995,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -16078,8 +16122,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LinghanDes.LinghanDes",
       "Key": "Linghan_ice_ssr",
-      "SourceString": "监兵",
-      "LocalizedString": "监兵"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_linghan.name_linghan",
@@ -16088,8 +16132,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LinghanDes.LinghanDes",
       "Key": "Linghan_ice_ssr_1",
-      "SourceString": "挥袖舞长剑，谁能识此心。",
-      "LocalizedString": "挥袖舞长剑，谁能识此心。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -16222,8 +16266,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LinghanDes.LinghanDes",
       "Key": "Linghan_ice_ssr_1",
-      "SourceString": "挥袖舞长剑，谁能识此心。",
-      "LocalizedString": "挥袖舞长剑，谁能识此心。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -16296,6 +16340,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_49",
     "MountIcon": {
@@ -16313,8 +16358,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NanyinDes.NanyinDes",
           "Key": "Nanyin_MatrixSSR_des",
-          "SourceString": "二件套提供全攻，四件套提供暴伤及终伤，后台增伤能力出色",
-          "LocalizedString": "二件套提供全攻，四件套提供暴伤及终伤，后台增伤能力出色"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -16322,8 +16367,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -16331,8 +16376,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -16340,8 +16385,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -16458,8 +16503,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NanyinDes.NanyinDes",
       "Key": "Nanyin_superpower_ssr",
-      "SourceString": "紫竹",
-      "LocalizedString": "紫竹"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_Nanyin.name_Nanyin",
@@ -16468,8 +16513,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NanyinDes.NanyinDes",
       "Key": "Nanyin_superpower_ssr_1",
-      "SourceString": "以音律和节奏催动域能用以战斗。在戌郡之祸后，南音再次出现在人们面前时，那支箫也就此附着上可怕的晦暝能量，每当南音吹响它时，都会将大量的生命转化为暝伥并为其所用。",
-      "LocalizedString": "以音律和节奏催动域能用以战斗。在戌郡之祸后，南音再次出现在人们面前时，那支箫也就此附着上可怕的晦暝能量，每当南音吹响它时，都会将大量的生命转化为暝伥并为其所用。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -16602,8 +16647,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NanyinDes.NanyinDes",
       "Key": "Nanyin_superpower_ssr_1",
-      "SourceString": "以音律和节奏催动域能用以战斗。在戌郡之祸后，南音再次出现在人们面前时，那支箫也就此附着上可怕的晦暝能量，每当南音吹响它时，都会将大量的生命转化为暝伥并为其所用。",
-      "LocalizedString": "以音律和节奏催动域能用以战斗。在戌郡之祸后，南音再次出现在人们面前时，那支箫也就此附着上可怕的晦暝能量，每当南音吹响它时，都会将大量的生命转化为暝伥并为其所用。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -16676,6 +16721,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_46",
     "MountIcon": {
@@ -16693,8 +16739,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/KillknifeDes.KillknifeDes",
           "Key": "yanmiao_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤，后台增伤能力出色",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤，后台增伤能力出色"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -16702,8 +16748,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -16711,8 +16757,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -16720,8 +16766,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -16827,8 +16873,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/KillknifeDes.KillknifeDes",
       "Key": "Killknife_physic_ssr",
-      "SourceString": "规衡",
-      "LocalizedString": "规衡"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_yanmiao.name_yanmiao",
@@ -16837,8 +16883,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/KillknifeDes.KillknifeDes",
       "Key": "Killknife_physic_ssr_1",
-      "SourceString": "规矩之间，乾坤衡定。千锻百炼，锋锐独存。不偏不倚，秋色平分。公正如云，刀下天平。",
-      "LocalizedString": "规矩之间，乾坤衡定。千锻百炼，锋锐独存。不偏不倚，秋色平分。公正如云，刀下天平。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -16971,8 +17017,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/KillknifeDes.KillknifeDes",
       "Key": "Killknife_physic_ssr_1",
-      "SourceString": "规矩之间，乾坤衡定。千锻百炼，锋锐独存。不偏不倚，秋色平分。公正如云，刀下天平。",
-      "LocalizedString": "规矩之间，乾坤衡定。千锻百炼，锋锐独存。不偏不倚，秋色平分。公正如云，刀下天平。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -17045,6 +17091,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_52",
     "MountIcon": {
@@ -17062,8 +17109,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BleviDes.BleviDes",
           "Key": "blevi_matrix_ssr",
-          "SourceString": "二件套提升全元素伤害，四件套提升攻击及最终伤害",
-          "LocalizedString": "二件套提升全元素伤害，四件套提升攻击及最终伤害"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -17071,8 +17118,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -17080,8 +17127,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -17089,8 +17136,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -17207,8 +17254,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BleviDes.BleviDes",
       "Key": "Blevi_thunder_ssr",
-      "SourceString": "契约徽章玫茨",
-      "LocalizedString": "契约徽章玫茨"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_bulewei.name_bulewei",
@@ -17217,8 +17264,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BleviDes.BleviDes",
       "Key": "Blevi_thunder_ssr_1",
-      "SourceString": "使魔、契约兽那一类，既然有本事授予复数女孩强大的奇异力量，自己努努力揍上去不会更有效率吗？——出于这样的考量，她决定让这位小帮手来以身作则树立个榜样。",
-      "LocalizedString": "使魔、契约兽那一类，既然有本事授予复数女孩强大的奇异力量，自己努努力揍上去不会更有效率吗？——出于这样的考量，她决定让这位小帮手来以身作则树立个榜样。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -17351,8 +17398,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BleviDes.BleviDes",
       "Key": "Blevi_thunder_ssr_1",
-      "SourceString": "使魔、契约兽那一类，既然有本事授予复数女孩强大的奇异力量，自己努努力揍上去不会更有效率吗？——出于这样的考量，她决定让这位小帮手来以身作则树立个榜样。",
-      "LocalizedString": "使魔、契约兽那一类，既然有本事授予复数女孩强大的奇异力量，自己努努力揍上去不会更有效率吗？——出于这样的考量，她决定让这位小帮手来以身作则树立个榜样。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -17425,6 +17472,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_54",
     "MountIcon": {
@@ -17451,8 +17499,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -17460,8 +17508,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -17469,8 +17517,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -17576,8 +17624,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LancesDes.LancesDes",
       "Key": "Lances_ice_ssr",
-      "SourceString": "坏家伙",
-      "LocalizedString": "坏家伙"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_nuo.name_nuo",
@@ -17586,8 +17634,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LancesDes.LancesDes",
       "Key": "Lances_ice_ssr_1",
-      "SourceString": "将恶意的暗堕精神力封印于骑枪，骑士自此成为真正的「骑士」。然后……骑士牵起少女的手，两人一同迈向拥有无限可能性的明天。",
-      "LocalizedString": "将恶意的暗堕精神力封印于骑枪，骑士自此成为真正的「骑士」。然后……骑士牵起少女的手，两人一同迈向拥有无限可能性的明天。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -17720,8 +17768,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LancesDes.LancesDes",
       "Key": "Lances_ice_ssr_1",
-      "SourceString": "将恶意的暗堕精神力封印于骑枪，骑士自此成为真正的「骑士」。然后……骑士牵起少女的手，两人一同迈向拥有无限可能性的明天。",
-      "LocalizedString": "将恶意的暗堕精神力封印于骑枪，骑士自此成为真正的「骑士」。然后……骑士牵起少女的手，两人一同迈向拥有无限可能性的明天。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -17794,6 +17842,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_55",
     "MountIcon": {
@@ -17811,8 +17860,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -17820,8 +17869,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -17829,8 +17878,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -17838,8 +17887,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -17956,8 +18005,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
       "Key": "Asuka_physic_ssr",
-      "SourceString": "朗基努斯之枪",
-      "LocalizedString": "朗基努斯之枪"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_mingrixiang.name_mingrixiang",
@@ -17966,8 +18015,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
       "Key": "Asuka_physic_ssr_1",
-      "SourceString": "传说，这是生命之树的根须，所有生命都无法抵挡它的锋芒。",
-      "LocalizedString": "传说，这是生命之树的根须，所有生命都无法抵挡它的锋芒。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -18100,8 +18149,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
       "Key": "Asuka_physic_ssr_1",
-      "SourceString": "传说，这是生命之树的根须，所有生命都无法抵挡它的锋芒。",
-      "LocalizedString": "传说，这是生命之树的根须，所有生命都无法抵挡它的锋芒。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -18174,6 +18223,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_57",
     "MountIcon": {
@@ -18191,8 +18241,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/KillknifeDes.KillknifeDes",
           "Key": "yanmiao_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤，后台增伤能力出色",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤，后台增伤能力出色"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18200,8 +18250,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18209,8 +18259,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18218,8 +18268,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -18346,8 +18396,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/DFishChessDes.DFishChessDes",
       "Key": "DFishChess_Fire_ssr",
-      "SourceString": "纵横",
-      "LocalizedString": "纵横"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_jiyu.name_jiyu",
@@ -18356,8 +18406,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/DFishChessDes.DFishChessDes",
       "Key": "DFishChess_Fire_ssr_1",
-      "SourceString": "纵有千古，横有八荒。",
-      "LocalizedString": "纵有千古，横有八荒。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -18490,8 +18540,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/DFishChessDes.DFishChessDes",
       "Key": "DFishChess_Fire_ssr_1",
-      "SourceString": "纵有千古，横有八荒。",
-      "LocalizedString": "纵有千古，横有八荒。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -18564,6 +18614,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_58",
     "MountIcon": {
@@ -18581,8 +18632,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18590,8 +18641,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18599,8 +18650,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18608,8 +18659,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -18726,8 +18777,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LoslynDes.LoslynDes",
       "Key": "Loslyn_ice_ssr",
-      "SourceString": "静澜",
-      "LocalizedString": "静澜"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_luosilin.name_luosilin",
@@ -18736,8 +18787,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LoslynDes.LoslynDes",
       "Key": "Loslyn_ice_ssr_1",
-      "SourceString": "从爷爷的旧船「静澜号」上拆下来的船锚，在经过改造后作为洛斯琳的武器。",
-      "LocalizedString": "从爷爷的旧船「静澜号」上拆下来的船锚，在经过改造后作为洛斯琳的武器。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -18870,8 +18921,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LoslynDes.LoslynDes",
       "Key": "Loslyn_ice_ssr_1",
-      "SourceString": "从爷爷的旧船「静澜号」上拆下来的船锚，在经过改造后作为洛斯琳的武器。",
-      "LocalizedString": "从爷爷的旧船「静澜号」上拆下来的船锚，在经过改造后作为洛斯琳的武器。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -18944,6 +18995,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_59",
     "MountIcon": {
@@ -18961,8 +19013,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18970,8 +19022,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18979,8 +19031,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -18988,8 +19040,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -19116,8 +19168,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AceDes.AceDes",
       "Key": "Ace_Physic_ssr",
-      "SourceString": "跳跳糖",
-      "LocalizedString": "跳跳糖"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_anke.name_anke",
@@ -19126,8 +19178,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AceDes.AceDes",
       "Key": "Ace_Physic_ssr_1",
-      "SourceString": "若是被它砸一闷棍，脑瓜会立刻嗡嗡低鸣，耳边开始噼啪作响。随后眼冒金星，后脑勺鼓起一个高耸的包。",
-      "LocalizedString": "若是被它砸一闷棍，脑瓜会立刻嗡嗡低鸣，耳边开始噼啪作响。随后眼冒金星，后脑勺鼓起一个高耸的包。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -19260,8 +19312,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AceDes.AceDes",
       "Key": "Ace_Physic_ssr_1",
-      "SourceString": "若是被它砸一闷棍，脑瓜会立刻嗡嗡低鸣，耳边开始噼啪作响。随后眼冒金星，后脑勺鼓起一个高耸的包。",
-      "LocalizedString": "若是被它砸一闷棍，脑瓜会立刻嗡嗡低鸣，耳边开始噼啪作响。随后眼冒金星，后脑勺鼓起一个高耸的包。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -19334,6 +19386,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_53",
     "MountIcon": {
@@ -19351,8 +19404,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ParadoxDes.ParadoxDes",
           "Key": "paradox_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤，后台增伤能力出色",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤，后台增伤能力出色"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -19360,8 +19413,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -19369,8 +19422,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -19378,8 +19431,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -19496,8 +19549,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ParadoxDes.ParadoxDes",
       "Key": "paradox_fire_ssr",
-      "SourceString": "EP-7000天火",
-      "LocalizedString": "EP-7000天火"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_paluodi.name_paluodi",
@@ -19506,8 +19559,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ParadoxDes.ParadoxDes",
       "Key": "paradox_fire_ssr_1",
-      "SourceString": "海嘉德总部-防卫方舟第一制造局出品，为轮值授权者帕洛蒂量身定做的契合她作战需求的特种武器，即使是挑剔的帕帕也表示非常的满意。",
-      "LocalizedString": "海嘉德总部-防卫方舟第一制造局出品，为轮值授权者帕洛蒂量身定做的契合她作战需求的特种武器，即使是挑剔的帕帕也表示非常的满意。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -19640,8 +19693,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ParadoxDes.ParadoxDes",
       "Key": "paradox_fire_ssr_1",
-      "SourceString": "海嘉德总部-防卫方舟第一制造局出品，为轮值授权者帕洛蒂量身定做的契合她作战需求的特种武器，即使是挑剔的帕帕也表示非常的满意。",
-      "LocalizedString": "海嘉德总部-防卫方舟第一制造局出品，为轮值授权者帕洛蒂量身定做的契合她作战需求的特种武器，即使是挑剔的帕帕也表示非常的满意。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -19714,6 +19767,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_56",
     "MountIcon": {
@@ -19731,8 +19785,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AyanamiReiDes.AyanamiReiDes",
           "Key": "AyanamiRei_matrix_des",
-          "SourceString": "两件套提供雷电/寒冰伤害加成，四件套提供终伤及攻击力。",
-          "LocalizedString": "两件套提供雷电/寒冰伤害加成，四件套提供终伤及攻击力。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -19740,8 +19794,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -19749,8 +19803,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -19758,8 +19812,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -19876,8 +19930,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AyanamiReiDes.AyanamiReiDes",
       "Key": "AyanamiRei_thunder_ssr",
-      "SourceString": "救赎",
-      "LocalizedString": "救赎"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_lingboling.name_lingboling",
@@ -19886,8 +19940,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AyanamiReiDes.AyanamiReiDes",
       "Key": "AyanamiRei_thunder_ssr_1",
-      "SourceString": "镜都科技部为绫波零专门打造的试制弓，参考了零号机的造型和颜色，可以射出带有能量的箭矢。",
-      "LocalizedString": "镜都科技部为绫波零专门打造的试制弓，参考了零号机的造型和颜色，可以射出带有能量的箭矢。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -20020,8 +20074,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AyanamiReiDes.AyanamiReiDes",
       "Key": "AyanamiRei_thunder_ssr_1",
-      "SourceString": "镜都科技部为绫波零专门打造的试制弓，参考了零号机的造型和颜色，可以射出带有能量的箭矢。",
-      "LocalizedString": "镜都科技部为绫波零专门打造的试制弓，参考了零号机的造型和颜色，可以射出带有能量的箭矢。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -20094,6 +20148,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_62",
     "MountIcon": {
@@ -20111,8 +20166,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LinghanDes.LinghanDes",
           "Key": "Linghan_ice_reason_1",
-          "SourceString": "两件套拥有后台全元素伤害提高且强化监兵的冰刃能力，四件套强化冰队的增伤能力且搭配监兵可额外提升全攻",
-          "LocalizedString": "两件套拥有后台全元素伤害提高且强化监兵的冰刃能力，四件套强化冰队的增伤能力且搭配监兵可额外提升全攻"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20120,8 +20175,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20129,8 +20184,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20256,8 +20311,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NoraDes.NoraDes",
       "Key": "Nora_Superpower_ssr",
-      "SourceString": "噪音",
-      "LocalizedString": "噪音"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_nuola.name_nuola",
@@ -20266,8 +20321,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NoraDes.NoraDes",
       "Key": "Nora_superpower_ssr_1",
-      "SourceString": "摩托和大剑，这个奇妙的组合该叫什么呢？不过本来就不擅长记住名字的她，最终索性都起了个叫做噪音的名字。",
-      "LocalizedString": "摩托和大剑，这个奇妙的组合该叫什么呢？不过本来就不擅长记住名字的她，最终索性都起了个叫做噪音的名字。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -20400,8 +20455,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NoraDes.NoraDes",
       "Key": "Nora_superpower_ssr_1",
-      "SourceString": "摩托和大剑，这个奇妙的组合该叫什么呢？不过本来就不擅长记住名字的她，最终索性都起了个叫做噪音的名字。",
-      "LocalizedString": "摩托和大剑，这个奇妙的组合该叫什么呢？不过本来就不擅长记住名字的她，最终索性都起了个叫做噪音的名字。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -20474,6 +20529,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_61",
     "MountIcon": {
@@ -20491,8 +20547,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20500,8 +20556,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20509,8 +20565,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20518,8 +20574,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -20636,8 +20692,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MerylXDes.MerylXDes",
       "Key": "MerylX_thunder_ssr",
-      "SourceString": "破城之锋",
-      "LocalizedString": "破城之锋"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_meilierkai.name_meilierkai",
@@ -20646,8 +20702,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MerylXDes.MerylXDes",
       "Key": "MerylX_thunder_ssr_1",
-      "SourceString": "海嘉德研发的可变形武器，设计精妙，性能卓著，但由于结构复杂而难以解决量产问题。「破城攻坚，一剑足矣」设计人员给予了如此评价。",
-      "LocalizedString": "海嘉德研发的可变形武器，设计精妙，性能卓著，但由于结构复杂而难以解决量产问题。「破城攻坚，一剑足矣」设计人员给予了如此评价。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -20780,8 +20836,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/MerylXDes.MerylXDes",
       "Key": "MerylX_thunder_ssr_1",
-      "SourceString": "海嘉德研发的可变形武器，设计精妙，性能卓著，但由于结构复杂而难以解决量产问题。「破城攻坚，一剑足矣」设计人员给予了如此评价。",
-      "LocalizedString": "海嘉德研发的可变形武器，设计精妙，性能卓著，但由于结构复杂而难以解决量产问题。「破城攻坚，一剑足矣」设计人员给予了如此评价。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -20854,6 +20910,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_64",
     "MountIcon": {
@@ -20871,8 +20928,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20880,8 +20937,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20889,8 +20946,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -20898,8 +20955,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -21016,8 +21073,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TkatanaDes.TkatanaDes",
       "Key": "Tkatana_Fire_ssr",
-      "SourceString": "业火",
-      "LocalizedString": "业火"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_asilada.name_asilada",
@@ -21026,8 +21083,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TkatanaDes.TkatanaDes",
       "Key": "Tkatana_Fire_ssr_1",
-      "SourceString": "你行恶业，种恶因，得恶果，自然该受业火焚身……哈哈哈哈，我新写的台词很酷吧！哦，我打你其实是因为……我昨晚没睡好。啊对对对，我这种神经病才该被业火焚身呢！可惜，不是今天。",
-      "LocalizedString": "你行恶业，种恶因，得恶果，自然该受业火焚身……哈哈哈哈，我新写的台词很酷吧！哦，我打你其实是因为……我昨晚没睡好。啊对对对，我这种神经病才该被业火焚身呢！可惜，不是今天。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -21160,8 +21217,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/TkatanaDes.TkatanaDes",
       "Key": "Tkatana_Fire_ssr_1",
-      "SourceString": "你行恶业，种恶因，得恶果，自然该受业火焚身……哈哈哈哈，我新写的台词很酷吧！哦，我打你其实是因为……我昨晚没睡好。啊对对对，我这种神经病才该被业火焚身呢！可惜，不是今天。",
-      "LocalizedString": "你行恶业，种恶因，得恶果，自然该受业火焚身……哈哈哈哈，我新写的台词很酷吧！哦，我打你其实是因为……我昨晚没睡好。啊对对对，我这种神经病才该被业火焚身呢！可惜，不是今天。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -21234,6 +21291,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_63",
     "MountIcon": {
@@ -21251,8 +21309,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NanyinDes.NanyinDes",
           "Key": "Nanyin_MatrixSSR_des",
-          "SourceString": "二件套提供全攻，四件套提供暴伤及终伤，后台增伤能力出色",
-          "LocalizedString": "二件套提供全攻，四件套提供暴伤及终伤，后台增伤能力出色"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -21260,8 +21318,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -21269,8 +21327,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -21278,8 +21336,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -21396,8 +21454,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GreyFoxDes.GreyFoxDes",
       "Key": "GreyFox_ice_ssr",
-      "SourceString": "魔女之匙",
-      "LocalizedString": "魔女之匙"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_huihu.name_huihu",
@@ -21406,8 +21464,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GreyFoxDes.GreyFoxDes",
       "Key": "GreyFox_ice_ssr_1",
-      "SourceString": "以游戏《时之魔女战记》中的道具为原型制作的原能武器。",
-      "LocalizedString": "以游戏《时之魔女战记》中的道具为原型制作的原能武器。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -21540,8 +21598,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GreyFoxDes.GreyFoxDes",
       "Key": "GreyFox_ice_ssr_1",
-      "SourceString": "以游戏《时之魔女战记》中的道具为原型制作的原能武器。",
-      "LocalizedString": "以游戏《时之魔女战记》中的道具为原型制作的原能武器。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -21614,6 +21672,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_65",
     "MountIcon": {
@@ -21631,8 +21690,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -21640,8 +21699,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -21649,8 +21708,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -21658,8 +21717,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -21776,8 +21835,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SwordXDes.SwordXDes",
       "Key": "SwordX_physic_ssr",
-      "SourceString": "赤风",
-      "LocalizedString": "赤风"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_SwordX.name_SwordX",
@@ -21786,8 +21845,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SwordXDes.SwordXDes",
       "Key": "SwordX_physic_ssr_1",
-      "SourceString": "为保证灵活和机动作战而特意打造的两把武器，无论是质量还是分量，都属上乘。「子弹穿透阴霾，利刃劈断暗夜」这是使用者内心的渴望。",
-      "LocalizedString": "为保证灵活和机动作战而特意打造的两把武器，无论是质量还是分量，都属上乘。「子弹穿透阴霾，利刃劈断暗夜」这是使用者内心的渴望。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -21920,8 +21979,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SwordXDes.SwordXDes",
       "Key": "SwordX_physic_ssr_1",
-      "SourceString": "为保证灵活和机动作战而特意打造的两把武器，无论是质量还是分量，都属上乘。「子弹穿透阴霾，利刃劈断暗夜」这是使用者内心的渴望。",
-      "LocalizedString": "为保证灵活和机动作战而特意打造的两把武器，无论是质量还是分量，都属上乘。「子弹穿透阴霾，利刃劈断暗夜」这是使用者内心的渴望。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -21994,6 +22053,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_67",
     "MountIcon": {
@@ -22011,8 +22071,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22020,8 +22080,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22029,8 +22089,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22038,8 +22098,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -22156,8 +22216,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BlackStarDes.BlackStarDes",
       "Key": "BlackStar_SuperPower_ssr",
-      "SourceString": "湮灭之星",
-      "LocalizedString": "湮灭之星"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_naimeixisiLK.name_naimeixisiLK",
@@ -22166,8 +22226,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BlackStarDes.BlackStarDes",
       "Key": "BlackStar_SuperPower_ssr_1",
-      "SourceString": "裂碎……虚空……",
-      "LocalizedString": "裂碎……虚空……"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -22300,8 +22360,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/BlackStarDes.BlackStarDes",
       "Key": "BlackStar_SuperPower_ssr_1",
-      "SourceString": "裂碎……虚空……",
-      "LocalizedString": "裂碎……虚空……"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -22374,6 +22434,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_66",
     "MountIcon": {
@@ -22391,8 +22452,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22400,8 +22461,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22409,8 +22470,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22418,8 +22479,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -22536,8 +22597,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AntoriaDes.AntoriaDes",
       "Key": "Antoria_thunder_ssr",
-      "SourceString": "镇魂曲",
-      "LocalizedString": "镇魂曲"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_Antoria.name_Antoria",
@@ -22546,8 +22607,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AntoriaDes.AntoriaDes",
       "Key": "Antoria_thunder_ssr_1",
-      "SourceString": "这是结束的开始，亦是开始的结束。",
-      "LocalizedString": "这是结束的开始，亦是开始的结束。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -22680,8 +22741,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AntoriaDes.AntoriaDes",
       "Key": "Antoria_thunder_ssr_1",
-      "SourceString": "这是结束的开始，亦是开始的结束。",
-      "LocalizedString": "这是结束的开始，亦是开始的结束。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -22754,6 +22815,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_71",
     "MountIcon": {
@@ -22771,8 +22833,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22780,8 +22842,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22789,8 +22851,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -22798,8 +22860,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -22916,8 +22978,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GunBoxDes.GunBoxDes",
       "Key": "GunBox_fire_ssr",
-      "SourceString": "耳光",
-      "LocalizedString": "耳光"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_huluobei.name_huluobei",
@@ -22926,8 +22988,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GunBoxDes.GunBoxDes",
       "Key": "GunBox_fire_ssr_1",
-      "SourceString": "这是我造的，叫耳光。别看他有那么多武器，但最厉害的其实是两只手哦！",
-      "LocalizedString": "这是我造的，叫耳光。别看他有那么多武器，但最厉害的其实是两只手哦！"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -23060,8 +23122,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GunBoxDes.GunBoxDes",
       "Key": "GunBox_fire_ssr_1",
-      "SourceString": "这是我造的，叫耳光。别看他有那么多武器，但最厉害的其实是两只手哦！",
-      "LocalizedString": "这是我造的，叫耳光。别看他有那么多武器，但最厉害的其实是两只手哦！"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -23134,6 +23196,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_74",
     "MountIcon": {
@@ -23151,8 +23214,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23160,8 +23223,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23169,8 +23232,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23178,8 +23241,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -23296,8 +23359,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LyncisDes.LyncisDes",
       "Key": "Lyncis_ice_ssr",
-      "SourceString": "哧溜",
-      "LocalizedString": "哧溜"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_Lyncis.name_Lyncis",
@@ -23306,8 +23369,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LyncisDes.LyncisDes",
       "Key": "Lyncis_ice_ssr_1",
-      "SourceString": "由胡萝贝设计并制造的喷气滑板，因为在户外直播中使用格外方便，所以成为了琳赛的常用装备。为此冠名的大发明家原话是——「要是遇到危险，你踩上它，哧溜一下就跑远了！」",
-      "LocalizedString": "由胡萝贝设计并制造的喷气滑板，因为在户外直播中使用格外方便，所以成为了琳赛的常用装备。为此冠名的大发明家原话是——「要是遇到危险，你踩上它，哧溜一下就跑远了！」"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -23440,8 +23503,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LyncisDes.LyncisDes",
       "Key": "Lyncis_ice_ssr_1",
-      "SourceString": "由胡萝贝设计并制造的喷气滑板，因为在户外直播中使用格外方便，所以成为了琳赛的常用装备。为此冠名的大发明家原话是——「要是遇到危险，你踩上它，哧溜一下就跑远了！」",
-      "LocalizedString": "由胡萝贝设计并制造的喷气滑板，因为在户外直播中使用格外方便，所以成为了琳赛的常用装备。为此冠名的大发明家原话是——「要是遇到危险，你踩上它，哧溜一下就跑远了！」"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -23514,6 +23577,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_72",
     "MountIcon": {
@@ -23531,8 +23595,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23540,8 +23604,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23549,8 +23613,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23558,8 +23622,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -23676,8 +23740,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/StabDaggerDes.StabDaggerDes",
       "Key": "StabDagger_Phy_ssr",
-      "SourceString": "双星",
-      "LocalizedString": "双星"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_aisite.name_aisite",
@@ -23686,8 +23750,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/StabDaggerDes.StabDaggerDes",
       "Key": "StabDagger_Phy_ssr_1",
-      "SourceString": "在隐蔽、无声作战中起到重要作用的标准冷兵器，迅捷、精确、完美。",
-      "LocalizedString": "在隐蔽、无声作战中起到重要作用的标准冷兵器，迅捷、精确、完美。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -23820,8 +23884,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/StabDaggerDes.StabDaggerDes",
       "Key": "StabDagger_Phy_ssr_1",
-      "SourceString": "在隐蔽、无声作战中起到重要作用的标准冷兵器，迅捷、精确、完美。",
-      "LocalizedString": "在隐蔽、无声作战中起到重要作用的标准冷兵器，迅捷、精确、完美。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -23894,6 +23958,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_69",
     "MountIcon": {
@@ -23911,8 +23976,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23920,8 +23985,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23929,8 +23994,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -23938,8 +24003,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -24056,8 +24121,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/CommodoreDes.CommodoreDes",
       "Key": "Commodore_Thu_ssr",
-      "SourceString": "AF-010侍者",
-      "LocalizedString": "AF-010侍者"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_xipeier.name_xipeier",
@@ -24066,8 +24131,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/CommodoreDes.CommodoreDes",
       "Key": "Commodore_Thu_ssr_1",
-      "SourceString": "由希望舰队的军械工厂设计并小规模生产的小型护卫机甲。通过强大的智能系统自动运行，会自行判断局势介入战斗或是进行必要辅助工作，常用于重要人物的贴身保护，平时会进入隐身状态待机。由于原料短缺而生产量极少，仅有少量极为优秀的精英人员才能用上。",
-      "LocalizedString": "由希望舰队的军械工厂设计并小规模生产的小型护卫机甲。通过强大的智能系统自动运行，会自行判断局势介入战斗或是进行必要辅助工作，常用于重要人物的贴身保护，平时会进入隐身状态待机。由于原料短缺而生产量极少，仅有少量极为优秀的精英人员才能用上。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -24200,8 +24265,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/CommodoreDes.CommodoreDes",
       "Key": "Commodore_Thu_ssr_1",
-      "SourceString": "由希望舰队的军械工厂设计并小规模生产的小型护卫机甲。通过强大的智能系统自动运行，会自行判断局势介入战斗或是进行必要辅助工作，常用于重要人物的贴身保护，平时会进入隐身状态待机。由于原料短缺而生产量极少，仅有少量极为优秀的精英人员才能用上。",
-      "LocalizedString": "由希望舰队的军械工厂设计并小规模生产的小型护卫机甲。通过强大的智能系统自动运行，会自行判断局势介入战斗或是进行必要辅助工作，常用于重要人物的贴身保护，平时会进入隐身状态待机。由于原料短缺而生产量极少，仅有少量极为优秀的精英人员才能用上。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -24274,6 +24339,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_70",
     "MountIcon": {
@@ -24291,8 +24357,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -24300,8 +24366,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -24309,8 +24375,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -24318,8 +24384,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -24436,8 +24502,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LechesisDes.LechesisDes",
       "Key": "Lechesis_Fire_ssr",
-      "SourceString": "圣裁",
-      "LocalizedString": "圣裁"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_Lechesis.name_Lechesis",
@@ -24446,8 +24512,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LechesisDes.LechesisDes",
       "Key": "Lechesis_Fire_ssr_1",
-      "SourceString": "闪烁着柔和光芒的巨大镰刀。比起斩断生的希望，它更希望斩断和死亡之间的链接。",
-      "LocalizedString": "闪烁着柔和光芒的巨大镰刀。比起斩断生的希望，它更希望斩断和死亡之间的链接。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -24580,8 +24646,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LechesisDes.LechesisDes",
       "Key": "Lechesis_Fire_ssr_1",
-      "SourceString": "闪烁着柔和光芒的巨大镰刀。比起斩断生的希望，它更希望斩断和死亡之间的链接。",
-      "LocalizedString": "闪烁着柔和光芒的巨大镰刀。比起斩断生的希望，它更希望斩断和死亡之间的链接。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -24654,6 +24720,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_75",
     "MountIcon": {
@@ -24671,8 +24738,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
           "Key": "Puppeteer_MatrixSSR_des",
-          "SourceString": "二件套提供冰攻和分支伤害，四件套提供冰元素增伤和最终增伤",
-          "LocalizedString": "二件套提供冰攻和分支伤害，四件套提供冰元素增伤和最终增伤"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -24680,8 +24747,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -24689,8 +24756,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -24698,8 +24765,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
           "Key": "tuijianyizhi04",
-          "SourceString": "如果没有更好的意志选择也可以临时使用该意志",
-          "LocalizedString": "如果没有更好的意志选择也可以临时使用该意志"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -24816,8 +24883,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
       "Key": "Puppeteer_Ice_WeaponName",
-      "SourceString": "波吕克斯",
-      "LocalizedString": "波吕克斯"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_Puppeteer.name_Puppeteer",
@@ -24826,8 +24893,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
       "Key": "Puppeteer_Ice_des",
-      "SourceString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。",
-      "LocalizedString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -24960,8 +25027,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/PuppeteerDes.PuppeteerDes",
       "Key": "Puppeteer_Ice_des",
-      "SourceString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。",
-      "LocalizedString": "波吕克斯不是武器，也不是拄着手杖的绅士熊娃娃，是一位受妹妹尊敬的兄长。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -25034,6 +25101,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_73",
     "MountIcon": {
@@ -25051,8 +25119,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/AsukaDes.AsukaDes",
           "Key": "Asuka_MatrixSSR_des",
-          "SourceString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。",
-          "LocalizedString": "二件套提供物攻和火攻，四件套提供全元素增伤和最终增伤。"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -25060,8 +25128,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -25069,8 +25137,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -25185,8 +25253,8 @@
     "ItemName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
       "Key": "Nanto_Phy_ssr",
-      "SourceString": "青霜",
-      "LocalizedString": "青霜"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "ItemNameImage": {
       "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_nandou.name_nandou",
@@ -25195,8 +25263,8 @@
     "Description": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
       "Key": "Nanto_Phy_ssr_1",
-      "SourceString": "前任安霍尔集团安全主管列文主导开发的高性能拳套，作为其麾下行动小组「青霜」的秘密武器。讽刺的是，这件精密工具的首个执行目标竟是其创造者本人。在「寂静花园」行动中，南斗用青霜亲手处决了被判定为奸细的列文。霜是无声无息降临的，它不像雨雪那般声势浩大，却能在一夜之间改变整个世界的面貌。",
-      "LocalizedString": "前任安霍尔集团安全主管列文主导开发的高性能拳套，作为其麾下行动小组「青霜」的秘密武器。讽刺的是，这件精密工具的首个执行目标竟是其创造者本人。在「寂静花园」行动中，南斗用青霜亲手处决了被判定为奸细的列文。霜是无声无息降临的，它不像雨雪那般声势浩大，却能在一夜之间改变整个世界的面貌。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "UseDescription": {
       "CultureInvariantString": null
@@ -25329,8 +25397,8 @@
     "LotteryDescription": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/NantoDes.NantoDes",
       "Key": "Nanto_Phy_ssr_1",
-      "SourceString": "前任安霍尔集团安全主管列文主导开发的高性能拳套，作为其麾下行动小组「青霜」的秘密武器。讽刺的是，这件精密工具的首个执行目标竟是其创造者本人。在「寂静花园」行动中，南斗用青霜亲手处决了被判定为奸细的列文。霜是无声无息降临的，它不像雨雪那般声势浩大，却能在一夜之间改变整个世界的面貌。",
-      "LocalizedString": "前任安霍尔集团安全主管列文主导开发的高性能拳套，作为其麾下行动小组「青霜」的秘密武器。讽刺的是，这件精密工具的首个执行目标竟是其创造者本人。在「寂静花园」行动中，南斗用青霜亲手处决了被判定为奸细的列文。霜是无声无息降临的，它不像雨雪那般声势浩大，却能在一夜之间改变整个世界的面貌。"
+      "SourceString": null,
+      "LocalizedString": null
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",
@@ -25403,6 +25471,7 @@
     "RecastCount": 100,
     "UpgradeReturnLevel": 0,
     "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
     "SensualityPackId": "None",
     "WeaponFashionID": "imitation_76",
     "MountIcon": {
@@ -25429,8 +25498,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -25438,8 +25507,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
           "Key": "Umbrella_fire_reason_3",
-          "SourceString": "2件套提高前台输出能力，4件套提供泛用的后台能力",
-          "LocalizedString": "2件套提高前台输出能力，4件套提供泛用的后台能力"
+          "SourceString": null,
+          "LocalizedString": null
         }
       },
       {
@@ -25447,8 +25516,8 @@
         "MatrixSuitDes": {
           "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/ZekeDes.ZekeDes",
           "Key": "zeke_matrix_sr",
-          "SourceString": "对重伤目标伤害提高，契合明景的攻击方式",
-          "LocalizedString": "对重伤目标伤害提高，契合明景的攻击方式"
+          "SourceString": null,
+          "LocalizedString": null
         }
       }
     ],
@@ -25460,7 +25529,18 @@
       "AssetPathName": "None",
       "SubPathString": ""
     },
-    "FashionWeaponInfos": [],
+    "FashionWeaponInfos": [
+      {
+        "FashionMeshOrder": "EWeaponMeshType::WEAPONMESH_THIRDORDER",
+        "FashionName": {
+          "Namespace": "",
+          "Key": "5208DE694282E19460DA959EF9C4528D",
+          "SourceString": "破·视界",
+          "LocalizedString": "破·视界"
+        },
+        "FashionImitationId": "imitation_fashion_76_w"
+      }
+    ],
     "WeaponAttackTable": "operate_zm",
     "WeaponBackdrop": {
       "WeaponElementType": "EWeaponElementType::None",
@@ -25700,6 +25780,387 @@
       "Key": "Veronika_Thu_SSR_1",
       "SourceString": "无视界限，可见无限。",
       "LocalizedString": "无视界限，可见无限。"
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "None",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": true,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::AllServer",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
+  },
+  "Lana_SuperPower": {
+    "UpgradeStarPackID": "Lana_SuperPower_ssr_star",
+    "MaxUpgradeStar": 6,
+    "IsWeaponMaterial": false,
+    "IsFateWeapon": false,
+    "IsUpPoolWeapon": true,
+    "IsWarehouseWeapon": true,
+    "AwardPackageID": "drop_weapon_ssr_first",
+    "WeaponSkillList": [
+      "GA_FPlayerLanaMelee",
+      "GA_FPlayerLanaEvade",
+      "GA_FPlayerLanaSkill",
+      "GA_FPlayerLanaChangeSkill"
+    ],
+    "IsSkillSet": true,
+    "SkillSetSwitchIndex": 7,
+    "bCustomWeaponElement": true,
+    "ItemLargeIcon": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Icon/item_Weapon_SSR_Lana.item_Weapon_SSR_Lana",
+      "SubPathString": ""
+    },
+    "ItemUnLockIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponUPIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponSlayLetterIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxTupoLevel": 0,
+    "UpgradePackId": "Lana_SuperPower_ssr_lv",
+    "TupoPackId": "superpower_ssr_tupo_BD",
+    "RecastType": "EHottaCurrencyType::FakeDiamond",
+    "RecastCount": 100,
+    "UpgradeReturnLevel": 0,
+    "UpgradeReturnDropID": "None",
+    "UpgradeResetID": "None",
+    "SensualityPackId": "None",
+    "WeaponFashionID": "imitation_77",
+    "MountIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "WeaponSlotCounts": 4,
+    "WeaponIconForMatrix": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/icon_yizhi/yizhi_SSR_Lana.yizhi_SSR_Lana",
+      "SubPathString": ""
+    },
+    "MatrixSuitArray": [
+      {
+        "MatrixSuitName": "suit_SSR63",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LanaDes.LanaDes",
+          "Key": "Matrix63_Tuijian",
+          "SourceString": "2件套提升全属性攻击并无视目标抗暴；4件套提升最终伤害、元素伤害及暴击伤害",
+          "LocalizedString": "2件套提升全属性攻击并无视目标抗暴；4件套提升最终伤害、元素伤害及暴击伤害"
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SSR25",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
+          "Key": "Umbrella_fire_reason_3",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SSR26",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/UmbrellaDes.UmbrellaDes",
+          "Key": "Umbrella_fire_reason_3",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      {
+        "MatrixSuitName": "suit_SR5",
+        "MatrixSuitDes": {
+          "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/FenrirDes.FenrirDes",
+          "Key": "tuijianyizhi04",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      }
+    ],
+    "WeaponFashionIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "PreviewWeaponClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "FashionWeaponInfos": [
+      {
+        "FashionMeshOrder": "EWeaponMeshType::WEAPONMESH_THIRDORDER",
+        "FashionName": {
+          "Namespace": "",
+          "Key": "DBEF6A9E4B8586B4F13F728ED1116EAE",
+          "SourceString": "冰晶魔方",
+          "LocalizedString": "冰晶魔方"
+        },
+        "FashionImitationId": "imitation_fashion_77_w"
+      }
+    ],
+    "WeaponAttackTable": "operate_xxxx",
+    "WeaponBackdrop": {
+      "WeaponElementType": "EWeaponElementType::None",
+      "NeedHiddenComponent": [],
+      "WeaponBackdropActor": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "ActorTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    "SoloLeagueBanPickBanner": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_Lana_big.avatar_yizhitips_Lana_big",
+      "SubPathString": ""
+    },
+    "WeaponAbilityMaxValue": 16.0,
+    "WeaponAbilityMap": [],
+    "WeaponMatchDes": {
+      "CultureInvariantString": null
+    },
+    "ItemBadgeUIIcon": {
+      "AssetPathName": "/Game/Resources/UI/plugin/icon/bigsize/Weapon_Lana_512.Weapon_Lana_512",
+      "SubPathString": ""
+    },
+    "TrainingMediaID": "Teaching_Lana_SuperPower",
+    "FashionWeaponActorClass": [],
+    "MMOAutoCombatPriority": 0,
+    "MMOAutoCombatPriority[1]": 0,
+    "MMOAutoCombatPriority[2]": 0,
+    "MMOAutoCombatPriority[3]": 0,
+    "OrderLevel": 0,
+    "StrengthenPackID": "None",
+    "StrengthenEffectPackID": "None",
+    "MaxStrengthenLevel": 0,
+    "EquipDamageMult": 1.0,
+    "AdvancePackId": "None",
+    "AdvanceMaterialItemIdList": [],
+    "CanTupo": false,
+    "EquipTupoPackId": "None",
+    "TupoOrangeItemID": "None",
+    "TupoRedItemID": "None",
+    "OldEquipItemID": "None",
+    "UncommonPackId": "None",
+    "AwakeningId": "None",
+    "WeaponExp": 0,
+    "bReminderAutoEquip": false,
+    "bForeceReminder": false,
+    "WeaponTypeData": {
+      "WeaponCategory": "EWeaponCategory::DPS",
+      "WeaponType": "EWeaponType::Lana",
+      "WeaponClassType": "EWeaponClassType::Energy",
+      "ChargeLevel": "ChargeType_Default",
+      "WeaponElementType": "EWeaponElementType::Superpower",
+      "WeaponAccessoryElementType": 1
+    },
+    "ChargeLevel": "ChargeType_Default",
+    "bUnequipedCanInlayGemstone": false,
+    "GemstoneSlotConfigArray": [],
+    "SuitId": 0,
+    "PassiveEffectGridNum": 0,
+    "PassiveEffectNum": 0,
+    "PassiveEffectGroupIndex": 0,
+    "RecylceItemID": [],
+    "AdvanceExpRecycleScale": 0.4,
+    "EquipSkillID": "None",
+    "bIdentifyEquip": false,
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Icon/item_Weapon_SSR_Lana.item_Weapon_SSR_Lana",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LanaDes.LanaDes",
+      "Key": "Lana_SuperPower_WeaponName",
+      "SourceString": "进化魔方",
+      "LocalizedString": "进化魔方"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "/Game/Resources/Icon/weapon/Name/name_Lana.name_Lana",
+      "SubPathString": ""
+    },
+    "Description": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LanaDes.LanaDes",
+      "Key": "Lana_SuperPower_des",
+      "SourceString": "魔方的中心，是进化的火种，但火从来都是危险的……\"",
+      "LocalizedString": "魔方的中心，是进化的火种，但火从来都是危险的……\""
+    },
+    "UseDescription": {
+      "CultureInvariantString": null
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": false,
+    "bAlwaysBind": false,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_WEAPON",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 43,
+    "ArrangeType": 0,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_SSR",
+    "ItemQuality": "ITEM_QUALITY_LEGENDRY",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_WEAPON",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_WEAPON",
+    "ItemActorClass": {
+      "AssetPathName": "/Game/Resources/CoreBlueprints/Weapons/Player/SSR/WeaponLana_SuperPower_SSR.WeaponLana_SuperPower_SSR_C",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "Lana_SuperPower_ssr_1",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "None",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_INVALID",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "BuffsInServerModes": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_WeaponSSR",
+      "SourceString": "武器SSR",
+      "LocalizedString": "武器SSR"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "Lana_SuperPower_meltpack",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": true,
+    "LotteryDrawing": {
+      "AssetPathName": "/Game/Resources/UI/shizhuang/nitai/xiangqing/imitation_77.imitation_77",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "/Game/Resources/UI/chouka/Card/Weapon/SSR_lh_Lana.SSR_lh_Lana",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LanaDes.LanaDes",
+      "Key": "Lana_SuperPower_des",
+      "SourceString": "魔方的中心，是进化的火种，但火从来都是危险的……\"",
+      "LocalizedString": "魔方的中心，是进化的火种，但火从来都是危险的……\""
     },
     "LotteryCharacterType": "RCT_NULL",
     "LotteryMontageId": "None",

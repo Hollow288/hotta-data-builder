@@ -9124,5 +9124,269 @@
     "AvailableServerMode": "EHottaServerModeLimit::NormalServerOnly",
     "CanMultiSynthesis": false,
     "MMOSeasonIndex": 0
+  },
+  "artifact_ssr_027": {
+    "ArtifactType": "Invalid",
+    "ArtifactProperty": "EArtifactProperty::Assist",
+    "ArtifactPropertyDescText": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "artifact_ssr_026_type",
+      "SourceString": "[辅助]",
+      "LocalizedString": "[辅助]"
+    },
+    "CardImage": {
+      "AssetPathName": "/Game/Resources/UI/Artifact/itemicon/artifact_ssr_027.artifact_ssr_027",
+      "SubPathString": ""
+    },
+    "ArtifactSlayLetterIcon": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttackIcon": {
+      "AssetPathName": "/Game/Resources/UI/Artifact/icon/artifact_ssr_027.artifact_ssr_027",
+      "SubPathString": ""
+    },
+    "AbilitieTag": {
+      "TagName": "Ability.Skill.Artifact.SSR027"
+    },
+    "bShowInIllustration": true,
+    "iShowArtifactCd": 0,
+    "InitialLevel": 1,
+    "InitialMaxLevel": 1,
+    "InitialStar": 0,
+    "PreviewVideoImage": {
+      "AssetPathName": "/Game/Resources/UI/Artifact/artifact_play.artifact_play",
+      "SubPathString": ""
+    },
+    "PreviewVideoMediaSource": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "PreviewVideoDesc": {
+      "CultureInvariantString": null
+    },
+    "PreviewVideoStreamUrl": "https://ht.wanmei.com/net/251204vedio/index.html?barStyle=ewoicG9zIjoicmlnaHQiLAoiYmFyU3RhdGUiOiIxIiwgCiJyZWZyZXNoU3RhdGUiOiIxIiwgCiJmb3J3YXJkU3RhdGUiOiIxIiwKImJhY2tTdGF0ZSI6IjEiCn0=&isSup",
+    "Drawing": {
+      "AssetPathName": "/Game/Resources/UI/Artifact/lihui/artifact_ssr_027.artifact_ssr_027",
+      "SubPathString": ""
+    },
+    "Photo": {
+      "AssetPathName": "/Game/Resources/UI/Artifact/icon/artifact_ssr_027.artifact_ssr_027",
+      "SubPathString": ""
+    },
+    "BackgroundDescription": {
+      "CultureInvariantString": null
+    },
+    "FixedExp": 0,
+    "InitialSkill": {
+      "SkillTemplate": {
+        "AssetPathName": "/Game/Resources/Artifact/Artifact_SSR_027/GA_Artifact_SSR_027.GA_Artifact_SSR_027_C",
+        "SubPathString": ""
+      },
+      "SkillLevel": 1
+    },
+    "InitialPassiveSkills": [],
+    "InitialAttributes": "None",
+    "UpgradeConditionID": "",
+    "UpgradeAttributeID": "",
+    "AdvanceConditionID": "advance_ssr",
+    "AdvanceAttributeID": "artifact_adv_051",
+    "IsExperienceCard": false,
+    "IsAdvanceCard": false,
+    "IsShowGetArtifactForm": true,
+    "FragmentItemID": "fragment_artifact_ssr_027",
+    "DecomposeItemsNormal": [],
+    "DecomposeItemsMaxStar": [],
+    "DeductItemSkill": {
+      "SkillTemplate": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "SkillLevel": 1
+    },
+    "InitialFashionId": "None",
+    "SettingIndex": -1,
+    "ItemIcon": {
+      "AssetPathName": "/Game/Resources/UI/Artifact/icon/artifact_ssr_027.artifact_ssr_027",
+      "SubPathString": ""
+    },
+    "ArtPackID": "None",
+    "ItemName": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "artifact_ssr_027_name",
+      "SourceString": "神经脉冲调频仪",
+      "LocalizedString": "神经脉冲调频仪"
+    },
+    "ItemNameImage": {
+      "AssetPathName": "/Game/Resources/UI/Artifact/name/card_name_txtz.card_name_txtz",
+      "SubPathString": ""
+    },
+    "Description": {
+      "CultureInvariantString": null
+    },
+    "UseDescription": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/SkillDes.SkillDes",
+      "Key": "GA_Artifact_SSR_027",
+      "SourceString": "开启神经脉冲调频激发潜力，移动速度提升<shuzhi>20%</>，持续<shuzhi>30</>秒，不可叠加。冷却<shuzhi>60</>秒",
+      "LocalizedString": "开启神经脉冲调频激发潜力，移动速度提升<shuzhi>20%</>，持续<shuzhi>30</>秒，不可叠加。冷却<shuzhi>60</>秒"
+    },
+    "UpgradeRouteConfigId": "None",
+    "bNeedNoticeMessage": false,
+    "bNeedShowFirstGetTips": true,
+    "bAlwaysBind": false,
+    "bShowAttrIcon": false,
+    "bNotReminder": true,
+    "EquipBatchLevel": 0,
+    "SellPrice": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "ItemType": "ITEM_TYPE_ARTIFACT",
+    "DisplayTypeText": {
+      "CultureInvariantString": null
+    },
+    "LogItemType": 41,
+    "ArrangeType": 0,
+    "bShowBagAmount": false,
+    "ItemRarity": "EItemRarity::ITEM_RARITY_SSR",
+    "ItemQuality": "ITEM_QUALITY_LEGENDRY",
+    "RandomAttributeQuality": "ITEM_ATTRIBUTE_QUALITY_WHITE",
+    "EquipmentType": "EQUIPMENT_TYPE_ARTIFACT",
+    "EquipmentSlotType": "EQUIPMENT_SLOT_ARTIFACT",
+    "ItemActorClass": {
+      "AssetPathName": "/Game/Resources/Artifact/Artifact_SSR_027/BP_Artifact_SSR_027.BP_Artifact_SSR_027_C",
+      "SubPathString": ""
+    },
+    "DropActorClass": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "AttachInfoName": "None",
+    "UsingItemSkill": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "MaxAmount": 999,
+    "bUseDurable": false,
+    "MaxDurable": 1000,
+    "LifeTime": 0,
+    "LifeWeeks": 0,
+    "EndLiftTime": {
+      "year": 1,
+      "month": 1,
+      "day": 1,
+      "hour": 0,
+      "minute": 0,
+      "second": 0
+    },
+    "bTimeLimitIcon": false,
+    "ModifyData": "None",
+    "RandomModifyData": "None",
+    "AssignRandomModifyData": [],
+    "BaseScore": 0,
+    "bAutoUseWhenAdd": false,
+    "AutoUseWhenAddInServerModes": [],
+    "UesNeedSlot": 0,
+    "StaticToolName": "None",
+    "NeedLevel": 0,
+    "bCanMulUse": false,
+    "UsePathID": "None",
+    "bIsCanUseInBattle": true,
+    "GameplayTagUsingCheck": [],
+    "BlockID": "None",
+    "UseSuccessMsg": "",
+    "BackToMainForm": false,
+    "ShortcutType": "EShortcutItemType::SHORTCUT_ITEM_TYPE_INVALID",
+    "CanShowInSupplyList": true,
+    "ActivityID": "None",
+    "ActivitySubID": "None",
+    "CannotUseUnderWater": false,
+    "bAutoUseGiftPopupAwardsInfo": false,
+    "ShowMessageBoxWhenUseItem": [],
+    "IngredientID": "None",
+    "bIsTechSystemItem": false,
+    "bBuffOnlyExhibit": false,
+    "Buffs": [],
+    "BuffsInServerModes": [],
+    "bMultiApplyBuff": false,
+    "PermanentAttributeModify": [],
+    "PriceMap": [],
+    "BookName": "None",
+    "LetterID": "None",
+    "MountId": "None",
+    "OutputSourceID": "None",
+    "OutputSourceID_os": [],
+    "OutputSourceID_Region": [],
+    "OptionalBoxID": [],
+    "RandomBoxID": [],
+    "ItemBrief": {
+      "TableId": "/Game/Resources/Text/ST_item.ST_Item",
+      "Key": "brief_ArtifactSSR",
+      "SourceString": "源器SSR",
+      "LocalizedString": "源器SSR"
+    },
+    "PreviewPath": "",
+    "HarvestPhysicalStrengthCost": 0,
+    "bShowOutputSource": false,
+    "bCanMelt": true,
+    "MeltPackID": "artifact_ssr_027_meltpack",
+    "MeltPackIdInServerModes": [],
+    "DisableAutoMeltInServerModes": [],
+    "CurrencyType": "EHottaCurrencyType::Gold",
+    "IdentifyCost": {
+      "CurrencyType": "EHottaCurrencyType::Gold",
+      "Amount": 0
+    },
+    "DropGroupID": "None",
+    "GashaponActivityID": "None",
+    "GashaponJackpotID": "None",
+    "bAwardCanSelect": false,
+    "NeedShowCanUseFlg": false,
+    "TrialWeaponID": "None",
+    "TrialWeaponHour": 0,
+    "TrialArtifactID": "None",
+    "TrialArtifactHour": 0,
+    "bShowHighQualityTip": false,
+    "LotteryDrawing": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryCardImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LotteryDescription": {
+      "CultureInvariantString": null
+    },
+    "LotteryCharacterType": "RCT_NULL",
+    "LotteryMontageId": "SayHello",
+    "bIgnoreHarvestLimit": false,
+    "HobbyFlag": [],
+    "LikeabilityValue": 0,
+    "bCanExhibit": true,
+    "CanUseAutoCombat": true,
+    "ShortCutPriority": -1,
+    "ValidTime": -1,
+    "CardGameType": "ECardGameItemType::Mahjong",
+    "MahjongMatInst": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "LandlordTableImage": {
+      "AssetPathName": "None",
+      "SubPathString": ""
+    },
+    "transformItem": "None",
+    "transformCount": 0,
+    "bTamingMonster": false,
+    "FeedToCorralMonsterTags": [],
+    "FeedToCorralMonsterAddExp": 0,
+    "Tags": [],
+    "bMasterGiftItem": false,
+    "MasterGiftWeeklyGiveNum": 0,
+    "MasterGiftStackNum": 0,
+    "AvailableServerMode": "EHottaServerModeLimit::NormalServerOnly",
+    "CanMultiSynthesis": false,
+    "MMOSeasonIndex": 0
   }
 }
