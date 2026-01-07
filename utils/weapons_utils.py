@@ -203,7 +203,6 @@ def make_weapon_skill_desc_value(key: str, ga_parame_num: int, skill_update_tips
     }
 
     for key, value in filtered_data.items():
-        # Todo 武器等级对于数值的影响
 
         # 这里只记录技能等级1的状态
 
@@ -216,6 +215,53 @@ def make_weapon_skill_desc_value(key: str, ga_parame_num: int, skill_update_tips
 
     return result
 
+
+def make_weapon_skill_orig_desc_value(key: str, ga_parame_num: int, skill_update_tips_rows_data: dict) -> list:
+    """
+    用于武器技能描述中，构建数值数组
+
+    """
+
+    if ga_parame_num <= 0:
+        return []
+
+    result = []
+
+    filtered_data = {
+        f"{key}_{i}": skill_update_tips_rows_data[f"{key}_{i}"]
+        for i in range(1, ga_parame_num + 1)
+        if f"{key}_{i}" in skill_update_tips_rows_data
+    }
+
+    for key, value in filtered_data.items():
+
+
+        # value_at_time_1 = next(
+        #     (item['Value'] for item in value['Keys'] if item['Time'] == 1.0),
+        #     0
+        # )
+
+        result.append(fill_levels(value['Keys']))
+
+    return result
+
+
+def fill_levels(data, max_level=21):
+    # 先按 Time 排序（以防无序）
+    data = sorted(data, key=lambda x: x["Time"])
+
+    # 建立一个 time->value 的映射
+    time_map = {int(item["Time"]): item["Value"] for item in data}
+
+    result = []
+    last_value = None
+
+    for level in range(1, max_level + 1):
+        if level in time_map:
+            last_value = time_map[level]
+        result.append(last_value)
+
+    return result
 
 def make_weapon_skill(weapon_skill_list: list, gameplay_ability_tips_data_rows_data: dict,
                       skill_update_tips_rows_data: dict, game_json: dict) -> list:
@@ -269,6 +315,10 @@ def make_weapon_skill(weapon_skill_list: list, gameplay_ability_tips_data_rows_d
             tem_skill['name'] = item_name
             tem_skill['des'] = item_desc
             tem_skill['icon'] = fix_resolve_resource_path(item['Value']['Icon']['AssetPathName'],".png")
+            tem_skill['dynamicDes'] = item_desc_tem
+            tem_skill['dynamicValue'] = make_weapon_skill_orig_desc_value(item['Key'], item['Value']['GAParameNum'],
+                                                  skill_update_tips_rows_data)
+
 
             result_weapon_skill.append(tem_skill)
 
