@@ -57,6 +57,9 @@ async def make_matrix():
             'matrixIcon': fix_resolve_resource_path(
                 find_parent_value_by_key_value(static_matrix_data_rows_data, 'SuitID', name, 1)['ItemLargeIcon'][
                     'AssetPathName'], '.png'),
+            'matrixThumbnail': fix_resolve_resource_path(
+                find_parent_value_by_key_value(static_matrix_data_rows_data, 'SuitID', name, 1)['ItemIcon'][
+                    'AssetPathName'], '.png'),
             "matrixDetail": make_suit_unactivate_detail_list(data['SuitUnactivateDetailList'],
                                                                          data['SuitUnactivateDetailParams'],
                                                                          data['MatrixSuitQuality'], game_json)
