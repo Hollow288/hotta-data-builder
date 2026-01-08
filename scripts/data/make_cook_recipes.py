@@ -151,7 +151,7 @@ async def make_cook_recipes():
     data['Description']['Key'], data['Description']['LocalizedString']
 )
 ,
-            'foodIcon': fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
+            'foodIcon': fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.webp'),
             'source': make_food_source(dt_item_output_source_rows_data,data['OutputSourceID'],game_json),
             'useDescription': make_use_description(
                 tool_static_data_table_rows_data,
@@ -179,7 +179,7 @@ async def make_cook_recipes():
             'recipesKey' : recipes_key,
             'recipesName' : make_recipes_name_des(data['FoodItemID'],cooking_food_data_table_rows_data,game_json)['recipes_name'],
             'recipesDes' : make_recipes_name_des(data['FoodItemID'],cooking_food_data_table_rows_data,game_json)['recipes_des'],
-            'recipesIcon': fix_resolve_resource_path(food_info['ItemIcon']['AssetPathName'], '.png'),
+            'recipesIcon': fix_resolve_resource_path(food_info['ItemIcon']['AssetPathName'], '.webp'),
             "categories": make_categories(food_info['Categories'], cooking_food_category_data_table_rows_data, game_json),
             'useDescription' : make_use_description(tool_static_data_table_rows_data,food_info['StaticToolName'],game_json[extract_tail_name(food_info['UseDescription']['TableId'])][food_info['UseDescription']['Key']]),
             'buffs' : make_buff(food_info['Buffs'],gameplay_effect_tips_rows_data, game_json),

@@ -56,10 +56,10 @@ async def make_matrix():
             'matrixQuality': translate_matrix_info(data['MatrixSuitQuality']),
             'matrixIcon': fix_resolve_resource_path(
                 find_parent_value_by_key_value(static_matrix_data_rows_data, 'SuitID', name, 1)['ItemLargeIcon'][
-                    'AssetPathName'], '.png'),
+                    'AssetPathName'], '.webp'),
             'matrixThumbnail': fix_resolve_resource_path(
                 find_parent_value_by_key_value(static_matrix_data_rows_data, 'SuitID', name, 1)['ItemIcon'][
-                    'AssetPathName'], '.png'),
+                    'AssetPathName'], '.webp'),
             "matrixDetail": make_suit_unactivate_detail_list(data['SuitUnactivateDetailList'],
                                                                          data['SuitUnactivateDetailParams'],
                                                                          data['MatrixSuitQuality'], game_json)

@@ -125,7 +125,7 @@ async def make_weapons():
         weapons_info = {
             'weaponKey': name,
             'weaponName': game_json[extract_tail_name(data['ItemName']['TableId'])][data['ItemName']['Key']],
-            'weaponIcon': fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
+            'weaponIcon': fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.webp'),
             'weaponRarity': translate_weapon_info(data['ItemRarity']),
             'weaponCategory': translate_weapon_info(data['WeaponTypeData']['WeaponCategory']),
 

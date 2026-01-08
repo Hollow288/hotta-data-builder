@@ -85,8 +85,8 @@ async def make_artifact_data():
             ),
             "useDescription": make_use_description(data['InitialSkill']['SkillTemplate']['AssetPathName'],gameplay_ability_tips_data_rows_data,skill_update_tips_rows_data,game_json),
             "artifactRarity": translate_weapon_info(data['ItemRarity']),
-            "artifactIcon": fix_resolve_resource_path(data['CardImage']['AssetPathName'], '.png'),
-            "artifactThumbnail": fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.png'),
+            "artifactIcon": fix_resolve_resource_path(data['CardImage']['AssetPathName'], '.webp'),
+            "artifactThumbnail": fix_resolve_resource_path(data['ItemIcon']['AssetPathName'], '.webp'),
             "artifactDetail": make_artifact_attribute_data(data['AdvanceAttributeID'],artifact_advance_attribute_rows_data,game_json)
         }
 

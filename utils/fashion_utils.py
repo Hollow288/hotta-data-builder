@@ -8,6 +8,6 @@ def make_fashion_icons(art_pack_id: str, art_pack_data_table_rows_data: dict) ->
 
     filtered_icons = [icon for icon in icons if icon.get("AssetPathName") != "None"]
 
-    result = [fix_resolve_resource_path(icon["AssetPathName"],".png") for icon in filtered_icons]
+    result = [fix_resolve_resource_path(icon["AssetPathName"],".webp") for icon in filtered_icons]
 
     return result
