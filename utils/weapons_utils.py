@@ -314,6 +314,7 @@ def make_weapon_skill(weapon_skill_list: list, gameplay_ability_tips_data_rows_d
             tem_skill['type'] = skill_type
             tem_skill['name'] = item_name
             tem_skill['des'] = item_desc
+            tem_skill['tags'] = make_weapon_skill_tag(item['Value']['Tags'])
             tem_skill['icon'] = fix_resolve_resource_path(item['Value']['Icon']['AssetPathName'],".webp")
             tem_skill['dynamicDes'] = item_desc_tem
             tem_skill['dynamicValue'] = make_weapon_skill_orig_desc_value(item['Key'], item['Value']['GAParameNum'],
@@ -364,3 +365,15 @@ def save_lottery_img(weapon_fashion_id: str, lottery_card_image: str, item_name:
                 shutil.copy2(name_picture_path, target_path)
             except ValueError:
                 print(f"无法识别 Hotta 路径: {name_picture_path}")
+
+
+def make_weapon_skill_tag(data: list) -> list:
+    tag_map = {
+        0: "伤害",
+        1: "控制",
+        2: "辅助",
+        3: "减益",
+        4: "霸体",
+        5: "弹药",
+    }
+    return [tag_map[i] for i in data if i in tag_map]
