@@ -60,7 +60,7 @@ async def make_fashion_data():
             "fashionName": data['Name']['LocalizedString'],
             "description": data['Description']['LocalizedString'],
             "source": data.get('ActiveSource', {}).get('LocalizedString', ''),
-            "fashionIcons": make_fashion_icons(data['ArtPackID'],art_pack_data_table_rows_data)
+            "fashionIcons": make_fashion_icons(data['ArtPackID'],art_pack_data_table_rows_data,data['Icon']['AssetPathName'])
         }
 
         result_fashion_list.append(fashion_info)

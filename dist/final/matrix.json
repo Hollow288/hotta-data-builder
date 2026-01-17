@@ -1,9 +1,27 @@
 [
   {
+    "matrixKey": "Suit_SSR64",
+    "matrixName": "狂笑断面",
+    "matrixQuality": "SSR",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR64_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR64_256.webp",
+    "matrixDetail": [
+      {
+        "type": "意志2件装备效果",
+        "desc": "火焰攻击提升30%/40%/50%/60%。装备后后台可生效，多套只生效最高星级。释放<shuzhi>技能-亡命深吞</>后<shuzhi>10</>秒内使来自<shuzhi>武器-血腥鲨</>的伤害提升<shuzhi>300%</>。"
+      },
+      {
+        "type": "意志4件装备效果",
+        "desc": "火元素伤害提升30%/41%/53%/65%，装备<shuzhi>武器-血腥鲨</>后火元素伤害提升30%。"
+      }
+    ]
+  },
+  {
     "matrixKey": "Suit_SSR63",
     "matrixName": "生生不息",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR63_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR63_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR63_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -19,7 +37,8 @@
     "matrixKey": "Suit_SSR62",
     "matrixName": "为我俯首",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR62_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR62_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR62_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -35,7 +54,8 @@
     "matrixKey": "Suit_SSR61",
     "matrixName": "边缘人",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR61_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR61_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR61_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -51,7 +71,8 @@
     "matrixKey": "Suit_SSR60",
     "matrixName": "无尽梦呓",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR60_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR60_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR60_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -67,7 +88,8 @@
     "matrixKey": "Suit_SSR59",
     "matrixName": "生命赋格",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR59_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR59_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR59_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -83,7 +105,8 @@
     "matrixKey": "Suit_SSR58",
     "matrixName": "未来星空",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR58_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR58_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR58_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -99,7 +122,8 @@
     "matrixKey": "Suit_SSR57",
     "matrixName": "星空奏鸣曲",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR57_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR57_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR57_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -115,7 +139,8 @@
     "matrixKey": "Suit_SSR56",
     "matrixName": "新节目",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR56_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR56_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR56_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -131,7 +156,8 @@
     "matrixKey": "Suit_SSR55",
     "matrixName": "天外来客",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR55_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR55_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR55_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -147,7 +173,8 @@
     "matrixKey": "Suit_SSR54",
     "matrixName": "守望者",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR54_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR54_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR54_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -163,7 +190,8 @@
     "matrixKey": "Suit_SSR53",
     "matrixName": "人之心",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR53_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR53_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR53_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -179,7 +207,8 @@
     "matrixKey": "suit_SSR52",
     "matrixName": "烈烈红莲",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR52_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR52_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR52_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -195,7 +224,8 @@
     "matrixKey": "suit_SSR51",
     "matrixName": "魔力之源",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR51_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR51_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR51_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -211,7 +241,8 @@
     "matrixKey": "suit_SSR50",
     "matrixName": "演绎",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR50_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR50_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR50_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -227,7 +258,8 @@
     "matrixKey": "suit_SSR49",
     "matrixName": "锋芒",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR49_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR49_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR49_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -243,7 +275,8 @@
     "matrixKey": "suit_SSR48",
     "matrixName": "夜辉",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR48_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR48_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR48_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -259,7 +292,8 @@
     "matrixKey": "suit_SSR47",
     "matrixName": "星期三",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR47_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR47_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR47_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -275,7 +309,8 @@
     "matrixKey": "suit_SSR46",
     "matrixName": "铭心",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR46_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR46_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR46_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -291,7 +326,8 @@
     "matrixKey": "suit_SSR45",
     "matrixName": "洞微",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR45_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR45_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR45_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -307,7 +343,8 @@
     "matrixKey": "suit_SSR44",
     "matrixName": "零之轮回",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR44_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR44_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR44_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -323,7 +360,8 @@
     "matrixKey": "suit_SSR43",
     "matrixName": "未来",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR43_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR43_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR43_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -339,7 +377,8 @@
     "matrixKey": "suit_SSR42",
     "matrixName": "千面",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR42_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR42_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/512/icon_matrix_SSR42_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -355,7 +394,8 @@
     "matrixKey": "suit_SSR41",
     "matrixName": "悖论",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR41_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR41_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/512/icon_matrix_SSR41_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -371,7 +411,8 @@
     "matrixKey": "suit_SSR40",
     "matrixName": "才能开花",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR40_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR40_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/512/icon_matrix_SSR40_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -387,7 +428,8 @@
     "matrixKey": "suit_SSR39",
     "matrixName": "热枕",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR39_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR39_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR39_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -403,7 +445,8 @@
     "matrixKey": "suit_SSR38",
     "matrixName": "弗渝",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR38_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR38_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR38_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -419,7 +462,8 @@
     "matrixKey": "suit_SSR37",
     "matrixName": "霜影",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR37_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR37_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR37_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -435,7 +479,8 @@
     "matrixKey": "suit_SSR36",
     "matrixName": "惊鸿",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR36_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR36_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR36_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -451,7 +496,8 @@
     "matrixKey": "suit_SSR35",
     "matrixName": "吟啸",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR35_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR35_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR35_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -467,7 +513,8 @@
     "matrixKey": "suit_SSR34",
     "matrixName": "寻心",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR34_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR34_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR34_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -483,7 +530,8 @@
     "matrixKey": "suit_SSR33",
     "matrixName": "赤心",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR33_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR33_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR33_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -499,7 +547,8 @@
     "matrixKey": "suit_SSR32",
     "matrixName": "春秋笔",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR32_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR32_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR32_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -515,7 +564,8 @@
     "matrixKey": "suit_SSR31",
     "matrixName": "求索",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR31_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR31_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR31_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -531,7 +581,8 @@
     "matrixKey": "suit_SSR30",
     "matrixName": "冒险陨星",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR30_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR30_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR30_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -547,7 +598,8 @@
     "matrixKey": "suit_SSR29",
     "matrixName": "奋念",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR29_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR29_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR29_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -563,7 +615,8 @@
     "matrixKey": "suit_SSR28",
     "matrixName": "含霜",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR28_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR28_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR28_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -579,7 +632,8 @@
     "matrixKey": "suit_SSR27",
     "matrixName": "风火",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR27_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR27_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR27_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -595,7 +649,8 @@
     "matrixKey": "suit_SSR26",
     "matrixName": "混响鸣鼓",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR26_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR26_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR26_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -611,7 +666,8 @@
     "matrixKey": "suit_SSR25",
     "matrixName": "火山灰雨",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR25_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR25_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR25_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -627,7 +683,8 @@
     "matrixKey": "suit_SSR24",
     "matrixName": "万物交响",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR24_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR24_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR24_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -643,7 +700,8 @@
     "matrixKey": "suit_SSR23",
     "matrixName": "双重魔术",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR23_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR23_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR23_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -659,7 +717,8 @@
     "matrixKey": "suit_SSR22",
     "matrixName": "英魂再构",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR22_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR22_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR22_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -675,7 +734,8 @@
     "matrixKey": "suit_SSR21",
     "matrixName": "血色异闻",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR21_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR21_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR21_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -691,7 +751,8 @@
     "matrixKey": "suit_SSR20",
     "matrixName": "杀破狼",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR20_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR20_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR20_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -707,7 +768,8 @@
     "matrixKey": "suit_SSR19",
     "matrixName": "回忆告解",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR19_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR19_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR19_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -723,7 +785,8 @@
     "matrixKey": "suit_SSR18",
     "matrixName": "不夜城之夜",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR18_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR18_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR18_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -739,7 +802,8 @@
     "matrixKey": "suit_SSR17",
     "matrixName": "超心流",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR17_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR17_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR17_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -755,7 +819,8 @@
     "matrixKey": "suit_SSR16",
     "matrixName": "白兔舞曲",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR16_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR16_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR16_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -771,7 +836,8 @@
     "matrixKey": "suit_SSR15",
     "matrixName": "身心为铁",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR15_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR15_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR15_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -787,7 +853,8 @@
     "matrixKey": "suit_SSR14",
     "matrixName": "生命弥合",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR14_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR14_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR14_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -803,7 +870,8 @@
     "matrixKey": "suit_SSR13",
     "matrixName": "意念升华",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR13_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR13_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR13_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -819,7 +887,8 @@
     "matrixKey": "suit_SSR12",
     "matrixName": "先锋",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR12_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR12_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR12_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -835,7 +904,8 @@
     "matrixKey": "suit_SSR11",
     "matrixName": "狂热追击",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR11_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR11_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR11_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -851,7 +921,8 @@
     "matrixKey": "suit_SSR10",
     "matrixName": "微热苏醒",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR10_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR10_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR10_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -867,7 +938,8 @@
     "matrixKey": "suit_SSR9",
     "matrixName": "理性解放",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR9_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR9_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR9_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -883,7 +955,8 @@
     "matrixKey": "suit_SSR8",
     "matrixName": "不思议链接",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR8_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR8_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR8_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -899,7 +972,8 @@
     "matrixKey": "suit_SSR7",
     "matrixName": "启程之诗",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR7_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR7_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR7_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -915,7 +989,8 @@
     "matrixKey": "suit_SSR6",
     "matrixName": "多方位打击",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR6_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR6_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR6_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -931,7 +1006,8 @@
     "matrixKey": "suit_SSR5",
     "matrixName": "超直感战法",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR5_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR5_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR5_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -947,7 +1023,8 @@
     "matrixKey": "suit_SSR4",
     "matrixName": "暴力代言",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR4_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR4_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR4_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -963,7 +1040,8 @@
     "matrixKey": "suit_SSR3",
     "matrixName": "信赖之证",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR3_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR3_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR3_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -979,7 +1057,8 @@
     "matrixKey": "suit_SSR2",
     "matrixName": "读风之眼",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR2_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR2_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR2_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -995,7 +1074,8 @@
     "matrixKey": "suit_SSR1",
     "matrixName": "纯白的守护",
     "matrixQuality": "SSR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR1_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SSR1_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SSR1_256.webp",
     "matrixDetail": [
       {
         "type": "意志2件装备效果",
@@ -1011,7 +1091,8 @@
     "matrixKey": "suit_SR1",
     "matrixName": "悉数吞噬",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR1_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR1_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR1_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1023,7 +1104,8 @@
     "matrixKey": "suit_SR2",
     "matrixName": "自我斗争",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR2_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR2_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR2_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1035,7 +1117,8 @@
     "matrixKey": "suit_SR3",
     "matrixName": "极致零度",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR3_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR3_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR3_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1047,7 +1130,8 @@
     "matrixKey": "suit_SR4",
     "matrixName": "沼泽潜影",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR4_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR4_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR4_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1059,7 +1143,8 @@
     "matrixKey": "suit_SR5",
     "matrixName": "恶梦成双",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR5_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR5_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR5_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1071,7 +1156,8 @@
     "matrixKey": "suit_SR6",
     "matrixName": "连轴转",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR6_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR6_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR6_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1083,7 +1169,8 @@
     "matrixKey": "suit_SR7",
     "matrixName": "抛物线",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR7_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR7_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR7_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1095,7 +1182,8 @@
     "matrixKey": "suit_SR8",
     "matrixName": "机能过载",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR8_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR8_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR8_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1107,7 +1195,8 @@
     "matrixKey": "suit_SR9",
     "matrixName": "致命锁定",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR9_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR9_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR9_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1119,7 +1208,8 @@
     "matrixKey": "suit_SR12",
     "matrixName": "斩草除根",
     "matrixQuality": "SR",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR12_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_SR12_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_SR12_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1131,7 +1221,8 @@
     "matrixKey": "suit_R1",
     "matrixName": "自爆之惧",
     "matrixQuality": "R",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R1_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R1_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_R1_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1143,7 +1234,8 @@
     "matrixKey": "suit_R2",
     "matrixName": "功能冲撞",
     "matrixQuality": "R",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R2_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R2_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_R2_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1155,7 +1247,8 @@
     "matrixKey": "suit_R3",
     "matrixName": "标准运转",
     "matrixQuality": "R",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R3_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R3_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_R3_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1167,7 +1260,8 @@
     "matrixKey": "suit_R4",
     "matrixName": "掠夺兴致",
     "matrixQuality": "R",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R4_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R4_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_R4_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1179,7 +1273,8 @@
     "matrixKey": "suit_R6",
     "matrixName": "风刃之名",
     "matrixQuality": "R",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R6_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R6_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_R6_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1191,7 +1286,8 @@
     "matrixKey": "suit_R7",
     "matrixName": "扫清障碍",
     "matrixQuality": "R",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R7_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_R7_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_R7_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1203,7 +1299,8 @@
     "matrixKey": "suit_N1",
     "matrixName": "荒蛮血脉",
     "matrixQuality": "N",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_N1_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_N1_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_N1_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",
@@ -1215,7 +1312,8 @@
     "matrixKey": "suit_N2",
     "matrixName": "暴躁横劈",
     "matrixQuality": "N",
-    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_N2_512.png",
+    "matrixIcon": "Resources/Icon/yizhi/512/icon_matrix_N2_512.webp",
+    "matrixThumbnail": "Resources/Icon/yizhi/256/icon_matrix_N2_256.webp",
     "matrixDetail": [
       {
         "type": "意志3件装备效果",

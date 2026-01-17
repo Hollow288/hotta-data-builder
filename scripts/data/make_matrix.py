@@ -50,6 +50,8 @@ async def make_matrix():
     result_matrix_list = []
 
     for name, data in static_matrix_suit_data_table_rows_data.items():
+        if name == 'Suit_SSR65':
+            continue
         matrix_info = {
             'matrixKey': name,
             'matrixName': game_json[extract_tail_name(data['SuitName']['TableId'])][data['SuitName']['Key']],
