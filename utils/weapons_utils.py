@@ -377,3 +377,62 @@ def make_weapon_skill_tag(data: list) -> list:
         5: "弹药",
     }
     return [tag_map[i] for i in data if i in tag_map]
+
+
+def make_modify_data(modify_data_table_rows_data: dict, modify_data: str, game_json: dict, attribute_static_data: dict) -> list:
+
+    source_list = modify_data_table_rows_data[modify_data.lower()]['ModifyData']
+
+    result = [
+        {
+            "propName": item["PropName"],
+            "propChsName": game_json["QRSLCommon_ST"].get(item["PropName"], item["PropName"]),
+            "propValue": item["PropValue"],
+            "modifierOp": item["ModifierOp"],
+            "attributeIcon": fix_resolve_resource_path(attribute_static_data[item["PropName"]]['AttributeIcon']['AssetPathName'], '.webp')
+        }
+        for item in source_list
+    ]
+
+    return result
+
+def make_attribute_coefficient(upgrade_star_pack_id: str, max_upgrade_star: int, game_json: dict,
+                           weapon_upgrade_star_data_rows_data: dict) -> list:
+
+    if max_upgrade_star <= 0:
+        return []
+
+    result = []
+
+    filtered_data = {
+        f"{upgrade_star_pack_id}_{i}": weapon_upgrade_star_data_rows_data[f"{upgrade_star_pack_id}_{i}"]
+        for i in range(1, max_upgrade_star + 1)
+        if f"{upgrade_star_pack_id}_{i}" in weapon_upgrade_star_data_rows_data
+    }
+
+    for key, value in filtered_data.items():
+        lst = value['AttributeCoefficientList']
+
+        this_dict = {item['PropName']: item['PropCoefficient'] for item in lst}
+
+        result.append(this_dict)
+
+    return result
+
+
+def make_upgrade_attribute(dt_weapon_upgrade_table_rows_data:dict, upgrade_pack_id:str, equip_strengthen_effect_pack_rows_data: dict)-> list:
+
+    result = []
+
+    for i in range(200):
+        key = f"{upgrade_pack_id}_{i + 1}"
+
+        if key not in dt_weapon_upgrade_table_rows_data:
+            continue  # 如果没有这个key就跳过（也可以选择break）
+
+        row_data = dt_weapon_upgrade_table_rows_data[key]
+        tem_add = equip_strengthen_effect_pack_rows_data[row_data['ModifyPack'].lower()]['AddAttrValues']
+
+        result.append(tem_add)
+
+    return result

@@ -7,7 +7,7 @@ import json
 
 from utils.common_utils import extract_tail_name, fix_resolve_resource_path, make_remould_detail
 from utils.weapons_utils import translate_weapon_info, make_element_desc_name, extract_series_values, make_weapon_skill, \
-    make_upgrade_star_pack, save_lottery_img
+    make_upgrade_star_pack, save_lottery_img, make_modify_data, make_attribute_coefficient, make_upgrade_attribute
 
 # 加载 .env 文件
 load_dotenv()
@@ -50,6 +50,26 @@ dt_imitation_path = os.getenv("DT_IMITATION") or os.path.join(
     source_path, "CoreBlueprints/DataTable/Fashion/DT_Imitation.json"
 )
 
+# 升级数据信息
+modify_data_table_path = os.getenv("MODIFY_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/ModifyDataTable.json"
+)
+
+# 每级信息来源
+dt_weapon_upgrade_path = os.getenv("DT_WEAPON_UPGRADE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/DT_WeaponUpgrade.json"
+)
+
+# 每级成长信息
+equip_strengthen_effect_pack_data_table_path = os.getenv("EQUIP_STRENGTHEN_EFFECT_PACK_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/EquipDataTables/EquipStrengthenEffectPackDataTable.json"
+)
+
+# 属性图标信息
+attribute_static_data_table_path = os.getenv("ATTRIBUTE_STATIC_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/AttributeStaticDataTable.json"
+)
+
 # Game.json文件目录
 game_json_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", "dist", "intermediate", "Game.json")
@@ -80,6 +100,18 @@ async def make_weapons():
     with open(dt_imitation_path, "r", encoding="utf-8") as f:
         dt_imitation = json.load(f)
 
+    with open(modify_data_table_path, "r", encoding="utf-8") as f:
+        modify_data_table = json.load(f)
+
+    with open(dt_weapon_upgrade_path, "r", encoding="utf-8") as f:
+        dt_weapon_upgrade_table = json.load(f)
+
+    with open(equip_strengthen_effect_pack_data_table_path, "r", encoding="utf-8") as f:
+        equip_strengthen_effect_pack_data_table = json.load(f)
+
+    with open(attribute_static_data_table_path, "r", encoding="utf-8") as f:
+        attribute_static_data_table = json.load(f)
+
     # 星级效果
     weapon_upgrade_star_data_rows_data = {
         k.lower(): v for k, v in weapon_upgrade_star_data[0].get("Rows", {}).items()
@@ -102,6 +134,24 @@ async def make_weapons():
 
     # 拟态信息
     dt_imitation_rows_data = dt_imitation[0].get("Rows", {})
+
+    # 升级数据信息
+    modify_data_table_rows_data = {
+        k.lower(): v for k, v in modify_data_table[0].get("Rows", {}).items()
+    }
+
+    # 每级信息来源
+    dt_weapon_upgrade_table_rows_data = {
+        k.lower(): v for k, v in dt_weapon_upgrade_table[0].get("Rows", {}).items()
+    }
+
+    # 每级成长信息
+    equip_strengthen_effect_pack_rows_data = {
+        k.lower(): v for k, v in equip_strengthen_effect_pack_data_table[0].get("Rows", {}).items()
+    }
+
+    # 属性图标信息
+    attribute_static_data = attribute_static_data_table[0].get("Rows", {})
 
     warehouse_weapons = {
         name: data
@@ -145,6 +195,10 @@ async def make_weapons():
                                                                           quip_batch_level_static_data_table_rows_data,
                                                                           game_json)['element_desc']
                               },
+            'weaponModifyData': make_modify_data(modify_data_table_rows_data, data['ModifyData'], game_json, attribute_static_data),
+            'weaponAttributeCoefficientList': make_attribute_coefficient(data['UpgradeStarPackID'].lower(), data['MaxUpgradeStar'],
+                                                      game_json, weapon_upgrade_star_data_rows_data),
+            'weaponUpgradeAttribute': make_upgrade_attribute(dt_weapon_upgrade_table_rows_data, data['UpgradePackId'].lower(), equip_strengthen_effect_pack_rows_data),
             'armorBroken': some_base_info['ArmorBroken'],
             'charging': some_base_info['Charging'],
             'description': game_json[extract_tail_name(data['Description']['TableId'])][data['Description']['Key']],
