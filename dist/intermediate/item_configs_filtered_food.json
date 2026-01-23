@@ -166,6 +166,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -419,6 +420,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -664,6 +666,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -891,6 +894,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -1136,6 +1140,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -1389,6 +1394,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -1642,6 +1648,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -1895,6 +1902,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -2148,6 +2156,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -2375,6 +2384,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -2602,6 +2612,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -2829,6 +2840,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -3056,6 +3068,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -3283,6 +3296,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -3536,6 +3550,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -3789,6 +3804,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -4042,6 +4058,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -4295,6 +4312,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -4548,6 +4566,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -4801,6 +4820,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -5054,6 +5074,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -5307,6 +5328,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -5560,6 +5582,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -5813,6 +5836,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -6040,6 +6064,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -6267,6 +6292,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -6512,6 +6538,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -6765,6 +6792,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7018,6 +7046,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7226,6 +7255,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7453,6 +7483,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7680,6 +7711,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -7925,6 +7957,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -8170,6 +8203,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -8394,6 +8428,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -8618,6 +8653,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -8842,6 +8878,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -9066,6 +9103,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -9334,6 +9372,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -9602,6 +9641,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -9870,6 +9910,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -10138,6 +10179,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -10380,6 +10422,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -10607,6 +10650,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -10831,6 +10875,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -11081,6 +11126,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -11305,6 +11351,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -11555,6 +11602,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -11805,6 +11853,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12047,6 +12096,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12289,6 +12339,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12513,6 +12564,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12763,6 +12815,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -12971,6 +13024,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13179,6 +13233,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13387,6 +13442,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13595,6 +13651,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -13803,6 +13860,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14011,6 +14069,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14219,6 +14278,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14427,6 +14487,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14635,6 +14696,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -14843,6 +14905,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15051,6 +15114,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15296,6 +15360,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15504,6 +15569,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15712,6 +15778,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -15920,6 +15987,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16128,6 +16196,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16336,6 +16405,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16544,6 +16614,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16752,6 +16823,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -16997,6 +17069,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -17242,6 +17315,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -17487,6 +17561,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -17732,6 +17807,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -17959,6 +18035,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -18186,6 +18263,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -18413,6 +18491,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -18640,6 +18719,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -18867,6 +18947,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19094,6 +19175,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19339,6 +19421,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19566,6 +19649,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -19793,6 +19877,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -20038,6 +20123,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -20301,6 +20387,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -20528,6 +20615,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -20755,6 +20843,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -21008,6 +21097,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -21261,6 +21351,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -21514,6 +21605,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -21767,6 +21859,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -22012,6 +22105,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -22236,6 +22330,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -22463,6 +22558,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -22690,6 +22786,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -22943,6 +23040,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -23196,6 +23294,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -23449,6 +23548,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -23702,6 +23802,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -23910,6 +24011,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -24137,6 +24239,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -24382,6 +24485,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -24635,6 +24739,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -24888,6 +24993,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25141,6 +25247,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25394,6 +25501,7 @@
         }
       }
     ],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25639,6 +25747,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -25884,6 +25993,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -26129,6 +26239,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -26374,6 +26485,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -26619,6 +26731,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -26824,6 +26937,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -27066,6 +27180,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -27310,6 +27425,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -27554,6 +27670,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -27798,6 +27915,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28042,6 +28160,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28286,6 +28405,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28530,6 +28650,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28772,6 +28893,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -28979,6 +29101,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -29186,6 +29309,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -29393,6 +29517,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -29600,6 +29725,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -29807,6 +29933,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -30009,6 +30136,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -30211,6 +30339,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -30413,6 +30542,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -30615,6 +30745,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -30822,6 +30953,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31029,6 +31161,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31259,6 +31392,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31489,6 +31623,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31756,6 +31891,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -31963,6 +32099,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32205,6 +32342,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32412,6 +32550,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32619,6 +32758,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -32863,6 +33003,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33070,6 +33211,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33277,6 +33419,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33484,6 +33627,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33691,6 +33835,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -33898,6 +34043,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -34105,6 +34251,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -34312,6 +34459,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -34556,6 +34704,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -34800,6 +34949,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -35044,6 +35194,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -35288,6 +35439,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -35532,6 +35684,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -35771,6 +35924,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36010,6 +36164,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36246,6 +36401,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36448,6 +36604,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36648,6 +36805,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -36850,6 +37008,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -37052,6 +37211,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -37254,6 +37414,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -37493,6 +37654,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -37732,6 +37894,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -37971,6 +38134,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -38210,6 +38374,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -38449,6 +38614,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -38651,6 +38817,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -38856,6 +39023,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39061,6 +39229,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39303,6 +39472,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39547,6 +39717,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39791,6 +39962,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -39996,6 +40168,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -40238,6 +40411,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -40480,6 +40654,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -40722,6 +40897,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -40964,6 +41140,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -41206,6 +41383,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -41448,6 +41626,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -41690,6 +41869,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -41892,6 +42072,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42131,6 +42312,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42370,6 +42552,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42609,6 +42792,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -42848,6 +43032,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43087,6 +43272,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43326,6 +43512,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43528,6 +43715,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43767,6 +43955,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -43969,6 +44158,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44171,6 +44361,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44373,6 +44564,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44575,6 +44767,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -44800,6 +44993,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45002,6 +45196,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45204,6 +45399,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45406,6 +45602,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45608,6 +45805,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -45810,6 +46008,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46012,6 +46211,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46214,6 +46414,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46416,6 +46617,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46618,6 +46820,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -46820,6 +47023,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47022,6 +47226,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47224,6 +47429,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47426,6 +47632,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47628,6 +47835,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -47830,6 +48038,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48032,6 +48241,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48232,6 +48442,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48432,6 +48643,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48632,6 +48844,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -48832,6 +49045,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -49034,6 +49248,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -49236,6 +49451,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -49438,6 +49654,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -49638,6 +49855,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -49840,6 +50058,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -50042,6 +50261,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -50244,6 +50464,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -50446,6 +50667,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -50648,6 +50870,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -50869,6 +51092,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51076,6 +51300,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51281,6 +51506,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51486,6 +51712,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -51728,6 +51955,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -51967,6 +52195,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -52169,6 +52398,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -52376,6 +52606,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -52620,6 +52851,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -52830,6 +53062,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53022,6 +53255,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53214,6 +53448,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53406,6 +53641,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53598,6 +53834,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53790,6 +54027,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -53982,6 +54220,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -54174,6 +54413,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -54366,6 +54606,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -54558,6 +54799,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -54750,6 +54992,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -54942,6 +55185,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -55134,6 +55378,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -55326,6 +55571,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -55518,6 +55764,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -55745,6 +55992,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -55967,6 +56215,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [],
@@ -56189,6 +56438,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -56416,6 +56666,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -56661,6 +56912,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -56888,6 +57140,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57115,6 +57368,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57360,6 +57614,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57587,6 +57842,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -57814,6 +58070,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -58041,6 +58298,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -58255,6 +58513,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -58469,6 +58728,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -58683,6 +58943,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -58897,6 +59158,7 @@
       }
     ],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -59099,6 +59361,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -59303,6 +59566,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -59507,6 +59771,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [
@@ -59711,6 +59976,7 @@
     "bBuffOnlyExhibit": false,
     "Buffs": [],
     "BuffsInServerModes": [],
+    "bIsWorldTimeExpiredBuff": false,
     "bMultiApplyBuff": false,
     "PermanentAttributeModify": [],
     "PriceMap": [

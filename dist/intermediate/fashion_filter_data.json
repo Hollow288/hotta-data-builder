@@ -38,9 +38,9 @@
     "bShowOperateButton": true,
     "ActiveSource": {
       "TableId": "/Game/Resources/Text/ST_item.ST_Item",
-      "Key": "OutputSource_BP",
-      "SourceString": "通行证奖励",
-      "LocalizedString": "通行证奖励"
+      "Key": "battlepass_dress",
+      "SourceString": "商店获取",
+      "LocalizedString": "商店获取"
     },
     "ActiveSource_os": [
       {
@@ -458,7 +458,7 @@
     },
     "OrnamentID": "None",
     "SortOrder": 97,
-    "bShowNeedUnlock": true,
+    "bShowNeedUnlock": false,
     "OverSeaShowNeedUnlock": [],
     "OverseabShowNeedUnlock": [],
     "Description": {
@@ -570,25 +570,25 @@
             },
             "PartColor": [
               {
-                "R": 1.0,
-                "G": 1.0,
-                "B": 1.0,
+                "R": 1.3,
+                "G": 1.3,
+                "B": 1.3,
+                "A": 1.0,
+                "Hex": "FFFFFF"
+              },
+              {
+                "R": 1.2,
+                "G": 1.2,
+                "B": 1.2,
                 "A": 1.0,
                 "Hex": "FFFFFF"
               },
               {
                 "R": 1.0,
-                "G": 1.0,
-                "B": 1.0,
+                "G": 0.0,
+                "B": 0.0,
                 "A": 1.0,
-                "Hex": "FFFFFF"
-              },
-              {
-                "R": 1.0,
-                "G": 1.0,
-                "B": 1.0,
-                "A": 1.0,
-                "Hex": "FFFFFF"
+                "Hex": "FF0000"
               },
               {
                 "R": 0.0,
@@ -599,17 +599,17 @@
               },
               {
                 "R": 1.0,
-                "G": 1.0,
-                "B": 1.0,
+                "G": 0.886483,
+                "B": 0.833333,
                 "A": 1.0,
-                "Hex": "FFFFFF"
+                "Hex": "FFF2EC"
               },
               {
-                "R": 1.0,
-                "G": 1.0,
-                "B": 1.0,
+                "R": 0.192708,
+                "G": 0.063192,
+                "B": 0.051677,
                 "A": 1.0,
-                "Hex": "FFFFFF"
+                "Hex": "794740"
               }
             ]
           }
@@ -627,25 +627,25 @@
             },
             "PartColor": [
               {
-                "R": 2.0,
-                "G": 2.0,
-                "B": 2.0,
+                "R": 1.0,
+                "G": 0.0,
+                "B": 0.018907,
                 "A": 1.0,
-                "Hex": "FFFFFF"
+                "Hex": "FF0025"
               },
               {
-                "R": 0.294979,
-                "G": 0.708384,
-                "B": 1.2,
+                "R": 0.0,
+                "G": 0.239583,
+                "B": 0.014735,
                 "A": 1.0,
-                "Hex": "94DBFF"
+                "Hex": "008620"
               },
               {
-                "R": 0.069261,
-                "G": 0.108812,
-                "B": 0.4375,
+                "R": 0.0625,
+                "G": 1.0,
+                "B": 1.0,
                 "A": 1.0,
-                "Hex": "4A5DB1"
+                "Hex": "46FFFF"
               },
               {
                 "R": 0.0,
@@ -655,18 +655,18 @@
                 "Hex": "000000"
               },
               {
-                "R": 1.0,
-                "G": 0.675508,
-                "B": 0.417691,
+                "R": 0.088542,
+                "G": 0.050545,
+                "B": 0.04012,
                 "A": 1.0,
-                "Hex": "FFD7AD"
+                "Hex": "543F38"
               },
               {
-                "R": 0.039377,
-                "G": 0.032281,
-                "B": 0.052083,
+                "R": 2.0,
+                "G": 2.0,
+                "B": 2.0,
                 "A": 1.0,
-                "Hex": "383240"
+                "Hex": "FFFFFF"
               }
             ]
           }
@@ -674,7 +674,7 @@
       }
     ],
     "Icon": {
-      "AssetPathName": "/Game/Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_94.fashion_icon_dress_94",
+      "AssetPathName": "/Game/Resources/UI/shizhuang/Fashion_icon/item_fashion_icon/fashion_icon_dress_97.fashion_icon_dress_97",
       "SubPathString": ""
     },
     "ForbidHairs": [
@@ -699,7 +699,7 @@
       {
         "Key": "RCT_MAN",
         "Value": {
-          "AssetPathName": "/Game/Resources/Characters/Player/male_01/Animation/Hand/s/char_h_stand_pe_s.char_h_stand_pe_s",
+          "AssetPathName": "/Game/Resources/Characters/Player/male_01/Animation/Hand/t/char_h_stand_pe_t.char_h_stand_pe_t",
           "SubPathString": ""
         }
       }
@@ -711,7 +711,7 @@
       },
       {
         "Key": "RCT_MAN",
-        "Value": false
+        "Value": true
       }
     ],
     "SuperSkirts": [
@@ -775,16 +775,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_ZQ_show.f_player_fashion_ZQ_show",
+                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_SDJ_roundloop.f_player_fashion_SDJ_roundloop",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_ZQ_enterstandby.f_player_fashion_ZQ_enterstandby",
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_SDJ_enterstandby.f_player_fashion_SDJ_enterstandby",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_ZQ_idle.f_player_fashion_ZQ_idle",
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/female_01/animation/Hand/f_player_fashion_SDJ_idle.f_player_fashion_SDJ_idle",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -809,16 +809,16 @@
               "Value": {
                 "LeisureAnimSequeArray": [
                   {
-                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_ZQ_show.m_player_fashion_ZQ_show",
+                    "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_SDJ_roundloop.m_player_fashion_SDJ_roundloop",
                     "SubPathString": ""
                   }
                 ],
                 "NormalToExclusiveAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_ZQ_enterstandby.m_player_fashion_ZQ_enterstandby",
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_SDJ_enterstandby.m_player_fashion_SDJ_enterstandby",
                   "SubPathString": ""
                 },
                 "ExclusiveIdleAnim": {
-                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_ZQ_idle.m_player_fashion_ZQ_idle",
+                  "AssetPathName": "/Game/Resources/Characters_kailo/Player/male_01/animation/Hand/m_player_fashion_SDJ_idle.m_player_fashion_SDJ_idle",
                   "SubPathString": ""
                 },
                 "StandPeAnim": {
@@ -1118,7 +1118,7 @@
     "Skirts": [
       {
         "Key": "RCT_WOMAN",
-        "Value": true
+        "Value": false
       },
       {
         "Key": "RCT_MAN",
@@ -1139,7 +1139,7 @@
     "ChangeScaleMin": 1.0,
     "ChangeScaleMax": 1.0,
     "SkirtIKLRFootAdjust": 0.0,
-    "bExhibitBySwitch": true,
+    "bExhibitBySwitch": false,
     "SwitchType": "EGameFunctionType::ExhibitFashionDressSwitch",
     "bActiveEffectSlot": false,
     "FashionParticleSystem": {
@@ -2564,44 +2564,7 @@
       "SourceString": "矿区搜索活动获得",
       "LocalizedString": "矿区搜索活动获得"
     },
-    "ActiveSource_os": [
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_KR",
-        "Value": {
-          "TableId": "/Game/Resources/Text/ST_item.ST_Item",
-          "Key": "OutputSource_BP",
-          "SourceString": "通行证奖励",
-          "LocalizedString": "通行证奖励"
-        }
-      },
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_TW",
-        "Value": {
-          "TableId": "/Game/Resources/Text/ST_item.ST_Item",
-          "Key": "OutputSource_BP",
-          "SourceString": "通行证奖励",
-          "LocalizedString": "通行证奖励"
-        }
-      },
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_PS",
-        "Value": {
-          "TableId": "/Game/Resources/Text/ST_item.ST_Item",
-          "Key": "OutputSource_BP",
-          "SourceString": "通行证奖励",
-          "LocalizedString": "通行证奖励"
-        }
-      },
-      {
-        "Key": "EHottaOverSeaRegionType::OVERSEA_TX",
-        "Value": {
-          "TableId": "/Game/Resources/Text/ST_item.ST_Item",
-          "Key": "OutputSource_BP",
-          "SourceString": "通行证奖励",
-          "LocalizedString": "通行证奖励"
-        }
-      }
-    ],
+    "ActiveSource_os": [],
     "OverseaActiveSource": [
       {
         "Key": "EHottaOverSeaRegionType::OVERSEA_NONE",
@@ -5940,7 +5903,52 @@
     "SortOrder": 84,
     "bShowNeedUnlock": false,
     "OverSeaShowNeedUnlock": [],
-    "OverseabShowNeedUnlock": [],
+    "OverseabShowNeedUnlock": [
+      {
+        "Key": "EHottaOverSeaRegionType::OVERSEA_TX",
+        "Value": {
+          "BoolDatas": [
+            {
+              "Key": "EHottaServerMode::Max",
+              "Value": true
+            }
+          ]
+        }
+      },
+      {
+        "Key": "EHottaOverSeaRegionType::OVERSEA_TW",
+        "Value": {
+          "BoolDatas": [
+            {
+              "Key": "EHottaServerMode::Max",
+              "Value": true
+            }
+          ]
+        }
+      },
+      {
+        "Key": "EHottaOverSeaRegionType::OVERSEA_KR",
+        "Value": {
+          "BoolDatas": [
+            {
+              "Key": "EHottaServerMode::Max",
+              "Value": true
+            }
+          ]
+        }
+      },
+      {
+        "Key": "EHottaOverSeaRegionType::OVERSEA_PS",
+        "Value": {
+          "BoolDatas": [
+            {
+              "Key": "EHottaServerMode::Max",
+              "Value": true
+            }
+          ]
+        }
+      }
+    ],
     "Description": {
       "TableId": "/Game/Resources/Text/ST_item.ST_Item",
       "Key": "fashion_dress_84_des",
@@ -14012,9 +14020,9 @@
               "Key": "EHottaServerMode::MMOServer",
               "Value": {
                 "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
-                "Key": "fashiondress_source2",
-                "SourceString": "多种玩法免费获得",
-                "LocalizedString": "多种玩法免费获得"
+                "Key": "Compass",
+                "SourceString": "全知数据活动",
+                "LocalizedString": "全知数据活动"
               }
             }
           ]
@@ -19014,9 +19022,9 @@
               "Key": "EHottaServerMode::MMOServer",
               "Value": {
                 "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
-                "Key": "fashiondress_source2",
-                "SourceString": "多种玩法免费获得",
-                "LocalizedString": "多种玩法免费获得"
+                "Key": "Compass",
+                "SourceString": "全知数据活动",
+                "LocalizedString": "全知数据活动"
               }
             }
           ]
@@ -21406,9 +21414,9 @@
               "Key": "EHottaServerMode::MMOServer",
               "Value": {
                 "TableId": "/Game/Resources/CoreBlueprints/DataTable_MMO/StringTable/ST_Item_MMO.ST_Item_MMO",
-                "Key": "fashiondress_source2",
-                "SourceString": "多种玩法免费获得",
-                "LocalizedString": "多种玩法免费获得"
+                "Key": "Compass",
+                "SourceString": "全知数据活动",
+                "LocalizedString": "全知数据活动"
               }
             }
           ]

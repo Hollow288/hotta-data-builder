@@ -1,4 +1,286 @@
 {
+  "Suit_SSR65": {
+    "SuitName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GreyFoxSpDes.GreyFoxSpDes",
+      "Key": "MatrixSuit_SSR65_SuitName",
+      "SourceString": "套装名",
+      "LocalizedString": "套装名"
+    },
+    "SuitIcon": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_GreyFoxSp_big.avatar_yizhitips_GreyFoxSp_big",
+      "SubPathString": ""
+    },
+    "SuitRemouldIcon": {
+      "AssetPathName": "/Game/Resources/UI/equiptips/weapon_imitation/tips_avatar_ssr_Ageleia.tips_avatar_ssr_Ageleia",
+      "SubPathString": ""
+    },
+    "SuitIconTemp": {
+      "AssetPathName": "/Game/Resources/UI/yizhi/suit_icon/tips_icon_SSR65.tips_icon_SSR65",
+      "SubPathString": ""
+    },
+    "MatrixSuitQuality": "ITEM_QUALITY_LEGENDRY",
+    "IsOpened": true,
+    "SuitUnactivateDetailList": [
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GreyFoxSpDes.GreyFoxSpDes",
+        "Key": "MatrixSuit_SSR65_des1",
+        "SourceString": "2件套效果",
+        "LocalizedString": "2件套效果"
+      },
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/GreyFoxSpDes.GreyFoxSpDes",
+        "Key": "MatrixSuit_SSR65_des2",
+        "SourceString": "4件套效果",
+        "LocalizedString": "4件套效果"
+      }
+    ],
+    "SuitUnactivateDetailParams": [
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix131_IceUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix131_IceUp_Level2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix131_IceUp_Level3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix131_IceUp_Level4"
+            }
+          }
+        ]
+      },
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix132_IceAtkUp_Level1"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix132_IceAtkUp_Level2"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix132_IceAtkUp_Level3"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix132_IceAtkUp_Level4"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'GreyFoxSpEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/GreyFoxSpEffectFigure.0"
+              },
+              "RowName": "Matrix132_FinalDmgUp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Suit_SSR64": {
+    "SuitName": {
+      "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SalidyDes.SalidyDes",
+      "Key": "MatrixSuit_SSR64_SuitName",
+      "SourceString": "狂笑断面",
+      "LocalizedString": "狂笑断面"
+    },
+    "SuitIcon": {
+      "AssetPathName": "/Game/Resources/Icon/yizhi/SuitAvatar/avatar_yizhitips_salidy_big.avatar_yizhitips_salidy_big",
+      "SubPathString": ""
+    },
+    "SuitRemouldIcon": {
+      "AssetPathName": "/Game/Resources/UI/equiptips/weapon_imitation/tips_avatar_ssr_Salidy.tips_avatar_ssr_Salidy",
+      "SubPathString": ""
+    },
+    "SuitIconTemp": {
+      "AssetPathName": "/Game/Resources/UI/yizhi/suit_icon/tips_icon_SSR64.tips_icon_SSR64",
+      "SubPathString": ""
+    },
+    "MatrixSuitQuality": "ITEM_QUALITY_LEGENDRY",
+    "IsOpened": true,
+    "SuitUnactivateDetailList": [
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SalidyDes.SalidyDes",
+        "Key": "MatrixSuit_SSR64_des1",
+        "SourceString": "火焰攻击提升{0}%/{1}%/{2}%/{3}%。装备后后台可生效，多套只生效最高星级。释放<shuzhi>技能-亡命深吞</>后<shuzhi>10</>秒内使来自<shuzhi>武器-血腥鲨</>的伤害提升<shuzhi>{4}%</>。",
+        "LocalizedString": "火焰攻击提升{0}%/{1}%/{2}%/{3}%。装备后后台可生效，多套只生效最高星级。释放<shuzhi>技能-亡命深吞</>后<shuzhi>10</>秒内使来自<shuzhi>武器-血腥鲨</>的伤害提升<shuzhi>{4}%</>。"
+      },
+      {
+        "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/SalidyDes.SalidyDes",
+        "Key": "MatrixSuit_SSR64_des2",
+        "SourceString": "火元素伤害提升{0}%/{1}%/{2}%/{3}%，装备<shuzhi>武器-血腥鲨</>后火元素伤害提升{4}%。",
+        "LocalizedString": "火元素伤害提升{0}%/{1}%/{2}%/{3}%，装备<shuzhi>武器-血腥鲨</>后火元素伤害提升{4}%。"
+      }
+    ],
+    "SuitUnactivateDetailParams": [
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi2_FireDmgUp_30%"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi2_FireDmgUp_40%"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi2_FireDmgUp_50%"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi2_FireDmgUp_60%"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi2_WeaponDmgUp"
+            }
+          }
+        ]
+      },
+      {
+        "ScalableFloatParams": [
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi4_FireDmgUp_30%"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi4_FireDmgUp_40%"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi4_FireDmgUp_50%"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi4_FireDmgUp_60%"
+            }
+          },
+          {
+            "Value": 100.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'SalidyEffectFigure'",
+                "ObjectPath": "Hotta/Content/Resources/CoreBlueprints/DataTable/EffectFigure_Normal/SalidyEffectFigure.0"
+              },
+              "RowName": "Salidy_YiZhi4_WeaponFireDmg"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "Suit_SSR63": {
     "SuitName": {
       "TableId": "/Game/Resources/CoreBlueprints/DataTable/Skill/WeaponDes/LanaDes.LanaDes",
