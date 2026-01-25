@@ -57,7 +57,7 @@ modify_data_table_path = os.getenv("MODIFY_DATA_TABLE") or os.path.join(
 
 # 每级信息来源
 dt_weapon_upgrade_path = os.getenv("DT_WEAPON_UPGRADE") or os.path.join(
-    source_path, "CoreBlueprints/DataTable/DT_WeaponUpgrade.json"
+    source_path, "CoreBlueprints/DataTable/EquipDataTables/DT_WeaponUpgrade.json"
 )
 
 # 每级成长信息
