@@ -200,6 +200,7 @@ if __name__ == "__main__":
         (r"E:/UnrealExporter/output/Hotta/Content/Resources/UI/Artifact/icon", "hotta", "Resources/UI/Artifact/icon"),
         (r"E:/UnrealExporter/output/Hotta/Content/Resources/UI/main", "hotta", "Resources/UI/main"),
         (r"E:/UnrealExporter/output/Hotta/Content/Resources/UI/AttributeIcon", "hotta", "Resources/UI/AttributeIcon"),
+        (r"E:/UnrealExporter/output/Hotta/Content/Resources/UI/yizhi", "hotta", "Resources/UI/yizhi"),
     ]
 
     for local_path, bucket, remote_prefix in tasks:

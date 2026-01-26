@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import json
 
 from utils.common_utils import extract_tail_name, find_parent_value_by_key_value, fix_resolve_resource_path
-from utils.matrix_utils import translate_matrix_info, make_suit_unactivate_detail_list
+from utils.matrix_utils import translate_matrix_info, make_suit_unactivate_detail_list, make_suit_list
 
 # 加载 .env 文件
 load_dotenv()
@@ -23,10 +23,34 @@ static_matrix_data_path = os.getenv("STATIC_MATRIX_DATA") or os.path.join(
     source_path, "CoreBlueprints/DataTable/WeaponData/WeaponMatrix/StaticMatrixData.json"
 )
 
+matrix_upgrade_star_data_path = os.getenv("MATRIX_UPGRADE_STAR_DATA") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/WeaponData/WeaponMatrix/MatrixUpgradeStarData.json"
+)
+
+matrix_strengthen_data_path = os.getenv("MATRIX_STRENGTHEN_DATA") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/WeaponData/WeaponMatrix/MatrixStrengthenData.json"
+)
+
+# 每级成长信息
+equip_strengthen_effect_pack_data_table_path = os.getenv("EQUIP_STRENGTHEN_EFFECT_PACK_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/EquipDataTables/EquipStrengthenEffectPackDataTable.json"
+)
+
+# 升级数据信息
+modify_data_table_path = os.getenv("MODIFY_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/ModifyDataTable.json"
+)
+
+# 属性图标信息
+attribute_static_data_table_path = os.getenv("ATTRIBUTE_STATIC_DATA_TABLE") or os.path.join(
+    source_path, "CoreBlueprints/DataTable/AttributeStaticDataTable.json"
+)
+
 # Game.json文件目录
 game_json_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", "dist", "intermediate", "Game.json")
 )
+
 
 async def make_matrix():
     with open(static_matrix_suit_data_table_path, "r", encoding="utf-8") as f:
@@ -35,15 +59,47 @@ async def make_matrix():
     with open(static_matrix_data_path, "r", encoding="utf-8") as f:
         static_matrix_data = json.load(f)
 
+    with open(matrix_upgrade_star_data_path, "r", encoding="utf-8") as f:
+        matrix_upgrade_star_data = json.load(f)
+
+    with open(matrix_strengthen_data_path, "r", encoding="utf-8") as f:
+        matrix_strengthen_data = json.load(f)
+
+    with open(equip_strengthen_effect_pack_data_table_path, "r", encoding="utf-8") as f:
+        equip_strengthen_effect_pack_data_table = json.load(f)
+
+    with open(modify_data_table_path, "r", encoding="utf-8") as f:
+        modify_data_table = json.load(f)
+
     with open(game_json_path, "r", encoding="utf-8") as f:
         game_json = json.load(f)
+
+    with open(attribute_static_data_table_path, "r", encoding="utf-8") as f:
+        attribute_static_data_table = json.load(f)
 
     static_matrix_suit_data_table_rows_data = static_matrix_suit_data_table[0].get("Rows", {})
 
     static_matrix_data_rows_data = static_matrix_data[0].get("Rows", {})
 
+    matrix_upgrade_star_data_rows_data = matrix_upgrade_star_data[0].get("Rows", {})
+
+    matrix_strengthen_data_rows_data = matrix_strengthen_data[0].get("Rows", {})
+
+    # 每级成长信息
+    equip_strengthen_effect_pack_rows_data = {
+        k.lower(): v for k, v in equip_strengthen_effect_pack_data_table[0].get("Rows", {}).items()
+    }
+
+    # 升级数据信息
+    modify_data_table_rows_data = {
+        k.lower(): v for k, v in modify_data_table[0].get("Rows", {}).items()
+    }
+
+    # 属性图标信息
+    attribute_static_data = attribute_static_data_table[0].get("Rows", {})
+
     output_path = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "..","..", "dist/intermediate", "matrix_filtered.json"))
+        os.path.join(os.path.dirname(__file__), "..", "..", "dist/intermediate", "matrix_filtered.json"))
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(static_matrix_suit_data_table_rows_data, f, ensure_ascii=False, indent=2)
 
@@ -63,16 +119,18 @@ async def make_matrix():
                 find_parent_value_by_key_value(static_matrix_data_rows_data, 'SuitID', name, 1)['ItemIcon'][
                     'AssetPathName'], '.webp'),
             "matrixDetail": make_suit_unactivate_detail_list(data['SuitUnactivateDetailList'],
-                                                                         data['SuitUnactivateDetailParams'],
-                                                                         data['MatrixSuitQuality'], game_json)
+                                                             data['SuitUnactivateDetailParams'],
+                                                             data['MatrixSuitQuality'], game_json),
+            "matrixSuitList": make_suit_list(static_matrix_data_rows_data, name, matrix_upgrade_star_data_rows_data,
+                                             matrix_strengthen_data_rows_data, equip_strengthen_effect_pack_rows_data,
+                                             modify_data_table_rows_data, game_json, attribute_static_data)
         }
 
         result_matrix_list.append(matrix_info)
 
     # 最终保存
-    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..", "dist/final", "matrix.json"))
+    output_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "dist/final", "matrix.json"))
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result_matrix_list, f, ensure_ascii=False, indent=2)
 
     base_output_dir = Path(__file__).resolve().parent.parent / 'dist'
-
