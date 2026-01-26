@@ -163,6 +163,13 @@ def make_suit_list(
             "WEAPON_MATRIX_SLOT_FOURTH": "emotion"
         }
 
+        type_icon = {
+            "WEAPON_MATRIX_SLOT_FIRST": "Resources/UI/yizhi/yizhi_biaoqian_mind.webp",
+            "WEAPON_MATRIX_SLOT_SECOND": "Resources/UI/yizhi/yizhi_biaoqian_memory.webp",
+            "WEAPON_MATRIX_SLOT_THIRD": "Resources/UI/yizhi/yizhi_biaoqian_belief.webp",
+            "WEAPON_MATRIX_SLOT_FOURTH": "Resources/UI/yizhi/yizhi_biaoqian_emotion.webp"
+        }
+
         result_list.append({
             "itemName":game_json.get(extract_tail_name(suit['ItemName']['TableId']), {}).get(
                 suit['ItemName']['Key'],
@@ -170,6 +177,7 @@ def make_suit_list(
             ),
             "slotIndex": suit.get("SlotIndex"),
             "type": type_map.get(suit.get("SlotIndex")),
+            "typeIcon": type_icon.get(suit.get("SlotIndex")),
             "matrixMaxStrengthenLevel": suit.get("BaseMaxStrengthenLevel"),
             "description": game_json.get(extract_tail_name(suit['Description']['TableId']), {}).get(
                 suit['Description']['Key'],
