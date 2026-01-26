@@ -179,6 +179,7 @@ def make_suit_list(
             "type": type_map.get(suit.get("SlotIndex")),
             "typeIcon": type_icon.get(suit.get("SlotIndex")),
             "matrixMaxStrengthenLevel": suit.get("BaseMaxStrengthenLevel"),
+            "matrixMaxStarLevel": suit.get("MaxStarLevel"),
             "description": game_json.get(extract_tail_name(suit['Description']['TableId']), {}).get(
                 suit['Description']['Key'],
                 suit['Description'].get('LocalizedString')
